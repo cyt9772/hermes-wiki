@@ -1,0 +1,17 @@
+# OS / editor noise
+.DS_Store
+desktop.ini
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Obsidian (keep .obsidian/ tracked if shared; ignore if personal)
+# .obsidian/
+
+# Secrets should never live in the wiki
+*.pem
+*.env
+id_rsa*
+*.netrc
