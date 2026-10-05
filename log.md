@@ -24,3 +24,10 @@
 - Fixed pre-existing drift: blockchain.md 販売→판매, robotics.md 前→전직
 - Author name not reliably OCR'd → flagged for cover/title-page cross-check
 
+## [2026-10-05] ingest | 박곰희 투자법 (pakhomxi-investing)
+- Source: /Down/전자책/박곰희 투자법.pdf → raw/books/pakhomxi-investing.pdf (23.5M, SHA-256 cf6bd6bf…)
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 299/299 pages → raw/books/pakhomxi-investing.md
+- Created: entities/pakhomxi-investing.md (박곰희·박동호, 인플루언셜 2020-12, ISBN 979-11-91056-36-5)
+- Created: concepts/asset-allocation.md, concepts/rebalancing.md, concepts/etf-investing.md, concepts/investment-asset-class.md
+- chapter divider(p20/40/85/114/234) OCR garbled → 본문에서 주제 재구성, flag
+

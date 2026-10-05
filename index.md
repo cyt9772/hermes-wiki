@@ -2,12 +2,13 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-05 | Total pages: 12
+> Last updated: 2026-10-05 | Total pages: 17
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
 - [[kim-mi-kyung]] — 김미경 (MKYU), 『세븐테크』 편집자·인터뷰어
 - [[rate-counterattack]] — 금리의 역습 (원앤원북스): 금리→물가·채권·환율·신용·경기 6 PART 거시 금융서, "경제의 99%는 금리다"
+- [[pakhomxi-investing]] — 박곰희의 한 번 배워서 평생 써먹는 투자 로드맵 (2020-12): 자산배분 5단계 공식 + ETF 실전 포트폴리오
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -20,6 +21,10 @@
 - [[interest-rates-inflation]] — 금리-물가 양방향 피드백; 1929·2000·2008 자산가격 급락 공통 패턴
 - [[credit-cycle]] — 금리→대출→신용확대(버블)→수축(위기); 서브프라임·재정긴축vs저금리
 - [[fx-and-interest-rates]] — 환율의 기본은 금리; 개도국 3각 딜레마, 1997 IMF, 외환보유고
+- [[asset-allocation]] — 자산배분: 방향이 다른 자산(주식/채권/금/현금) 동시 보유로 상쇄하는 투 트랙 전략
+- [[rebalancing]] — 목표 비중으로 되돌리기 = 내재적 저가 매수 효과; 연 1회 정기 + 급변 시 수시
+- [[etf-investing]] — "21세기 최고의 금융상품": 5자산군(현금/채권/금/달러/배당)을 개인이 손쉽게 편입
+- [[investment-asset-class]] — 박곰희 5단계 공식의 자산군 체계: 현금→안전→배당→투자→연금
 
 ## Comparisons
 
