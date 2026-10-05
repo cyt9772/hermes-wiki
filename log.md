@@ -59,3 +59,34 @@
 - Created: concepts/loss-aversion.md, concepts/endowment-effect.md, concepts/anchoring-effect.md, concepts/mental-accounting.md, concepts/framing-effect.md, concepts/time-preference.md
 - chapter-5(p132) 제목 garble → TOC p020에서 재구성 flag; 영문 저자명 OCR garble(Knetsch→60100 등) flag
 
+## [2026-10-05] ingest | 슬기로운퀀트투자 (wise-quant-investing)
+- Source: /Down/전자책/슬기로운퀀트투자.pdf → raw/books/wise-quant-investing.pdf (text-layer garble → OCR 우회)
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 420/420 pages → raw/books/wise-quant-investing.md
+- Created: entities/wise-quant-investing.md
+- Created: concepts/backtesting.md, concepts/quant-investing.md, concepts/trend-following.md, concepts/value-investing.md
+
+## [2026-10-05] ingest | 진짜 미국식 주식투자 (american-style-investing)
+- Source: /Down/전자책/진짜 미국식 주식투자.pdf → raw/books/american-style-investing.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 463/463 pages → raw/books/american-style-investing.md
+- Created: entities/american-style-investing.md
+- Created: concepts/corporate-disclosure.md, concepts/investment-vs-speculation.md, concepts/valuation-multiples.md
+
+## [2026-10-05] ingest | 지금 당장 재테크 공부하라 (start-investing-now)
+- Source: /Down/전자책/지금 당장 재테크 공부하라.pdf → raw/books/start-investing-now.pdf (첫 시도 부제 포함 파일명 오류 → kill·재시작)
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 364/364 pages → raw/books/start-investing-now.md
+- Created: entities/start-investing-now.md
+- Created: concepts/life-cycle-financial-goals.md, concepts/pipeline-income.md, concepts/real-estate-vs-financial-assets.md, concepts/rich-person-equation.md, concepts/wealth-four-elements.md
+
+## [2026-10-05] ingest | 지금 당장 회계 공부 시작하라 (start-accounting-now)
+- Source: /Down/전자책/지금 당장 회계 공부 시작하라.pdf → raw/books/start-accounting-now.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 359/359 pages → raw/books/start-accounting-now.md
+- Created: entities/start-accounting-now.md
+- Created: concepts/accrual-accounting.md, concepts/balance-sheet.md, concepts/cash-flow-statement.md, concepts/financial-ratio-analysis.md, concepts/income-statement.md
+
+## [2026-10-05] ingest | 선대인의 대한민국 경제학 (seo-daein-korea-economics)
+- Source: /Down/전자책/선대인의 대한민국 경제학.pdf → raw/books/seo-daein-korea-economics.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 383/383 pages → raw/books/seo-daein-korea-economics.md
+- Created: entities/seo-daein-korea-economics.md (12강 토크쇼형 교양서)
+- Created: concepts/creative-destruction.md, concepts/household-debt.md, concepts/korean-economy.md, concepts/longevity-risk.md, concepts/real-estate-market.md
+- Fixed glyph drift: entities 集中度→집중도, concepts 聯储→연준(Fed), financial-ratio-analysis 三类→(3가지 축)
+
