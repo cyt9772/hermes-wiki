@@ -127,3 +127,11 @@
 - Created: concepts/asset-vs-liability.md, concepts/seed-capital.md, concepts/inflation-hedge.md, concepts/investment-leverage.md
 - Reused links: compound-interest, dividend-investing, value-investing, household-debt, credit-management 등 18개
 
+
+## [2026-10-11] ingest | 실리콘밸리의 팀장들 (silicon-valley-teams)
+- Source: /Down/전자책/실리콘밸리의 팀장들.pdf → raw/books/silicon-valley-teams.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 377/377 pages → raw/books/silicon-valley-teams.md
+- Author: 김 스콧 (Kim Scott), 박세연 역 (2017 원서)
+- Created: entities/silicon-valley-teams.md
+- Created: concepts/radical-candor.md, concepts/feedback.md, concepts/team-management.md
+- Normalized [[concepts/…]] prefixed links to plain [[slug]] for consistency with other 16 books

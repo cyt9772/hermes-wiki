@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-05 | Total pages: 92
+> Last updated: 2026-10-05 | Total pages: 95
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -23,6 +23,7 @@
 - [[adventure-of-management]] — 경영의 모험 (MIT MBA 사례): 경영 5대 주제 × MIT 경영 사례, 불확실성 하의 의사결정·조직문화
 - [[mit-mba]] — MIT MBA (이원재): 실리콘밸리 스타트업·리더십·네트워크·협상 실전 MBA 교양서
 - [[money-study-over-toefl]] — 토익 공부보다 돈 공부 (이권복, 한스미디어): 개인 재테크 실무서 — 자산/부채 재정의, 시드머니, 인플레 헤지, 건설적 레버리지
+- [[silicon-valley-teams]] — 실리콘밸리의 팀장들 (Kim Scott/김 스콧, 2017 원서·2019 역서): Radical Candor 기반의 리더십·피드백·팀 관리
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -102,6 +103,9 @@
 - [[seed-capital]] — 시드머니(첫 자금): 선택지 비대칭을 만드는 최소 자본
 - [[inflation-hedge]] — 인플레이션 헤지: 통장 잔고의 실질가치 하락 방어
 - [[investment-leverage]] — 투자 레버리지: 건설적 부채로 수익률 확대
+- [[radical-candor]] — Radical Candor: 따뜻하게 개인 걱정 + 직접적으로 업무 도전의 교차점
+- [[feedback]] — 피드백: 성장과 성과 향상을 위한 상호작용, 타이밍·맥락이 모든 것
+- [[team-management]] — 팀 관리: 비전·프로세스·사람의 균형, 팀장 역할 정의
 
 ## Comparisons
 
