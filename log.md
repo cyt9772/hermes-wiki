@@ -111,3 +111,19 @@
 - Created: entities/adventure-of-management.md
 - Created: concepts/corporate-communication.md, concepts/decision-making-under-uncertainty.md, concepts/entrepreneurial-leadership.md, concepts/innovation-through-iteration.md, concepts/organizational-culture.md
 
+## [2026-10-11] ingest | MIT MBA (mit-mba)
+- Source: /Down/전자책/MIT MBA.pdf → raw/books/mit-mba.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 172/172 pages → raw/books/mit-mba.md
+- Author: 이원재 (출판사·연도·ISBN: 표지 OCR garbled → 기재 생략, 위조 방지)
+- Created: entities/mit-mba.md
+- Created: concepts/people-above-profit.md, concepts/weak-ties.md, concepts/batna-negotiation.md, concepts/social-enterprise.md
+- Reused links: [[decision-making-under-uncertainty]] [[entrepreneurial-leadership]]
+
+## [2026-10-11] ingest | 토익 공부보다 돈 공부 (money-study-over-toefl)
+- Source: /Down/전자책/토익 공부보다 돈 공부.pdf → raw/books/money-study-over-toefl.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 241/241 pages → raw/books/money-study-over-toefl.md
+- Author: 이권복 (한스미디어, ISBN 979-11-6007-361-4, 2019경)
+- Created: entities/money-study-over-toefl.md
+- Created: concepts/asset-vs-liability.md, concepts/seed-capital.md, concepts/inflation-hedge.md, concepts/investment-leverage.md
+- Reused links: compound-interest, dividend-investing, value-investing, household-debt, credit-management 등 18개
+

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-05 | Total pages: 84
+> Last updated: 2026-10-05 | Total pages: 92
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -21,6 +21,8 @@
 - [[dan-ariely-feeling-of-money]] — 부의 감각 (댄 애리얼리 영문 역, 옮김 이종수): 행동경제학 '머니 바이어스' 40개 실험, 지성·감정·도덕 3축
 - [[lifetime-financial-planning]] — 생애재무설계 지금 당장 시작하라: 20·30·40대 생애주기별 3단계 설계 + 노후 연결소득/역모기지
 - [[adventure-of-management]] — 경영의 모험 (MIT MBA 사례): 경영 5대 주제 × MIT 경영 사례, 불확실성 하의 의사결정·조직문화
+- [[mit-mba]] — MIT MBA (이원재): 실리콘밸리 스타트업·리더십·네트워크·협상 실전 MBA 교양서
+- [[money-study-over-toefl]] — 토익 공부보다 돈 공부 (이권복, 한스미디어): 개인 재테크 실무서 — 자산/부채 재정의, 시드머니, 인플레 헤지, 건설적 레버리지
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -92,6 +94,14 @@
 - [[overconfidence-in-money]] — 돈에 대한 과신: 확률 판단·투자 과실
 - [[pain-of-paying]] — 지불의 고통: 현금 > 카드 > 무발표, 지불 방식이 의사결정 왜곡
 - [[present-bias]] — 현재편향: 지금의 편익에 불균형 할인, 장기 저축 포기
+- [[people-above-profit]] — 사람보다 이익(put people first): 이윤보다 사람을 우선하는 경영 관점
+- [[weak-ties]] — 약한 유대(weak ties): 신규 정보·기회의 주 원천, 강한 유대와 대조
+- [[batna-negotiation]] — 협상의 BATNA: 최상의 대안( Best Alternative)이 협상력 기준
+- [[social-enterprise]] — 사회적기업: 사회적 목적 + 비즈니스 모델 결합
+- [[asset-vs-liability]] — 자산과 부채의 재정의: 현금흐름 기준(내 주머니 채우는 것=자산)
+- [[seed-capital]] — 시드머니(첫 자금): 선택지 비대칭을 만드는 최소 자본
+- [[inflation-hedge]] — 인플레이션 헤지: 통장 잔고의 실질가치 하락 방어
+- [[investment-leverage]] — 투자 레버리지: 건설적 부채로 수익률 확대
 
 ## Comparisons
 
