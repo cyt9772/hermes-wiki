@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-05 | Total pages: 66
+> Last updated: 2026-10-05 | Total pages: 84
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -18,6 +18,9 @@
 - [[start-investing-now]] — 지금 당장 재테크 공부하라 (부자가 되는 첫 단추): '부자 방정식'·부자 상수 K로 설계하는 재테크
 - [[start-accounting-now]] — 지금 당장 회계 공부 시작하라: 회계=비즈니스를 읽는 언어, 재무제표·재무비율·현금 읽기
 - [[seo-daein-korea-economics]] — 선대인의 대한민국 경제학 (12강): 금리·환율·부동산·노후·인구로 한국 현실경제 기초
+- [[dan-ariely-feeling-of-money]] — 부의 감각 (댄 애리얼리 영문 역, 옮김 이종수): 행동경제학 '머니 바이어스' 40개 실험, 지성·감정·도덕 3축
+- [[lifetime-financial-planning]] — 생애재무설계 지금 당장 시작하라: 20·30·40대 생애주기별 3단계 설계 + 노후 연결소득/역모기지
+- [[adventure-of-management]] — 경영의 모험 (MIT MBA 사례): 경영 5대 주제 × MIT 경영 사례, 불확실성 하의 의사결정·조직문화
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -74,6 +77,21 @@
 - [[korean-economy]] — 한국경제: 저성장·부채·부동산 편중 3중 구조
 - [[longevity-risk]] — 장수리스크: 실물자산 75%·노동중단 52세의 노후 자산구조
 - [[real-estate-market]] — 주택시장·부동산: 가계자산 70% 편중의 구조적 위험
+- [[credit-management]] — 신용관리: 카드·대출·신용점수 운영의 4원칙
+- [[investment-golden-rules]] — 72의 법칙·100−나이·적립식: 생애재무의 3황금법
+- [[lifetime-financial-planning]] — 생애재무 3단계: 준비기·축적기·인출기 전환 설계
+- [[retirement-income]] — 노후 연결소득: 사오정/오륙도, 4% 철칙 vs 5-6%
+- [[reverse-mortgage]] — 역모기지: 은퇴자 주택 가치 인출의 숨은 대안
+- [[decision-making-under-uncertainty]] — 불확실성 하의 의사결정: 미르의 환상, 시나리오·확률
+- [[entrepreneurial-leadership]] — 기업가적 리더십: 권한부여·실패 허용·속도
+- [[innovation-through-iteration]] — 반복 혁신: MVP·실패 반복으로 진화
+- [[organizational-culture]] — 조직문화: 문화 > 구조 > 개인
+- [[corporate-communication]] — 기업 커뮤니케이션: 내부·외부 메시지 설계와 신뢰 구축
+- [[labor-illusion]] — 노동 환상(IKEA 효과): 자기 노력이 과대평가되는 인지 편향
+- [[money-illusion]] — 돈의 환상: 명목가치 vs 실질가치 혼동
+- [[overconfidence-in-money]] — 돈에 대한 과신: 확률 판단·투자 과실
+- [[pain-of-paying]] — 지불의 고통: 현금 > 카드 > 무발표, 지불 방식이 의사결정 왜곡
+- [[present-bias]] — 현재편향: 지금의 편익에 불균형 할인, 장기 저축 포기
 
 ## Comparisons
 

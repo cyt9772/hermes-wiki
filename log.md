@@ -90,3 +90,24 @@
 - Created: concepts/creative-destruction.md, concepts/household-debt.md, concepts/korean-economy.md, concepts/longevity-risk.md, concepts/real-estate-market.md
 - Fixed glyph drift: entities 集中度→집중도, concepts 聯储→연준(Fed), financial-ratio-analysis 三类→(3가지 축)
 
+## [2026-10-05] ingest | 부의 감각 (dan-ariely-feeling-of-money)
+- Source: /Down/전자책/댄 애리얼리_부의 감각.pdf → raw/books/dan-ariely-feeling-of-money.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 352/352 pages → raw/books/dan-ariely-feeling-of-money.md
+- Author: 댄 애리얼리 (Dan Ariely, 듀크), 번역본
+- Created: entities/dan-ariely-feeling-of-money.md
+- Created: concepts/labor-illusion.md, concepts/money-illusion.md, concepts/overconfidence-in-money.md, concepts/pain-of-paying.md, concepts/present-bias.md
+
+## [2026-10-05] ingest | 생애재무설계 지금 당장 시작하라 (lifetime-financial-planning)
+- Source: /Down/전자책/생애재무설계 지금 당장 시작하라.pdf → raw/books/lifetime-financial-planning.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 165/165 pages → raw/books/lifetime-financial-planning.md
+- Author: 홍은주 (삼성경제연구소, 2011-03)
+- Created: entities/lifetime-financial-planning.md
+- Created: concepts/lifetime-financial-planning.md, concepts/investment-golden-rules.md, concepts/retirement-income.md, concepts/reverse-mortgage.md, concepts/credit-management.md
+- Warnings: p43-45 정의 garble → flag; p65 손절매 문구는 TOC p6에서 인용; p149 "약 15억~16억"은 예시 수치에서 추론(원문 없음)
+
+## [2026-10-05] ingest | 경영의 모험 (adventure-of-management)
+- Source: /Down/전자책/경영의 모험.pdf → raw/books/adventure-of-management.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 594/594 pages → raw/books/adventure-of-management.md
+- Created: entities/adventure-of-management.md
+- Created: concepts/corporate-communication.md, concepts/decision-making-under-uncertainty.md, concepts/entrepreneurial-leadership.md, concepts/innovation-through-iteration.md, concepts/organizational-culture.md
+
