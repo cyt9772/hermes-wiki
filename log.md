@@ -135,3 +135,28 @@
 - Created: entities/silicon-valley-teams.md
 - Created: concepts/radical-candor.md, concepts/feedback.md, concepts/team-management.md
 - Normalized [[concepts/…]] prefixed links to plain [[slug]] for consistency with other 16 books
+
+## [2026-10-11] ingest | 에센셜리즘 (essentialism)
+- Source: /Down/전자책/Essentialism.pdf → raw/books/essentialism.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 310/310 pages → raw/books/essentialism.md
+- Author: 그레거 맥쿼인 (Greg McKeown), 김원호 역 (RH코리아 2014)
+- Created: entities/essentialism.md
+- Created: concepts/essential-focus.md, concepts/selection-criteria.md, concepts/saying-no-as-choice.md, concepts/energy-as-performance-asset.md
+- CJK glyph drift 1건(本书) 탐지·수정 완료
+
+## [2026-10-11] ingest | 회계천재가 된 홍대리 (accounting-genius-hong)
+- Source: /Down/전자책/회계천재가 된 홍대리.pdf → raw/books/accounting-genius-hong.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 963/963 pages → raw/books/accounting-genius-hong.md
+- Author: 손봉석 (홍대리 시리즈)
+- Created: entities/accounting-genius-hong.md
+- Created: concepts/IFRS-accounting.md (신규 1개)
+- Reused links: balance-sheet, income-statement, cash-flow-statement, financial-ratio-analysis, accrual-accounting, valuation-multiples, dividend-yield, payout-ratio, value-investing, corporate-disclosure
+- Normalized [[concepts/…]] prefixed links to plain [[slug]]
+
+## [2026-10-11] ingest | 신비로운 선물옵션가격이론 (futures-options-pricing)
+- Source: /Down/전자책/신비로운 선물옵션가격이론.pdf → raw/books/futures-options-pricing.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 473/473 pages → raw/books/futures-options-pricing.md
+- Author: 비슬산
+- Created: entities/futures-options-pricing.md
+- Created: concepts/futures-options-price-theory.md, concepts/turning-price.md, concepts/options-inversion.md, concepts/important-price.md
+- Note: 이 책은 학술적 option-pricing이 아니라 국내 선물옵션 '가격 이론' 기법서 — arbitrage·implied-vol·Black-Scholes 없음(소스에서 확인됨), 해당 개념은 미생성

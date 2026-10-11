@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-05 | Total pages: 95
+> Last updated: 2026-10-05 | Total pages: 111
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -24,6 +24,9 @@
 - [[mit-mba]] — MIT MBA (이원재): 실리콘밸리 스타트업·리더십·네트워크·협상 실전 MBA 교양서
 - [[money-study-over-toefl]] — 토익 공부보다 돈 공부 (이권복, 한스미디어): 개인 재테크 실무서 — 자산/부채 재정의, 시드머니, 인플레 헤지, 건설적 레버리지
 - [[silicon-valley-teams]] — 실리콘밸리의 팀장들 (Kim Scott/김 스콧, 2017 원서·2019 역서): Radical Candor 기반의 리더십·피드백·팀 관리
+- [[essentialism]] — 에센셜리즘 (Greg McKeown/그레거 맥쿼인, RH코리아 2014): 본질에만 집중 — 90% 법칙·거절의 힘·집중 역설
+- [[accounting-genius-hong]] — 회계천재가 된 홍대리 (손봉석, 홍대리 시리즈): 소설형 회계서 — 3대 재무제표·IFRS 원리주의·이익≠현금
+- [[futures-options-pricing]] — 신비로운 선물옵션가격이론 (비슬산): 선물옵션 '가격 이론' 기법서 — 마디가격·옵션역행·중요가격
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -106,6 +109,15 @@
 - [[radical-candor]] — Radical Candor: 따뜻하게 개인 걱정 + 직접적으로 업무 도전의 교차점
 - [[feedback]] — 피드백: 성장과 성과 향상을 위한 상호작용, 타이밍·맥락이 모든 것
 - [[team-management]] — 팀 관리: 비전·프로세스·사람의 균형, 팀장 역할 정의
+- [[essential-focus]] — 본질적 집중: '중요한 것 한 가지'를 찾아내는 절제된 추적
+- [[selection-criteria]] — 선택 기준: 90% 법칙 — 기준에 못 미치면 과감히 No
+- [[saying-no-as-choice]] — 'No'가 곧 선택: 거절로만 비본질을 걸러낸다
+- [[energy-as-performance-asset]] — 에너지를 성과 자산으로: 피로 회복 주기 설계
+- [[IFRS-accounting]] — IFRS 원리주의 회계: 규정 나열 대신 원칙·연결재무제표(홍대리의 논지)
+- [[futures-options-price-theory]] — 선물옵션 가격 이론: 세력이 숨길 수 없는 '가격'을 읽는 마스터 프레임
+- [[turning-price]] — 마디가격(전환가격): 추세 전환점의 반복 구조
+- [[options-inversion]] — 옵션역행: 주식-선물-옵션 가격 관계로 보는 추세 대변곡 전조
+- [[important-price]] — 중요가격: 절대 불변의 핵심 가격 레벨
 
 ## Comparisons
 
