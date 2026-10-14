@@ -160,3 +160,12 @@
 - Created: entities/futures-options-pricing.md
 - Created: concepts/futures-options-price-theory.md, concepts/turning-price.md, concepts/options-inversion.md, concepts/important-price.md
 - Note: 이 책은 학술적 option-pricing이 아니라 국내 선물옵션 '가격 이론' 기법서 — arbitrage·implied-vol·Black-Scholes 없음(소스에서 확인됨), 해당 개념은 미생성
+
+## [2026-10-14] ingest | 돈을 부르는 매매의 기술 (trading-technique)
+- Source: /Down/전자책/돈을 부르는 매매의 기술.pdf → raw/books/trading-technique.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 425/425 pages (errors=0) → raw/books/trading-technique.md
+- Author: 박병창 (포레스트북스, ISBN 979-11-91347-20-3)
+- Created: entities/trading-technique.md
+- Created: concepts/trading-timing-six-concepts.md, concepts/bull-bear-supply-demand.md, concepts/leading-stock.md
+- Reused links: momentum-investing, trend-following, relative-strength, top-picking, futures-options-price-theory, value-investing, investment-vs-speculation 등
+- Note: 103MB < 100MiB 한계라 PDF 그대로 push (LFS 불필요). OCR에서 수급표·차트 캡션 구간 손상 다수 — 엔티티 페이지에 코멘트 기록
