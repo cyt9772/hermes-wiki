@@ -169,3 +169,12 @@
 - Created: concepts/trading-timing-six-concepts.md, concepts/bull-bear-supply-demand.md, concepts/leading-stock.md
 - Reused links: momentum-investing, trend-following, relative-strength, top-picking, futures-options-price-theory, value-investing, investment-vs-speculation 등
 - Note: 103MB < 100MiB 한계라 PDF 그대로 push (LFS 불필요). OCR에서 수급표·차트 캡션 구간 손상 다수 — 엔티티 페이지에 코멘트 기록
+
+## [2026-10-15] ingest | 파이썬을 활용한 금융공학 레시피 (finance-recipes)
+- Source: /Down/전자책/금융공학레시피.pdf → raw/books/finance-recipes.pdf
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 400/400 pages (errors=0) → raw/books/finance-recipes.md
+- Author: 김용환 (감수 장민자·노태협, 한빛미디어, ISBN 979-11-6224-082-3)
+- Created: entities/finance-recipes.md
+- Created: concepts/time-value-of-money.md, concepts/futures-theory-price.md, concepts/basis-contango.md, concepts/black-scholes.md, concepts/option-greeks.md, concepts/alpha-vs-beta.md, concepts/structured-products.md (신규 7개)
+- Reused links: trading-technique, futures-options-pricing, value-investing, momentum-investing 등
+- Note: 152MB > GitHub 100MB 한계 → git-lfs track(raw/books/*.pdf) 후 push. OCR 텍스트 레이어 0(완전 선별본), 수식·코드 블록은 garble 다수 — 개념 페이지 서론은 원본 PDF 인용으로 보완. 기존 futures-options-pricing(기법서)과 구별: 이 책은 학술적 option-pricing(B-S·그릭스)서

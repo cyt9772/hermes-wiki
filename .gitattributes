@@ -1,1 +1,1 @@
-raw/books/finance-recipes.pdf filter=lfs diff=lfs merge=lfs -text
+raw/books/*.pdf filter=lfs diff=lfs merge=lfs -text

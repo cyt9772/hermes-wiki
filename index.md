@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-14 | Total pages: 112
+> Last updated: 2026-10-15 | Total pages: 120
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -28,6 +28,7 @@
 - [[accounting-genius-hong]] — 회계천재가 된 홍대리 (손봉석, 홍대리 시리즈): 소설형 회계서 — 3대 재무제표·IFRS 원리주의·이익≠현금
 - [[futures-options-pricing]] — 신비로운 선물옵션가격이론 (비슬산): 선물옵션 '가격 이론' 기법서 — 마디가격·옵션역행·중요가격
 - [[trading-technique]] — 돈을 부르는 매매의 기술 (박병창, 포레스트북스): '주식은 타이밍' — 곰/황소 수급·매매타이밍 6개념·실전 스킬(탄력·돌파·주도주)
+- [[finance-recipes]] — 파이썬을 활용한 금융공학 레시피 (김용환, 한빛미디어 2018): PV/FV → 선물 이론가 → 블랙-숄즈·그릭스 → α/β를 파이썬으로 구현하는 입문서
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -122,6 +123,13 @@
 - [[trading-timing-six-concepts]] — 매매타이밍 6개념(시간·가격·거래량·체결·움직임·멈춤): 단기 매매의 기본 프레임
 - [[bull-bear-supply-demand]] — 곰과 황소(수급) 해석: '올려서 사고 내려서 팔' 공격적 매매가 주가를 움직인다
 - [[leading-stock]] — 주도주 추종: 섹터·테마의 가장 강한 1등주를 매수/리스팅 대상으로
+- [[time-value-of-money]] — 돈의 시간가치: PV/FV·할인율, 모든 금융상품 밸류에이션의 기본 전제
+- [[futures-theory-price]] — 선물 이론가: F = S + 이자비용 − 배당, 선물 공정가격 공식
+- [[basis-contango]] — 베이시스·콘탱고·백워데이션: 선물-현물 가격차와 정상 범위 이탈(차익거래 신호)
+- [[black-scholes]] — 블랙-숄즈 모형: 옵션 공정가격 5변수 공식, "옵션의 바이블"
+- [[option-greeks]] — 옵션 그릭스(Δ·Γ·θ·ν·ρ): 옵션 리스크 프로파일의 실전 관리 도구
+- [[alpha-vs-beta]] — 알파 vs. 베타: 벤치마크 초과수익(α)과 시장추종(β)으로 성과 분해
+- [[structured-products]] — 구조화 상품(ETF·ETN·ELW·ELS): 기본상품 조합의 증권화 수익 구조
 
 ## Comparisons
 

@@ -15,3 +15,6 @@ Thumbs.db
 *.env
 id_rsa*
 *.netrc
+
+# OCR working dirs (full text lives in raw/books/<slug>.md)
+raw/books/*.ocr/
