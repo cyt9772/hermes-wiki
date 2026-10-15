@@ -186,3 +186,11 @@
 - Author: HARUHIKO HAYASHI (하야시 하루히코, 원서 SoftBank 1998 / 영진닷컴 1999·2002, ISBN 89-314-1287-8)
 - Created: entities/vb6-introduction.md, concepts/visual-basic.md
 - Note: SCHEMA.md에 Programming 도메인 + 새 태그(programming, os, unix, linux, compiler, build-system, debugger, version-control, ipc, signals, networking, data-communication, windows-api, object-oriented) 추가 — 첫 비투자 도메인 책. OCR에서 "Visual Basic"→"Visual ㅁ2510" 등 영어 토큰 garble 다수, 엔티티 페이지에 기록
+
+## [2026-10-15] ingest | 데이타통신과 컴퓨터통신 — LAN·VAN·ISDN (lan-van-isdn)
+- Source: /home/yutae/work/pdf/20261015/통신_네트워크/LAN_VAN_ISDN.pdf → raw/books/lan-van-isdn.pdf (local only, git-ignored)
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 422/422 pages (errors=0) → raw/books/lan-van-isdn.md
+- Author: 김태윤 (고려대 전산과학과). 1994년 2월 28일 6판 발행, ISBN 89-303-0082-0
+- Created: entities/lan-van-isdn.md
+- Created: concepts/osi-7-layer-model.md, concepts/local-area-network.md, concepts/channel-access-protocols.md, concepts/isdn.md
+- Note: 첫 통신/네트워크 도메인 책. B=64kbps·D=16kbps 확인(p.135). OCR garble: OSI→OsI, ISDN→"SH 정보 통신망", LAN→"씨/L씨의" — 엔티티에 기록
