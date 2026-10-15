@@ -194,3 +194,11 @@
 - Created: entities/lan-van-isdn.md
 - Created: concepts/osi-7-layer-model.md, concepts/local-area-network.md, concepts/channel-access-protocols.md, concepts/isdn.md
 - Note: 첫 통신/네트워크 도메인 책. B=64kbps·D=16kbps 확인(p.135). OCR garble: OSI→OsI, ISDN→"SH 정보 통신망", LAN→"씨/L씨의" — 엔티티에 기록
+
+## [2026-10-15] ingest | 리눅스 프로그래밍 필수 유틸리티 (linux-essential-utilities)
+- Source: /home/yutae/work/pdf/20261015/시스템/리눅스프로그래밍_필수유틸리티.pdf → raw/books/linux-essential-utilities.pdf (local only, git-ignored)
+- OCR: tesseract (kor+eng, 300dpi), 796/796 pages (errors=0, parallel 10 workers) → raw/books/linux-essential-utilities.md
+- Author: 백창우, 한빛미디어, ISBN 978-89-7914-759-9 (초판 2010-09-06)
+- Created: entities/linux-essential-utilities.md
+- Created: concepts/gcc-compilation-pipeline.md, concepts/software-configuration-management.md
+- Note: 2010년 교재 — VCS는 Subversion/CVS 위주(git 없음), "당시 표준" 자료적 가치. OCR garble: TOC "AA"=C, "makeS"=make, "gecS"=gcc

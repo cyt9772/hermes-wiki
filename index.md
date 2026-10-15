@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-15 | Total pages: 127
+> Last updated: 2026-10-15 | Total pages: 130
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -31,6 +31,7 @@
 - [[finance-recipes]] — 파이썬을 활용한 금융공학 레시피 (김용환, 한빛미디어 2018): PV/FV → 선물 이론가 → 블랙-숄즈·그릭스 → α/β를 파이썬으로 구현하는 입문서
 - [[vb6-introduction]] — NEW 비주얼베이직 6 입문 (하야시 하루히코, 영진닷컴 1999, 원서 SoftBank 1998): VB6 14개 토픽 — 이벤트 기반 개체지향, 데이터형, 제어문, 컨트롤, 그래픽, 파일 입출력
 - [[lan-van-isdn]] — 데이타통신과 컴퓨터통신 (김태윤, 1994 6판, ISBN 89-303-0082-0): 데이타전송→OSI 7계층→LAN(토큰링·이더넷)→VAN(EDI)→ISDN(B/D채널) 통신 체계 교재
+- [[linux-essential-utilities]] — 리눅스 프로그래밍 필수 유틸리티 (백창우, 한빛미디어 2010, ISBN 978-89-7914-759-9): gcc·make·gdb·svn·autotools — C 컴파일 파이프라인, 빌드 자동화, 버전 관리 6부 실무 교재
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -137,6 +138,8 @@
 - [[local-area-network]] — 근거리 통신망: 채널 액세스(고정/임의/요구 할당), 이더넷 계열(CSMA/CD) vs 토큰 링
 - [[channel-access-protocols]] — 채널 액세스 프로토콜: 고정/임의/요구 할당, ALOHA·CSMA·CSMA/CD·Token Ring
 - [[isdn]] — ISDN(종합 정보 통신망): B(64kbps)/D(16kbps) 채널 분리, RSI·S/T 리퍼런스, B-ISDN으로 확장
+- [[gcc-compilation-pipeline]] — C 컴파일 파이프라인: 전처리→컴파일→어셈블리→링킹, gcc 단계 옵션(-E/-S/-c)·최적화·인라인 어셈블리
+- [[software-configuration-management]] — 소프트웨어 구성 관리: make(증분 빌드)·autotools(이식성)·VCS(svn/CVS, 경합 모델)
 
 ## Comparisons
 
