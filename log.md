@@ -202,3 +202,11 @@
 - Created: entities/linux-essential-utilities.md
 - Created: concepts/gcc-compilation-pipeline.md, concepts/software-configuration-management.md
 - Note: 2010년 교재 — VCS는 Subversion/CVS 위주(git 없음), "당시 표준" 자료적 가치. OCR garble: TOC "AA"=C, "makeS"=make, "gecS"=gcc
+
+## [2026-10-15] ingest | 유닉스 고급 프로그래밍 / APUE (unix-advanced-programming)
+- Source: /home/yutae/work/pdf/20261015/시스템/unix_advanced_programming.pdf → raw/books/unix-advanced-programming.pdf (local only, git-ignored)
+- OCR: tesseract (kor+eng, 300dpi), 802/802 pages (errors=0, parallel 10 workers) → raw/books/unix-advanced-programming.md
+- 원저: W. Richard Stevens, Addison-Wesley APUE 2판 (ISBN 0-201-88854-8). 홍릉과학출판사 한국어 번역
+- Created: entities/unix-advanced-programming.md
+- Created: concepts/unix-ipc-signals.md
+- Note: OCR이 5/6/7장 번호 혼동 → APUE 표준 19장 목록으로 정정(장 표에 기록). "모음"=I/O stream, "파수꾼"=Daemon, "의사 단말기"=pseudo-terminal(pty)
