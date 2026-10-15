@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-15 | Total pages: 132
+> Last updated: 2026-10-15 | Total pages: 137
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -33,6 +33,7 @@
 - [[lan-van-isdn]] — 데이타통신과 컴퓨터통신 (김태윤, 1994 6판, ISBN 89-303-0082-0): 데이타전송→OSI 7계층→LAN(토큰링·이더넷)→VAN(EDI)→ISDN(B/D채널) 통신 체계 교재
 - [[linux-essential-utilities]] — 리눅스 프로그래밍 필수 유틸리티 (백창우, 한빛미디어 2010, ISBN 978-89-7914-759-9): gcc·make·gdb·svn·autotools — C 컴파일 파이프라인, 빌드 자동화, 버전 관리 6부 실무 교재
 - [[unix-advanced-programming]] — 유닉스 고급 프로그래밍 / APUE (W. Richard Stevens, 홍릉과학출판사 번역, 원서 ISBN 0-201-88854-8): 유닉스 시스템콜·라이브러리 함수 19장 — 화일 I/O, 프로세스 제어, 신호, IPC, 파이프/FIFO/메시지큐/세마포어/공유메모리
+- [[what-the-bleep-do-we-know]] — What the Bleep Do We Know!? (2008) + Down the Rabbit Hole (2008) 한국어 자막본 2편: 양자역학 대중 다큐 — 중첩·비국소성·측정·의식 (다큐 자체의 뉴에지 해석; contested)
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -142,7 +143,11 @@
 - [[gcc-compilation-pipeline]] — C 컴파일 파이프라인: 전처리→컴파일→어셈블리→링킹, gcc 단계 옵션(-E/-S/-c)·최적화·인라인 어셈블리
 - [[software-configuration-management]] — 소프트웨어 구성 관리: make(증분 빌드)·autotools(이식성)·VCS(svn/CVS, 경합 모델)
 - [[unix-ipc-signals]] — 유닉스 신호·IPC: 신호(이벤트 알림, 재진입 주의) vs IPC(파이프·FIFO·메시지큐·세마포어·공유메모리) — 프로세스 제어/관계/신호 3축 확장
+- [[quantum-mechanics]] — 양자물리학: 중첩, 파동-입자 이중성, 비국소성(얽힘), 불확정성, BEC, 진공(주류 물리)
+- [[consciousness-and-observer]] — 의식·관측자: 양자 "측정"을 의식 창조로 읽는 해석 (다큐 중심, contested)
+- [[random-number-generators-and-intention]] — RIG·이모토 물결정·명상·원격뇌파 — 의도가 현실을 바꾼다(고 주장하는) 실험들 (각 실험의 근거 등급 low)
 
 ## Comparisons
+- [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)
 
 ## Queries

@@ -210,3 +210,14 @@
 - Created: entities/unix-advanced-programming.md
 - Created: concepts/unix-ipc-signals.md
 - Note: OCR이 5/6/7장 번호 혼동 → APUE 표준 19장 목록으로 정정(장 표에 기록). "모음"=I/O stream, "파수꾼"=Daemon, "의사 단말기"=pseudo-terminal(pty)
+
+## [2026-10-15] ingest | What the Bleep Do We Know!? + Down the Rabbit Hole (what-the-bleep-do-we-know, 2008, video)
+- Source: USB 삼성 T5 `/run/media/yutae/Samsung_T5/education/양자물리학/` — AVI 2편(What The Bleep 734,107,982B/108분, rabbit-hole 733,376,512B/80분) + SMI 자막 2편(1045줄·1253줄)
+- **원본 AVI는 commit·raw 저장 모두 제외** (local only, ≈1.4GB). raw에는 자막 자막전문만: raw/videos/what-the-bleep-do-we-know.md (EUC-KR→UTF-8, HTML 태그 제거)
+- 자막의 문자열 기록 = 이 다큐의 "텍스트 소스". ASR 불필요
+- Created: entities/what-the-bleep-do-we-know.md (다큐 엔티티)
+- Created: concepts/quantum-mechanics.md (주류 양자물리: 중첩·비국소성·불확정성·BEC·진공)
+- Created: concepts/consciousness-and-observer.md (다큐 해석 — contested, confidence:low)
+- Created: concepts/random-number-generators-and-intention.md (RIG·이모토·명상·원격뇌파 — 각 실험 근거 등급 low)
+- Created: comparisons/measurement-problem-interpretations.md (주류 해석 vs 다큐 뉴에지 해석 비교)
+- Note: SCHEMA.md에 Physics·Consciousness 도메인 + 태그(quantum-mechanics, consciousness, measurement-problem, entanglement, new-age-interpretation, perception, consciousness-experiment) 추가. **다큐의 "의식이 현실을 창조"는 contested·confidence:low로 등급 분리**, 주류 물리 서술과 반드시 분리 기재
