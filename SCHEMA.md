@@ -1,9 +1,10 @@
 # Wiki Schema
 
 ## Domain
-AI books & stock investing (AI 관련 책/도서 소스 + 주식·투자 분석).
+AI books, stock investing, and programming/systems books (책/도서 소스 + 주식·투자 분석 + 시스템·프로그래밍·통신 기술).
 - **AI 쪽**: AI/ML/LLM 관련 책의 핵심 개념, 저자, 주요 주장, 책 간 연결
 - **Investing 쪽**: 종목/섹터/거시 분석, 회사 리서치, 밸류에이션, 투자 논지(thesis), watchlist
+- **Programming 쪽**: OS/컴파일러/디버거/빌드도구/버전관리 등 시스템 프로그래밍, Windows·VB, 유닉스·리눅스 실전 유틸리티, LAN·VAN·ISDN 통신
 
 ## Conventions
 - File names: lowercase, hyphens, no spaces (e.g., `attention-mechanism.md`)
@@ -45,6 +46,7 @@ sha256: <hex digest of the raw content below the frontmatter>
 ## Tag Taxonomy
 **AI:** book, chapter, author, concept, llm, ml-basics, deep-learning, agents, architecture, inference, training, alignment
 **Investing:** stock, company, sector, macro, strategy, valuation, earnings, risk, korea-kospi, watchlist
+**Programming:** programming, object-oriented, os, unix, linux, compiler, build-system, debugger, version-control, ipc, signals, networking, data-communication, windows-api
 **Meta:** comparison, summary, thesis, source
 
 Rule: 모든 페이지 태그는 이 분류에 있어야 함. 새 태그 필요 시 먼저 여기 추가.

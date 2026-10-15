@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-15 | Total pages: 120
+> Last updated: 2026-10-15 | Total pages: 122
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -29,6 +29,7 @@
 - [[futures-options-pricing]] — 신비로운 선물옵션가격이론 (비슬산): 선물옵션 '가격 이론' 기법서 — 마디가격·옵션역행·중요가격
 - [[trading-technique]] — 돈을 부르는 매매의 기술 (박병창, 포레스트북스): '주식은 타이밍' — 곰/황소 수급·매매타이밍 6개념·실전 스킬(탄력·돌파·주도주)
 - [[finance-recipes]] — 파이썬을 활용한 금융공학 레시피 (김용환, 한빛미디어 2018): PV/FV → 선물 이론가 → 블랙-숄즈·그릭스 → α/β를 파이썬으로 구현하는 입문서
+- [[vb6-introduction]] — NEW 비주얼베이직 6 입문 (하야시 하루히코, 영진닷컴 1999, 원서 SoftBank 1998): VB6 14개 토픽 — 이벤트 기반 개체지향, 데이터형, 제어문, 컨트롤, 그래픽, 파일 입출력
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -130,6 +131,7 @@
 - [[option-greeks]] — 옵션 그릭스(Δ·Γ·θ·ν·ρ): 옵션 리스크 프로파일의 실전 관리 도구
 - [[alpha-vs-beta]] — 알파 vs. 베타: 벤치마크 초과수익(α)과 시장추종(β)으로 성과 분해
 - [[structured-products]] — 구조화 상품(ETF·ETN·ELW·ELS): 기본상품 조합의 증권화 수익 구조
+- [[visual-basic]] — Visual Basic: 이벤트 기반 개체지향 GUI 언어 — Class/Instance, Sub/Function, 데이터형, 파일 액세스(VB6 체계를 정리)
 
 ## Comparisons
 

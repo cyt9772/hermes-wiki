@@ -178,3 +178,11 @@
 - Created: concepts/time-value-of-money.md, concepts/futures-theory-price.md, concepts/basis-contango.md, concepts/black-scholes.md, concepts/option-greeks.md, concepts/alpha-vs-beta.md, concepts/structured-products.md (신규 7개)
 - Reused links: trading-technique, futures-options-pricing, value-investing, momentum-investing 등
 - Note: 152MB > GitHub 100MB 한계 → git-lfs track(raw/books/*.pdf) 후 push. OCR 텍스트 레이어 0(완전 선별본), 수식·코드 블록은 garble 다수 — 개념 페이지 서론은 원본 PDF 인용으로 보완. 기존 futures-options-pricing(기법서)과 구별: 이 책은 학술적 option-pricing(B-S·그릭스)서
+
+
+## [2026-10-15] ingest | NEW 비주얼베이직 6 입문 (vb6-introduction)
+- Source: /home/yutae/work/pdf/20261015/프로그래밍/비주얼베이직6_입문.pdf → raw/books/vb6-introduction.pdf (local only, git-ignored, 148MB)
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi), 357/357 pages (errors=0) → raw/books/vb6-introduction.md
+- Author: HARUHIKO HAYASHI (하야시 하루히코, 원서 SoftBank 1998 / 영진닷컴 1999·2002, ISBN 89-314-1287-8)
+- Created: entities/vb6-introduction.md, concepts/visual-basic.md
+- Note: SCHEMA.md에 Programming 도메인 + 새 태그(programming, os, unix, linux, compiler, build-system, debugger, version-control, ipc, signals, networking, data-communication, windows-api, object-oriented) 추가 — 첫 비투자 도메인 책. OCR에서 "Visual Basic"→"Visual ㅁ2510" 등 영어 토큰 garble 다수, 엔티티 페이지에 기록
