@@ -19,3 +19,5 @@ id_rsa*
 # OCR working dirs (full text lives in raw/books/<slug>.md)
 raw/books/*.ocr/
 raw/books/*.pdf
+# Ingest backups (local-only, per-run safety copies)
+raw/books/*.prev

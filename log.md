@@ -5,6 +5,14 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-17] update | 27 raw/books/*.md — OCR text → clean pdftotext text
+- USB `/run/media/yutae/UBUNTU 26_0/`에서 텍스트 레이어가 포함된 27권 PDF를 수신 (기존 27권과 1:1 매칭, 새 책은 없음)
+- 모든 `raw/books/<slug>.md`: tesseract OCR 본문 → pdftotext(poppler) clean 본문으로 교체. 메타데이터·장 구성·페이지 구조 유지
+- 4권에서 전제된 깨짐이 실제 해소 확인: `seventech`(IoT→`사물인터넷`, 5c→`5G`, NETS→`NFT`), `dan-ariely-feeling-of-money`(Poste→`포스트`), `money-study-over-toefl`(SSE/ES/Boch→정상), `mit-mba`(신비로운고속성장→정상 분리)
+- 27개 raw 파일 모두 `source_url`, `sha256`(USB 바이너리 기준) frontmatter 반영 완료; 27개 `.prev` 백업은 `.gitignore`에 추가되어 local-only
+- raw/는 불변 원칙 때문에 entities/concepts는 수정 안 함 → 본문 인용·wikilink·개념 페이지 그대로 유지
+- Note: 이 작업은 raw text layer만 교체한 것이므로, 기존 entity/concept 인용 페이지 번호는 동일 PDF의 page marker에 의존 → 변경 없음
+
 ## [2026-10-05] create | Wiki initialized
 - Domain: AI books & stock investing (AI 관련 책 소스 + 주식·투자 분석)
 - Structure created: SCHEMA.md, index.md, log.md, raw/, entities/, concepts/, comparisons/, queries/
