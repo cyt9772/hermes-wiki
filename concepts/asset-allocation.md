@@ -24,8 +24,8 @@ confidence: high
 - **배분 비율 고정 + 정기 리밸런싱**: "투자 비율을 지키려 노력하고, 시장의 급변에도 [ ]되지 않고 비율에 맞게 리밸런싱해야 합니다" (p115).
 - **장기 투자 (10년 이상)**: "단기적으로는 예측 불가능한 시장이지만 장기적으로 우상향할 것이라는 큰 그림으로 10년 이상 장기투자하는 전략" (p115).
 - **자산군 구분 계좌**: "자산배분 계좌와 개별 주식 계좌를 [ ]하라" (p131) — 계좌 단위로 배분/개별종목을 분리해 심리적 왜곡 방지.
-- **배당자산 (3단계)**: 배당 + 리츠로 정기 현금흐름 확보 (p187–199) — [[concepts/dividend-investing]] 참조.
-- **금리·채권과의 관계**: 채권 비중 조절 시 실질금리 방향이 핵심 변수 — [[concepts/interest-rates]] 참조.
+- **배당자산 (3단계)**: 배당 + 리츠로 정기 현금흐름 확보 (p187–199) — [[dividend-investing]] 참조.
+- **금리·채권과의 관계**: 채권 비중 조절 시 실질금리 방향이 핵심 변수 — [[interest-rates]] 참조.
 
 ## 원문 근거 (p. = raw/books/pakhomxi-investing.md 기준)
 
@@ -36,9 +36,9 @@ confidence: high
 
 ## See also
 
-- [[concepts/rebalancing]]
-- [[concepts/etf-investing]]
-- [[concepts/investment-asset-class]]
-- [[concepts/dividend-investing]]
-- [[concepts/interest-rates]]
-- [[entities/pakhomxi-investing]]
+- [[rebalancing]]
+- [[etf-investing]]
+- [[investment-asset-class]]
+- [[dividend-investing]]
+- [[interest-rates]]
+- [[pakhomxi-investing]]

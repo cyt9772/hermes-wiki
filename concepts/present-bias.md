@@ -39,8 +39,8 @@ confidence: high
 
 ## See also
 
-- [[concepts/time-preference]]
-- [[concepts/pain-of-paying]]
-- [[concepts/money-illusion]]
-- [[entities/dan-ariely-feeling-of-money]]
-- [[entities/behavioral-economics]]
+- [[time-preference]]
+- [[pain-of-paying]]
+- [[money-illusion]]
+- [[dan-ariely-feeling-of-money]]
+- [[behavioral-economics]]

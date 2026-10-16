@@ -44,6 +44,6 @@ confidence: medium
 
 ## See also
 
-- [[concepts/interest-rates]]
-- [[concepts/interest-rates-inflation]]
+- [[interest-rates]]
+- [[interest-rates-inflation]]
 - [[seventech]] · [[dividend-king]] · [[wise-quant-investing]]

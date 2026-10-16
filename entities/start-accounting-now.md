@@ -47,11 +47,11 @@ confidence: medium
 
 ## See also
 
-- [[concepts/balance-sheet]]
-- [[concepts/income-statement]]
-- [[concepts/cash-flow-statement]]
-- [[concepts/financial-ratio-analysis]]
-- [[concepts/accrual-accounting]]
-- [[concepts/asset-allocation]]
-- [[concepts/valuation-multiples]]
-- [[concepts/corporate-disclosure]]
+- [[balance-sheet]]
+- [[income-statement]]
+- [[cash-flow-statement]]
+- [[financial-ratio-analysis]]
+- [[accrual-accounting]]
+- [[asset-allocation]]
+- [[valuation-multiples]]
+- [[corporate-disclosure]]

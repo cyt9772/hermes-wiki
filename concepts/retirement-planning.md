@@ -57,4 +57,4 @@ confidence: high
 - [[compound-interest]] — 33억을 만드는 복리의 마법
 - [[us-equity-market]] — 20%(QQQ)·15%(S&P500) 분모의 근거
 - [[index-investing]] — 지수/ETF로 목표 달성
-- [[entities/retire-with-us-stocks]] — 15·20대 시나리오 전표
+- [[retire-with-us-stocks]] — 15·20대 시나리오 전표

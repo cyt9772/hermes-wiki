@@ -54,4 +54,4 @@ confidence: high
 - [[compound-interest]] — 지수 ETF가 복리를 가장 효율적으로 구현
 - [[us-equity-market]] — QQQ/S&P500의 우상향 전제
 - [[retirement-planning]] — 복리·현금흐름으로 33억 도달하는 설계
-- [[entities/retire-with-us-stocks]] — 저자가 ETF vs 개별 종목의 선택을 설명하는 책
+- [[retire-with-us-stocks]] — 저자가 ETF vs 개별 종목의 선택을 설명하는 책

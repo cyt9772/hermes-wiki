@@ -53,9 +53,9 @@ confidence: high
 
 ## See also
 
-- [[concepts/decision-making-under-uncertainty]]
-- [[concepts/innovation-through-iteration]]
-- [[concepts/organizational-culture]]
-- [[concepts/corporate-communication]]
-- [[concepts/entrepreneurial-leadership]]
-- [[entities/rate-counterattack]] (금리·거시 배경 교차 참조)
+- [[decision-making-under-uncertainty]]
+- [[innovation-through-iteration]]
+- [[organizational-culture]]
+- [[corporate-communication]]
+- [[entrepreneurial-leadership]]
+- [[rate-counterattack]] (금리·거시 배경 교차 참조)

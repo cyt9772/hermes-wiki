@@ -42,5 +42,5 @@ confidence: high
 
 ## See also
 
-- [[concepts/interest-rates]]
-- [[entities/rate-counterattack]]
+- [[interest-rates]]
+- [[rate-counterattack]]

@@ -48,4 +48,4 @@ KOSPI와 대조 — "우상향하지 않는 시장 상황에서 **단기 트레�
 - [[compound-interest]] — 미국장기우상향이 복리로 전환되는 메커니즘
 - [[index-investing]] — 지수·ETF 구현 경로
 - [[retirement-planning]] — 은퇴 현금흐름 설계의 시장 전제
-- [[entities/retire-with-us-stocks]] — 이 책이 전제하는 시장
+- [[retire-with-us-stocks]] — 이 책이 전제하는 시장

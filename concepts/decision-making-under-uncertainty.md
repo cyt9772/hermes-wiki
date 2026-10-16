@@ -39,7 +39,7 @@ confidence: high
 
 ## See also
 
-- [[entities/adventure-of-management]]
-- [[concepts/innovation-through-iteration]]
-- [[concepts/organizational-culture]]
-- [[concepts/creative-destruction]]
+- [[adventure-of-management]]
+- [[innovation-through-iteration]]
+- [[organizational-culture]]
+- [[creative-destruction]]

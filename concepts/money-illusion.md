@@ -36,8 +36,8 @@ confidence: high
 
 ## See also
 
-- [[concepts/anchoring-effect]]
-- [[concepts/mental-accounting]]
-- [[concepts/framing-effect]]
-- [[entities/dan-ariely-feeling-of-money]]
-- [[entities/behavioral-economics]]
+- [[anchoring-effect]]
+- [[mental-accounting]]
+- [[framing-effect]]
+- [[dan-ariely-feeling-of-money]]
+- [[behavioral-economics]]

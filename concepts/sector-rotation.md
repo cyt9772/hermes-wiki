@@ -41,7 +41,7 @@ confidence: medium
 
 ## See also
 
-- [[entities/find-the-top-stock]]
+- [[find-the-top-stock]]
 - [[top-picking]] — 섹터 로테이션이 가리키는 '1등주'
 - [[momentum-investing]] — 개화-성장기 사이클 포착
 - [[relative-strength]] — 1등주·2등주 시총·수익률 격차로 로테이션 검증

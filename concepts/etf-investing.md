@@ -32,9 +32,9 @@ confidence: high
 | 배당 | 별도 | TIGER 부동산인프라고배당 / ARIRANG 고배당주 (251) |
 
 - **TIGER 200 지수 구성** (p240–241): 삼성전자 30.57%, 하이닉스 5.15%, NAVER 4.21% 등 — 국내주식 자산군 추종 ETF의 기초 지표.
-- **배당 ETF 선정**: "시가종액이 가장 크고 적정한 보수를 보여주는 'ARIRANG 고배당주'가 매력적" (p251) — [[concepts/dividend-investing]] 참조.
+- **배당 ETF 선정**: "시가종액이 가장 크고 적정한 보수를 보여주는 'ARIRANG 고배당주'가 매력적" (p251) — [[dividend-investing]] 참조.
 - **백테스팅**: "포트폴리오가 잘 만들어진 것인지 과거의 데이터로 테스트할 수 있는 백테스팅" (p16) — 펀드솔루션 등 툴 활용 (p264–270).
-- **리밸런싱 연동**: ETF 비중이 벗어나면 [[concepts/rebalancing]] 실행.
+- **리밸런싱 연동**: ETF 비중이 벗어나면 [[rebalancing]] 실행.
 
 ## 원문 근거 (p. = raw/books/pakhomxi-investing.md 기준)
 
@@ -45,10 +45,10 @@ confidence: high
 
 ## See also
 
-- [[concepts/asset-allocation]]
-- [[concepts/rebalancing]]
-- [[concepts/investment-asset-class]]
-- [[concepts/dividend-investing]]
-- [[concepts/interest-rates]]
-- [[entities/pakhomxi-investing]]
-- [[entities/dividend-king]]
+- [[asset-allocation]]
+- [[rebalancing]]
+- [[investment-asset-class]]
+- [[dividend-investing]]
+- [[interest-rates]]
+- [[pakhomxi-investing]]
+- [[dividend-king]]

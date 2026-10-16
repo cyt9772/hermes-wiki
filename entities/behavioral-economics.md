@@ -46,12 +46,12 @@ confidence: medium
 
 ## 투자 관점
 
-- **손실회피성** → 손절 매도 타이밍이 늦어지고, 매수 후 평가이익이 나면 일찍 매도하는 비대칭적 트레이딩 — [[concepts/loss-aversion]] 참조.
-- **보유효과** → 보유 포트폴리오를 과대평가해 리밸런싱을 방해, 매도 기회 비용을 내재화하지 못하게 함 ([[concepts/endowment-effect]], [[concepts/asset-allocation]]).
-- **앵커 효과** → 매수 기준점(최근 주가, 목표가, 전일 종가)에 판단이 고정됨. 투자자뿐 아니라 판사·전문가도 예외가 아님 ([[concepts/anchoring-effect]]).
-- **멘탈 어카운팅** → "도박으로 딴 돈" 같은 불로소득을 더 공격적으로 쓰거나, 계정별 손익을 단기로 잘게 쪼개는 편향 ([[concepts/mental-accounting]]).
+- **손실회피성** → 손절 매도 타이밍이 늦어지고, 매수 후 평가이익이 나면 일찍 매도하는 비대칭적 트레이딩 — [[loss-aversion]] 참조.
+- **보유효과** → 보유 포트폴리오를 과대평가해 리밸런싱을 방해, 매도 기회 비용을 내재화하지 못하게 함 ([[endowment-effect]], [[asset-allocation]]).
+- **앵커 효과** → 매수 기준점(최근 주가, 목표가, 전일 종가)에 판단이 고정됨. 투자자뿐 아니라 판사·전문가도 예외가 아님 ([[anchoring-effect]]).
+- **멘탈 어카운팅** → "도박으로 딴 돈" 같은 불로소득을 더 공격적으로 쓰거나, 계정별 손익을 단기로 잘게 쪼개는 편향 ([[mental-accounting]]).
 - **현상유지 바이어스** → 포트폴리오를 사실상 "매수 후 방치"하는 관성의 원인; 전략 변경의 마찰비용이 실제로는 심리적 손실에 기인.
-- **시간선호/쌍곡형 할인** → 연금·퇴직 자금의 현재 소비 유혹, "내일부터 절약" 미루기의 이론적 근거 ([[concepts/retirement-planning]], [[concepts/compound-interest]]).
+- **시간선호/쌍곡형 할인** → 연금·퇴직 자금의 현재 소비 유혹, "내일부터 절약" 미루기의 이론적 근거 ([[retirement-planning]], [[compound-interest]]).
 - p316 인용: "행동경제학의 정책적 의미에 대해서는 충분히 서술할 수 없었다. 정책이란 인간의 행동을 희망하는 방향으로 움직이는 것이기 때문에… 인간에 대한 이해가 필수 불가결하다." — 투자자 본인의 행동 규율 설정에 시사.
 
 ## 원서 품질/신뢰성 코멘트
@@ -63,12 +63,12 @@ confidence: medium
 
 ## See also
 
-- [[concepts/loss-aversion]]
-- [[concepts/mental-accounting]]
-- [[concepts/anchoring-effect]]
-- [[concepts/endowment-effect]]
-- [[concepts/framing-effect]]
-- [[concepts/asset-allocation]]
-- [[concepts/compound-interest]]
-- [[concepts/retirement-planning]]
-- [[entities/seventech]] · [[entities/rate-counterattack]]
+- [[loss-aversion]]
+- [[mental-accounting]]
+- [[anchoring-effect]]
+- [[endowment-effect]]
+- [[framing-effect]]
+- [[asset-allocation]]
+- [[compound-interest]]
+- [[retirement-planning]]
+- [[seventech]] · [[rate-counterattack]]

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-15 | Total pages: 137
+> Last updated: 2026-10-17 | Total pages: 140
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -19,7 +19,7 @@
 - [[start-accounting-now]] — 지금 당장 회계 공부 시작하라: 회계=비즈니스를 읽는 언어, 재무제표·재무비율·현금 읽기
 - [[seo-daein-korea-economics]] — 선대인의 대한민국 경제학 (12강): 금리·환율·부동산·노후·인구로 한국 현실경제 기초
 - [[dan-ariely-feeling-of-money]] — 부의 감각 (댄 애리얼리 영문 역, 옮김 이종수): 행동경제학 '머니 바이어스' 40개 실험, 지성·감정·도덕 3축
-- [[lifetime-financial-planning]] — 생애재무설계 지금 당장 시작하라: 20·30·40대 생애주기별 3단계 설계 + 노후 연결소득/역모기지
+- [[lifetime-financial-planning-book]] — 생애재무설계 지금 당장 시작하라: 20·30·40대 생애주기별 3단계 설계 + 노후 연결소득/역모기지
 - [[adventure-of-management]] — 경영의 모험 (MIT MBA 사례): 경영 5대 주제 × MIT 경영 사례, 불확실성 하의 의사결정·조직문화
 - [[mit-mba]] — MIT MBA (이원재): 실리콘밸리 스타트업·리더십·네트워크·협상 실전 MBA 교양서
 - [[money-study-over-toefl]] — 토익 공부보다 돈 공부 (이권복, 한스미디어): 개인 재테크 실무서 — 자산/부채 재정의, 시드머니, 인플레 헤지, 건설적 레버리지

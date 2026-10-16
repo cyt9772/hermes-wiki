@@ -36,7 +36,7 @@ confidence: high
 
 1. **매출총이익률**이 업종의 마진 성격에 관한 1차 필터 (p0252 "매출총이익이 중요한 것") — 제조업·IT·소비재별 구조가 달라짐.
 2. **영업이익** vs **당기순이익** 갭이 크면 영업외·법인세·환율 등 비재curring요소가 큼 — 순이익 급등에도 "어닝 서프라이즈"에 속지 말 것 (p12 TOC "어닝서프라이즈에 속지 마라").
-3. **법인세비용 vs 법인세납부액** 차이 — 세금(비용)과 실제 납부액(현금)의 차이에서 **현금흐름**과 차이가 발생 ([[concepts/cash-flow-statement]]).
+3. **법인세비용 vs 법인세납부액** 차이 — 세금(비용)과 실제 납부액(현금)의 차이에서 **현금흐름**과 차이가 발생 ([[cash-flow-statement]]).
 4. **비매출성 비용(감가상각, 무형자산 상각)**이 높을수록 손익계산서 이익보다 현금흐름이 좋아 보이는 구조 (p12 "포스코의 감가상각비가 백화점보다 적은 이유는?").
 5. **발생주의**에 의한 매출 인식 시점(수주·매출, 공시기준 p147 "수주액과 매출은 다를 수도 있다")에서 이익이 부풀거나 축소 가능.
 
@@ -51,8 +51,8 @@ confidence: high
 
 ## See also
 
-- [[concepts/balance-sheet]]
-- [[concepts/cash-flow-statement]]
-- [[concepts/financial-ratio-analysis]]
-- [[concepts/accrual-accounting]]
-- [[entities/start-accounting-now]]
+- [[balance-sheet]]
+- [[cash-flow-statement]]
+- [[financial-ratio-analysis]]
+- [[accrual-accounting]]
+- [[start-accounting-now]]

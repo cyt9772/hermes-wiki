@@ -26,9 +26,9 @@ confidence: high
 
 ## 투자 관점
 
-1. **유동비율과 함께 읽을 것** — 재무상태표에서 자산·부채를 추려 [[concepts/financial-ratio-analysis]]으로 안정성을 판정.
+1. **유동비율과 함께 읽을 것** — 재무상태표에서 자산·부채를 추려 [[financial-ratio-analysis]]으로 안정성을 판정.
 2. **부채 = 나쁜 것이 아님** (p0250) — 부채비율이 낮으면 레버리지 활용 여력이나 무능의 신호일 수 있음. "선수금"은 미리 받은 돈이니 부채로 보고도 실질 위험은 낮다.
-3. **자본·이익잉여금의 변화**가 배당·자사주 매입의 재원 — [[concepts/income-statement]]의 이익이 이 곳으로 이동하는 것을 추적.
+3. **자본·이익잉여금의 변화**가 배당·자사주 매입의 재원 — [[income-statement]]의 이익이 이 곳으로 이동하는 것을 추적.
 4. **비유동자산 감가상각·재평가**가 이익과 현금을 동시에 움직이는 숨은 변수 (p0234).
 5. 연결재무제표(IFRS) 기준인지, 자회사 포함 여부 (p148-154) — 주석과 함께 확인.
 
@@ -43,10 +43,10 @@ confidence: high
 
 ## See also
 
-- [[concepts/income-statement]]
-- [[concepts/cash-flow-statement]]
-- [[concepts/financial-ratio-analysis]]
-- [[concepts/accrual-accounting]]
-- [[entities/start-accounting-now]]
-- [[concepts/asset-allocation]]
-- [[concepts/valuation-multiples]]
+- [[income-statement]]
+- [[cash-flow-statement]]
+- [[financial-ratio-analysis]]
+- [[accrual-accounting]]
+- [[start-accounting-now]]
+- [[asset-allocation]]
+- [[valuation-multiples]]

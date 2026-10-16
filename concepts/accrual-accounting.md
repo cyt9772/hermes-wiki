@@ -33,7 +33,7 @@ confidence: high
 ## 투자 관점
 
 1. **매출 인식 시점**이 바뀌면 이익이 바뀌기 때문에, **연간/분기별 매출 변동**을 공시 시점과 함께 읽어야 함 (예: 영화 산업의 러닝 개런티는 '누적관객수' 1200만 기준, p099 "누적관객수 1위의 <아바타>").
-2. **감가상각비**가 높으면 [[concepts/cash-flow-statement]]가 [[concepts/income-statement]]을 상회하는 구조가 자연스러움 — "포스코의 감가상각비가 백화점보다 적은 [이유]" (p12 TOC)를 알면 업종별 비교가 명확.
+2. **감가상각비**가 높으면 [[cash-flow-statement]]가 [[income-statement]]을 상회하는 구조가 자연스러움 — "포스코의 감가상각비가 백화점보다 적은 [이유]" (p12 TOC)를 알면 업종별 비교가 명확.
 3. **연결재무제표 vs 개별재무제표** (IFRS 도입, p148-154) — **법적 실체**가 아닌 **경제적 실체** 기준으로 읽는 것이 IFRS의 본질.
 4. **당좌자산과 매출채권** — 매출채권은 아직 현금화 되지 않은 발생주의 이익 — 매출채권 회수기간이 길어지거나 규모가 커지면 유동성·신용 리스크 (p0121 "매출채권 관리에 기업의 생사가 달렸다").
 5. **누가 발생주의를 위반하는지**를 판별하는 것이 회계감사·분식회계 탐지 (p008 TOC "사라져야 할 [분식회계]").
@@ -50,10 +50,10 @@ confidence: high
 
 ## See also
 
-- [[concepts/income-statement]]
-- [[concepts/balance-sheet]]
-- [[concepts/cash-flow-statement]]
-- [[concepts/financial-ratio-analysis]]
-- [[entities/start-accounting-now]]
-- [[concepts/corporate-disclosure]]
-- [[concepts/etf-investing]]
+- [[income-statement]]
+- [[balance-sheet]]
+- [[cash-flow-statement]]
+- [[financial-ratio-analysis]]
+- [[start-accounting-now]]
+- [[corporate-disclosure]]
+- [[etf-investing]]

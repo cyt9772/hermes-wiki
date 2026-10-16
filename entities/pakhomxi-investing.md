@@ -48,12 +48,12 @@ confidence: medium
 
 ## See also
 
-- [[concepts/asset-allocation]]
-- [[concepts/rebalancing]]
-- [[concepts/etf-investing]]
-- [[concepts/investment-asset-class]]
-- [[concepts/dividend-investing]]
-- [[concepts/interest-rates]]
-- [[entities/pakhomxi-investing]]
-- [[entities/rate-counterattack]]
-- [[entities/dividend-king]]
+- [[asset-allocation]]
+- [[rebalancing]]
+- [[etf-investing]]
+- [[investment-asset-class]]
+- [[dividend-investing]]
+- [[interest-rates]]
+- [[pakhomxi-investing]]
+- [[rate-counterattack]]
+- [[dividend-king]]

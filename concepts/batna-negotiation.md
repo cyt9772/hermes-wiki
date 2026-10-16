@@ -47,7 +47,7 @@ BATNA는 협상 이론(Fisher & Ury, <Getting to Yes>)의 핵심 용어로, "협
 
 ## See also
 
-- [[entities/mit-mba]]
-- [[concepts/weak-ties]]
-- [[concepts/people-above-profit]]
-- [[concepts/decision-making-under-uncertainty]] (불확실성 하의 의사결정 교차)
+- [[mit-mba]]
+- [[weak-ties]]
+- [[people-above-profit]]
+- [[decision-making-under-uncertainty]] (불확실성 하의 의사결정 교차)

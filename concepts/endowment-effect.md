@@ -10,7 +10,7 @@ confidence: high
 
 # 보유효과 (Endowment Effect)
 
-자신이 **이미 소유하고 있는** 물건·권리·의견을 타인의 동일 대안보다 높게 평가하는 편향 — [[concepts/loss-aversion|손실회피성]]의 직접적 파생.
+자신이 **이미 소유하고 있는** 물건·권리·의견을 타인의 동일 대안보다 높게 평가하는 편향 — [[loss-aversion|손실회피성]]의 직접적 파생.
 
 ## 메커니즘
 
@@ -26,8 +26,8 @@ confidence: high
 1. **리밸런싱 장애**: 보유 종목에 감정적 소유권 부여 → 매도 기회비용(세금·수수료)이 실제로는 심리적 손실 확정에서 기인.
 2. **투자자 vs 전문 트레이더**: 리스트의 스포츠 카드 결과를 투자에 이식하면, "매도 목적의 자산"(현금화 목표 포트폴리오)은 보유효과가 약해지며, 장기 보유 목적("사용가치") 자산은 강해짐.
 3. **매도 기준 사전 설정**: 보유 전 손절/목표가를 문서화해 소유 이후의 재평가가 심리적 손실 확정으로만 작동하지 않게 차단.
-4. [[concepts/mental-accounting|멘탈 어카운팅]]과 결합 — 계정에 기입된 "내 돈"은 손실이 더 아프게 느껴져 매도 회피가 강화.
-5. 포트폴리오 수준: [[concepts/asset-allocation]] 관점, 현금·현금성 자산 비중을 일정하게 유지하는 것이 매도 마찰의 완충재로 기능.
+4. [[mental-accounting|멘탈 어카운팅]]과 결합 — 계정에 기입된 "내 돈"은 손실이 더 아프게 느껴져 매도 회피가 강화.
+5. 포트폴리오 수준: [[asset-allocation]] 관점, 현금·현금성 자산 비중을 일정하게 유지하는 것이 매도 마찰의 완충재로 기능.
 
 ## 원문 근거 (p. = `raw/books/behavioral-economics.md` 기준)
 
@@ -38,8 +38,8 @@ confidence: high
 
 ## See also
 
-- [[concepts/loss-aversion]]
-- [[concepts/mental-accounting]]
+- [[loss-aversion]]
+- [[mental-accounting]]
 - 현상유지 바이어스 (status quo bias, p145): "사람은 현재 상태(현상)에서 변화되는 것을 회피하는 경향이 있다" — 본서에서 보유효과와 쌍으로 다룸.
-- [[concepts/asset-allocation]]
-- [[entities/behavioral-economics]]
+- [[asset-allocation]]
+- [[behavioral-economics]]

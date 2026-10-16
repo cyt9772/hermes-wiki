@@ -43,8 +43,8 @@ confidence: high
 
 ## See also
 
-- [[entities/mit-mba]]
-- [[concepts/batna-negotiation]] (취업·협상 맥락)
-- [[concepts/people-above-profit]]
-- [[concepts/social-enterprise]]
-- [[entities/adventure-of-management]] (관리·문화의 인간 맥락)
+- [[mit-mba]]
+- [[batna-negotiation]] (취업·협상 맥락)
+- [[people-above-profit]]
+- [[social-enterprise]]
+- [[adventure-of-management]] (관리·문화의 인간 맥락)

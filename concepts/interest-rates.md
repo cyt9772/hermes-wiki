@@ -39,6 +39,6 @@ confidence: high
 
 ## See also
 
-- [[concepts/interest-rates-inflation]]
-- [[concepts/credit-cycle]]
-- [[entities/rate-counterattack]]
+- [[interest-rates-inflation]]
+- [[credit-cycle]]
+- [[rate-counterattack]]

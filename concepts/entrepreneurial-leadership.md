@@ -39,7 +39,7 @@ confidence: high
 
 ## See also
 
-- [[entities/adventure-of-management]]
-- [[concepts/organizational-culture]]
-- [[concepts/decision-making-under-uncertainty]]
-- [[concepts/creative-destruction]]
+- [[adventure-of-management]]
+- [[organizational-culture]]
+- [[decision-making-under-uncertainty]]
+- [[creative-destruction]]

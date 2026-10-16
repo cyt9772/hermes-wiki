@@ -5,6 +5,15 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-17] lint | link graph · slug collision · style drift cleanup
+- **슬러그 충돌 해소**: `entities/lifetime-financial-planning.md` → `entities/lifetime-financial-planning-book.md` (git rename). 이후 `[[lifetime-financial-planning]]`은 무조건 concept(3단계 설계)을, `[[...book]]`이 entity(책)를 가리킴 — 각 참조 의도와 일치
+- **broken 링크 2건 시정**: `[[concepts/self-confidence-in-money]]`(dan-ariely-feeling-of-money.md) → 실존 페이지 `[[overconfidence-in-money]]`(ch.7 "돈에 대한 과신")로 재지정; `[[risk]]`(trading-timing-six-concepts.md, 대상 없음) → "위험 관리 관점" 텍스트로 대체
+- **스타일 드리프트 정규화**: prefix 스타일 268개소(`[[concepts/x]]`, `[[concepts/x|라벨]]` 포함) → wiki 규약 `[[x]]`/`[[x|라벨]]`으로, 52개 파일. 전수 basename 유일성 검증 후 적용
+- **글리프 정정**: concepts/seed-capital.md p63 인용문의 OCR 깨짐(`과과하기`, 불필요 富)을 clean 원문(pdftotext p62)과 대조해 "…종잣돈이라고 하면 그 중요성을 **간과**하기 쉽다…"로 정정
+- **index.md**: Total pages 137 → 140 (comparisons/measurement-problem-interpretations 실존 확인, 헤더 stale 해소)
+- **최종 검증**: 140개 페이지, 위키링크 전수 1049개 broken 0, prefix 0, entities/concepts CRLF/한자/키릴 drift 0
+- Note: 이전 lint에서 flagged된 `[[measurement-problem-interpretations]]` 4개소는 오탐이었음 — 대상이 `comparisons/`에 실존(이전 커밋 f71a78a에서 생성)
+
 ## [2026-10-17] update | 27 raw/books/*.md — OCR text → clean pdftotext text
 - USB `/run/media/yutae/UBUNTU 26_0/`에서 텍스트 레이어가 포함된 27권 PDF를 수신 (기존 27권과 1:1 매칭, 새 책은 없음)
 - 모든 `raw/books/<slug>.md`: tesseract OCR 본문 → pdftotext(poppler) clean 본문으로 교체. 메타데이터·장 구성·페이지 구조 유지

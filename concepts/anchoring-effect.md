@@ -25,7 +25,7 @@ confidence: high
 
 1. **최근 종가/매수단가 앵커**: "기억 속에 남아 있는 가장 새로운 주가" (p081) — 손절·목표가를 최근 가격 기준으로 잡으면 추세에 매몰됨.
 2. **목표가·밸류에이션 앵커**: 리포트의 목표가가 시장의 앵커가 되며, 반론보다 근거 정보에 편향적으로 집중(확증 바이어스).
-3. **대처**: 매수 전 정량 기준(실적, 할인율, [[concepts/valuation-multiples|멀티플]])를 문서화해 "첫 수치가 판단의 기준이 되거나"를 차단.
+3. **대처**: 매수 전 정량 기준(실적, 할인율, [[valuation-multiples|멀티플]])를 문서화해 "첫 수치가 판단의 기준이 되거나"를 차단.
 4. 가격 협상·M&A 딜에서는 상대가 제시하는 첫 수치가 네고의 앵커가 됨 — 판사 실험(p082)이 준법·계약 분쟁에서도 앵커가 작동함을 시사.
 5. 본서 p082 "기준점 효과로부터 확증 바이어스가 발생" — 포트폴리오 관점: 판단을 세운 뒤 그 판단을 입증하는 뉴스만 읽는 패턴의 기원.
 
@@ -38,7 +38,7 @@ confidence: high
 
 ## See also
 
-- [[concepts/mental-accounting]]
-- [[concepts/loss-aversion]]
-- [[concepts/valuation-multiples]]
-- [[entities/behavioral-economics]]
+- [[mental-accounting]]
+- [[loss-aversion]]
+- [[valuation-multiples]]
+- [[behavioral-economics]]

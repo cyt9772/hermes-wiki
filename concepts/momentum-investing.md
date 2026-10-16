@@ -40,7 +40,7 @@ confidence: high
 
 ## See also
 
-- [[entities/find-the-top-stock]]
+- [[find-the-top-stock]]
 - [[top-picking]] — 개화-성장기 내 '1등주' 선별
 - [[sector-rotation]] — 섹터 사이클에 따른 로테이션 매수/매도
 - [[relative-strength]] — 모멘텀이 확인되는 '1등 vs 2등' 시총·수익률 격차

@@ -41,7 +41,7 @@ confidence: medium
 
 ## See also
 
-- [[entities/mit-mba]]
-- [[concepts/entrepreneurial-leadership]]
-- [[concepts/organizational-culture]]
-- [[concepts/weak-ties]]
+- [[mit-mba]]
+- [[entrepreneurial-leadership]]
+- [[organizational-culture]]
+- [[weak-ties]]

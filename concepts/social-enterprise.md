@@ -48,7 +48,7 @@ confidence: high
 
 ## See also
 
-- [[entities/mit-mba]]
-- [[concepts/people-above-profit]]
-- [[concepts/organizational-culture]]
-- [[entities/adventure-of-management]] (기업의 사회적 책임 교차)
+- [[mit-mba]]
+- [[people-above-profit]]
+- [[organizational-culture]]
+- [[adventure-of-management]] (기업의 사회적 책임 교차)

@@ -42,8 +42,8 @@ confidence: high
 
 ## See also
 
-- [[concepts/mental-accounting]]
-- [[concepts/present-bias]]
-- [[concepts/money-illusion]]
-- [[entities/dan-ariely-feeling-of-money]]
-- [[entities/behavioral-economics]]
+- [[mental-accounting]]
+- [[present-bias]]
+- [[money-illusion]]
+- [[dan-ariely-feeling-of-money]]
+- [[behavioral-economics]]

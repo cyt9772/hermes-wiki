@@ -40,8 +40,8 @@ confidence: high
 
 ## See also
 
-- [[concepts/anchoring-effect]]
-- [[concepts/money-illusion]]
-- [[concepts/framing-effect]]
-- [[entities/dan-ariely-feeling-of-money]]
-- [[entities/behavioral-economics]]
+- [[anchoring-effect]]
+- [[money-illusion]]
+- [[framing-effect]]
+- [[dan-ariely-feeling-of-money]]
+- [[behavioral-economics]]

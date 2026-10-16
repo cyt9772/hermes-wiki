@@ -37,10 +37,10 @@ confidence: medium
 
 ## 투자 관점
 
-- **금리-환율-자금흐름 연결고리** (p035): "2006년에는 미국의 기준금리가 한국보다 더 높아졌습니다. 결국 한국에 들어와 있던 외국인 투자자금과, 국내 은행들이 달러를 빌려 주택시장에 펌프질했던 [자금이] 한꺼번에 빠져나가는 사태" → 2008 환율 급등(원화 가치 하락). [[concepts/fx-and-interest-rates]]의 실증 사례.
-- **부채 관리** (p067, p298): "부채 비율 200%가 넘는 기업들도 전체 대기업 집단의 [비중] 40%에 육박합니다", 가계부채 1200조 돌파. 저성장기에는 이자 커버능력이 먼저 무너진다 — [[concepts/credit-cycle]] 관점.
-- **부동산 자산 집중도** (p113): "다른 나라들은 전체 가계자산 중 부동산자산의 비중이 30~50% 정도이지만, 우리나라는 약 70%에 이릅니다" — [[concepts/asset-allocation]]상 위험.
-- **노후 자산구조** (p174~): 실물자산(부동산) 비중 75%, 노동중단 ~52세 — [[concepts/retirement-planning]]의 한국의 제약 조건.
+- **금리-환율-자금흐름 연결고리** (p035): "2006년에는 미국의 기준금리가 한국보다 더 높아졌습니다. 결국 한국에 들어와 있던 외국인 투자자금과, 국내 은행들이 달러를 빌려 주택시장에 펌프질했던 [자금이] 한꺼번에 빠져나가는 사태" → 2008 환율 급등(원화 가치 하락). [[fx-and-interest-rates]]의 실증 사례.
+- **부채 관리** (p067, p298): "부채 비율 200%가 넘는 기업들도 전체 대기업 집단의 [비중] 40%에 육박합니다", 가계부채 1200조 돌파. 저성장기에는 이자 커버능력이 먼저 무너진다 — [[credit-cycle]] 관점.
+- **부동산 자산 집중도** (p113): "다른 나라들은 전체 가계자산 중 부동산자산의 비중이 30~50% 정도이지만, 우리나라는 약 70%에 이릅니다" — [[asset-allocation]]상 위험.
+- **노후 자산구조** (p174~): 실물자산(부동산) 비중 75%, 노동중단 ~52세 — [[retirement-planning]]의 한국의 제약 조건.
 - **저성장 판독의 인과주의** (p030): "한국은행이 기준금리를 계속해서 떨어뜨린 건 경기가 저조했기 때문이었습니다" — 금리 인하를 원인으로, 저성장을 결과로 착각하는 기류의 정반대.
 
 ## 원서 품질/신뢰성 코멘트
@@ -52,6 +52,6 @@ confidence: medium
 
 ## See also
 
-- [[concepts/korean-economy]] · [[concepts/household-debt]] · [[concepts/longevity-risk]] · [[concepts/real-estate-market]] · [[concepts/creative-destruction]]
+- [[korean-economy]] · [[household-debt]] · [[longevity-risk]] · [[real-estate-market]] · [[creative-destruction]]
 - [[rate-counterattack]] (금리-환율-경기 교양서, 동일 계열)
-- [[concepts/interest-rates]] · [[concepts/fx-and-interest-rates]] · [[concepts/credit-cycle]] · [[concepts/retirement-planning]] · [[concepts/asset-allocation]] · [[concepts/artificial-intelligence]]
+- [[interest-rates]] · [[fx-and-interest-rates]] · [[credit-cycle]] · [[retirement-planning]] · [[asset-allocation]] · [[artificial-intelligence]]

@@ -36,7 +36,7 @@ confidence: high
 
 ## See also
 
-- [[entities/adventure-of-management]]
-- [[concepts/innovation-through-iteration]]
-- [[concepts/corporate-communication]]
-- [[concepts/entrepreneurial-leadership]]
+- [[adventure-of-management]]
+- [[innovation-through-iteration]]
+- [[corporate-communication]]
+- [[entrepreneurial-leadership]]

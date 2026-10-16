@@ -55,10 +55,10 @@ confidence: high
 
 ## See also
 
-- [[concepts/people-above-profit]]
-- [[concepts/weak-ties]]
-- [[concepts/batna-negotiation]]
-- [[concepts/social-enterprise]]
-- [[concepts/decision-making-under-uncertainty]] (확률·신호 기반 의사결정 교차)
-- [[concepts/entrepreneurial-leadership]] (리더십 관점 교차)
-- [[entities/adventure-of-management]] (같은 경영 사례서 계열)
+- [[people-above-profit]]
+- [[weak-ties]]
+- [[batna-negotiation]]
+- [[social-enterprise]]
+- [[decision-making-under-uncertainty]] (확률·신호 기반 의사결정 교차)
+- [[entrepreneurial-leadership]] (리더십 관점 교차)
+- [[adventure-of-management]] (같은 경영 사례서 계열)

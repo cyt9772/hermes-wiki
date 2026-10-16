@@ -50,4 +50,4 @@ confidence: high
 - [[us-equity-market]] — 복리 엔진이 전제하는 우상향 시장
 - [[index-investing]] — 복리를 구현하는 가장 효율적 구조
 - [[retirement-planning]] — 33억/15년 은퇴 설계, 복리의 목적지
-- [[entities/retire-with-us-stocks]] — 33억 은퇴 목표
+- [[retire-with-us-stocks]] — 33억 은퇴 목표

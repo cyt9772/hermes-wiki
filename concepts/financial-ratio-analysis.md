@@ -41,7 +41,7 @@ confidence: high
 3. **ROE 단일 연도**가 아니라 **여러 해 추세분석** — 배당·자사주 매입은 ROE를 인위적으로 높이는 수단.
 4. **부채비율**이 80% 이내로 관리된 기업이 외환위기를 **기회**로 삼았다는 실증 (p7812) — **저레버리지 = 위기 대응력**.
 5. **성장성 비율**만으론 부족 — 매출증가율과 총자산증가율이 동시 상승해야 질적 성장 (p304).
-6. [[concepts/interest-rates-inflation]]이 금리·물가 사이클에 따라 부채비용을 바꾸므로, 동일 ROE라도 시대적 환경이 달라 이익의 질이 달라짐.
+6. [[interest-rates-inflation]]이 금리·물가 사이클에 따라 부채비용을 바꾸므로, 동일 ROE라도 시대적 환경이 달라 이익의 질이 달라짐.
 
 ## 원문 근거 (p. = `raw/books/start-accounting-now.md` 기준)
 
@@ -55,11 +55,11 @@ confidence: high
 
 ## See also
 
-- [[concepts/balance-sheet]]
-- [[concepts/income-statement]]
-- [[concepts/cash-flow-statement]]
-- [[concepts/accrual-accounting]]
-- [[entities/start-accounting-now]]
-- [[concepts/valuation-multiples]]
-- [[concepts/asset-allocation]]
-- [[concepts/interest-rates-inflation]]
+- [[balance-sheet]]
+- [[income-statement]]
+- [[cash-flow-statement]]
+- [[accrual-accounting]]
+- [[start-accounting-now]]
+- [[valuation-multiples]]
+- [[asset-allocation]]
+- [[interest-rates-inflation]]

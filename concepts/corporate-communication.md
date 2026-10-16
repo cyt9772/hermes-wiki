@@ -35,7 +35,7 @@ confidence: high
 
 ## See also
 
-- [[entities/adventure-of-management]]
-- [[concepts/organizational-culture]]
-- [[concepts/corporate-disclosure]]
-- [[concepts/decision-making-under-uncertainty]]
+- [[adventure-of-management]]
+- [[organizational-culture]]
+- [[corporate-disclosure]]
+- [[decision-making-under-uncertainty]]

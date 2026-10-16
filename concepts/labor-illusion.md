@@ -40,8 +40,8 @@ confidence: high
 
 ## See also
 
-- [[concepts/endowment-effect]]
-- [[concepts/loss-aversion]]
-- [[concepts/overconfidence-in-money]]
-- [[entities/dan-ariely-feeling-of-money]]
-- [[entities/behavioral-economics]]
+- [[endowment-effect]]
+- [[loss-aversion]]
+- [[overconfidence-in-money]]
+- [[dan-ariely-feeling-of-money]]
+- [[behavioral-economics]]

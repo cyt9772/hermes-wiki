@@ -45,7 +45,7 @@ confidence: high
 
 ## See also
 
-- [[entities/find-the-top-stock]]
+- [[find-the-top-stock]]
 - [[momentum-investing]] — 1등주 선별에 필요한 개화-성장기 모멘텀 창
 - [[relative-strength]] — 1등주 vs 2등주 시총·수익률 격차 판독
 - [[sector-rotation]] — 시대의 1등주가 속한 섹터를 로테이션으로 포착

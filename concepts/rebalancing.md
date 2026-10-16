@@ -24,8 +24,8 @@ confidence: high
 
 - **매일 하는 것이 아님**: "리밸런싱도 매일같이 해야 할까요? [ ]" (p126) → 연 1회 정기 + 급변 시 수시.
 - **포트폴리오 백테스팅과 연결**: "백테스팅 결과를 확인했다면 리밸런싱을 할 때도 이 툴을 주기적으로 [ ]하라" (p267) — 백테스팅으로 리밸런싱 주기 최적화.
-- **자산군 단위 실행**: 리밸런싱의 대상은 "주식·채권·금·현금" 같은 자산군 비율 — [[concepts/investment-asset-class]] 참조.
-- **금리 방향 반영**: 채권 비중 조절 시 실질금리 변화를 체크 — [[concepts/interest-rates]] 참조.
+- **자산군 단위 실행**: 리밸런싱의 대상은 "주식·채권·금·현금" 같은 자산군 비율 — [[investment-asset-class]] 참조.
+- **금리 방향 반영**: 채권 비중 조절 시 실질금리 변화를 체크 — [[interest-rates]] 참조.
 - **개별종목 계좌와는 분리**: 리밸런싱은 자산배분 계좌에 한해서만 적용 — "자산배분 계좌는 [ ]리를 선택할 수 있고, '개별 주식 계좌[ ]'" (p131).
 
 ## 원문 근거 (p. = raw/books/pakhomxi-investing.md 기준)
@@ -37,8 +37,8 @@ confidence: high
 
 ## See also
 
-- [[concepts/asset-allocation]]
-- [[concepts/etf-investing]]
-- [[concepts/investment-asset-class]]
-- [[concepts/interest-rates]]
-- [[entities/pakhomxi-investing]]
+- [[asset-allocation]]
+- [[etf-investing]]
+- [[investment-asset-class]]
+- [[interest-rates]]
+- [[pakhomxi-investing]]

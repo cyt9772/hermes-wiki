@@ -43,7 +43,7 @@ confidence: medium
 
 ## See also
 
-- [[lifetime-financial-planning]] (entity — 출처 도서)
+- [[lifetime-financial-planning-book]] (entity — 출처 도서)
 - [[investment-golden-rules]] — 2단계 역산에서 쓰는 복리 규칙
 - [[retirement-income]] — 1단계의 노후 현금흐름
 - [[life-cycle-financial-goals]] — 생애주기별 목표

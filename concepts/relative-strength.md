@@ -40,7 +40,7 @@ confidence: high
 
 ## See also
 
-- [[entities/find-the-top-stock]]
+- [[find-the-top-stock]]
 - [[top-picking]] — 1등주 선별 메커니즘 (1등주 = 상대강도의 극단)
 - [[momentum-investing]] — 시총·수익률 격차가 만들어지는 개화-성장기
 - [[sector-rotation]] — 섹터 사이클에 따른 1등주/2등주 교체

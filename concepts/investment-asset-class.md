@@ -35,10 +35,10 @@ confidence: high
 ## 투자 관점
 
 - **5단계 = 관리 순서**: 현금 → 안전 → 배당 → 투자 → 연금 순으로 각 단계의 자산을 먼저 확보하고 다음 단계로 넘어감 (p148–221).
-- **자산군별 ETF 매칭**: 각 자산군에 최적의 ETF를 선택해 [[concepts/etf-investing]] 포트폴리오 구현 (p235–251).
-- **금리 민감도**: 채권·CMA·RP 등 자산군의 수치는 실질금리 방향에 따라 변함 — [[concepts/interest-rates]] 참조.
-- **리밸런싱 대상**: 5개 자산군의 비율이 리밸런싱의 적용 범위 — [[concepts/rebalancing]] 참조.
-- **배당자산 = income-investing**: 리츠·고배당주·채권 이자는 [[concepts/dividend-investing]]의 한 축.
+- **자산군별 ETF 매칭**: 각 자산군에 최적의 ETF를 선택해 [[etf-investing]] 포트폴리오 구현 (p235–251).
+- **금리 민감도**: 채권·CMA·RP 등 자산군의 수치는 실질금리 방향에 따라 변함 — [[interest-rates]] 참조.
+- **리밸런싱 대상**: 5개 자산군의 비율이 리밸런싱의 적용 범위 — [[rebalancing]] 참조.
+- **배당자산 = income-investing**: 리츠·고배당주·채권 이자는 [[dividend-investing]]의 한 축.
 
 ## 원문 근거 (p. = raw/books/pakhomxi-investing.md 기준)
 
@@ -51,9 +51,9 @@ confidence: high
 
 ## See also
 
-- [[concepts/asset-allocation]]
-- [[concepts/rebalancing]]
-- [[concepts/etf-investing]]
-- [[concepts/dividend-investing]]
-- [[concepts/interest-rates]]
-- [[entities/pakhomxi-investing]]
+- [[asset-allocation]]
+- [[rebalancing]]
+- [[etf-investing]]
+- [[dividend-investing]]
+- [[interest-rates]]
+- [[pakhomxi-investing]]

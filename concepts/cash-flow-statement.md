@@ -29,9 +29,9 @@ confidence: high
 
 1. **흑자도산**은 손익계산서의 **당기순이익(이익) 흑자**와 **현금흐름 적자**가 동시일 때. **좋은 기업 = 영업활동 현금흐름이 지속해서 양수**인 기업 (p0270).
 2. 투자활동·재무활동 현금흐름의 부호가 조합되어 기업의 생애(성장/성숙/쇠퇴)를 판독 가능 (p006 "현금흐름 패턴으로 기업 [판단]").
-3. **배당 + 자사주 매입**은 재무활동 현금흐름에서 마이너스 — [[concepts/income-statement]] 당기순이익이 이 현금흐름의 원천이 되지만, 항상 동일하지는 않음.
+3. **배당 + 자사주 매입**은 재무활동 현금흐름에서 마이너스 — [[income-statement]] 당기순이익이 이 현금흐름의 원천이 되지만, 항상 동일하지는 않음.
 4. **매출채권 회수기간**이 길어지면 영업현금이 마이너스 → 유동성 위기 (p0121 "매출채권 관리에 기업의 생사가 달렸다").
-5. **감가상각비**는 손익계산서에서 비용이지만 현금흐름에서는 비용이 아님 — [[concepts/income-statement]]과 가장 큰 차이 (p12 "포스코의 감가상각비가 백화점보다 적은 이유[는 ...]").
+5. **감가상각비**는 손익계산서에서 비용이지만 현금흐름에서는 비용이 아님 — [[income-statement]]과 가장 큰 차이 (p12 "포스코의 감가상각비가 백화점보다 적은 이유[는 ...]").
 
 ## 원문 근거 (p. = `raw/books/start-accounting-now.md` 기준)
 
@@ -44,8 +44,8 @@ confidence: high
 
 ## See also
 
-- [[concepts/income-statement]]
-- [[concepts/balance-sheet]]
-- [[concepts/financial-ratio-analysis]]
-- [[concepts/accrual-accounting]]
-- [[entities/start-accounting-now]]
+- [[income-statement]]
+- [[balance-sheet]]
+- [[financial-ratio-analysis]]
+- [[accrual-accounting]]
+- [[start-accounting-now]]

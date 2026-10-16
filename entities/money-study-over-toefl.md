@@ -55,4 +55,4 @@ confidence: medium
 
 - **이 책의 신규 개념**: [[asset-vs-liability]] · [[seed-capital]] · [[inflation-hedge]] · [[investment-leverage]]
 - **기존 개념(재사용)**: [[compound-interest]](복리) · [[dividend-investing]](배당주) · [[value-investing]](가치투자) · [[household-debt]](가계부채 위험) · [[credit-management]](신용) · [[interest-rates-inflation]](저금리-인플레) · [[real-estate-market]](부동산)
-- **비교 도서**: [[start-investing-now]](부자 방정식) · [[lifetime-financial-planning]](생애재무설계) · [[dan-ariely-feeling-of-money]](행동경제학 기반 돈 감각)
+- **비교 도서**: [[start-investing-now]](부자 방정식) · [[lifetime-financial-planning-book]](생애재무설계) · [[dan-ariely-feeling-of-money]](행동경제학 기반 돈 감각)
