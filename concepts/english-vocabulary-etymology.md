@@ -4,7 +4,7 @@ created: 2026-10-17
 updated: 2026-10-17
 type: concept
 tags: [english, vocabulary, etymology]
-sources: [raw/books/perian-vocabulary.md, raw/books/vocabulary-33000.md]
+sources: [raw/books/perian-vocabulary.md, raw/books/vocabulary-33000.md, raw/books/word-smart-basic.md, raw/books/pops-vocabulary.md, raw/books/geo-conversion-workshop.md]
 confidence: high
 ---
 
@@ -29,6 +29,7 @@ confidence: high
 - 예: `abase = ad-(from) + bassus(low) → v. lower; humiliate; n. abasement, abash` (vocabulary-33000 p9).
 
 ## 관련 페이지
+- [[english-reading-strategy]] — 문맥 속 어휘
 - [[english-listening-strategy]] — 어휘가 리스닝의 기초
 - [[english-grammar-patterns]] — 어휘가 문장에서 작동
 - [[business-english]] — 비즈니스 맥락의 어휘

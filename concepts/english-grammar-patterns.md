@@ -4,7 +4,7 @@ created: 2026-10-17
 updated: 2026-10-17
 type: concept
 tags: [english, grammar]
-sources: [raw/books/graduate-english.md, raw/books/sinyhyeong-toefl.md]
+sources: [raw/books/graduate-english.md, raw/books/sinyhyeong-toefl.md, raw/books/art-of-jikdok-jikhae.md, raw/books/sungan-yeongjakmung-beginner.md, raw/books/sungan-yeongjakmung-mid.md]
 confidence: high
 ---
 
@@ -29,6 +29,11 @@ confidence: high
 - **제1부 STRUCTURE & WRITTEN EXPRESSION**: 문장은 동사·시제·준동사(부정사·분사·동명사)·조동사 → "60년대부터 2000년대까지 5천여 문제 중" (신경향 아카데미 p6)
 - **제2부 VOCABULARY & IDIOMS**: 어원과 어휘 (신경향 아카데미 p8)
 - **제3부 READING COMPREHENSION**: 전략 + 예제문제 (신경향 아카데미 p9)
+
+## 문형의 활용 (추가 소스)
+- **직독직해** ([[art-of-jikdok-jikhae]]): '해석에서 가장 중요한 것은 주어와 동사를 찾는 것' — 관계대명사 등 문형 유형별 정리 (p8, p15).
+- **순간영작문** ([[sungan-yeongjakmung-beginner]], [[sungan-yeongjakmung-mid]]): 문형을 **산출** 훈련의 단위 — 셔플 트레이닝 / 문형 콤비네이션 (각 p4·p15).
+- **토익 어법** ([[hackers-toeic-reading]]): '부사의 자리 / 유사 형태 의미 차이' — 문형의 시험 적용 (p5).
 
 ## 관련 페이지
 - [[english-listening-strategy]] — 들린 문장을 문법으로 정리

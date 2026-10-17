@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-17 | Total pages: 152
+> Last updated: 2026-10-17 | Total pages: 174
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -42,6 +42,23 @@
 - [[vocabulary-33000]] — KOREAONE Vocabulary 33000 (Brownstein·Weiner, KOREAONE 661p): 어원·발음·동의어·숙어·예문 5중 구조
 - [[sinyhyeong-toefl]] — 신경향 아카데미 TOEFL (이호열, 아카데미문화사 822p): 문법/어휘/독해 3부, 1~5형식 동사·준동사, 60년대~2000년대 5천여 문제
 - [[graduate-english]] — Graduate English / 대학원 영어 (1204p): 문형 재분류(명사형·형용사형·동사형), 고시·공채·대학원, "빈도"의 학습론
+- [[lee-bo-yeong-conversation]] — 이보영의 영어회화사전 (두산동아 935p): 상황별 회화 표현 사전 — '가능한 한 많은 상황 상정, 적절한 어휘·표현 다양 수록'
+- [[hackers-toeic-reading]] — 해커스 TOEIC READING (David Cho, 712p): 진단고사→취약점 공략, Part5(문법)·6(문장완성)·7(독해) — '토익을 통한 대중의 올바른 영어공부'
+- [[hackers-toeic-listening]] — 해커스 TOEIC LISTENING (David Cho, 569p): Part 1–4, 명사절·형용사절 귀에 익히기 + Paraphrasing + 추론 유형
+- [[geo-reading-workshop]] — 거로 READING WORKSHOP (김치기, 703p): 질문유형별 독해 분류 — 제1권 1만단어 Best Seller 후속 (TOEFL·GRE·GMAT 대상)
+- [[word-smart-basic]] — Word Smart BASIC (C. L. Green, 684p): '중요한 어휘를 문맥 속에서' — 어두(word root) + 뉘앙스 학습. WORD SMART JUNIOR + SWORD SMART + 46>05사전 통합
+- [[the-great-gatsby]] — 위대한 개츠비 (F. Scott Fitzgerald, 삼지사 20세기 명작대역 487p): '직역과 의역의 중간, 표준적인 모범 대역' + 주석
+- [[english-econ-headlines]] — 네이티브는 쉬운 영어를 말한다 — 경제뉴스 헤드라인 (정세미, 길벗이지톡 420p): 경기·주가 헤드라인 → 표현 복습 루프
+- [[geo-conversion-workshop]] — 거로 CONVERSATION WORKSHOP (김치기, 1997, 395p): 일상회화표현 8800 + 365일 상황별 회화 (토픽 365)
+- [[pops-vocabulary]] — 팝스 영단어 (김태형, 인터윈 2006, 342p): 팝송 가사 중심 어휘 — '원음과 생생한 단어', Check Test·번역
+- [[email-english]] — 글로벌 비즈니스를 위한 E-mail 영어 (Mitsuyo Arimoto, 298p): 국제 비즈니스 영문 메일 실례集 — 답장 지연 사과/실적 통지/칭찬
+- [[the-little-prince]] — 어린왕자 (앙투안 드 생텍쥐페리, 최복현 역, 298p): 한글판 (교양서 — 영어 학습서가 아님)
+- [[travel-english-handbook]] — 여행영어 핸드북 (273p): 상황번호 인덱스(001–) — 기내·입국·숙소·관광·식당·건강. **OCR 텍스트 극소 (low confidence)**
+- [[a-farewall-to-arms]] — 잘 있거라 / A Farewell to Arms (Hemingway, 시사영어사 영한대역문고 269p): '단어와 관용구, 문법을 실제 영문으로 익혀 독해력' — 직역 위주
+- [[reading-news]] — News Reading (황꽂나래, 파고다 2015, 130p): 실제 뉴스(NYT 등) 원문+해설 Wks.1&2 'The Small Happy Life'
+- [[art-of-jikdok-jikhae]] — 만만해지는 직독직해의 기술 (임필성, 넥서스 196p): '주어·동사 찾기' — 관계대명사 등 문형 유형별 정리
+- [[sungan-yeongjakmung-mid]] — 순간영작문 트레이닝 중급 (모리사와 요스케, 나라원 2006, 252p): 문형 셔플 + 문형 콤비네이션 — '입에서 즉시 문장이 나오는' 영작 훈련
+- [[sungan-yeongjakmung-beginner]] — 순간영작문 트레이닝 초급 (모리사와 요스케, 나라원 2006, 205p): '중학 어휘 범위'에서 문형별 영문 만들기 (A단계)
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -158,6 +175,11 @@
 - [[english-vocabulary-etymology]] — 영어 어휘 어원 학습: 접두사·어근·접미사 3요소 — Perian·KOREAONE 33000의 공통 철학
 - [[english-grammar-patterns]] — 영어 문법 패턴: 5형식 동사·준동사·시제·문형 재분류 — Graduate English·신경향 TOEFL
 - [[business-english]] — 비즈니스 영어: 업무 회화·어휘·문법 6유닛 — Profile 1 (OUP)가 훈련하는 영역
+- [[english-reading-strategy]] — 영어 독해 전략: 직독직해(주어·동사 찾기)부터 유형별 분류, 대역·뉴스 리딩까지 — 5 소스(art-of-jikdok-jikhae, geo-reading-workshop, the-great-gatsby, a-farewall-to-arms, reading-news, english-econ-headlines)
+- [[situational-conversation]] — 상황별 회화: 상황(occasion)을 단위로 표현 저장·추출 — 4 소스(lee-bo-yeong-conversation, geo-conversion-workshop, travel-english-handbook, email-english)
+- [[english-writing-training]] — 영작 훈련: '이해 영어'→'산출 영어' 전환 — 문형 셔플·콤비네이션 (sungan-yeongjakmung 2권)
+- [[english-literature-bilingual]] — 명작대역: 대역+주석 체제로 문학 텍스트를 영어 학습 교재로 — 20세기 명작대역·시사영어사 계열 (the-great-gatsby, a-farewall-to-arms, the-little-prince)
+- [[english-exam-toeic]] — 토익·수험 영어: '대중의 올바른 영어공부'를 시험 장치를 통해 구조화 — 4 소스(hackers-toeic 2권, geo-reading-workshop, lee-bo-yeong-conversation)
 
 ## Comparisons
 - [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)

@@ -5,6 +5,14 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-17] ingest | 17 영어 학습/문학 PDF — USB `/run/media/yutae/Data` (2차, 전부 스캔본 → OCR)
+- **인제스트 대상 (영어, 17종 / 총 7,168p):** 이보영의 영어회화사전(935) · 해커스 TOEIC READING(712) · 해커스 TOEIC LISTENING(569) · 거로 READING WORKSHOP(703) · Word Smart BASIC(684) · 위대한 개츠비(487) · 영어 경제뉴스 헤드라인(420) · 거로 CONVERSATION WORKSHOP(395) · 팝스 영단어(342) · E-mail 영어(298) · 어린왕자(298) · 여행영어 핸드북(273) · 잘 있거라(269) · News Reading(130) · 직독직해의 기술(196) · 순간영작문 중급(252) · 순간영작문 초급(205)
+- **방식:** 17종 **전부 스캔본**(`pdftotext` chars=0, "Creator: Scanner System") → tesseract 5-lang(300dpi) **재-OCR 필수**. `usb→raw/books/<slug>.pdf` 로컬 백업(cp -v, sha256 기록) 후 ** 병렬 5레인** OCR(`run-parallel-ocr.sh`, ~40분, 17/17 OK·errors=0). 무결성: 17종 `pdfinfo` Pages == `full.txt` `===== PAGE N =====` 마커 수 1:1 일치.
+- **산출물:** `raw/books/<slug>.md` 래퍼 17종(frontmatter: usb source path·sha256·OCR 경고 + `===== PAGE N =====` 본문) + **새 엔티티 17** + **새 컨셉 5**: english-reading-strategy · situational-conversation · english-writing-training · english-literature-bilingual · english-exam-toeic. 기존 컨셉 4(english-listening-strategy · vocabulary-etymology · grammar-patterns · business-english)에 신규 소스 링크 추가.
+- **Copyright:** 17종 PDF는 로컬 참조용만 — `.gitignore`라 text-only 원칙 준수. raw/books/*.pdf는 git에 미포함.
+- **신뢰도 플래그 (OCR 아티팩트·원본 대조 필요):** word-smart 저자(C.L. Green — 표지 OCR 'Brantley'), geo 2권 저자(김치기 — '치기' 언급 교차), email-english 출판사('2147/떼해삼영저판' garble), travel-english(**OCR 텍스트 34KB/273p 극소 → low confidence**).
+- **index.md:** Total pages 152 → 174 (entity +17, concept +5).
+
 ## [2026-10-17] ingest | 8 영어 학습 PDF — USB `/run/media/yutae/Data`
 - **인제스트 대상 (영어 학습, 8권 / 총 4,725p):** Profile 1 (OUP, 142p) · Larry King Live (242p) · 한방에 끝내는 영어 (문예림, 408p) · PERFECT WRITING (Freelec, 567p) · Perian Vocabulary (프라임영어, 719p) · KOREAONE Vocabulary 33000 (661p) · 신경향 아카데미 TOEFL (822p) · Graduate English (1204p)
 - **방식:** 전량 **inner text 레이어** 사용 (tesseract 재-OCR 생략; A/B 2페이지 비교에서 embedded 텍스트가 영문은 고가독성이라 채택). `pdftotext`로 `raw/books/<slug>.md` 본문 생성 + `===== PAGE N =====` 마커, frontmatter(source_url/ingested/body sha256) 기록.

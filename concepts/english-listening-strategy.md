@@ -4,7 +4,7 @@ created: 2026-10-17
 updated: 2026-10-17
 type: concept
 tags: [english, listening]
-sources: [raw/books/larry-king-live.md, raw/books/ending-english-in-one-shot.md]
+sources: [raw/books/larry-king-live.md, raw/books/ending-english-in-one-shot.md, raw/books/hackers-toeic-listening.md, raw/books/pops-vocabulary.md, raw/books/english-econ-headlines.md]
 confidence: high
 ---
 
@@ -30,7 +30,12 @@ confidence: high
 3. **Dictation/소리분석**: 듣지 못한 이유 분석 (ending-english)
 4. **발음기호 정렬**: 모든 단어에 발음기호 + 의미 (ending-english)
 
+## 다른 맥락의 리스닝 학습 (추가 소스)
+- **시험 리스닝** ([[hackers-toeic-listening]]): '명사절·형용사절 귀에 익히기 / Paraphrasing으로 문장 이해' — 소리 인식 위에 문장 구조 이해를 얹는 토익 Part 3/4 전략 (p5).
+- **팝송 리스닝** ([[pops-vocabulary]]): 노래 가사를 어휘·발음 훈련 매체 — '원음과 생생한 단어' (표지).
+- **뉴스 리스닝** ([[english-econ-headlines]]): 헤드라인 → 표현 복습 루프로 듣기·읽기 연계 (p8, p16).
+
 ## 관련 페이지
-- [[english-vocabulary-etymology]] — 듣기 후 어휘 확장
+- [[english-vocabulary-etymology]] — 어휘가 리스닝의 기초
 - [[english-grammar-patterns]] — 들린 문장을 문법으로 정리
 - [[business-english]] — 비즈니스 맥락의 리스닝 적용
