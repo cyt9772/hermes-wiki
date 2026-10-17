@@ -4,7 +4,7 @@ created: 2026-10-17
 updated: 2026-10-17
 type: concept
 tags: [english, listening]
-sources: [raw/books/larry-king-live.md, raw/books/ending-english-in-one-shot.md, raw/books/hackers-toeic-listening.md, raw/books/pops-vocabulary.md, raw/books/english-econ-headlines.md]
+sources: [raw/books/larry-king-live.md, raw/books/ending-english-in-one-shot.md, raw/books/hackers-toeic-listening.md, raw/books/pops-vocabulary.md, raw/books/english-econ-headlines.md, raw/books/us-english-pronunciation.md]
 confidence: high
 ---
 
@@ -34,6 +34,7 @@ confidence: high
 - **시험 리스닝** ([[hackers-toeic-listening]]): '명사절·형용사절 귀에 익히기 / Paraphrasing으로 문장 이해' — 소리 인식 위에 문장 구조 이해를 얹는 토익 Part 3/4 전략 (p5).
 - **팝송 리스닝** ([[pops-vocabulary]]): 노래 가사를 어휘·발음 훈련 매체 — '원음과 생생한 단어' (표지).
 - **뉴스 리스닝** ([[english-econ-headlines]]): 헤드라인 → 표현 복습 루프로 듣기·읽기 연계 (p8, p16).
+- **발음 훈련(미국의 발음)** ([[us-english-pronunciation]]): '모음이 무려 8가지 소리로 발음' — 모방→녹음→비교 루프로 소리 체계 재정립 (p3·p30). 발음이 듣기 이해의 토대가 됨.
 
 ## 관련 페이지
 - [[english-vocabulary-etymology]] — 어휘가 리스닝의 기초

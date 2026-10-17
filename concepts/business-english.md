@@ -4,7 +4,7 @@ created: 2026-10-17
 updated: 2026-10-17
 type: concept
 tags: [english, business-english]
-sources: [raw/books/profile-1.md, raw/books/email-english.md, raw/books/english-econ-headlines.md]
+sources: [raw/books/profile-1.md, raw/books/email-english.md, raw/books/english-econ-headlines.md, raw/books/miracle-english-words.md]
 confidence: medium
 ---
 
@@ -32,6 +32,7 @@ confidence: medium
 ## 업무 영역 확장 (추가 소스)
 - **업무 영문 메일** ([[email-english]]): '국제 비즈니스 현장에서 사용되고 있는 E-mail 실례' — 답장 지연 사과·실적 통지, 표현 은행(as a result of / as of / as per) (p3, p5, p40).
 - **경제뉴스 영어** ([[english-econ-headlines]]): 경기·주가 헤드라인 표현 — '네이티브는 쉬운 영어를 말한다' (p8).
+- **비즈니스 뉘앙스 단어** ([[miracle-english-words]]): '비즈니스에서는 action 대신 step을 쓰세요' — 같은 문맥에도 맥락이 다르면 다른 선택 (p40).
 
 ## 관련 페이지
 - [[english-listening-strategy]] — 업무 회화 리스닝

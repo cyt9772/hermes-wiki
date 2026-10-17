@@ -4,7 +4,7 @@ created: 2026-10-17
 updated: 2026-10-17
 type: concept
 tags: [english, vocabulary, etymology]
-sources: [raw/books/perian-vocabulary.md, raw/books/vocabulary-33000.md, raw/books/word-smart-basic.md, raw/books/pops-vocabulary.md, raw/books/geo-conversion-workshop.md]
+sources: [raw/books/perian-vocabulary.md, raw/books/vocabulary-33000.md, raw/books/word-smart-basic.md, raw/books/pops-vocabulary.md, raw/books/geo-conversion-workshop.md, raw/books/hackers-toeic-voca.md, raw/books/miracle-english-words.md]
 confidence: high
 ---
 
@@ -27,6 +27,11 @@ confidence: high
 - "가능한 한 모든 단어의 어원을 밝히고자 하였다" (vocabulary-33000 p3).
 - 구조: `단어 = 어원 + 뜻 + 발음기호 + 동의어/반의어 + 숙어 + 예문` (vocabulary-33000 p8–16).
 - 예: `abase = ad-(from) + bassus(low) → v. lower; humiliate; n. abasement, abash` (vocabulary-33000 p9).
+
+## 다른 방식의 어휘 학습 (추가 소스)
+- **주제별·연관 묶음** ([[hackers-toeic-voca]]): '토익에 출제되는 단어들을 주제별로 묶어 서로 연관시켜' — 장기 기억 설계 (p3).
+- **비즈니스 뉘앙스 중심** ([[miracle-english-words]]): '비즈니스에서는 action 대신 step을 쓰세요' — 같은 단어도 맥락에 따라 다른 선택 (p40).
+- **단어의 뉘앙스** ([[lee-ki-dong-prepositions]]): '전치사는 뜻이 정해진 것이 아니라 **화맥·문맥·세상 지식에서 추리할 수 있다**' — 세계 지식 기반 어휘 (p40).
 
 ## 관련 페이지
 - [[english-reading-strategy]] — 문맥 속 어휘

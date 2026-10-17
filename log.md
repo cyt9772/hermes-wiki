@@ -5,6 +5,14 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-17] ingest | 7 영어 PDF — USB `/run/media/yutae/Data` (3차, 전부 스캔본 → OCR) — **참고: 이전 17종은 USB에서 삭제됨**
+- **인제스트 대상 (영어, 7종 / 총 2,947p):** 해커스 토익 VOCABULARY(504) · POINT CHECK 초보부터 고수까지 파이널 노트(242) · 미국영어발음 무작정 따라하기(400) · 송오현의 만점 영어에세이(248) · 영어스피킹 기적의 영단어 100(326) · 이기동 영어 구동사 연구(669) · 이기동 영어 전치사 연구(558)
+- **방식:** 7종 **전부 스캔본**(`pdftotext` 0자, `Creator: Scanner System`) → tesseract 5-lang(300dpi) **재-OCR 필수**. `usb→raw/books/<slug>.pdf` 로컬 백업(cp -v, sha256 기록) 후 **병렬 5레인** OCR(`ocr-run7.sh`, ~13분, 7/7 OK·errors=0). 무결성: 7종 `pdfinfo` Pages == `full.txt` `===== PAGE N =====` 마커 수 1:1 일치.
+- **산출물:** `raw/books/<slug>.md` 래퍼 7종(frontmatter: usb source path·sha256·OCR 경고 + `===== PAGE N =====` 본문) + **새 엔티티 7** + **새 컨셉 1**: english-pronunciation-phonetics. 기존 컨셉 5(english-listening-strategy · vocabulary-etymology · grammar-patterns · writing-training · business-english)에 신규 소스 링크 추가.
+- **Copyright:** 7종 PDF는 로컬 참조용만 — `.gitignore`라 text-only 원칙 준수.
+- **신뢰도 플래그 (OCR 아티팩트·원본 대조 필요):** hackers-toeic-voca 저자명(David Cho vs 김민정 — OCR '김민정'/'David Cho' 둘 다 확인, 교차 필요), point-check-up·lee-ki-dong-modals 출판사('OCR상 불분명'), lee-ki-dong-prepositions 저자 표기('이지동' vs '이기동' — 개정판 2020 기준 '이기동' 채택).
+- **index.md:** Total pages 174 → 182 (entity +7, concept +1).
+
 ## [2026-10-17] ingest | 17 영어 학습/문학 PDF — USB `/run/media/yutae/Data` (2차, 전부 스캔본 → OCR)
 - **인제스트 대상 (영어, 17종 / 총 7,168p):** 이보영의 영어회화사전(935) · 해커스 TOEIC READING(712) · 해커스 TOEIC LISTENING(569) · 거로 READING WORKSHOP(703) · Word Smart BASIC(684) · 위대한 개츠비(487) · 영어 경제뉴스 헤드라인(420) · 거로 CONVERSATION WORKSHOP(395) · 팝스 영단어(342) · E-mail 영어(298) · 어린왕자(298) · 여행영어 핸드북(273) · 잘 있거라(269) · News Reading(130) · 직독직해의 기술(196) · 순간영작문 중급(252) · 순간영작문 초급(205)
 - **방식:** 17종 **전부 스캔본**(`pdftotext` chars=0, "Creator: Scanner System") → tesseract 5-lang(300dpi) **재-OCR 필수**. `usb→raw/books/<slug>.pdf` 로컬 백업(cp -v, sha256 기록) 후 ** 병렬 5레인** OCR(`run-parallel-ocr.sh`, ~40분, 17/17 OK·errors=0). 무결성: 17종 `pdfinfo` Pages == `full.txt` `===== PAGE N =====` 마커 수 1:1 일치.

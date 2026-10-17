@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-17 | Total pages: 174
+> Last updated: 2026-10-17 | Total pages: 182
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -51,7 +51,7 @@
 - [[english-econ-headlines]] — 네이티브는 쉬운 영어를 말한다 — 경제뉴스 헤드라인 (정세미, 길벗이지톡 420p): 경기·주가 헤드라인 → 표현 복습 루프
 - [[geo-conversion-workshop]] — 거로 CONVERSATION WORKSHOP (김치기, 1997, 395p): 일상회화표현 8800 + 365일 상황별 회화 (토픽 365)
 - [[pops-vocabulary]] — 팝스 영단어 (김태형, 인터윈 2006, 342p): 팝송 가사 중심 어휘 — '원음과 생생한 단어', Check Test·번역
-- [[email-english]] — 글로벌 비즈니스를 위한 E-mail 영어 (Mitsuyo Arimoto, 298p): 국제 비즈니스 영문 메일 실례集 — 답장 지연 사과/실적 통지/칭찬
+- [[email-english]] — 글로벌 비즈니스를 위한 E-mail 영어 (Mitsuyo Arimoto, 298p): 국제 비즈니스 영문 메일 실례 — 답장 지연 사과/실적 통지/칭찬
 - [[the-little-prince]] — 어린왕자 (앙투안 드 생텍쥐페리, 최복현 역, 298p): 한글판 (교양서 — 영어 학습서가 아님)
 - [[travel-english-handbook]] — 여행영어 핸드북 (273p): 상황번호 인덱스(001–) — 기내·입국·숙소·관광·식당·건강. **OCR 텍스트 극소 (low confidence)**
 - [[a-farewall-to-arms]] — 잘 있거라 / A Farewell to Arms (Hemingway, 시사영어사 영한대역문고 269p): '단어와 관용구, 문법을 실제 영문으로 익혀 독해력' — 직역 위주
@@ -59,6 +59,13 @@
 - [[art-of-jikdok-jikhae]] — 만만해지는 직독직해의 기술 (임필성, 넥서스 196p): '주어·동사 찾기' — 관계대명사 등 문형 유형별 정리
 - [[sungan-yeongjakmung-mid]] — 순간영작문 트레이닝 중급 (모리사와 요스케, 나라원 2006, 252p): 문형 셔플 + 문형 콤비네이션 — '입에서 즉시 문장이 나오는' 영작 훈련
 - [[sungan-yeongjakmung-beginner]] — 순간영작문 트레이닝 초급 (모리사와 요스케, 나라원 2006, 205p): '중학 어휘 범위'에서 문형별 영문 만들기 (A단계)
+- [[hackers-toeic-voca]] — 해커스 토익 VOCABULARY (David Cho, 해커스어학연구소, 504p): 주제별·연관 묶음으로 토익 어휘 장기 기억
+- [[point-check-up]] — POINT CHECK 초보부터 고수까지 파이널 노트 (육미희, 242p): '한국인이 자주 저지르는 실수 패턴' — 포인트별 집중
+- [[us-english-pronunciation]] — 미국영어발음 무작정 따라하기 (Cakewalk, 1쇄 2015, 400p): 모방→녹음→비교 루프로 모음 8가지 소리 체계 체화
+- [[song-oh-hee-essay]] — 송오현의 만점 영어에세이 (조선일보, 2008, 248p): '영어 에세이 쓰기 6단계' — 서론-본론-결론 체계화
+- [[miracle-english-words]] — 영어스피킹 기적의 영단어 100 (William A. Vance, 2013, 326p): 뉘앙스·맥락 중심 단어 100개 — 'action 대신 step'(비즈니스)
+- [[lee-ki-dong-modals]] — 이기동 영어 구동사 연구 (669p): 불변사가 아닌 **구동사(modal) 체계** 분석 (p3)
+- [[lee-ki-dong-prepositions]] — 이기동 영어 전치사 연구 (개정 2020, 558p): '화맥·문맥·세상 지식에서 정체를 추리할 수 있다'
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -180,6 +187,7 @@
 - [[english-writing-training]] — 영작 훈련: '이해 영어'→'산출 영어' 전환 — 문형 셔플·콤비네이션 (sungan-yeongjakmung 2권)
 - [[english-literature-bilingual]] — 명작대역: 대역+주석 체제로 문학 텍스트를 영어 학습 교재로 — 20세기 명작대역·시사영어사 계열 (the-great-gatsby, a-farewall-to-arms, the-little-prince)
 - [[english-exam-toeic]] — 토익·수험 영어: '대중의 올바른 영어공부'를 시험 장치를 통해 구조화 — 4 소스(hackers-toeic 2권, geo-reading-workshop, lee-bo-yeong-conversation)
+- [[english-pronunciation-phonetics]] — 발음·음소 체계: 모국어 발음 인습을 깨는 8가지 모음 소리, 모방→녹음→비교 루프 (us-english-pronunciation + miracle-english-words + pops-vocabulary)
 
 ## Comparisons
 - [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)

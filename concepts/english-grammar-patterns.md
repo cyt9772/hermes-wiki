@@ -4,7 +4,7 @@ created: 2026-10-17
 updated: 2026-10-17
 type: concept
 tags: [english, grammar]
-sources: [raw/books/graduate-english.md, raw/books/sinyhyeong-toefl.md, raw/books/art-of-jikdok-jikhae.md, raw/books/sungan-yeongjakmung-beginner.md, raw/books/sungan-yeongjakmung-mid.md]
+sources: [raw/books/graduate-english.md, raw/books/sinyhyeong-toefl.md, raw/books/art-of-jikdok-jikhae.md, raw/books/sungan-yeongjakmung-beginner.md, raw/books/sungan-yeongjakmung-mid.md, raw/books/lee-ki-dong-modals.md, raw/books/lee-ki-dong-prepositions.md, raw/books/point-check-up.md]
 confidence: high
 ---
 
@@ -34,6 +34,9 @@ confidence: high
 - **직독직해** ([[art-of-jikdok-jikhae]]): '해석에서 가장 중요한 것은 주어와 동사를 찾는 것' — 관계대명사 등 문형 유형별 정리 (p8, p15).
 - **순간영작문** ([[sungan-yeongjakmung-beginner]], [[sungan-yeongjakmung-mid]]): 문형을 **산출** 훈련의 단위 — 셔플 트레이닝 / 문형 콤비네이션 (각 p4·p15).
 - **토익 어법** ([[hackers-toeic-reading]]): '부사의 자리 / 유사 형태 의미 차이' — 문형의 시험 적용 (p5).
+- **구동사(modal) 체계** ([[lee-ki-dong-modals]]): '불변사를 철저히 분석하여' — must·can·may·should 등 의미/용법 (p3).
+- **전치사 체계** ([[lee-ki-dong-prepositions]]): '화맥·문맥·세상 지식에서 그 정체를 추리할 수 있다' — in/on/at/by 의 의미 확장 (p40).
+- **구문 실수 패턴** ([[point-check-up]]): '한국인이 자주 저지르는 실수 패턴' — 부정사·구문 실전 (p2·p30).
 
 ## 관련 페이지
 - [[english-listening-strategy]] — 들린 문장을 문법으로 정리
