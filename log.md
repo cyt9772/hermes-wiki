@@ -5,6 +5,16 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-17] ingest | 8 영어 학습 PDF — USB `/run/media/yutae/Data`
+- **인제스트 대상 (영어 학습, 8권 / 총 4,725p):** Profile 1 (OUP, 142p) · Larry King Live (242p) · 한방에 끝내는 영어 (문예림, 408p) · PERFECT WRITING (Freelec, 567p) · Perian Vocabulary (프라임영어, 719p) · KOREAONE Vocabulary 33000 (661p) · 신경향 아카데미 TOEFL (822p) · Graduate English (1204p)
+- **방식:** 전량 **inner text 레이어** 사용 (tesseract 재-OCR 생략; A/B 2페이지 비교에서 embedded 텍스트가 영문은 고가독성이라 채택). `pdftotext`로 `raw/books/<slug>.md` 본문 생성 + `===== PAGE N =====` 마커, frontmatter(source_url/ingested/body sha256) 기록.
+- **Copyright:** 8권 PDF는 `raw/books/*.pdf` 로컬 참조용만, `.gitignore`에 의해 git에서 제외 — `git ls-files 'raw/books/*.pdf'` 결과 0건 확인 (text-only 원칙 준수).
+- **새 엔티티 8:** profile-1 · larry-king-live · ending-english-in-one-shot · perfect-writing · perian-vocabulary · vocabulary-33000 · sinyhyeong-toefl · graduate-english
+- **새 컨셉 4:** english-listening-strategy(직청직해·chunking·받아쓰기) · english-vocabulary-etymology(접두사·어근·접미사) · english-grammar-patterns(5형식·준동사·문형 재분류) · business-english(OUP 6유닛)
+- **Lint:** 새 12페이지에서 Cyrillic 0건(1건 adamant 발음기호 오타 수정), CRLF 0, broken wikilink 0(54개 전수 확인, 12개 중 54개 outbound). perian/vocabulary CJK 한자는 원서 표제·어원 표의 의도한 인용.
+- **index.md:** Total pages 140 → 152 (entity +8, concept +4).
+- **참고:** 4KB `._*.pdf`는 macOS AppleDouble 메타파일(trash 잔재)로 제외. USB `.Trashes/501/`의 큰 PDF는 이미 삭제(대체)된 사본이라 무시.
+
 ## [2026-10-17] lint | link graph · slug collision · style drift cleanup
 - **슬러그 충돌 해소**: `entities/lifetime-financial-planning.md` → `entities/lifetime-financial-planning-book.md` (git rename). 이후 `[[lifetime-financial-planning]]`은 무조건 concept(3단계 설계)을, `[[...book]]`이 entity(책)를 가리킴 — 각 참조 의도와 일치
 - **broken 링크 2건 시정**: `[[concepts/self-confidence-in-money]]`(dan-ariely-feeling-of-money.md) → 실존 페이지 `[[overconfidence-in-money]]`(ch.7 "돈에 대한 과신")로 재지정; `[[risk]]`(trading-timing-six-concepts.md, 대상 없음) → "위험 관리 관점" 텍스트로 대체

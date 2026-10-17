@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-17 | Total pages: 140
+> Last updated: 2026-10-17 | Total pages: 152
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -34,6 +34,14 @@
 - [[linux-essential-utilities]] — 리눅스 프로그래밍 필수 유틸리티 (백창우, 한빛미디어 2010, ISBN 978-89-7914-759-9): gcc·make·gdb·svn·autotools — C 컴파일 파이프라인, 빌드 자동화, 버전 관리 6부 실무 교재
 - [[unix-advanced-programming]] — 유닉스 고급 프로그래밍 / APUE (W. Richard Stevens, 홍릉과학출판사 번역, 원서 ISBN 0-201-88854-8): 유닉스 시스템콜·라이브러리 함수 19장 — 화일 I/O, 프로세스 제어, 신호, IPC, 파이프/FIFO/메시지큐/세마포어/공유메모리
 - [[what-the-bleep-do-we-know]] — What the Bleep Do We Know!? (2008) + Down the Rabbit Hole (2008) 한국어 자막본 2편: 양자역학 대중 다큐 — 중첩·비국소성·측정·의식 (다큐 자체의 뉴에지 해석; contested)
+- [[profile-1]] — Profile 1 / Oxford Business English (OUP, Pre-Intermediate 142p): 비즈니스 영어 6유닛 — Talking BUSINESS·Vocabulary·Reading·Listening·Grammar 회귀
+- [[larry-king-live]] — Larry King Live / Talk Show Listening (스티브 정, 다락원 242p): CNN 토크쇼 14인 대화 · 직청직해(chunking)·받아쓰기
+- [[ending-english-in-one-shot]] — 한방에 끝내는 영어 (임영근·박영아, 문예림 408p): 역대 미국 대통령/맥아더 연설 5장·16 Unit, 발음·받아쓰기·소기관석·수동태 48종
+- [[perfect-writing]] — PERFECT WRITING (Valerie De Carvalho·Marc Handler, Freelec 2000, 567p): TOEFL 에세이 10장, 이해하는 문법·교수 직접 첨삭·메타포
+- [[perian-vocabulary]] — 페리어 어휘 / Perian Vocabulary (고창록·프라임영어 719p): 대학원·GRE·TOEFL·TOEIC 어휘 — 어원·접두사·접미사·어근 체계
+- [[vocabulary-33000]] — KOREAONE Vocabulary 33000 (Brownstein·Weiner, KOREAONE 661p): 어원·발음·동의어·숙어·예문 5중 구조
+- [[sinyhyeong-toefl]] — 신경향 아카데미 TOEFL (이호열, 아카데미문화사 822p): 문법/어휘/독해 3부, 1~5형식 동사·준동사, 60년대~2000년대 5천여 문제
+- [[graduate-english]] — Graduate English / 대학원 영어 (1204p): 문형 재분류(명사형·형용사형·동사형), 고시·공채·대학원, "빈도"의 학습론
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -146,6 +154,10 @@
 - [[quantum-mechanics]] — 양자물리학: 중첩, 파동-입자 이중성, 비국소성(얽힘), 불확정성, BEC, 진공(주류 물리)
 - [[consciousness-and-observer]] — 의식·관측자: 양자 "측정"을 의식 창조로 읽는 해석 (다큐 중심, contested)
 - [[random-number-generators-and-intention]] — RIG·이모토 물결정·명상·원격뇌파 — 의도가 현실을 바꾼다(고 주장하는) 실험들 (각 실험의 근거 등급 low)
+- [[english-listening-strategy]] — 영어 리스닝: 직청직해·chunking·받아쓰기·발음현상(linking/deletion/flap) — Larry King·한방에 끝내는 영어
+- [[english-vocabulary-etymology]] — 영어 어휘 어원 학습: 접두사·어근·접미사 3요소 — Perian·KOREAONE 33000의 공통 철학
+- [[english-grammar-patterns]] — 영어 문법 패턴: 5형식 동사·준동사·시제·문형 재분류 — Graduate English·신경향 TOEFL
+- [[business-english]] — 비즈니스 영어: 업무 회화·어휘·문법 6유닛 — Profile 1 (OUP)가 훈련하는 영역
 
 ## Comparisons
 - [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)
