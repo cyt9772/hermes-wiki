@@ -264,3 +264,8 @@
 - Created: concepts/random-number-generators-and-intention.md (RIG·이모토·명상·원격뇌파 — 각 실험 근거 등급 low)
 - Created: comparisons/measurement-problem-interpretations.md (주류 해석 vs 다큐 뉴에지 해석 비교)
 - Note: SCHEMA.md에 Physics·Consciousness 도메인 + 태그(quantum-mechanics, consciousness, measurement-problem, entanglement, new-age-interpretation, perception, consciousness-experiment) 추가. **다큐의 "의식이 현실을 창조"는 contested·confidence:low로 등급 분리**, 주류 물리 서술과 반드시 분리 기재
+
+## [2026-10-18] schema | Engineering(공학) 도메인 추가
+- SCHEMA.md: Domain에 **Engineering (공학)** 클러스터 추가 — 무선·이동통신(MIMO·OFDM·채널 모델링·STBC·SDR·MATLAB) + 전자공학(회로·신호·전파·전력전자)
+- SCHEMA.md: 태그 분류에 **Engineering (공학)** 태그 12개 추가 (wireless-communications, ofdm, mimo, channel-modeling, space-time-coding, software-defined-radio, signal-processing, electronic-circuits, electromagnetic-waves, matlab-simulation, telecom-systems, electrical-engineering)
+- 이유: USB(Data)에 공학 교재 3권(MIMO-OFDM 무선통신과 MATLAB, 최신이동통신시스템, 실용전자공학) ingest 준비 — 새 도메인으로 체계화

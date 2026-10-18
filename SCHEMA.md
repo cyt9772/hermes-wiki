@@ -1,11 +1,12 @@
 # Wiki Schema
 
 ## Domain
-AI books, stock investing, and programming/systems books (책/도서 소스 + 주식·투자 분석 + 시스템·프로그래밍·통신 기술), plus a small **Physics/Consciousness** cluster:
+AI books, stock investing, and programming/systems books (책/도서 소스 + 주식·투자 분석 + 시스템·프로그래밍·통신 기술), plus a small **Physics/Consciousness** cluster, and an **Engineering (공학)** cluster:
 - **AI 쪽**: AI/ML/LLM 관련 책의 핵심 개념, 저자, 주요 주장, 책 간 연결
 - **Investing 쪽**: 종목/섹터/거시 분석, 회사 리서치, 밸류에이션, 투자 논지(thesis), watchlist
 - **Programming 쪽**: OS/컴파일러/디버거/빌드도구/버전관리 등 시스템 프로그래밍, Windows·VB, 유닉스·리눅스 실전 유틸리티, LAN·VAN·ISDN 통신
 - **Physics·Consciousness 쪽** (2026-10-15 추가): 양자물리학 개념 + 양자물리학의 영성/뉴에지 해석 다큐멘터리. **규칙: 주류 물리학 내용과 다큐의 파생 해석(측정=관측 붕괴의 의식화, 의식이 현실을 창조 등)을 반드시 분리 기재; 해석 페이지는 `contested: true`.**
+- **Engineering (공학) 쪽** (2026-10-18 추가): 무선·이동통신·전자공학 교재. **무선/이동통신** — MIMO·OFDM·채널 모델링·시공간 부호(STBC)·소프트웨어 정의 무선·MATLAB 시뮬레이션. **전자공학** — 회로/신호/전파·계측·전력전자 등 모듈 단위 실용 전자공학. **규칙: 공학은 주류 학문 — 주류 내용이므로 `contested` 불필요. 수식·기호가 OCR에서 깨지기 쉬우니 식 번호·문맥으로 cross-check; MATLAB 코드 snippet은 `code` fence로 원문 보존하되 깨진 토큰은 원본 PDF 대조 후 `>` 주의표시.**
 
 ## Conventions
 - File names: lowercase, hyphens, no spaces (e.g., `attention-mechanism.md`)
@@ -49,6 +50,7 @@ sha256: <hex digest of the raw content below the frontmatter>
 **Investing:** stock, company, sector, macro, strategy, valuation, earnings, risk, korea-kospi, watchlist
 **Programming:** programming, object-oriented, os, unix, linux, compiler, build-system, debugger, version-control, ipc, signals, networking, data-communication, windows-api
 **Physics (신비·양자 영역):** quantum-mechanics, consciousness, measurement-problem, entanglement, new-age-interpretation, perception, consciousness-experiment
+**Engineering (공학):** wireless-communications, ofdm, mimo, channel-modeling, space-time-coding, software-defined-radio, signal-processing, electronic-circuits, electromagnetic-waves, matlab-simulation, telecom-systems, electrical-engineering
 **Meta:** comparison, summary, thesis, source
 
 Rule: 모든 페이지 태그는 이 분류에 있어야 함. 새 태그 필요 시 먼저 여기 추가.
