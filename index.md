@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-17 | Total pages: 182
+> Last updated: 2026-10-18 | Total pages: 191
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -66,6 +66,9 @@
 - [[miracle-english-words]] — 영어스피킹 기적의 영단어 100 (William A. Vance, 2013, 326p): 뉘앙스·맥락 중심 단어 100개 — 'action 대신 step'(비즈니스)
 - [[lee-ki-dong-modals]] — 이기동 영어 구동사 연구 (669p): 불변사가 아닌 **구동사(modal) 체계** 분석 (p3)
 - [[lee-ki-dong-prepositions]] — 이기동 영어 전치사 연구 (개정 2020, 558p): '화맥·문맥·세상 지식에서 정체를 추리할 수 있다'
+- [[latest-mobile-comm-systems]] — 최신 이동통신 시스템 (차종상 외 편역, Harada·Prasad 원저 2002): MATLAB 기반 변조·채널모델·CDMA·ALOHA/CSMA·SDR 8장 교재
+- [[hiroshi-harada]] — 일본 무선·이동통신 학자, MIMO·OFDM·시공간 부호 전문 (2002+2011 2권 원저)
+- [[ramjee-prasad]] — 스웨덴 KTH 이동통신 학자, 2G~4G 네트워크 설계
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -188,6 +191,12 @@
 - [[english-literature-bilingual]] — 명작대역: 대역+주석 체제로 문학 텍스트를 영어 학습 교재로 — 20세기 명작대역·시사영어사 계열 (the-great-gatsby, a-farewall-to-arms, the-little-prince)
 - [[english-exam-toeic]] — 토익·수험 영어: '대중의 올바른 영어공부'를 시험 장치를 통해 구조화 — 4 소스(hackers-toeic 2권, geo-reading-workshop, lee-bo-yeong-conversation)
 - [[english-pronunciation-phonetics]] — 발음·음소 체계: 모국어 발음 인습을 깨는 8가지 모음 소리, 모방→녹음→비교 루프 (us-english-pronunciation + miracle-english-words + pops-vocabulary)
+- [[spread-spectrum-cdma]] — 확산 스펙트럼(CDMA): DS/FFH/TH/Chirp, 확산 코드(LFSR·Gold·직교 Gold), BER (latest-mobile-comm-systems)
+- [[digital-modulation]] — 디지털 변조: BPSK·QPSK·OQPSK·MSK 위상/진폭 변조 + MATLAB 시뮬레이션 (latest-mobile-comm-systems)
+- [[wireless-channel-modeling]] — 무선 채널 모델링: AWGN·레이리·리시안·로그노멀·MIMO + BER (latest-mobile-comm-systems)
+- [[array-antenna-beamforming]] — 어레이 안테나·빔포밍: 셀룰러 3G (5.8GHz, 10.7MHz), 공간 다이버시티+빔포밍 (latest-mobile-comm-systems)
+- [[software-defined-radio]] — 소프트웨어 무선(SDR): RF·기저대역·프로토콜 모듈화, PDC/PHS/CDMA, 차량 10+ 서비스 통합 (latest-mobile-comm-systems)
+- [[ofdm-orthogonal-frequency-division]] — 직교 주파수 분할 다중화: CP·IFFT/FFT·다중경로 ISI 제거, flat-fading per subcarrier (mimo-ofdm-wireless-matlab, 최신이동통신시스템)
 
 ## Comparisons
 - [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)

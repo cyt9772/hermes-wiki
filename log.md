@@ -269,3 +269,22 @@
 - SCHEMA.md: Domain에 **Engineering (공학)** 클러스터 추가 — 무선·이동통신(MIMO·OFDM·채널 모델링·STBC·SDR·MATLAB) + 전자공학(회로·신호·전파·전력전자)
 - SCHEMA.md: 태그 분류에 **Engineering (공학)** 태그 12개 추가 (wireless-communications, ofdm, mimo, channel-modeling, space-time-coding, software-defined-radio, signal-processing, electronic-circuits, electromagnetic-waves, matlab-simulation, telecom-systems, electrical-engineering)
 - 이유: USB(Data)에 공학 교재 3권(MIMO-OFDM 무선통신과 MATLAB, 최신이동통신시스템, 실용전자공학) ingest 준비 — 새 도메인으로 체계화
+
+## [2026-10-18] ingest | 최신 이동통신 시스템 (latest-mobile-comm-systems)
+- Source: /run/media/yutae/Data/최신이동통신시스템.pdf (239G USB, exfat) → raw/books/latest-mobile-comm-systems.pdf (local only, git-ignored)
+- 원서: Harada & Prasad, *Simulation and software radio for mobile communications* (Artech House, 2002, ISBN 1-58053-044-3). 국내 번역: 차종상·이종헌·강창목·왕진철 편역, 도서출판 그린 (ISBN 89-5727-063-9)
+- OCR: tesseract 5.5.3 (kor+eng, 300dpi) 509/509 pages, errors=0 (parallel xargs -P 8), → raw/books/latest-mobile-comm-systems.md (712KB, 24,876 rows)
+- 장 (chapter) 구조: 서론(3-30) / 제1장 역사(3-42) / 제2장 MATLAB(36-64) / 제3장 변조 BPSK·QPSK·OQPSK·MSK(65-131) / 제4장 채널모델(131-?) / 제5장 CDMA(266-295) / 제6장 다중접속 ALOHA·CSMA(295-362) / 제7장 빔포밍(362-?) / 제8장 SDR(?-509)
+- Created: entities/latest-mobile-comm-systems.md (책 엔티티)
+- Created: entities/hiroshi-harada.md (원저자)
+- Created: entities/ramjee-prasad.md (공동 원저자)
+- Created: concepts/spread-spectrum-cdma.md
+- Created: concepts/digital-modulation.md
+- Created: concepts/wireless-channel-modeling.md
+- Created: concepts/array-antenna-beamforming.md
+- Created: concepts/software-defined-radio.md
+- Created: concepts/ofdm-orthogonal-frequency-division.md
+- Updated: concepts/channel-access-protocols.md (이 책에 ALOHA/CSMA 이동통신 시뮬레이션 추가, sources에 추가)
+- Updated: index.md (3 entities + 6 concepts, Total pages 182→191)
+- SCHEMA: 도메인/태그는 [2026-10-18] schema commit (2f53387)에 이미 등록
+- OCR note: 수식·식 번호·MATLAB 토큰 깨짐 (02844&=CDMA에서, SEAALS=코드로, np-CSMA=비경합 CSMA, Splen=Send_len 등) — 원본 PDF 대조 권장
