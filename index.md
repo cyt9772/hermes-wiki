@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-18 | Total pages: 196
+> Last updated: 2026-10-18 | Total pages: 207
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -73,6 +73,9 @@
 - [[jo-yong-soo]] — 무선·이동통신 분야 한국 학자, MIMO-OFDM 저서 공저
 - [[kim-jae-gwon]] — 무선·이동통신 분야 한국 학자, MIMO-OFDM 저서 공저
 - [[yang-won-yeong]] — 무선·이동통신 분야 한국 학자, MIMO-OFDM 저서 공저
+- [[practical-electronics-eng]] — 모듈을 위한 실용 전자공학 (Scherz·Monk 4ed 2016, 박진수 역 2018, 1068p): 회로이론→반도체→센서→필터→555/발진→SMPS→디지털→아두이노→FPGA→모터→오디오→모듈 17장+부록
+- [[paul-scherz]] — Practical Electronics for Inventors 원저 (발명가 대상 전자공학)
+- [[simon-monk]] — Practical Electronics for Inventors 공저 (아두이노·FPGA 전문)
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -203,6 +206,14 @@
 - [[ofdm-orthogonal-frequency-division]] — 직교 주파수 분할 다중화: CP·IFFT/FFT·다중경로 ISI 제거, flat-fading per subcarrier (mimo-ofdm-wireless-matlab, 최신이동통신시스템)
 - [[mimo-multiple-input-multiple-output]] — MIMO: 공간 다중화·다이버시티·빔포밍, I-METRA·SCM·SCM-E·802.11n 채널 (mimo-ofdm-wireless-matlab)
 - [[space-time-coding]] — 시공간 부호: STTC·SFBC(Alamouti), MIMO 다이버시티+코딩 이득 (개념 연동)
+- [[semiconductor-devices]] — 반도체 소자 3대 계통: 다이오드·트랜지스터·사이리스터 (practical-electronics ch.4)
+- [[sensors-electronics]] — 센서 전자공학: 온도·근접·운동·힘/압력 + 정밀도/정확도/분해능 (practical-electronics ch.6)
+- [[analog-filter-design]] — 아날로그 필터: 수동/능동 LPF·HPF·BPF·노치 (practical-electronics ch.9)
+- [[timer-oscillator-circuits]] — 타이머·발진기: 555, VCO, LC·결정 발진기 (practical-electronics ch.10)
+- [[power-supply-regulation]] — 전압 조정·전원: LDO·스위칭(Buck/Boost)·SMPS (practical-electronics ch.11)
+- [[digital-logic-basics]] — 디지털 논리: 게이트·조합/순차·플립플롭·계수기·시프트·A/D·ROM/RAM (practical-electronics ch.12)
+- [[microcontroller-arduino]] — MCU·아두이노: ATtiny85·PIC·32-bit·DSP·GPIO·인터페이스 (practical-electronics ch.13)
+- [[fpga-hdl]] — FPGA·HDL: Verilog/VHDL, Icarus/Elbert v2, 설계 흐름 (practical-electronics ch.14)
 
 ## Comparisons
 - [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)

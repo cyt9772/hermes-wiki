@@ -295,3 +295,10 @@
 - OCR: tesseract 5.5.3 kor+eng 300dpi, 32코어 P=8 병렬 (parallel-ocr-pdf.sh v2, 위치인자 idiom) — 728/728pg, errors=0, ~5분
 - Pages: entity 1 (mimo-ofdm-wireless-matlab) + author entity 3 (jo-yong-soo, kim-jae-gwon, yang-won-yeong) + concept 2 (mimo-multiple-input-multiple-output, space-time-coding) + raw wrapper (37,863줄) + sha256
 - Links: index.md (entities +6, concepts +2, total 196), ofdm→mimo, channel-modeling↔mimo, harada/prasad에서 MIMO 서적 오연결 제거
+
+## [2026-10-18] ingest | 모듈을 위한 실용 전자공학 (practical-electronics-eng)
+- Source: /run/media/yutae/Data/실용전자공학.pdf (USB exfat) → raw/books/practical-electronics-eng.pdf (525MB, 1068p, sha256 기록, 커밋 제외)
+- 소스 확정(권말 copyright p2): Scherz·Monk, *Practical Electronics for Inventors* 4ed (2016, McGraw-Hill ISBN 978-125958754-2) — **한문 번역본** 박진수 역, McGraw-Hill Korea+J Pub 2018-11-30 (ISBN 979-11-88621-32-3). Harada/조융수 2권과 무관
+- OCR: tesseract 5.5.3 kor+eng 300dpi P=8 병렬 — 1068/1068pg, errors=0
+- Pages: entity 1 (practical-electronics-eng) + author entity 2 (paul-scherz, simon-monk) + concept 8 (semiconductor-devices, sensors-electronics, analog-filter-design, timer-oscillator-circuits, power-supply-regulation, digital-logic-basics, microcontroller-arduino, fpga-hdl) + raw wrapper (74,852줄)
+- Links: index.md entities+3 concepts+8 (total 207); SCHEMA Engineering 태그 12개 내로 정합
