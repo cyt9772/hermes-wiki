@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-18 | Total pages: 207
+> Last updated: 2026-10-18 | Total pages: 239 (entities 88 · concepts 150 · comparisons 1)
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -76,6 +76,23 @@
 - [[practical-electronics-eng]] — 모듈을 위한 실용 전자공학 (Scherz·Monk 4ed 2016, 박진수 역 2018, 1068p): 회로이론→반도체→센서→필터→555/발진→SMPS→디지털→아두이노→FPGA→모터→오디오→모듈 17장+부록
 - [[paul-scherz]] — Practical Electronics for Inventors 원저 (발명가 대상 전자공학)
 - [[simon-monk]] — Practical Electronics for Inventors 공저 (아두이노·FPGA 전문)
+- [[jan-axelson]] — USB 표준/장치·HID·전력관리 전문가, 『USB 완전정복』(Axelson, 에이콘출판 2011개정) 저자
+- [[usb-complete]] — USB 완전정복 (Jan Axelson, 에이콘 2011개정): USB 버스 구조·속도등급(1.1/2.0/3.0)·전력관리·HID·MSB/MSC, 프로토콜→드라이버→응용 전층 교재
+- [[usb-mass-storage-book]] — USB 대용량 저장장치 (Jan Axelson, 에이콘): MSC(Class 8) 클래스 — Bulk-Only/BCTP/SCSI 명령 계층, 플래시·HDD·카드리더 연결 실무
+- [[inside-windows-media]] — Inside Windows Media (Microsoft Corporation, New Riders/Macmillan 2000, Think.Tec 역 Com&Books 2000): WMF/Audio/Video·ASF·WMV·WMA 아키텍처 MS 공식 내부서
+- [[elizabeth-castro]] — XML·웹 기술 저술작가, 『XML For the WWW』 저자 (Peachpit 2001)
+- [[xml-for-www]] — XML For the WWW (Elizabeth Castro, Peachpit/Addison-Wesley Longman 2001, 한국어 비앤비 2001-02): DTD/XML Schema/XSLT/웹 연동 실전 가이드
+- [[yoshihiro-yamada]] — 야마다 요시오 (山田善弘), 『10일 만에 배우는 XML』 저자 (쇼에이스 2001)
+- [[xml-10days]] — 10일 만에 배우는 XML (야마다 요시오, 쇼에이스 2001, 한국어 영진닷컴 2002): 태그·DTD·XSLT 10강 단기 학습서
+- [[windows-sockets-network-programming]] — Windows Sockets Network Programming (Bob Quinn·Dave Shute, Addison-Wesley 1996): WinSock 1.0/1.1 API, 예제 기반 소켓 프로그래밍 실무서 (17장)
+- [[bob-quinn]] — Bob Quinn, WinSock 표준화 기여자 (Microsoft), 『Windows Sockets Network Programming』 공저
+- [[dave-shute]] — Dave Shute (Microsoft), 『Windows Sockets Network Programming』 공저
+- [[karanjit-siyan]] — Karanjit S. Siyan, 네트워크 저술가, 『TCP/IP 완전정복』 원저 (New Riders 1997)
+- [[tcpip-complete]] — TCP/IP 완전정복 (Karanjit S. Siyan, New Riders 1997, 이도희 역 성안당 2001-06): OSI/TCP/IP 비교, IP·TCP·UDP·ARP·DNS·응용 프로토콜 15장
+- [[tcpip-network-programming]] — TCP/IP Network Programming (무라야마 유키오 Murayama Yukio, 오옴사·성안당 2005, 송봉길 역): raw socket·캡처·라우터 구현 실험 교재
+- [[yukio-murayama]] — Murayama Yukio (무라야마 유키오), 『TCP/IP Network Programming』 저자
+- [[kim-hwa-jong]] — 김화종, 강원대학교 정보통신연구소, 『컴퓨터 네트워크 프로그래밍』 저자 — 소켓·Java 네트워크·RMI/CORBA
+- [[computer-network-programming-book]] — 컴퓨터 네트워크 프로그래밍 (김화종, 강원대): 소켓 C/Unix → Java 소켓·채팅·멀티캐스트 → JDBC → RMI/CORBA 7장 교재
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -214,6 +231,20 @@
 - [[digital-logic-basics]] — 디지털 논리: 게이트·조합/순차·플립플롭·계수기·시프트·A/D·ROM/RAM (practical-electronics ch.12)
 - [[microcontroller-arduino]] — MCU·아두이노: ATtiny85·PIC·32-bit·DSP·GPIO·인터페이스 (practical-electronics ch.13)
 - [[fpga-hdl]] — FPGA·HDL: Verilog/VHDL, Icarus/Elbert v2, 설계 흐름 (practical-electronics ch.14)
+- [[usb-bus-architecture]] — USB 버스 구조: 1.1/2.0/3.0 속도등급, 허브·종점 토폴로지, 제어/배치/시리얼/동시 4종 트랜스퍼 (usb-complete)
+- [[usb-hid]] — HID(인간인터페이스 장치 클래스): 키보드·마우스 표준 리포트 포맷, 부트 프로토콜 (usb-complete)
+- [[usb-power-management]] — USB 전력관리: 500mA/100mA 예산, 서스펜드/릴리즈, 선택동작 (usb-complete)
+- [[usb-mass-storage-class]] — USB Mass Storage(클래스 8): Bulk-Only/BCTP, SCSI CDB 경유, 스캐너·플래시 연동 (usb-mass-storage-book)
+- [[streaming-media-architecture]] — Windows Media 아키텍처: WMF Audio·Video, ASF 컨테이너, WMV·WMA 코덱, 스트리밍/다운로드 경로 (inside-windows-media)
+- [[xml-fundamentals]] — XML 기초: 태그·DTD·XML Schema·네임스페이스 — 구조화 마크업의 체계 (xml-for-www·xml-10days)
+- [[xslt-styling]] — XSLT 스타일링: XML→HTML/PDF 변환, 서식시트 템플릿 + 템플릿 규칙 (xml-for-www·xml-10days)
+- [[winsock-api]] — WinSock API: WSADATA/WSAStartup/Winsock 함수, BSD 소켓의 Windows 구현 (windows-sockets + computer-network)
+- [[socket-programming-patterns]] — 소켓 프로그래밍 패턴: 연결형/비연결형, select() 멀티플렉싱, 데몬·inetd 서버, 채팅·멀티캐스트 (3개 소스)
+- [[tcp-ip]] — TCP/IP 스택: 네트워크액세스→인터넷(IP)→트랜스포트(TCP·UDP)→응용 4계층, OSI 비교 (inside-tcpip·tcpip-network-programming·computer-network)
+- [[raw-sockets]] — Raw socket: L3 패킷 직접 송신, 캡처·라우터 구현, ICMP·ARP (tcpip-network-programming)
+- [[java-sockets]] — 자바 네트워크: InetAddress·Socket·ServerSocket·DatagramSocket, 채팅·멀티캐스트·URL (computer-network ch.4-5)
+- [[winsock-bsd-compare]] — WinSock vs BSD 소켓: 호출부호·데이터형·에러처리(SO_*·WSAGetLastError) 실전 차이 (winsock + computer-network)
+- [[jdbc]] — JDBC: 데이터소스·Driver·Statement·ResultSet — Java DB 연동 절차 (computer-network ch.6)
 
 ## Comparisons
 - [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)

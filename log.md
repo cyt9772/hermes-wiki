@@ -302,3 +302,20 @@
 - OCR: tesseract 5.5.3 kor+eng 300dpi P=8 병렬 — 1068/1068pg, errors=0
 - Pages: entity 1 (practical-electronics-eng) + author entity 2 (paul-scherz, simon-monk) + concept 8 (semiconductor-devices, sensors-electronics, analog-filter-design, timer-oscillator-circuits, power-supply-regulation, digital-logic-basics, microcontroller-arduino, fpga-hdl) + raw wrapper (74,852줄)
 - Links: index.md entities+3 concepts+8 (total 207); SCHEMA Engineering 태그 12개 내로 정합
+
+## [2026-10-18] ingest | USB 9권 배치 — 공학 3 + 프로그래밍 2 + 네트워크 4
+- Source: /run/media/yutae/Data/ (USB exfat) → raw/books/*.pdf (sha256 기록, 커밋 제외). 전부 텍스트 레이어 있음 → OCR 생략, `pdftotext` 추출 (raw/*.txt + *.txt.d, 커밋 제외)
+- 분류(사용자 지시): USB 2권 + Inside Windows Media → **Engineering**; XML 2권 → **Programming**; WinSock·TCP/IP 3권 → **Network**
+- Books:
+  1. USB 완전정복 (Jan Axelson, 신진철 역·디오이즈 감수, 에이콘 2011개정)
+  2. USB 대용량 저장장치 (Jan Axelson, 성원호·최강민 역, 에이콘)
+  3. Inside Windows Media (Microsoft Corporation, New Riders/Macmillan 2000, Think.Tec 역 Com&Books 2000)
+  4. XML For the WWW (Elizabeth Castro, Peachpit 2001, 한국어 비앤비 2001-02)
+  5. 10일 만에 배우는 XML (야마다 요시오 Yoshihiro Yamada, 쇼에이스 2001, 한국어 영진닷컴 2002)
+  6. Windows Sockets Network Programming (Bob Quinn·Dave Shute, Addison-Wesley 1996, 17장)
+  7. TCP/IP 완전정복 (Karanjit S. Siyan, New Riders 1997; 이도희 역, 성안당 2001-06)
+  8. TCP/IP Network Programming (Murayama Yukio 무라야마 유키오, 오옴사·성안당 2005, 송봉길 역)
+  9. 컴퓨터 네트워크 프로그래밍 (김화종, 강원대 정보통신연구소, 354p 7장 — 출판사/연도 원서에 표기 없음, 신뢰도 플래그)
+- Pages: entity 17 (책 9 + 저자 8: jan-axelson, elizabeth-castro, yoshihiro-yamada, bob-quinn, dave-shute, karanjit-siyan, yukio-murayama, kim-hwa-jong) + concept 14 (usb-bus-architecture, usb-hid, usb-power-management, usb-mass-storage-class, streaming-media-architecture, xml-fundamentals, xslt-styling, winsock-api, socket-programming-patterns, tcp-ip, raw-sockets, java-sockets, winsock-bsd-compare, jdbc) + raw wrapper 9
+- Links: index.md 207→239 (entities 88 · concepts 150 · comparisons 1); SCHEMA.md Programming/Network 도메인 태그 추가
+- 저자 확인: raw front matter 1~12pg 직접 대조 (wrapper 메타데이터만 신뢰하지 않음); 추측 역자·출판사명 생략 정책 적용
