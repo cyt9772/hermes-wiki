@@ -288,3 +288,10 @@
 - Updated: index.md (3 entities + 6 concepts, Total pages 182→191)
 - SCHEMA: 도메인/태그는 [2026-10-18] schema commit (2f53387)에 이미 등록
 - OCR note: 수식·식 번호·MATLAB 토큰 깨짐 (02844&=CDMA에서, SEAALS=코드로, np-CSMA=비경합 CSMA, Splen=Send_len 등) — 원본 PDF 대조 권장
+
+## [2026-10-18] ingest | MIMO-OFDM 무선통신과 MATLAB (mimo-ofdm-wireless-matlab)
+- Source: /run/media/yutae/Data/MIMO_OFDM_무선통신.pdf (USB exfat) → raw/books/mimo-ofdm-wireless-matlab.pdf (285MB, 728p, sha256 기록, 커밋 제외)
+- 저자 확정: 표지 vision으로 **조융수·김재권·양원영 공저, 홍릉과학출판사 2008** (OCR의 '조용수'는 오독) — **Harada/Prasad 원서가 아님** (첫 권과 저자·출판사 다름을 모든 페이지에 명시)
+- OCR: tesseract 5.5.3 kor+eng 300dpi, 32코어 P=8 병렬 (parallel-ocr-pdf.sh v2, 위치인자 idiom) — 728/728pg, errors=0, ~5분
+- Pages: entity 1 (mimo-ofdm-wireless-matlab) + author entity 3 (jo-yong-soo, kim-jae-gwon, yang-won-yeong) + concept 2 (mimo-multiple-input-multiple-output, space-time-coding) + raw wrapper (37,863줄) + sha256
+- Links: index.md (entities +6, concepts +2, total 196), ofdm→mimo, channel-modeling↔mimo, harada/prasad에서 MIMO 서적 오연결 제거

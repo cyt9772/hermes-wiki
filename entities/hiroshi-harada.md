@@ -12,8 +12,9 @@ confidence: high
 일본의 무선·이동통신 시스템 학자. MIMO·OFDM·OFDMA·단대역 정합 필터(DFC)·채널 부호화·채널 추정 분야에 걸쳐 수십 권의 저서를 집필한 이동통신 시스템 설계의 대가.
 
 ## 본 wiki 소스
-- [[latest-mobile-comm-systems]] (원저, 1999/2002)
-- [[mimo-ofdm-wireless-matlab]] (원저, 2010)
+- [[latest-mobile-comm-systems]] (원저, 2002 Artech House)
+
+> **참고:** 이 wiki의 MIMO 책([[mimo-ofdm-wireless-matlab]])은 Harada의 저서가 **아닙니다**. USB의 MIMO-OFDM无线通信과 MATLAB는 조융수 · 김재권 · 양원영 공저, 홍릉과학출판사 2008 — Harada·Prasad와 무관합니다.
 
 ## 주요 저작 (이 2권 외 참고 — 원서 목록 기반)
 - *Mobile Communication Systems: Software Radio to OFDM* — 이동통신을 소프트웨어 무선에서 OFDM으로 이끄는 대표서

@@ -1,7 +1,7 @@
 ---
 source_url: /run/media/yutae/Data/최신 이동통신시스템.pdf
 title: 최신 이동통신 시스템
-subtitle: "MATLAB 실무 예제가 풍부한 — 유클리어스 모바일 시대의 가이드북 (Simulation and Software Radio for Mobile Communications)"
+subtitle: "MATLAB 실습예제가 풍부한 — 유비쿼터스 모바일 시대의 가이드북 (원서: Simulation and Software Radio for Mobile Communications)"
 author: 차종상 · 이종헌 · 강창목 · 왕진철 편역 / Hiroshi Harada · Ramjee Prasad 원저
 publisher: 도서출판 그린 (원서 Artech House, 2002, ISBN 1-58053-044-3)
 year: 2002 (원서)

@@ -44,6 +44,6 @@ confidence: high
 - **MATLAB 코드를 재사용할 경우 원본 PDF 대조 필수**
 
 ## Related
-- 저자: [[hiroshi-harada]], [[ramjee-prasad]]
+- 저자: [[hiroshi-harada]] (원저), [[ramjee-prasad]] (공저); 편역: 차종상 · 이종헌 · 강창목 · 왕진철
 - 개념: [[spread-spectrum-cdma]], [[digital-modulation]], [[wireless-channel-modeling]], [[channel-access-protocols]], [[array-antenna-beamforming]], [[software-defined-radio]]
-- 관련 책 (동일 원서): [[mimo-ofdm-wireless-matlab]] — Harada·Prasad의 후속작
+- 관련 책: [[mimo-ofdm-wireless-matlab]] — 같은 분야(무선·이동통신 + MATLAB) 교재. 단 **저자·출판사 다름** (조융수 · 김재권 · 양원영 공저, 홍릉과학출판사 2008 — Harada·Prasad의 원서 아님)

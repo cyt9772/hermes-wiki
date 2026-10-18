@@ -12,8 +12,9 @@ confidence: high
 스웨덴 왕립 공대(KTH) 이동통신 연구소 소장, IARIA 회장을 지낸 이동통신 시스템 분야 학자. 광대역·단대역 이동통신 네트워크 설계에 관한 수십 편의 저서를 집필.
 
 ## 본 wiki 소스
-- [[latest-mobile-comm-systems]] (공동 원저, 2002)
-- [[mimo-ofdm-wireless-matlab]] (참고 — 원저자)
+- [[latest-mobile-comm-systems]] (공동 원저, 2002 Artech House)
+
+> **참고:** 이 wiki의 MIMO 책([[mimo-ofdm-wireless-matlab]])은 Prasad의 저서가 **아닙니다**. 조융수 · 김재권 · 양원영 공저, 홍릉과학출판사 2008.
 
 ## 주요 저서/연구 축
 - 이동통신 네트워크 설계 (2G/3G/4G 시대가)

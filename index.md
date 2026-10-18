@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-18 | Total pages: 191
+> Last updated: 2026-10-18 | Total pages: 196
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -67,8 +67,12 @@
 - [[lee-ki-dong-modals]] — 이기동 영어 구동사 연구 (669p): 불변사가 아닌 **구동사(modal) 체계** 분석 (p3)
 - [[lee-ki-dong-prepositions]] — 이기동 영어 전치사 연구 (개정 2020, 558p): '화맥·문맥·세상 지식에서 정체를 추리할 수 있다'
 - [[latest-mobile-comm-systems]] — 최신 이동통신 시스템 (차종상 외 편역, Harada·Prasad 원저 2002): MATLAB 기반 변조·채널모델·CDMA·ALOHA/CSMA·SDR 8장 교재
-- [[hiroshi-harada]] — 일본 무선·이동통신 학자, MIMO·OFDM·시공간 부호 전문 (2002+2011 2권 원저)
+- [[hiroshi-harada]] — 일본 무선·이동통신 학자, MIMO·OFDM·채널 부호 전문 (2002 원저)
 - [[ramjee-prasad]] — 스웨덴 KTH 이동통신 학자, 2G~4G 네트워크 설계
+- [[mimo-ofdm-wireless-matlab]] — MIMO-OFDM 무선통신과 MATLAB (조융수·김재권·양원영, 홍릉과학출판사 2008, 728p): SISO/MIMO 채널모델(I-METRA·SCM·802.11n), OFDM 파이프라인(동기화·채널추정·PAPR·셀간간섭·용량)
+- [[jo-yong-soo]] — 무선·이동통신 분야 한국 학자, MIMO-OFDM 저서 공저
+- [[kim-jae-gwon]] — 무선·이동통신 분야 한국 학자, MIMO-OFDM 저서 공저
+- [[yang-won-yeong]] — 무선·이동통신 분야 한국 학자, MIMO-OFDM 저서 공저
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -197,6 +201,8 @@
 - [[array-antenna-beamforming]] — 어레이 안테나·빔포밍: 셀룰러 3G (5.8GHz, 10.7MHz), 공간 다이버시티+빔포밍 (latest-mobile-comm-systems)
 - [[software-defined-radio]] — 소프트웨어 무선(SDR): RF·기저대역·프로토콜 모듈화, PDC/PHS/CDMA, 차량 10+ 서비스 통합 (latest-mobile-comm-systems)
 - [[ofdm-orthogonal-frequency-division]] — 직교 주파수 분할 다중화: CP·IFFT/FFT·다중경로 ISI 제거, flat-fading per subcarrier (mimo-ofdm-wireless-matlab, 최신이동통신시스템)
+- [[mimo-multiple-input-multiple-output]] — MIMO: 공간 다중화·다이버시티·빔포밍, I-METRA·SCM·SCM-E·802.11n 채널 (mimo-ofdm-wireless-matlab)
+- [[space-time-coding]] — 시공간 부호: STTC·SFBC(Alamouti), MIMO 다이버시티+코딩 이득 (개념 연동)
 
 ## Comparisons
 - [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)
