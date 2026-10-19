@@ -2,7 +2,7 @@
 
 ## Domain
 AI books, stock investing, and programming/systems books (책/도서 소스 + 주식·투자 분석 + 시스템·프로그래밍·통신 기술), plus a small **Physics/Consciousness** cluster, and an **Engineering (공학)** cluster:
-- **AI 쪽**: AI/ML/LLM 관련 책의 핵심 개념, 저자, 주요 주장, 책 간 연결
+- **AI 쪽**: AI/ML/LLM 관련 책의 핵심 개념, 저자, 주요 주장, 책 간 연결. **AI 에이전트 클러스터** (2026-10-19 USB 4권): AI/AI 에이전트 시스템 설계·구현·운영 실무서 — 에이전트 아키텍처(단일/멀티), 도구 호출·MCP, RAG·메모리, 오케스트레이션·멀티에이전트, 평가·모니터링·보안·거버넌스. 로컬 오픈소스 LLM(올라마)·랭체인/그래프·프롬프트 엔지니어링 실무서 + 에이전트 개발 프로젝트 기반 입문서(AutoGPT/CAMEL/MetaGPT 등) + 하네스 엔지니어링(클로드 코드 하네스·에이전트·스킬·오케스트레이터)
 - **Investing 쪽**: 종목/섹터/거시 분석, 회사 리서치, 밸류에이션, 투자 논지(thesis), watchlist
 - **Programming 쪽**: OS/컴파일러/디버거/빌드도구/버전관리 등 시스템 프로그래밍, Windows·VB, 유닉스·리눅스 실전 유틸리티, LAN·VAN·ISDN 통신 + **USB** (버스·대용량 저장장치) + **Windows 미디어** (오디오/비디오/스틸, 스트리밍) + **XML** + **TCP/IP·소켓 네트워크** 프로그래밍 (2026-10-18 확장: USB/미디어는 인터페이스·프레임워크라 공학 접경이지만 프로그래밍 개발서로 Programming에 분류 — 사용자 지시)
 - **Physics·Consciousness 쪽** (2026-10-15 추가): 양자물리학 개념 + 양자물리학의 영성/뉴에지 해석 다큐멘터리. **규칙: 주류 물리학 내용과 다큐의 파생 해석(측정=관측 붕괴의 의식화, 의식이 현실을 창조 등)을 반드시 분리 기재; 해석 페이지는 `contested: true`.**
@@ -47,7 +47,7 @@ sha256: <hex digest of the raw content below the frontmatter>
 ```
 
 ## Tag Taxonomy
-**AI:** book, chapter, author, concept, llm, ml-basics, deep-learning, agents, architecture, inference, training, alignment
+**AI:** book, chapter, author, concept, llm, ml-basics, deep-learning, agents, architecture, inference, training, alignment, rag, mcp, orchestration, agent-harness
 **Investing:** stock, company, sector, macro, strategy, valuation, earnings, risk, korea-kospi, watchlist
 **Programming:** programming, object-oriented, os, unix, linux, compiler, build-system, debugger, version-control, ipc, signals, networking, data-communication, windows-api, xml
 **Physics (신비·양자 영역):** quantum-mechanics, consciousness, measurement-problem, entanglement, new-age-interpretation, perception, consciousness-experiment

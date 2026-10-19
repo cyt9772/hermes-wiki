@@ -37,3 +37,11 @@ confidence: medium
 - [[cloud-computing]] — 연산 인프라
 - [[robotics]] — AI의 물리적 실체
 - [[blockchain]] — AI 학습 데이터의 소유권·보상 이슈
+
+## AI 에이전트 클러스터 (2026-10-19 USB 4권)
+> 본서의 "AI=도구" 관점의 다음 단계: AI 도구가 **자율 목표달성 시스템(에이전트)**으로 확장. 4권은 각자 다른 관점:
+- [[ai-agent]] (concept) — 4서 공통의 에이전트 정의와 4요소(LLM·도구·메모리·오케스트레이션)
+- [[ai-agent-dev-ollama]] — 로컬 LLM(올라마) 실습 입문, 랭체인→랭그래프→MCP
+- [[ai-agent-engineering]] — Albada, 단일→멀티 설계·보안·거버넌스
+- [[llm-ai-agent-7projects]] — 黄佳, 7 프로젝트(AutoGPT·CAMEL·MetaGPT)
+- [[harness-engineering]] — 황민호, 클로드 코드 하네스(에이전트·스킬·오케스트레이터)

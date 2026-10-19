@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-18 | Total pages: 239 (entities 88 · concepts 150 · comparisons 1)
+> Last updated: 2026-10-19 | Total pages: 255 (entities 99 · concepts 155 · comparisons 1)
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -93,6 +93,16 @@
 - [[yukio-murayama]] — Murayama Yukio (무라야마 유키오), 『TCP/IP Network Programming』 저자
 - [[kim-hwa-jong]] — 김화종, 강원대학교 정보통신연구소, 『컴퓨터 네트워크 프로그래밍』 저자 — 소켓·Java 네트워크·RMI/CORBA
 - [[computer-network-programming-book]] — 컴퓨터 네트워크 프로그래밍 (김화종, 강원대): 소켓 C/Unix → Java 소켓·채팅·멀티캐스트 → JDBC → RMI/CORBA 7장 교재
+- [[ai-agent-dev-ollama]] — 올라마·오픈소스 LLM을 활용한 AI 에이전트 개발 입문 (서영배·김병규·임재봉, 위키북스 2026): 로컬 LLM(올라마+Qwen3 8B)·랭체인·프롬프트·RAG·랭스미스·랭그래프·MCP, 실습 입문서 12장
+- [[seoyoung-bae]] — 서영배, 로컬 LLM 에이전트 개발 입문서 1저자 (godstale 깃허브)
+- [[kimbyeonggyu]] — 김병규, 로컬 LLM 에이전트 개발 입문서 공저
+- [[imjaebong]] — 임재봉, 로컬 LLM 에이전트 개발 입문서 공저
+- [[ai-agent-engineering]] — AI 에이전트 엔지니어링 (Michael Albada 원저, 강민혁 역, 한빛미디어 2026): 단일→멀티에이전트 설계·오케스트레이션·보안(MAESTRO)·거버넌스 13장
+- [[michael-albada]] — Michael Albada, *Building Applications with AI Agents* 저자 (MS·우버·서비스Now ML 엔지니어)
+- [[llm-ai-agent-7projects]] — 7가지 프로젝트로 배우는 LLM AI 에이전트 개발 (黄佳 원저, 제이펍 2025): Assistants API·LangChain·LlamaIndex·AutoGPT·CAMEL·MetaGPT 7 프로젝트
+- [[huang-jia]] — 黄佳(황자), 중국원저(Posts and Telecom 2024) LLM 에이전트 실전형 저자
+- [[harness-engineering]] — 하네스 엔지니어링 with 클로드 코드 (황민호, 한빛미디어 2026): 에이전트(역할 계약서)·스킬(Progressive Disclosure)·오케스트레이터, 메타스킬 6단계, 6가지 아키텍처 패턴, CLAUDE.md 포인터
+- [[hwang-minho]] — 황민호, 카카오 AX (revfactory), AI 에이전트 하네스 설계·운영 전문가
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -245,6 +255,11 @@
 - [[java-sockets]] — 자바 네트워크: InetAddress·Socket·ServerSocket·DatagramSocket, 채팅·멀티캐스트·URL (computer-network ch.4-5)
 - [[winsock-bsd-compare]] — WinSock vs BSD 소켓: 호출부호·데이터형·에러처리(SO_*·WSAGetLastError) 실전 차이 (winsock + computer-network)
 - [[jdbc]] — JDBC: 데이터소스·Driver·Statement·ResultSet — Java DB 연동 절차 (computer-network ch.6)
+- [[ai-agent]] — AI 에이전트: LLM+도구+메모리(+오케스트레이션)의 자율 목적달성 시스템 — 4서 공통 정의(도구 활용·스스로 계획)
+- [[rag]] — 검색증강생성(RAG): 외부 문서 검색→프롬프트 증강으로 환각 감소·최신지식 접목 — 에이전트 기억 계층의 기본 (3서)
+- [[mcp]] — MCP(Model Context Protocol): LLM·도구 간 표준 인터페이스, 도구 생태계 커넥터 (B1·B2)
+- [[orchestration]] — 오케스트레이션: 에이전트 작업 조율 — ReAct·Plan-Execute·스웜·6가지 아키텍처 패턴 (4서)
+- [[agent-harness]] — 에이전트 하네스: 모델 바깥의 구조(에이전트·스킬·오케스트레이터·진화) — "병목은 능력이 아니라 구조" (B4)
 
 ## Comparisons
 - [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)

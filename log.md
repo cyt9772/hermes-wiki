@@ -319,3 +319,14 @@
 - Pages: entity 17 (책 9 + 저자 8: jan-axelson, elizabeth-castro, yoshihiro-yamada, bob-quinn, dave-shute, karanjit-siyan, yukio-murayama, kim-hwa-jong) + concept 14 (usb-bus-architecture, usb-hid, usb-power-management, usb-mass-storage-class, streaming-media-architecture, xml-fundamentals, xslt-styling, winsock-api, socket-programming-patterns, tcp-ip, raw-sockets, java-sockets, winsock-bsd-compare, jdbc) + raw wrapper 9
 - Links: index.md 207→239 (entities 88 · concepts 150 · comparisons 1); SCHEMA.md Programming/Network 도메인 태그 추가
 - 저자 확인: raw front matter 1~12pg 직접 대조 (wrapper 메타데이터만 신뢰하지 않음); 추측 역자·출판사명 생략 정책 적용
+
+## [2026-10-19] ingest | USB 4권 배치 — AI 에이전트 클러스터 (도메인: 인공자니/AI)
+- Source: /run/media/yutae/Data/ (USB) → raw/books/*.pdf 4권 (sha256 기록, 커밋 제외). 전부 텍스트 레이어 확인 → OCR 생략, pdftotext -layout
+- Books:
+  1. 올라마·오픈소스 LLM을 활용한 AI 에이전트 개발 입문 (서영배·김병규·임재봉, 위키북스 2026-01, 365p) — 로컬 LLM 실습: 랭체인·프롬프트·RAG·랭스미스·랭그래프·MCP
+  2. AI 에이전트 엔지니어링 (Michael Albada 원저 *Building Applications with AI Agents*, 강민혁 역, 한빛미디어 2026, 400p) — 설계·오케스트레이션·멀티(A2A)·보안(MAESTRO)·거버넌스
+  3. 7가지 프로젝트로 배우는 LLM AI 에이전트 개발 (黄佳 원저 大模型应用实战 2024, 김진호 역, 제이펍 2025, 437p) — Assistants API·LangChain·LlamaIndex·AutoGPT·CAMEL·MetaGPT
+  4. 하네스 엔지니어링 with 클로드 코드 (황민호, 한빛미디어 2026-06, 307p) — 에이전트·스킬·오케스트레이터 구성, 6단계 메타스킬, 6가지 아키텍처, CLAUDE.md 포인터
+- Pages: entity 10 (책 4 + 저자 6: michael-albada, huang-jia, hwang-minho, seoyoung-bae, kimbyeonggyu, imjaebong) + concept 5 (ai-agent, rag, mcp, orchestration, agent-harness) + raw wrapper 4
+- Links: index.md 239→255 (entities 99 · concepts 155 · comparisons 1); SCHEMA.md AI 도메인 서술 + 태그(rag/mcp/orchestration/agent-harness) 추가; concepts/artificial-intelligence.md에 에이전트 클러스터 섹션 연결
+- 저자 확인: raw front matter 직접 대조; B2 원저 Michael Albada (강민혁 역), B3 원저 黄佳 (Posts and Telecom 2024, Media Solutions Tokyo 경유)
