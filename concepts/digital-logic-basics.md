@@ -1,10 +1,10 @@
 ---
 title: 디지털 논리 기초 (Digital Logic Basics)
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-22
 type: concept
-tags: [electrical-engineering, electronic-circuits]
-sources: [raw/books/practical-electronics-eng.md]
+tags: [electrical-engineering, electronic-circuits, digital-electronics]
+sources: [raw/books/practical-electronics-eng.md, raw/books/digital-electronics.md, raw/books/digital-theory-experimentation.md]
 confidence: medium
 ---
 # 디지털 논리 기초 (Digital Logic Basics)
@@ -57,7 +57,13 @@ confidence: medium
 
 > `raw/books/practical-electronics-eng.md` pp. 721-848
 
+## 보충 소스 (2026-10-22 추가)
+- **Digital Electronics 3ed (Tokheim)** — 같은 개념을 직업학교 수준에서 실전 IC로: 코드(BCD/Excess-3/Gray/ASCII, ch.2·6), 게이트+부울대수(ch.3), 74151/74154·7447 MUX/DEMUX/디코더(ch.5-6), R-S·D·JK·Schmitt(ch.7), 리플/동기/다운 카운터+주파수 분배(ch.8), 74194 시프트 레지스터(ch.9), Half/Full Adder·2의 보수(ch.10), RAM/ROM/PROM(ch.11), 디지털 시계·주파수 카운터(ch.12), 연산증폭기 매개 D/A·A/D(ch.13). `^[raw/books/digital-electronics.md]`
+- **Levine 실험서 (Digital Theory & Experimentation)** — 논리 논리를 **실험으로 검증**: Exp 1 Basic Logic Functions, Exp 2 Boolean Algebra and Simplification, Exp 3 De Morgan, Exp 4 TTL NAND/NOR 전달 특성, Exp 5 Exclusive-OR, Exp 6 Full-Adder/Subtractor(74183 MSI), Exp 7 Bistable/FF, Exp 8 Binary Counters, Exp 9 Divide-by-N, Exp 10 Shift Registers & Ring Counters, Exp 13 Decoding & Encoding(7-segment), Exp 14 RAM·Exp 16 D/A·A/D. 부록: 로직 기호 · Unit Load. `^[raw/books/digital-theory-experimentation.md]`
+- **전자공학입문 (학당) ch.10** — 한국 기술평가 시험 수준: DTL/TTL/MOS 3 제품군, 반가산자·전가산자·해독기·멀티플렉서·부호기, RS/D/JK-FF, D/A·A/D. `^[raw/books/intro-electronics.md]`
+
 ## Related
 - [[microcontroller-arduino]] — MCU의 GPIO·레지스터
 - [[fpga-hdl]] — HDL을 이용한 논리 구현
 - [[semiconductor-devices]] — IC 내 트랜지스터 기반
+- [[dc-ac-circuit-analysis]] — 디지털 회로의 물리 토대인 DC/AC 회로 해석(논리 게이트의 정전위 해석, 전원·잡음 여유의 회로 근거)

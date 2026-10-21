@@ -6,7 +6,7 @@ AI books, stock investing, and programming/systems books (책/도서 소스 + �
 - **Investing 쪽**: 종목/섹터/거시 분석, 회사 리서치, 밸류에이션, 투자 논지(thesis), watchlist
 - **Programming 쪽**: OS/컴파일러/디버거/빌드도구/버전관리 등 시스템 프로그래밍, Windows·VB, 유닉스·리눅스 실전 유틸리티, LAN·VAN·ISDN 통신 + **USB** (버스·대용량 저장장치) + **Windows 미디어** (오디오/비디오/스틸, 스트리밍) + **XML** + **TCP/IP·소켓 네트워크** 프로그래밍 (2026-10-18 확장: USB/미디어는 인터페이스·프레임워크라 공학 접경이지만 프로그래밍 개발서로 Programming에 분류 — 사용자 지시)
 - **Physics·Consciousness 쪽** (2026-10-15 추가): 양자물리학 개념 + 양자물리학의 영성/뉴에지 해석 다큐멘터리. **규칙: 주류 물리학 내용과 다큐의 파생 해석(측정=관측 붕괴의 의식화, 의식이 현실을 창조 등)을 반드시 분리 기재; 해석 페이지는 `contested: true`.**
-- **Engineering (공학) 쪽** (2026-10-18 추가): 무선·이동통신·전자공학 교재. **무선/이동통신** — MIMO·OFDM·채널 모델링·시공간 부호(STBC)·소프트웨어 정의 무선·MATLAB 시뮬레이션. **전자공학** — 회로/신호/전파·계측·전력전자 등 모듈 단위 실용 전자공학. **USB·미디어** (2026-10-18 사용자 지시: USB 관련 + Windows 미디어 파일을 공학에 분류) — USB 버스 프로토콜·대용량 저장장치(마스터 스토리지)·오디오/비디오/스트리밍 프레임워크. **규칙: 공학은 주류 학문 — 주류 내용이므로 `contested` 불필요. 수식·기호가 OCR에서 깨지기 쉬우니 식 번호·문맥으로 cross-check; MATLAB 코드 snippet은 `code` fence로 원문 보존하되 깨진 토큰은 원본 PDF 대조 후 `>` 주의표시.**
+- **Engineering (공학) 쪽** (2026-10-18 추가): 무선·이동통신·전자공학 교재. **무선/이동통신** — MIMO·OFDM·채널 모델링·시공간 부호(STBC)·소프트웨어 정의 무선·MATLAB 시뮬레이션. **전자공학** — 회로/신호/전파·계측·전력전자 등 모듈 단위 실용 전자공학. **회로·전자 기초** (2026-10-21 USB 7권): DC/AC 회로이론(키르히호프·RLC·공진)·회로 및 시스템(복소 평면·라플라스)·디지털 전자(논리/플립플롭/카운터)·전자공학 기초 물리(전하·전압·전류)·공학 수학(벡터/미적분/방정식)·수치해법(C 언어 구현). **USB·미디어** (2026-10-18 사용자 지시: USB 관련 + Windows 미디어 파일을 공학에 분류) — USB 버스 프로토콜·대용량 저장장치(마스터 스토리지)·오디오/비디오/스트리밍 프레임워크. **규칙: 공학은 주류 학문 — 주류 내용이므로 `contested` 불필요. 수식·기호가 OCR에서 깨지기 쉬우니 식 번호·문맥으로 cross-check; MATLAB 코드 snippet은 `code` fence로 원문 보존하되 깨진 토큰은 원본 PDF 대조 후 `>` 주의표시.**
 - **Network (네트워크) 쪽** (2026-10-18 사용자 지시: 네트워크 프로그래밍 4권을 network로 분류): TCP/IP 프로토콜 구조 + Windows Sockets·POSIX 소켓으로 하는 네트워크 프로그래밍
 
 ## Conventions
@@ -51,7 +51,7 @@ sha256: <hex digest of the raw content below the frontmatter>
 **Investing:** stock, company, sector, macro, strategy, valuation, earnings, risk, korea-kospi, watchlist
 **Programming:** programming, object-oriented, os, unix, linux, compiler, build-system, debugger, version-control, ipc, signals, networking, data-communication, windows-api, xml
 **Physics (신비·양자 영역):** quantum-mechanics, consciousness, measurement-problem, entanglement, new-age-interpretation, perception, consciousness-experiment
-**Engineering (공학):** wireless-communications, ofdm, mimo, channel-modeling, space-time-coding, software-defined-radio, signal-processing, electronic-circuits, electromagnetic-waves, matlab-simulation, telecom-systems, electrical-engineering, usb-bus, usb-mass-storage, media-frameworks, audio-video
+**Engineering (공학):** wireless-communications, ofdm, mimo, channel-modeling, space-time-coding, software-defined-radio, signal-processing, electronic-circuits, electromagnetic-waves, matlab-simulation, telecom-systems, electrical-engineering, usb-bus, usb-mass-storage, media-frameworks, audio-video, engineering-mathematics, numerical-methods, digital-electronics
 **Network (네트워크):** tcp-ip, sockets, network-programming
 **Meta:** comparison, summary, thesis, source
 

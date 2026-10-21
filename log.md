@@ -337,3 +337,53 @@
 - Pages: entity 10 (책 4 + 저자 6: michael-albada, huang-jia, hwang-minho, seoyoung-bae, kimbyeonggyu, imjaebong) + concept 5 (ai-agent, rag, mcp, orchestration, agent-harness) + raw wrapper 4
 - Links: index.md 239→255 (entities 99 · concepts 155 · comparisons 1); SCHEMA.md AI 도메인 서술 + 태그(rag/mcp/orchestration/agent-harness) 추가; concepts/artificial-intelligence.md에 에이전트 클러스터 섹션 연결
 - 저자 확인: raw front matter 직접 대조; B2 원저 Michael Albada (강민혁 역), B3 원저 黄佳 (Posts and Telecom 2024, Media Solutions Tokyo 경유)
+
+## [2026-10-22] ingest | 회로·전자 기초 3권 (electronics-basics, theory-of-circuits, circuits-and-systems)
+- Source: /run/media/yutae/Data/ (USB exfat) → raw/books/{electronics-basics,theory-of-circuits,circuits-and-systems}.pdf (sha256 기록, 커밋 제외). 3권 전부 텍스트 레이어 확인 → OCR 생략, pdftotext -layout 추출 (raw wrapper: electronics-basics 616p, theory-of-circuits 506p, circuits-and-systems 671p)
+- Books:
+  1. 전자공학의 기초 — 원저 Bernard Grob『Basic Electronics』5ed, 최성재 편역, 학당, 616p. 전자현상→DC/AC 회로→자기/유도→반도체(29장)→트랜지스터 증폭(30장)→디지털(31장)→집적회로(32장) 32장 + 부록 A–H, 완전학습 문제 체제(약 2,000문항)
+  2. 회로이론 — 검정연구회 편, 『전기기사시리즈』(전기·산업기사 자격시험 대비), 506p. 직류→정현파→RLC→교류전력→결합→다상(3상)→대칭좌표법→왜파→2단자/4단자망→분포정수→과도→라플라스→전달함수 17장, 기출분석·문제풀이 중심
+  3. 회로 및 시스템 — 차균현(공학박사) 저, 대학 회로이론 교재, 671p. 회로개념→회로방정식→미분방정식(특성근)→라플라스(부분분수·Heaviside)→신호변환(중첩적분)→상태방정식(Cayley-Hamilton)→임피던스함수·테브난/노턴→극-영점·안정성→2단자 파라미터→정상상태·주파수응답(Bode·Nyquist)→Fourier→감도/허용오차→z-변환 20장 + 부록
+- Created: entities/electronics-basics.md, entities/theory-of-circuits.md, entities/circuits-and-systems.md (책 엔티티 3)
+- Created: concepts/dc-ac-circuit-analysis.md (3권 공통 회로해석 코어 — 옴·키르히호프·중첩·테브난/노턴·RLC·공진; sources 3권 전부)
+- Created: concepts/laplace-transform-circuits.md (라플라스·S-평면·상태방정식·극-영점 — circuits-and-systems 주 소스 + raw/books/nilson-riedel-electric-circuits.md 소스 링크. 해당 raw 페이지는 별도 에이전트 작업 대상이라 링크만)
+- Updated: concepts/digital-logic-basics.md (Related에 [[dc-ac-circuit-analysis]] 회로 맥락 링크 추가, updated 2026-10-22)
+- Updated: concepts/analog-filter-design.md (Related에 [[dc-ac-circuit-analysis]]·[[laplace-transform-circuits]] 추가, updated 2026-10-22)
+- Links: index.md entities+3 / concepts+2 (Total pages 256→261, Last updated 2026-10-22)
+- 주의: 원 PDF 3권 모두 한자 혼용 표기 체재라 텍스트 추출 결과에도 한자 토큰이 섞여 있음 — 개념·장 구조 학습엔 무방, 수식·수치 재사용 시 원본 대조 권장. theory-of-circuits는 자격시험 문제집이라 문장 단편화 심함. confidence는 3권 모두 medium, dc-ac-circuit-analysis는 high(3수 교차 확인).
+- git commit: 미실행 (부모 에이전트가 수행)
+
+## [2026-10-22] ingest | 공학 수학·수치해법 2권 (kreyszig, numerical-recipes-in-c)
+- Source: raw/books/advanced-engineering-mathematics.md (Kreyszig『Advanced Engineering Mathematics』8th ed., Wiley 1999, 1285p — pdftotext -layout 텍스트 레이어 추출, sha256 1fdca…acf6d), raw/books/numerical-recipes-in-c.md (Press·Teukolsky·Vetterling·Flannery『Numerical Recipes in C』2nd ed., Cambridge Univ. Press 1992, 1022p — 텍스트 레이어 추출, sha256 dcc34…634). PDF 원본은 로컬 참조용(git-ignored).
+- Created: entities/advanced-engineering-mathematics.md (책 엔티티 — Part A–G 23장 구조, 모델링→해법→해석 철학, OCR 주의)
+- Created: entities/numerical-recipes-in-c.md (책 엔티티 — 20장 구조, 알고리즘+C 코드 병기, gaussj snippet + 깨진 토큰 주의 표시)
+- Created: entities/erwin-kreyszig.md (저자 — Ohio State University, 8ed 기준)
+- Created: concepts/numerical-methods-science-computing.md (보간·적분·미분·고유값·푸리에 — 두 소스 모두에서 2줄씩 인용, 오차 분류 비교표)
+- Created: concepts/differential-equations-engineering.md (상미분·편미분·라플라스·특수함수 — Kreyszig 중심, sources 1개)
+- Cross-links: [[differential-equations-engineering]] ↔ [[numerical-methods-science-computing]] ↔ 책 2 ↔ [[erwin-kreyszig]] ↔ [[practical-electronics-eng]](관련 책) ↔ [[laplace-transform-circuits]](회로 맥락)
+- Links: index.md entities +3 (books 2 + kreyszig) · concepts +2, Total pages 256 → 265 (sibling circuits-3권 entry와 병합 계수), Last updated 2026-10-22
+- 주의: 두 raw 모두 텍스트 레이어 내장본(OCR 없음)이라 추출 자체는 양호하나 수식·C 코드 토큰 일부 깨짐(예 'mnt'→'int') — code snippet 인용 시 원본 PDF 대조 필요 표시. 한자(CJK)/키릴 문자 없음 확인.
+- git commit: 미실행 (부모 에이전트가 수행)
+
+## [2026-10-22] ingest | 디지털·증폭 전자공학 4권 (digital-electronics, digital-theory-experimentation, new-electronics, intro-electronics)
+- Source: raw/books/{digital-electronics.md (Digital Electronics 3ed, Tokheim, McGraw-Hill Basic Skills 1990, 352p), digital-theory-experimentation.md (Morris E. Levine『Digital Theory and Experimentation Using ICs』2판 297p, 실험 20개), new-electronics.md (이수원·구기준·임영근·이영노 공저『신전자공학』학당 526p, 기술직 수험서), intro-electronics.md (국가기술자격검정시험연구회 편『전자공학입문』학당 573p, 통신공사·공무원 수험서)}. 모두 텍스트 레이어 추출.
+- Created: entities/digital-electronics.md — 디지털 코어(2진 코드·게이트·부울대수 → MUX/디코더·FF/시프트/카운터 → 산술·메모리 → op-amp 매개 D/A·A/D), 직업학교 Self-Test 체제
+- Created: entities/digital-theory-experimentation.md — 20개 실험: 게이트·부울대수 → FF·카운터(7493/7490)·시프트(7495/74164) → IC 타이머(74122/74121/555)·RAM → op-amp·D/A(74101/74114)·A/D(74165/74168) → CMOS/TTL 인터페이스
+- Created: entities/new-electronics.md — 10장(전자현상·소자·펄스·BJT/FET 증폭·연산증폭·발진·변복조·전원·집적) 526p, 각장 3단 문제(단답→선다→비선다), 진공관↔반도체 대응
+- Created: entities/intro-electronics.md — 11장(진공관·반도체소자·전원·증폭·op-amp·발진·변복조·펄스·논리·집적) 573p, 기술직 수험서
+- Created: entities/morris-levine.md — Levine 2판 저자 (Staten Island CC, CUNY) — single-book author (book 1권 집중 → 임계 충족)
+- Created: concepts/amplifiers-analog-circuits.md — BJT/FET/MOSFET 증폭(동특성·T/h 등가·바이어스·되먹임·전력증폭), 연산증폭기(가상 접지·미분/적분·BiFET/BiMOS·오실레이터), 발진기(LC·수정·RC·마그네트론). sources: new-electronics + intro-electronics
+- Updated: concepts/digital-logic-basics.md (updated 2026-10-22; sources에 digital-electronics + digital-theory-experimentation 추가; 보충 소스 섹션 추가; Related에 [[amplifiers-analog-circuits]] 연결)
+- Updated: concepts/semiconductor-devices.md (updated 2026-10-22; sources에 new-electronics + intro-electronics 추가; 보충 소스 4줄(전자공학입문 ch.2, 신전자공학 ch.1-2, Tokheim 디지털 스위칭, Levine Exp 4/17-18/SCR) 추가; Related에 [[amplifiers-analog-circuits]] 추가)
+- Links: index.md entities +5 (책 4권 + morris-levine) · concepts +1 (amplifiers-analog-circuits), Total pages 265→271 (entities 110 · concepts 160 · comparisons 1), Last updated 2026-10-22
+- 저자: morris-levine는 book 1권에 집중(single-book author → 임계 충족) → entity 생성. 신전자공학 4공저자(이수원·구기준·임영근·이영노)는 단발성이라 entity 미생성, 각 book entity frontmatter/본문에 이름만 기록.
+- Cross-links: 4개 book entity ↔ concepts/digital-logic-basics ↔ concepts/semiconductor-devices ↔ concepts/amplifiers-analog-circuits ↔ entities/morris-levine
+- 한자(CJK)/키릴 문자 확인: 새로 만든/수정한 파일 전부 grep 확인 — 한자(U+4E00-9FFF)·키릴 문자 미포함 (한국어 + 라틴 문자만).
+- git commit: 미실행 (부모 에이전트가 수행)
+
+## [2026-10-22] ingest | 회로 해석 표준 교재 1권 (electric-circuits)
+- Raw: raw/books/nilson-riedel-electric-circuits.md (USB 원본 Electric_Circuits.pdf, 949p) — James W. Nilsson & Susan A. Riedel, Electric Circuits 4th ed. (Addison-Wesley, ©1992, ISBN 0-201-54987-5). pdftotext -layout 전수 추출, tesseract 재-OCR 불필요(텍스트 레이어 존재). raw SHA256: raw/books/nilson-riedel-electric-circuits.pdf.sha256.
+- Created: entities/nilson-riedel-electric-circuits.md — 20장(DC 기초→R/L/C 동적 회로→정현파 정계→커플링/공진→라플라스/이전함수→푸리에→2포트) + PSpice(Design Center) 실습, 20장+946p
+- Created: entities/james-w-nilsson.md — 저자 (Iowa State Univ. Emeritus) — single-book author (1권 집중)
+- Links: index.md entities +2 (nilson-riedel·james-w-nilsson), Total pages 271→273 (entities 110→112 · concepts 160 · comparisons 1), Last updated 2026-10-22. laplace-transform-circuits.md의 "별도 에이전트 작업 대상" 주석 해소.
+- git commit: 미실행 (부모 에이전트가 수행)

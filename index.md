@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-21 | Total pages: 256 (entities 100 · concepts 155 · comparisons 1)
+> Last updated: 2026-10-22 | Total pages: 273 (entities 112 · concepts 160 · comparisons 1)
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -104,6 +104,20 @@
 - [[huang-jia]] — 黄佳(황자), 중국원저(Posts and Telecom 2024) LLM 에이전트 실전형 저자
 - [[harness-engineering]] — 하네스 엔지니어링 with 클로드 코드 (황민호, 한빛미디어 2026): 에이전트(역할 계약서)·스킬(Progressive Disclosure)·오케스트레이터, 메타스킬 6단계, 6가지 아키텍처 패턴, CLAUDE.md 포인터
 - [[hwang-minho]] — 황민호, 카카오 AX (revfactory), AI 에이전트 하네스 설계·운영 전문가
+- [[advanced-engineering-mathematics]] — Advanced Engineering Mathematics, 8th ed. (Kreyszig, Wiley 1999, 1285p): 상미분·편미분·라플라스·특수함수·선형대수·복소해석·푸리에·수치해법·최적화·확률 7부 23장 — 공학 수학 표준 교재
+- [[numerical-recipes-in-c]] — Numerical Recipes in C, 2nd ed. (Press·Teukolsky·Vetterling·Flannery, Cambridge 1992, 1022p): 수치해석 20장 — 보간·적분·고유값·FFT·Monte Carlo·최소제곱·상미분/편미분 수치해, 알고리즘+C 코드 병기
+- [[erwin-kreyszig]] — Erwin Kreyszig (Ohio State University), 공학 수학 교과서 저자
+- [[electronics-basics]] — 전자공학의 기초 (Bernard Grob Basic Electronics 5ed 편역, 최성재, 학당 616p): 전자현상→DC/AC 회로→반도체→증폭→디지털→집적회로 32장 통합 입문서
+- [[theory-of-circuits]] — 회로이론 (검정연구회 편, 전기기사시리즈 506p): 자격시험 기출분석형 17장 — DC/AC·RLC·3상·대칭좌표법·과도·라플라스
+- [[circuits-and-systems]] — 회로 및 시스템 (차균현 671p): 회로이론 대학 교재 — 미분방정식→S-평면→라플라스→상태방정식→극-영점→주파수응답→z-변환 20장
+
+- [[digital-electronics]] — Digital Electronics 3ed (Tokheim, McGraw-Hill Basic Skills 1990, 352p): 2진 코드·게이트·부울대수 → MUX/디코더·FF·카운터·시프트 → 산술·메모리 → 연산증폭기 매개 D/A·A/D, 직업학교 Self-Test 중심
+- [[digital-theory-experimentation]] — Digital Theory and Experimentation Using ICs (Morris E. Levine, 2판 297p): 20개 실험 게이트·부울대수→FF·카운터·시프트·IC 타이머(74122/74121/555)·RAM·op-amp·D/A·A/D·CMOS-TTL
+- [[new-electronics]] — 신전자공학 (이수원·구기준·임영근·이영노 공저, 학당 526p): 기술직 수험서 — 전자현상→소자→펄스→BJT/FET 증폭→연산증폭→발진→변복조→전원→집적, 10장 3단 문제
+- [[intro-electronics]] — 전자공학입문 (국가기술자격검정시험연구회, 학당 573p): 통신공사·공무원 수험서 — 진공관·반도체소자·전원·증폭·op-amp·발진·변복조·펄스·논리회로·집적, 11장
+- [[morris-levine]] — Morris E. Levine (Staten Island CC, CUNY), Digital Theory and Experimentation 저자 — 실험 중심 디지털 전자학
+- [[nilson-riedel-electric-circuits]] — Electric Circuits 4th ed. (James W. Nilsson & Susan A. Riedel, Addison-Wesley 949p): DC 회로→R/L/C 동적 회로→정현파 정계→라플라스/이전함수→푸리에·2포트 20장, PSpice 실습 포함
+- [[james-w-nilsson]] — James W. Nilsson (Iowa State Univ. Emeritus), Electric Circuits 표준 교재 저자
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -261,6 +275,12 @@
 - [[mcp]] — MCP(Model Context Protocol): LLM·도구 간 표준 인터페이스, 도구 생태계 커넥터 (B1·B2)
 - [[orchestration]] — 오케스트레이션: 에이전트 작업 조율 — ReAct·Plan-Execute·스웜·6가지 아키텍처 패턴 (4서)
 - [[agent-harness]] — 에이전트 하네스: 모델 바깥의 구조(에이전트·스킬·오케스트레이터·진화) — "병목은 능력이 아니라 구조" (B4)
+- [[numerical-methods-science-computing]] — 수치해법(과학 컴퓨팅): 보간·적분·미분·고유값·푸리에 + 오차(안정성·절단·반올림) — NR C 구현 × Kreyszig 이론 2 소스
+- [[differential-equations-engineering]] — 공학 수학 미분방정식: 상미분(1계·2계·연립) → 편미분(파동·열) → 라플라스 변환 → 베셀·레전드르 특수함수 (Kreyszig 중심)
+- [[dc-ac-circuit-analysis]] — DC/AC 회로 해석 공통 코어: 직렬/병렬 합성·키르히호프·중첩·테브난/노턴·RLC 임피던스·공진 (electronics-basics·theory-of-circuits·circuits-and-systems 3권)
+- [[laplace-transform-circuits]] — 라플라스 변환 기반 회로 해석: S-평면·특성근·상태방정식·극-영점·안정성 (circuits-and-systems 중심)
+
+- [[amplifiers-analog-circuits]] — 증폭기·아날로그 회로: BJT/FET/MOSFET 증폭(동특성·T/h 등가·바이어스·되먹임·전력), 연산증폭기(가상 접지·미분/적분·BiFET/BiMOS), 발진기(LC·수정·RC·마그네트론) — new-electronics·intro-electronics 주 소스
 
 ## Comparisons
 - [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)

@@ -1,10 +1,10 @@
 ---
 title: 반도체 소자 (Semiconductor Devices)
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-22
 type: concept
 tags: [electrical-engineering, electronic-circuits, signal-processing]
-sources: [raw/books/practical-electronics-eng.md]
+sources: [raw/books/practical-electronics-eng.md, raw/books/new-electronics.md, raw/books/intro-electronics.md]
 confidence: medium
 ---
 # 반도체 소자 (Semiconductor Devices)
@@ -39,7 +39,14 @@ confidence: medium
 
 > `raw/books/practical-electronics-eng.md` pp. 393-487
 
+## 보충 소스 (2026-10-22 추가)
+- **전자공학입문 (학당) ch.2** — 수험서 관점 소자 분류: 에너지대 구조·진성/불순물 반도체·홀 효과 → 다이오드(PN 접합·정류) → 트랜지스터 → **FET(접합형·MOS형)** → **반도체 스위칭 소자(PNPN·SCR·다이액·트라이액·단일접합 트랜지스터)** → 그 외(제너·터널·**더에미스터**·바리스터·가변용량·광전변환). `^[raw/books/intro-electronics.md]`
+- **신전자공학 (학당) ch.1~2** — 전자현상(전자 방출 5종·에너지대·광전/열전/자기장 효과)에서 소자 동작으로의 물리 토대 + 진공관↔반도체 소자 대응. `^[raw/books/new-electronics.md]`
+- **Digital Electronics 3ed (Tokheim)** — 같은 소자를 **디지털 동작**(SWITCHING) 관점에서: TTL/CMOS 게이트 내부 트랜지스터 동작, IC 래치, 74xx/40xx 시리즈 실전. `^[raw/books/digital-electronics.md]`
+- **Levine 실험서** — 소자 동작의 **실험 검증**: Exp 4 TTL NAND/NOR 전달 특성, Exp 17·18 CMOS 특성·TTL 인터페이스, 부록 SCR(V-I 특성·게이트 제어)·CRO. `^[raw/books/digital-theory-experimentation.md]`
+
 ## Related
 - [[analog-filter-design]] — 반도체 소자 기반
 - [[digital-logic-basics]] — IC 구현
 - [[sensors-electronics]] — 광전지·광 다이오드 소자
+- [[amplifiers-analog-circuits]] — 트랜지스터·FET·MOSFET 증폭기(소자 활용)

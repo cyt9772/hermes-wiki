@@ -1,7 +1,7 @@
 ---
 title: 아날로그 필터 설계 (Analog Filter Design)
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-22
 type: concept
 tags: [electrical-engineering, electronic-circuits, signal-processing]
 sources: [raw/books/practical-electronics-eng.md]
@@ -37,3 +37,5 @@ confidence: medium
 ## Related
 - [[timer-oscillator-circuits]] — 발진 주파수 정밀도
 - [[sensors-electronics]] — 센서 신호 필터링
+- [[dc-ac-circuit-analysis]] — 필터 회로의 기본 RLC/임피던스 분석(공진·Q가 필터 대역폭을 결정)
+- [[laplace-transform-circuits]] — 주파수응답·보트 그림을 복소주파수(s) 영역으로 체계화
