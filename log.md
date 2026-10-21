@@ -5,6 +5,13 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-21] create | entities/koreainvestment-openapi.md
+- 한국어 질문 "한국투자증권 API로 미국주식 투자, Linux 사용 가능?" 응답 내용을 엔티티화.
+- Linux 호환성 결론(순수 HTTP 계열이라 OS 제약 없음), REST/WebSocket 구성, 공식 samples 설치 절차,
+  키 발급 5단계, 미국주식 주문 시간, 실전전 검증 4단계, MCP 옵션을 정리.
+- index.md: Entities +1 (255→256, entity 99→100).
+- 소스: apiportal.koreainvestment.com, github.com/koreainvestment/open-trading-api (웹 검색, 2026-10-21 기준).
+
 ## [2026-10-17] ingest | 7 영어 PDF — USB `/run/media/yutae/Data` (3차, 전부 스캔본 → OCR) — **참고: 이전 17종은 USB에서 삭제됨**
 - **인제스트 대상 (영어, 7종 / 총 2,947p):** 해커스 토익 VOCABULARY(504) · POINT CHECK 초보부터 고수까지 파이널 노트(242) · 미국영어발음 무작정 따라하기(400) · 송오현의 만점 영어에세이(248) · 영어스피킹 기적의 영단어 100(326) · 이기동 영어 구동사 연구(669) · 이기동 영어 전치사 연구(558)
 - **방식:** 7종 **전부 스캔본**(`pdftotext` 0자, `Creator: Scanner System`) → tesseract 5-lang(300dpi) **재-OCR 필수**. `usb→raw/books/<slug>.pdf` 로컬 백업(cp -v, sha256 기록) 후 **병렬 5레인** OCR(`ocr-run7.sh`, ~13분, 7/7 OK·errors=0). 무결성: 7종 `pdfinfo` Pages == `full.txt` `===== PAGE N =====` 마커 수 1:1 일치.
