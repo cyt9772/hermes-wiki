@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-22 | Total pages: 273 (entities 112 · concepts 160 · comparisons 1)
+> Last updated: 2026-10-22 | Total pages: 297 (entities 131 · concepts 165 · comparisons 1)
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -118,6 +118,25 @@
 - [[morris-levine]] — Morris E. Levine (Staten Island CC, CUNY), Digital Theory and Experimentation 저자 — 실험 중심 디지털 전자학
 - [[nilson-riedel-electric-circuits]] — Electric Circuits 4th ed. (James W. Nilsson & Susan A. Riedel, Addison-Wesley 949p): DC 회로→R/L/C 동적 회로→정현파 정계→라플라스/이전함수→푸리에·2포트 20장, PSpice 실습 포함
 - [[james-w-nilsson]] — James W. Nilsson (Iowa State Univ. Emeritus), Electric Circuits 표준 교재 저자
+- [[antenna-theory]] — Antenna Theory and Design (Stutzman·Thiele 1981, 608p): 이상적 쌍극자→방사패턴·gain·reciprocity·polarization → 어레이 패턴곱법(endfire Hansen-Woodyard) → wire·broadband(spiral) → Moment Method·aperture → PO/GO·synthesis, 10장
+- [[microwave-engineering]] — Microwave Engineering (Pozar 4th ed. 742p): EM theory → 전송선로·소미차트 → waveguide·microstrip → S-파라미터·정합 → Wilkinson·hybrid·cavity → 능동 회로(amp·osc·NF) → 필터(Chebyshev/Butterworth) → ferrite·mixer·systems 13장
+- [[time-harmonic-em]] — Time-Harmonic Electromagnetic Fields (Harrington 1990, 495p): time-harmonic EM장 — wave space 평면파·원뿔파·구파의 완전함수(completeness) 전개, duality·uniqueness·image theory·equivalence principle
+- [[em-engineering]] — Engineering Electromagnetics (Hayt 5th ed. 492p): 벡터해석 → Coulomb·Gauss·D → Poisson·Laplace·conformal mapping → Biot-Savart·∇×H → Maxwell 방정식·plane wave → 전송선로·Maxwell applications, 13장
+- [[electromagnetism]] — 만화로 배우는 전자기학 (엔도 마사모리, 성안당 262p): Coulomb→Gauss→전류·자기장→Ampere→상대론·Maxwell, 코믹 형식의 6장 입문서
+- [[ubiquitous-home-networking]] — 유비쿼터스 홈 네트워킹 서비스 (양재수·전호인, 전자신문사 400p): home gateway·IEEE 1394·BT/WPAN·IPTV·satellite·DMB → 3G·WiBro → xDSL·NGN·VoIP, 12장
+- [[cdma-all]] — CDMA의 모든 것 (김갑용, 진한도서 530p): 1996 세계최초 CDMA 상용 — Walsh/Gold/PN code·IS-95 → Rake receiver·전력제어(near-far) → soft/hard handoff → vocoder AMR, 9장
+- [[rf-engineering]] — RF·초고주파 공학 (Kai Chang 원저, 한빛미디어 390p): 전파·전송선로(VSWR·Smith·S-par) → 안테나(등방·horn·parabolic·microstrip·위상배열) → 부품 → 수신기(NF·P1dB·IM3·SFDR) → TX·변조 → FDMA/TDMA/CDMA/OFDMA 7장
+- [[visualc-em-optics]] — C++로 구현하는 정전기학·기하광학 (최행진, 내하출판사 336p): MFC + C++ — Helmholtz·등전위선·다중극·영상법·변수분리 + 거울·렌즈·3D 투영·입체 회전·숨은선, 13장
+- [[basic-em]] — Introduction to Electrodynamics / 기초전자기학 (Griffiths 2nd ed. 513p): 벡터해석→정전기학→퍼텐셜 해석 기법(image·분리법·multipole)→정자기학→물질장→Faraday·Maxwell-Ampere→EM파·dipole radiation·Larmor→상대론, 10장
+- [[em-exam]] — 전자기학 수험서 (용홍택 1993, 285p): 기술고시·기술사·변리사 기출 + 모범답안 — Coulomb→Gauss→쌍극자→영상법→Biot-Savart·자기회로→Maxwell→평면파·Poynting·전송방정식
+- [[intro-electronic-circuits]] — 전자회로입문 (김병규, 263p): 전자회로 고장 진단·수리 실무 — TR 1단 증폭·DC 전원(선형/스위칭)·증폭 class·발진기·펄스 정형→사이리스터→Analog/Digital IC, 8장
+- [[bluetooth-explained]] — 해설 Bluetooth (MCPC 편저, 신구문화사 164p): BT 1.0A/1.0B — Core+Profile(GAP·SDP·SPP·Headset·LAN)·표준화·상호조화 + 부록(베이스밴드·Link Manager·L2CAP·RFCOMM·HCI), 6장+부록
+- [[warren-stutzman]] — Warren L. Stutzman (VPI), Antenna Theory 저자
+- [[gary-thiele]] — Gary A. Thiele (Dayton Univ.), Antenna Theory 공저자
+- [[david-m-pozar]] — David M. Pozar (UMass Amherst), Microwave Engineering 저자
+- [[roger-f-harrington]] — Roger F. Harrington (Syracuse Univ.), Time-Harmonic EM Fields 저자
+- [[william-h-hayt]] — William H. Hayt Jr. (Purdue), Engineering Electromagnetics 저자
+- [[kai-chang]] — Kai Chang (UCLA), RF and Microwave Wireless Systems 원저자 — 한빛미디어 2009 번역본
 
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
@@ -281,6 +300,11 @@
 - [[laplace-transform-circuits]] — 라플라스 변환 기반 회로 해석: S-평면·특성근·상태방정식·극-영점·안정성 (circuits-and-systems 중심)
 
 - [[amplifiers-analog-circuits]] — 증폭기·아날로그 회로: BJT/FET/MOSFET 증폭(동특성·T/h 등가·바이어스·되먹임·전력), 연산증폭기(가상 접지·미분/적분·BiFET/BiMOS), 발진기(LC·수정·RC·마그네트론) — new-electronics·intro-electronics 주 소스
+- [[electromagnetism-fundamentals]] — 전자기학 공통 기초: Coulomb·Gauss·Ampere·Faraday·Maxwell 방정식, 정전기/정자기/시변장, 전파·Poynting·평면파 — em-engineering·basic-em·time-harmonic-em·electromagnetism·em-exam 5권
+- [[transmission-lines-microwave]] — 전송선로·마이크로파 정합: VSWR·반사계수·스미스차트·S-파라미터, quarter-wave 정합, microstrip·waveguide, Wilkinson·coupler·cavity — microwave-engineering·rf-engineering
+- [[antenna-design]] — 안테나 설계: 이상적 쌍극자·방사패턴·directivity/gain·reciprocity·polarization, 어레이 패턴 곱법·endfire, PO/GO·aperture·Moment Method, microstrip·horn·parabolic·위상배열 — antenna-theory·rf-engineering
+- [[cdma-dss-spread-spectrum]] — CDMA/DSSS 실무: Walsh/Gold/PN code·IS-95, Rake receiver, 전력제어·near-far, soft/hard handoff, vocoder(AMR)·CDMA2000 — cdma-all (이론 대비: spread-spectrum-cdma)
+- [[circuits-diagnosis-practice]] — 전자회로 고장 진단·수리: 소자/회로 고장 검출, 1단 TR 증폭, 선형·스위칭 전원, 증폭 class·부귀환, 발진기·펄스 정형, 사이리스터 — intro-electronic-circuits
 
 ## Comparisons
 - [[measurement-problem-interpretations]] — 측정 문제의 해석 비교: 주류 물리학(관측=장치/환경, 데코헤런스) vs 다큐 해석(관측=의식, 현실 창조)

@@ -5,6 +5,15 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-22] ingest | 13 공학 PDF — USB `/run/media/yutae/Data` (전자공학·전자기·통신, text-layer 원서 13종)
+- **인제스트 대상 (공학, 13종):** Antenna Theory(Stutzman·Thiele 1981 608p) · Microwave Engineering(Pozar 4th 742p) · RF·초고주파 공학(Kai Chang 원저, 한빛미디어 2009 390p) · Time-Harmonic EM Fields(Harrington 1990 495p) · Engineering Electromagnetics(Hayt 5th 492p) · 만화로 배우는 전자기학(엔도 마사모리, 성안당 262p) · 유비쿼터스 홈 네트워킹(양재수·전호인, 전자신문사 400p) · CDMA의 모든 것(김갑용, 진한도서 2002 530p) · 기초전자기학(Griffiths 2nd 513p) · 전자기학 수험서(용홍택 1993 285p) · 전자회로입문(김병규 263p) · 해설 Bluetooth(MCPC, 신구문화사 2001 164p) · C++로 정전기학·기하광학(최행진, 내하출판사 2001 336p)
+- **방식:** text-layer 원서 → `pdftotext -layout` 병렬 추출(13/13 OK). `usb→raw/books/<slug>.pdf` 로컬 백업(cp + sha256sum 기록). `raw/books/<slug>.md` 래퍼 13종(frontmatter: usb source path·title·category: engineering·confidence + 전체 원문 본문).
+- **산출물:** **새 엔티티 19**(책 13 + 저자 6) + **새 개념 5**(electromagnetism-fundamentals · transmission-lines-microwave · antenna-design · cdma-dss-spread-spectrum · circuits-diagnosis-practice). 기존 개념·엔티티는 신생 소스로 cross-link.
+- **김병규 구별 결정:** USB `전자회로입문` 저자 김병규와 기존 `[[kimbyeonggyu]]`(올라마·LLM 에이전트 개발 입문 공동저자)는 **동일 인물 아님** — `entities/intro-electronic-circuits.md`에 명시. 기존 `[[kimbyeonggyu]]` 엔티티는 유지.
+- **Copyright:** 13종 PDF는 로컬 참조용만 — `.gitignore`라 text-only 원칙 준수. raw/books/*.pdf는 git에 미포함.
+- **신뢰도 플래그 (원본 대조 필요):** Griffiths·Harrington·Pozar·Stutzman의 수식·도형은 원서 PDF 대조 필요(OCR 텍스트는 안정). `visualc-em-optics` MFC 코드 스니펫은 C++ 문법 표기 대조 필요.
+- **index.md:** Total pages 273 → 297 (entity +19, concept +5).
+
 ## [2026-10-21] create | entities/koreainvestment-openapi.md
 - 한국어 질문 "한국투자증권 API로 미국주식 투자, Linux 사용 가능?" 응답 내용을 엔티티화.
 - Linux 호환성 결론(순수 HTTP 계열이라 OS 제약 없음), REST/WebSocket 구성, 공식 samples 설치 절차,

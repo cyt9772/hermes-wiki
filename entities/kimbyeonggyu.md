@@ -11,3 +11,5 @@ confidence: high
 
 ## 본 wiki 소스
 - [[ai-agent-dev-ollama]] — 공저 (1저자: 서영배)
+
+> **동명 구분**: USB 2026-10-22 배치의 『전자회로입문』 저자 김병규([[intro-electronic-circuits]])는 본인과 **동일 인물 아님**(전자회로 고장 진단 실무 저자).
