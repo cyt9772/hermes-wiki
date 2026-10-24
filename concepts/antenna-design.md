@@ -30,3 +30,4 @@ confidence: high
 ## 관련
 - [[array-antenna-beamforming]] (기존) — 어레이 + 빔포밍
 - [[wireless-channel-modeling]] (기존) — 무선 채널 모델
+- [[antenna-engineering-korean]] (최홍주) — 한국어 안테나 공학 기초 교재

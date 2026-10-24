@@ -35,3 +35,4 @@ confidence: high
 - (편저 MCPC — 일본 컨소시움, 본 wiki에 저자 페이지 없음)
 - 개념: [[channel-access-protocols]] · [[local-area-network]]
 - 인접: [[ubiquitous-home-networking]] (WPAN 포함) · [[cdma-all]] (셀룰러)
+- 심화: [[bluetooth-connect-without-cables]] (Bray & Sturman) — Bluetooth/IEEE 802.15.4 실무 영어서

@@ -5,6 +5,16 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-24] ingest | 24 DSP·영상·통신·오디오·수학 PDF — USB `/run/media/yutae/Data` (공학 24종, 전부 text-layer 원서)
+- **인제스트 대상 (DSP·영상·통신·오디오·수학, 24종):** DSP 교과서(Porat·Boaz 1997) · 신호및시스템(한국어, 1992) · DCT(Rao & Yip 1990) · 선형대수(Strang MIT 1988) · 정보공학(한국어 1996) · 디지털영상처리(Gonzalez & Wintz 2ed 1987) · Java 영상처리(Efford 2000) · C 화상처리 실무(NHK/국제테크노정보 1999) · Visual C++ 영상처리프로그래밍(황선규 2007) · Visual C++ 영상처리 구현(장동혁 1999) · Practical Digital Video C(Mattison) · MPEG-2(Watkinson) · Video Coding Standard Codecs(Ghanbari) · MPEG 시스템(한국어) · MPEG-2 코드해설(한국어) · 비디오압축표준(한국어) · 디지털영상공학(한국어) · 영상통신의 신호처리(문호, 대영사 1999) · 디지털오디오 MP3(송종관, 나남 2000) · 오디오프로세싱(박은경·권봉철, 소닉스) · Information Hiding/스텔레오그래피·워터마킹(Katzenbeisser & Pellet) · 안테나공학(최홍주, 차송출판사) · Bluetooth without Cables(Bray & Sturman) · LTE 무선기술 교육서(현대차)
+- **방식:** text-layer 원서 → `pdftotext -layout` 병렬 추출(24/24 OK, 9,439p). `usb→raw/books/<slug>.pdf` 로컬 백업 + sha256sum. `raw/books/<slug>.md` 래퍼 24종(frontmatter: title·author·publisher·year·pdf·category + 전체 원문 본문). **6개 클러스터 서브에이전트 병렬**(DSP·수학 / 영상이론 / 영상프로그래밍 / 영상코딩·MPEG / 오디오·정보은닉 / 안테나·무선).
+- **산출물:** **새 엔티티 48**(책 24 + 저자 24) + **새 개념 10**(digital-signal-processing · transform-coding · information-coding-theory · linear-algebra-applications · image-processing-fundamentals · image-processing-programming · video-compression-mpeg · mp3-perceptual-coding · steganography-watermarking · lte-radio-interface). 기존 엔티티에 cross-link: antenna-theory · antenna-design · Bluetooth · CDMA · OFDM · MIMO · wireless-channel-modeling.
+- **권리·무결성:** 24종 PDF는 로컬 참조용만 — `.gitignore`라 text-only 원칙 준수. raw/books/*.pdf는 git 미포함. 모든 래퍼 sha256 = PDF 파일 sha256(기존 bluetooth/antenna convention 준수) — 24/24 cross-check 통과.
+- **한자·링크 검증:** 작성 섹션(Extracted text 제외) CJK-Han 0, `[[...]]` wikilink 0건 미해결.
+- **신뢰도 플래그 (원본 대조 필요):** signals-and-systems-korea 저자·출판사 원문 왜곡(희중당 추정 — 원문 미확인), video-communication-signal-processing 저자 문호·출판사 대영사 (원서명 확인 필요), mpeg-system-korea 출판사 원문 미확인, 정보공학 저자 3인 명칭 왜곡.
+- **SCHEMA.md:** DSP·영상·통신·오디오프로세싱·수학 도메인 섹션 추가 + Engineering 태그 목록 확장.
+- **index.md:** Total pages 297 → 355 (entity +48, concept +10).
+
 ## [2026-10-22] ingest | 13 공학 PDF — USB `/run/media/yutae/Data` (전자공학·전자기·통신, text-layer 원서 13종)
 - **인제스트 대상 (공학, 13종):** Antenna Theory(Stutzman·Thiele 1981 608p) · Microwave Engineering(Pozar 4th 742p) · RF·초고주파 공학(Kai Chang 원저, 한빛미디어 2009 390p) · Time-Harmonic EM Fields(Harrington 1990 495p) · Engineering Electromagnetics(Hayt 5th 492p) · 만화로 배우는 전자기학(엔도 마사모리, 성안당 262p) · 유비쿼터스 홈 네트워킹(양재수·전호인, 전자신문사 400p) · CDMA의 모든 것(김갑용, 진한도서 2002 530p) · 기초전자기학(Griffiths 2nd 513p) · 전자기학 수험서(용홍택 1993 285p) · 전자회로입문(김병규 263p) · 해설 Bluetooth(MCPC, 신구문화사 2001 164p) · C++로 정전기학·기하광학(최행진, 내하출판사 2001 336p)
 - **방식:** text-layer 원서 → `pdftotext -layout` 병렬 추출(13/13 OK). `usb→raw/books/<slug>.pdf` 로컬 백업(cp + sha256sum 기록). `raw/books/<slug>.md` 래퍼 13종(frontmatter: usb source path·title·category: engineering·confidence + 전체 원문 본문).

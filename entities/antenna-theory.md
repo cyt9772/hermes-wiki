@@ -37,3 +37,4 @@ confidence: high
 - 개념: [[antenna-design]] — 어레이/빔포밍·광대역 안테나 설계
 - 인접: [[rf-engineering]] · [[microwave-engineering]]
 - 인접: [[array-antenna-beamforming]] — 셀룰러 어레이 안테나 + DOA 추적
+- 한국어: [[antenna-engineering-korean]] (최홍주) — 안테나 기초 이론 한국어 교재

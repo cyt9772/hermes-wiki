@@ -24,4 +24,5 @@ confidence: high
 ## Related
 - [[wireless-channel-modeling]] — flat vs frequency-selective, CP 설계
 - [[array-antenna-beamforming]] — MIMO × OFDM (space-time coding)
+- LTE: [[lte-radio-interface]] — OFDM downlink / SC-FDMA uplink
 - 책: [[mimo-ofdm-wireless-matlab]] (전강), [[latest-mobile-comm-systems]]
