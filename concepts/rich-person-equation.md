@@ -3,7 +3,7 @@ title: 부자 방정식 (The Rich Person Equation)
 created: 2026-10-05
 updated: 2026-10-05
 type: concept
-tags: [personal-finance, 재테크, wealth, framework]
+tags: [personal-finance, wealth, framework]
 sources: [raw/books/start-investing-now.md]
 confidence: medium
 ---

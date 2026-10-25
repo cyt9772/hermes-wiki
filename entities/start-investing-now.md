@@ -3,7 +3,7 @@ title: 지금 당장 재테크 공부하라
 created: 2026-10-05
 updated: 2026-10-05
 type: entity
-tags: [book, personal-finance, 재테크, investing, real-estate, compound-interest]
+tags: [book, personal-finance, investing, real-estate, compound-interest]
 sources: [raw/books/start-investing-now.md]
 confidence: medium
 ---

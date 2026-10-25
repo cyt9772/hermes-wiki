@@ -3,7 +3,7 @@ title: 반복 혁신 (Innovation Through Iteration)
 created: 2026-10-05
 updated: 2026-10-05
 type: concept
-tags: [management, innovation, xerox, r&d, copier]
+tags: [management, innovation, xerox, copier]
 sources: [raw/books/adventure-of-management.md]
 confidence: high
 ---

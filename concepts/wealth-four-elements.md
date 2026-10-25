@@ -3,7 +3,7 @@ title: 부자의 4요소 (Wealth Four Elements · 수익률·절약·파이프�
 created: 2026-10-05
 updated: 2026-10-05
 type: concept
-tags: [personal-finance, 재테크, wealth, saving, income]
+tags: [personal-finance, wealth, saving, income]
 sources: [raw/books/start-investing-now.md]
 confidence: medium
 ---

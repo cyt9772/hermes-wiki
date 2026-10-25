@@ -430,3 +430,12 @@
 - cross-link(서브에이전트 작성, 검증됨): sedra-3ed<->sedra-sol, lst-2ed<->lst-3ed, stremler-3ed<->sol, taub-trans<->sol, signals-oppenheim<->sol, alan-v-oppenheim->dtsf/cbe. james-w-nilsson 저자 entity에는 4ed study/sol 미링크 (book entity 상호링크로 대체)
 - index.md: +30 entity 항목, Total pages 412->443 (entities 255 · concepts 186 · comparisons 1)
 - git: 커밋 대기 (부모 에이전트)
+
+## [2026-10-26] lint | 태그·분류 체계 재정비
+- 진단: 허용 113개 외 283개 위반 태그 (793건, 283파일). 6개 도메인 Domain과 Tag Taxonomy 목록 불일치 발견.
+- 정책: 확장 정책(정보 보존) + index 도메인 재배열 (사용자 승인).
+- 파일 수정 14개: 서식 위반 태그 정규화 — `재테크`→`personal-finance`(5)·`Korea`→`korea`(3)·`IFRS`→`ifrs`(3)·`PER/PBR`→`pe/pbr`(2)·`r&d`→`innovation`(1)·`quant/trend/value investing`→하이픈화(3). 의미 없는 일반화 없음.
+- SCHEMA.md `## Tag Taxonomy` 재구성: 빈도·도메인 기반으로 7개 도메인별 등록 체계 전환 (AI / Investing / Programming / Language(외국어) / Network / Engineering(공학) / Physics + Meta). 허용 태그 113→393, 코퍼스 태그 373개 **전부** SCHEMA 등록. 미등록 0. `Language` 도메인 신규 추가.
+- index.md: type별 (Entities/Concepts/Comparisons) 나열을 **도메인 7개 기준** 재배열. 각 섹션에 도메인 설명 + 태그 레지스트리 + 페이지 목록. 분포: Investing 119 · Engineering 193 · Programming 49 · Language 42 · Network 17 · AI 17 · Physics 5 = **442** (index 엔트리 442건, 누락 0).
+- backup: `index.md.bak-20261026` (로컬 전용, `.gitignore` `*.bak-*` 추가).
+- git: 커밋·푸시 아래에서 진행.

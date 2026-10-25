@@ -3,7 +3,7 @@ title: 발생주의 (Accrual Accounting)
 created: 2026-10-05
 updated: 2026-10-05
 type: concept
-tags: [accounting, accrual, matching-principle, revenue-recognition, IFRS]
+tags: [accounting, accrual, matching-principle, revenue-recognition, ifrs]
 sources: [raw/books/start-accounting-now.md]
 confidence: high
 ---

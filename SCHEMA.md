@@ -47,36 +47,13 @@ sha256: <hex digest of the raw content below the frontmatter>
 ```
 
 ## Tag Taxonomy
-**AI:** book, chapter, author, concept, llm, ml-basics, deep-learning, agents, architecture, inference, training, alignment, rag, mcp, orchestration, agent-harness
-**Investing:** stock, company, sector, macro, strategy, valuation, earnings, risk, korea-kospi, watchlist
-**Programming:** programming, object-oriented, os, unix, linux, compiler, build-system, debugger, version-control, ipc, signals, networking, data-communication, windows-api, xml, uml-oo-modeling, software-quality, software-testing-process, programming-mindset
-**Physics (신비·양자 영역):** quantum-mechanics, consciousness, measurement-problem, entanglement, new-age-interpretation, perception, consciousness-experiment
-**Engineering (공학):** wireless-communications, ofdm, mimo, channel-modeling, space-time-coding, software-defined-radio, signal-processing, electronic-circuits, electromagnetic-waves, matlab-simulation, telecom-systems, electrical-engineering, usb-bus, usb-mass-storage, media-frameworks, audio-video, engineering-mathematics, numerical-methods, digital-electronics, antenna-design, transmission-line, microstrip-waveguide, microwave-network, s-parameter, cdma-dsss, rake-receiver, bluetooth-wpan, image-theory, separation-of-variables, circuit-diagnosis, home-networking, dsp, fourier-analysis, dft-fft, linear-prediction-dpcm, dct-transform, video-compression, mpeg-standard, h-261, motion-compensation, image-processing, image-filtering, image-segmentation, steganography, watermarks, mp3-audio-coding, information-theory, coding-theory, linear-algebra, stochastic-processes, estimation-filtering, state-space-control, circuit-simulation, differential-equations
-**Network (네트워크):** tcp-ip, sockets, network-programming
-**Meta:** comparison, summary, thesis, source
+**AI:** agent-harness, agents, ai, ai-agent, alignment, architecture, author, book, chapter, claude-code, concept, deep-learning, inference, investing, llm, mcp, ml-basics, multi-agent, orchestration, project-based, protocol, rag, security, training, watchlist
+**Investing:** accounting, accrual, anchoring, antitrust, asset-allocation, assets, audit, author, backtest, backtesting, balance-sheet, banking, behavior, behavioral-economics, behavioral-finance, bias, blockchain, bond, book, bridge-income, business, business-narrative, capital-flows, career, case-studies, case-study, cash, cash-flow, cash-flow-statement, cloud, communication, company, compound-interest, compounding, consolidation, consumption, copier, corporate-disclosure, corporate-social-responsibility, cost, cost-accounting, credit, culture, cycle, day-trading, debt, decision-making, demographics, disclosure, discounting, dividend, dividend-growth, dividend-investing, dividend-yield, earnings, economics, economics-scholar, edsel, effort, emerging-markets, endowment, entrepreneur, equity, etf, ev-ebitda, exchange-rate, factor, fed, feedback, finance, financial-analysis, financial-crises, financial-ratios, financial-statements, framework, framing, fundamentals, futures, ge, goal-based, going-concern, growth, heuristics, household-debt, housing, ifrs, income, income-investing, income-statement, index-fund, index-investing, inflation, information-asymmetry, innovation, interest-rates, intertemporal, investing, investment, investment-basics, investment-rules, iot, judgment, korea, korea-kospi, korean-economy, korean-finance, leadership, liabilities, lifetime, lilienthal, liquidity, longevity-risk, macro, management, management-accounting, market-leader, marketing, matching-principle, mba, mdd, mechanics, mental-accounting, metaverse, metrics, mit, momentum, monetary-policy, money-psychology, nasdaq, negotiation, networks, non-profit, options, overconfidence, ownership, passive-income, payout-ratio, pbr, pe, peg, people, performance, personal-finance, physics, portfolio, price, principle, principle-based, productivity, profit, profitability, prospect-theory, psychology, quant, ratios, real-estate, regulatory, relative-strength, retirement, retirement-income, retirement-planning, revenue, revenue-recognition, reverse-mortgage, risk, robotics, saving, schumpeter, sec-ir, sector, sector-rotation, self-control, sharpe, short-term, silicon-valley, social-capital, social-enterprise, solvency, sp500, spending, standards, status-quo, stock, stock-picking, strategy, support-resistance, team, technical, technology, time-preference, timing, top-picking, trend, trend-following, tva, us-stocks, valuation, value-investing, watchlist, waves, wealth, web3, xerox
+**Programming:** author, backtesting, book, build-system, comparison, compiler, concept, data-analysis, data-communication, debugger, derivatives, finance-engineering, ipc, korea-kospi, linux, networking, object-oriented, os, programming, programming-mindset, python, quant, quant-investing, signals, software-quality, software-testing-process, stock, strategy, uml-oo-modeling, unix, us-stocks, version-control, windows-api, xml
+**Language (외국어):** bilingual, book, business, business-english, classic, conversation, email, english, essay, etymology, exam-prep, grammar, hemingway, korean-translation, listening, literature, modals, news, phonetics, pop-music, prepositions, pronunciation, reading, research, situational, speaking, speech, strategy, toefl, toeic, training, travel, vocabulary, writing
+**Network (네트워크):** author, book, media-frameworks, network-programming, networking, sockets, tcp-ip, windows-api
+**Engineering (공학):** ac-dc, amplifier-design, analog, antenna, antenna-design, audio-video, author, bluetooth, bluetooth-wpan, book, cdma, cdma-dsss, channel-modeling, circuit-analysis, circuit-diagnosis, circuit-simulation, circuits, coding-theory, communications, compiler, computer-graphics, concept, data-communication, data-communications, dct-transform, dft-fft, differential-equations, digital-electronics, dsp, electrical-engineering, electromagnetic, electromagnetic-waves, electromagnetics, electromagnetism, electronic-circuits, electronics, engineering, engineering-mathematics, estimation-filtering, exam, field-theory, fourier-analysis, h-261, home-networking, image-compression, image-filtering, image-processing, image-segmentation, image-theory, information-theory, instructor-manual, ipc, korea-kospi, laplace, linear-algebra, linear-prediction-dpcm, linear-systems, matlab-simulation, media-frameworks, microcontroller-arduino, microstrip-waveguide, microwave, microwave-network, mimo, mobile-communications, modulation, motion-compensation, mp3-audio-coding, mpeg-standard, networks, numerical-methods, ofdm, optics, options, os, price, probability, programming, protocols, rake-receiver, random-processes, relativity, repair, rf, s-parameter, scientific-computing, scientific-visualization, separation-of-variables, signal, signal-processing, signals, signals-systems, software-defined-radio, solutions, solutions-manual, space-time-coding, spread-spectrum, state-space-control, steganography, stochastic-processes, strategy, telecom-systems, telecommunications, transmission-line, transmission-lines, unix, usb-bus, usb-mass-storage, vector-calculus, video-compression, volume-rendering, watermarks, wavelet, wireless, wireless-communications, wpan
+**Physics (신비·양자 영역):** comparison, concept, consciousness, consciousness-experiment, entanglement, measurement-problem, new-age-interpretation, perception, quantum-mechanics, source, thesis
+**Meta:** comparison, source, summary, thesis
 
-Rule: 모든 페이지 태그는 이 분류에 있어야 함. 새 태그 필요 시 먼저 여기 추가.
-
-## Page Thresholds
-- **생성**: 엔티티/개념이 2+ 소스 등장 OR 1 소스의 핵심이면 페이지 생성
-- **합치기**: 기존 페이지가 있는 언급은 기존 페이지에 추가
-- **생성 금지**: 단발성 언급, 도메인 밖 사안
-- **분할**: 200줄 초과 시 서브토픽으로 분할 + 상호 링크
-- **아카이브**: 내용 전부가 대체되면 `_archive/` 이동, index 제거
-
-## Entity Pages (회사, 저자, 책)
-- Overview, 핵심 사실/날짜, 관련 엔티티 ([[wikilinks]]), 근거 출처
-- 책 엔티티 페이지: 저자, 핵심 주장(thesis), 각 장 요약, 교훈, 관련 개념 링크
-- 회사 엔티티 페이지: 비즈니스 모델, 핵심 지표, AI 관련성, 경쟁사, 밸류에이션 맥락
-
-## Concept Pages
-- 정의/설명, 현재 지식 상태, 미해결 논쟁, 관련 개념 링크
-- 예: attention, moat, compound-interest, rpgm(RAG-Prompt-Grounding-Memory)...
-
-## Comparison Pages
-- 비교 대상과 이유, 비교 차원 (표 형식 권장), 종합 결론, 출처
-
-## Update Policy
-1. 날짜 우선 — 새로운 소스가 일반적으로 기존 내용을 대체
-2. 진지한 모순이면 양쪽 입장을 날짜·출처 병기
-3. frontmatter에 `contradictions:` 기록, lint 시 사용자에게 리뷰 요청
+Rule: 모든 페이지 태그는 이 분류(도메인별 등록)에 있어야 함. 도메인 분류: AI / Investing / Programming / Language(외국어) / Network / Engineering(공학) / Physics(신비·양자). 새 태그 필요 시 해당 도메인 라인에 먼저 추가.

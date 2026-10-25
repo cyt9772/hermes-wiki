@@ -3,7 +3,7 @@ title: IFRS 회계 (IFRS / Principle-Based Accounting)
 created: 2026-10-12
 updated: 2026-10-12
 type: concept
-tags: [accounting, IFRS, principle-based, standards, disclosure, consolidation, audit]
+tags: [accounting, ifrs, principle-based, standards, disclosure, consolidation, audit]
 source_book: "[[accounting-genius-hong]]"
 sources: [raw/books/accounting-genius-hong.md]
 confidence: medium

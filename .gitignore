@@ -21,6 +21,8 @@ raw/books/*.ocr/
 raw/books/*.pdf
 # Ingest backups (local-only, per-run safety copies)
 raw/books/*.prev
+*.bak
+*.bak-*
 # pdftotext extractions (metadata-only books: full text embedded in raw/books/<slug>.md)
 raw/*.txt
 raw/*.txt.d/

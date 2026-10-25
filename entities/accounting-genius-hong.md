@@ -3,7 +3,7 @@ title: 회계천재가 된 홍대리
 created: 2026-10-12
 updated: 2026-10-12
 type: entity
-tags: [book, accounting, financial-statements, financial-ratios, accrual, IFRS, investing, business-narrative]
+tags: [book, accounting, financial-statements, financial-ratios, accrual, ifrs, investing, business-narrative]
 sources: [raw/books/accounting-genius-hong.md]
 confidence: medium
 ---

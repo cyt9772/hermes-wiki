@@ -3,7 +3,7 @@ title: 가치투자 (Value Investing)
 created: 2026-10-05
 updated: 2026-10-05
 type: concept
-tags: [value investing, valuation, PER, PBR, factor, us-stocks]
+tags: [value-investing, valuation, pe, pbr, factor, us-stocks]
 sources: [raw/books/wise-quant-investing.md]
 ---
 

@@ -3,7 +3,7 @@ title: 부동산 vs 금융자산 (Real Estate vs Financial Assets)
 created: 2026-10-05
 updated: 2026-10-05
 type: concept
-tags: [personal-finance, real-estate, asset-allocation, Korea]
+tags: [personal-finance, real-estate, asset-allocation, korea]
 sources: [raw/books/start-investing-now.md]
 confidence: high
 ---

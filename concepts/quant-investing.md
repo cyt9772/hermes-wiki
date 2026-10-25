@@ -3,7 +3,7 @@ title: 퀀트투자
 created: 2026-10-05
 updated: 2026-10-05
 type: concept
-tags: [quant investing, quant, strategy, us-stocks, python, backtesting]
+tags: [quant-investing, quant, strategy, us-stocks, python, backtesting]
 sources: [raw/books/wise-quant-investing.md]
 ---
 

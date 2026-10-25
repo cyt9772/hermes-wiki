@@ -3,7 +3,7 @@ title: 생애재무설계 지금 당장 시작하라
 created: 2026-10-05
 updated: 2026-10-05
 type: entity
-tags: [book, personal-finance, retirement-planning, Korea, lifetime]
+tags: [book, personal-finance, retirement-planning, korea, lifetime]
 sources: [raw/books/lifetime-financial-planning.md]
 confidence: medium
 ---

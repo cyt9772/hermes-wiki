@@ -3,7 +3,7 @@ title: 파이프라인 수입 (Pipeline Income · 노동외 수임)
 created: 2026-10-05
 updated: 2026-10-05
 type: concept
-tags: [personal-finance, 재테크, passive-income, real-estate, dividend]
+tags: [personal-finance, passive-income, real-estate, dividend]
 sources: [raw/books/start-investing-now.md]
 confidence: medium
 ---

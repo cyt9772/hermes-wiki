@@ -3,7 +3,7 @@ title: 추세추종 (Trend Following)
 created: 2026-10-05
 updated: 2026-10-05
 type: concept
-tags: [trend following, momentum, technical, short-term, us-stocks]
+tags: [trend-following, momentum, technical, short-term, us-stocks]
 sources: [raw/books/wise-quant-investing.md]
 ---
 

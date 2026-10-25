@@ -3,7 +3,7 @@ title: 생애주기별 재무목표 (Life-Cycle Financial Goals)
 created: 2026-10-05
 updated: 2026-10-05
 type: concept
-tags: [personal-finance, retirement-planning, saving, Korea]
+tags: [personal-finance, retirement-planning, saving, korea]
 sources: [raw/books/start-investing-now.md]
 confidence: high
 ---
