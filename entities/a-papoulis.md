@@ -13,6 +13,7 @@ Cornell University 전기공학부 교수 — 공학 확률론·확률과정 교
 
 ## 저술
 - [[probability-random-variables]] — *Probability, Random Variables, and Stochastic Processes* (2nd ed, International, McGraw-Hill 1991) — 확률론 9장 + 확률과정 7장(장 10~16)의 2부 구성 고전
+- [[papoulis-probability-random-variables-2ed-solutions]] — 위 교재 2nd ed. **Solutions Manual** (182p) — 16장 전수 문제 해법
 - 원문 참고문헌에서 본서 "second edition, 1991"과 "third edition, 1991"이 병기되어 다판(3판) 존재 확인
 
 ## 관련

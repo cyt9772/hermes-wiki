@@ -13,6 +13,7 @@ MIT Electrical Engineering and Computer Science 부 교수로, Oppenheim과 함�
 
 ## 저술
 - [[signals-and-systems-oppenheim]] — *Signals and Systems* (2nd ed, WITH A. V. Oppenheim, Prentice Hall)
+- [[oppenheim-signals-systems-solutions]] — 위 교재 **Solution Book** (Prentice Hall, 1st ed. 1982, 177p). 장말 문제 풀이.
 
 ## 관련
 - [[alan-v-oppenheim]] (MIT 듀오, 공동저자)

@@ -38,3 +38,4 @@ confidence: high
 - 저자: [[david-m-pozar]]
 - 개념: [[transmission-lines-microwave]] — 전송선로·마이크로파 정합·하이브리드
 - 인접: [[rf-engineering]] (Chang, 실무) · [[electromagnetism-fundamentals]] (기초 전자기)
+- **해답집**: [[pozar-microwave-engineering-solutions]] — Solutions Manual (Addison-Wesley 1990, 253p), 제2~12장 교내문제 281개 전수 해법

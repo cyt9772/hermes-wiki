@@ -13,6 +13,7 @@ McGill University 전기·컴퓨터공학부 교수 — EE/CS 대상 확률론·
 
 ## 저술
 - [[probability-random-process]] — *Probability and Random Processes for Electrical Engineering* (2nd ed, McGraw-Hill, 613p)
+- [[leon-garcia-probability-random-processes-2ed-instructor]] — 위 교재 2nd ed. **Instructor Manual** (246p) — Ch.2–5 장별 문제 풀이
 
 ## 관련
 - [[stochastic-processes-cluster]] (확률 클러스터의 통신 응용 축)

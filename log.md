@@ -421,3 +421,12 @@
 - Created: entities/james-w-nilsson.md — 저자 (Iowa State Univ. Emeritus) — single-book author (1권 집중)
 - Links: index.md entities +2 (nilson-riedel·james-w-nilsson), Total pages 271→273 (entities 110→112 · concepts 160 · comparisons 1), Last updated 2026-10-22. laplace-transform-circuits.md의 "별도 에이전트 작업 대상" 주석 해소.
 - git commit: 미실행 (부모 에이전트가 수행)
+
+## [2026-10-25] ingest | USB 30권 배치 — 통신·전자·물리·무선공학 30권 (+ 복구 10권)
+- Raw: raw/books/*.md +30 (pdftotext -layout 전수, raw total 146->176), 각 파일 sha256
+- Created entities 30: stremler 3ed + sol / taub 2ed-trans + sol / digital-comm-kr / analog-digital-matlab / mobile-eng-kr / halsall 4ed / dtsf / cbe-matlab / cls-matlab / lst-3ed / sedra-3ed + sol / graphic-ii / fractal / ivcs / wavelets 4 / nr-c-2ed / hayt-5ed / halliday-2ed / pozar-sol / nilsson study-guide + sol-vol1 / leon-garcia / papoulis / oppenheim-sol
+- 복구: 서브에이전트-3 공유캐시 경합으로 raw+entity 10권 삭제 -> USB PDF sha256 매칭 후 pdftotext 재추출, raw·entity 재작성 (stremler-sol·taub-sol·mobile-eng·halsall-4ed·sedra-sol·graphic-ii·hayt-5ed·halliday-2ed·nilsson x2)
+- 대조: Sedra 508p PDF=원서 3판(sedra-3ed), 143p=한국역 문제풀이집(sedra-sol). Linear: 기존 2판 + 신규 3판(lst-3ed, 2단에 cross-link). Hayt=Giarrusso em-engineering과 별도. Nilsson 4ed=기존 nilson-riedel(949p) + study-guide + sol-vol1
+- cross-link(서브에이전트 작성, 검증됨): sedra-3ed<->sedra-sol, lst-2ed<->lst-3ed, stremler-3ed<->sol, taub-trans<->sol, signals-oppenheim<->sol, alan-v-oppenheim->dtsf/cbe. james-w-nilsson 저자 entity에는 4ed study/sol 미링크 (book entity 상호링크로 대체)
+- index.md: +30 entity 항목, Total pages 412->443 (entities 255 · concepts 186 · comparisons 1)
+- git: 커밋 대기 (부모 에이전트)

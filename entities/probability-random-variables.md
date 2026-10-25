@@ -45,3 +45,4 @@ confidence: high
 - 저자: [[a-papoulis]]
 - 클러스터: [[stochastic-processes-cluster]] — [[probability-random-process]](공학 응용 편성)와 [[discrete-random-signals]](이산시간 전문)와의 비교
 - 개념: [[information-coding-theory]] · [[estimation-and-filtering]]
+- **해답집**: [[papoulis-probability-random-variables-2ed-solutions]] — Solutions Manual (182p), 2nd ed. 16장(부 I 확률론 Ch.2–9 + 부 II 확률과정 Ch.10–16) 전수 문제 해법

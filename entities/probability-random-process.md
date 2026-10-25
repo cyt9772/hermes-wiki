@@ -35,3 +35,4 @@ confidence: high
 - 저자: [[alberto-leon-garcia]]
 - 클러스터: [[stochastic-processes-cluster]] — [[probability-random-variables]](고전/특성함수)와 [[discrete-random-signals]](이산·최적화) 대비
 - 개념: [[digital-signal-processing]] · [[cdma-dss-spread-spectrum]] (랜덤 신호 + 스펙트럼 관점)
+- **해답집**: [[leon-garcia-probability-random-processes-2ed-instructor]] — Instructor Manual (246p), 2nd ed. Ch.2–5(기본 확률론·랜덤변수·다변수·합) 장별 문제 풀이

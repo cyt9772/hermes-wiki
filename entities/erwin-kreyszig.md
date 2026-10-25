@@ -18,6 +18,7 @@ confidence: high
 ## 핵심 사실
 - **소속 (8th ed. 기준)**: Ohio State University (Raw p. 1, book metadata)
 - **대표 저서**: *Advanced Engineering Mathematics, 8th ed.* (Wiley 1999, 1285p) — [[advanced-engineering-mathematics]]
+- **해답집**: *Instructor's Manual for Advanced Engineering Mathematics, 8th ed.* (Wiley 1999, 317p) — [[kreyszig-advanced-engineering-math-8ed-instructor]]
 - **교육 철학**: "모델링 → 해법 → 해석" 3단계 구조, 컴퓨터 사용(CAS)을 권장하지만 필수로 두지 않음 (Preface, raw p. 8-9)
 
 ## Related

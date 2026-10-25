@@ -39,3 +39,4 @@ confidence: high
 - 저자: [[erwin-kreyszig]]
 - 개념: [[numerical-methods-science-computing]], [[differential-equations-engineering]]
 - 관련 책: [[numerical-recipes-in-c]] — 수치해법의 C 구현 관점 (Kreyszig Part E의 알고리즘을 Press 등 4인이 C로 구현), [[practical-electronics-eng]] — 이교재가 다루는 전자공학 모듈의 수학적 기초
+- **해답집**: [[kreyszig-advanced-engineering-math-8ed-instructor]] — 8th ed. Instructor's Manual (Wiley 1999, 317p), Ch.1~23 전수 문제 해답 + 장별 "Major Changes"·절별 Purpose 코멘트

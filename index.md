@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-25 | Total pages: 412 (entities 225 · concepts 186 · comparisons 1)
+> Last updated: 2026-10-25 | Total pages: 443 (entities 255 · concepts 186 · comparisons 1)
 
 ## Entities
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
@@ -235,6 +235,36 @@
 - [[richard-hamming]] — Richard W. Hamming: Stanford University Graduate School (원문: Na, Stanford Graduate School). 1st ed. 1980, 2nd ed. 1986.
 - [[lee-sang-geun]] — 이상근 (Lee Sang-geun): 이동통신/무선 네트워크 엔지니어 (원문 머리말 2009년 2월 서명 "저자 이상근", rainbowstar @ dreamwiz.com). 한국 이동통신 현장 실무 관점의 CDMA·WCDMA 전파분석 서적을 집필. "이 책은 이동통신을 배우는 학생들 뿐만 아니라 무선망 최적화 업무 등을 담당하는 이동통신 현장 엔지니어들에게도 …
 
+
+- [[stremler-introduction-communication-systems-3ed]] — 저자: **Ferrel C. Stremler** — "This textbook presents to undergraduates an introductory explanation of communication systems, with the emphasis on signal design and modulation." (Preface, p.vii)
+- [[stremler-comm-systems-solutions]] — Ferrel C. Stremler, *Introduction to Communication Systems* 3판 문제풀이집, 362p (원문 p.1 "y통신이론문제풀이집 · Introduction to Communication Systems · 제 3 판 · Ferrel C. Stremler"). [[stremler-introduction-communica
+- [[taub-schilling-principles-communication-systems-2ed-trans]] — 원저: **Herbert Taub / Donald L. Schilling** (저자서문 서명 "Herbert Taub, Donald L. Schilling") — CUNY(뉴욕시립대학) 전자공학.
+- [[taub-schilling-comm-theory-solutions]] — Joseph Taub & Richard E. Schilling *Principles of Communication Systems* 2판의 문제 해답집을 한국어로 번역. 442p. 표기: "TAUB · SCHILLING · 제2판 · 통신이론문제해법 · (한국역)" [raw/books/taub-schilling-comm-theory-solutions.md].
+- [[practical-digital-communications-korea]] — 저자: **문호** — "방송국 엔지니어로서 10년간 산업체에서 근무한 후 대학에 [와서] 20년간 디지털통신에 대한 강의를 해온 경험과 미국 · 일본 · 독일 대학에서 연구하면서 나온 결과를 토대로" (머리말, p. iii).
+- [[analog-digital-communication-theory-matlab]] — 저자: **김명진** — "대학에서 3학년을 대상으로 통신공학 강의를 해오면서 학부생도 쉽게 접근할 수 있는 적절한 교재가 아쉬워하던 중 생능출판사의 권유로 이 책을 집필하기로 한 이래 벌써 3년의 세월이 흘렀다" (서문, 2007년 1월 서명).
+- [[mobile-communication-engineering-korea]] — 이동통신 서비스·시스템 구조·프로토콜을 통합 교재로 정리한 한국어 공저. 876p, 생능출판사. 서문 1997. 12. 30, 생능출판사 감사 + 고 은종관 박사에 대한 헌사 (원문 p.3) [raw/books/mobile-communication-engineering-korea.md].
+- [[halsall-data-communications-4ed]] — Fred Halsall (Newbridge Professor of Communications Engineering, University of Wales, Swansea), *Data Communications, Computer Networks and Open Systems* 4판. Addison-Wesley (Addison-Wesley Series in E
+- [[discrete-time-signal-processing]] — Alan V. Oppenheim · Ronald W. Schafer — Prentice Hall, 1989, 893p. **이산시간 신호처리 교과서의 표준 (reference standard)**. 1975년 저자들의 *Digital Signal Processing*의 "새로운 텍스트로의 발전"으로 서문에 명시: "The title Discrete-Time
+- [[computer-based-exercises-signal-matlab]] — C. Sidney Burrus · James H. McClellan · Alan V. Oppenheim · Thomas W. Parks · Ronald W. Schafer · Hans W. Schuessler — Prentice Hall, 1994, 410p. **6개 대학 DSP 교수 공동 "프로젝트 기반 실습서"** — "This book is a co
+- [[contemporary-linear-systems-matlab]] — Robert D. Strum · Donald E. Kirk — PWS Publishing, 1996, 699p. **MATLAB 4.0 기반 선형시스템 "컴퓨터-바이어스(computer-biased)" 교과서** — "we have used a 'computer-biased' approach in which computer solutions and theo
+- [[linear-system-theory-design-3ed]] — Chi-Tsong Chen, SUNY Stony Brook — Oxford University Press, 1999, 343p. **1970년 *Introduction to Linear System Theory*의 "complete rewriting"** — 서문: "This edition is a complete rewriting of the book L
+- [[sedra-smith-microelectronic-circuits-3ed]] — Adel S. Sedra (University of Toronto) · Kenneth C. Smith (University of Toronto) — Rinehart & Winston / Saunders, 1991, 1159p. **전자공학 "회로" 교과서의 표준 (Semiconductor Devices → Analog IC → Digital IC 3부 구조
+- [[sedra-smith-microelectronic-circuits-solutions]] — Adel S. Sedra (University of Toronto) · Kenneth C. Smith (University of Toronto), *Microelectronic Circuits* 3판의 장별 연습문제를 한국어로 번역·연재한 문제풀이집. 508p [raw/books/sedra-smith-microelectronic-circuits-soluti
+- [[computer-graphics-ii-scientific-visualization]] — 저자 미상(개신대 Computer Graphics II 교재) · **과학 시각화(Scientific Visualization)** 수업의 강의 노트·강의계획서. 409p. 서두 reference 목록과 14주 강의계획서가 본문 (원문 p.3) [raw/books/computer-graphics-ii-scientific-visualization.md].
+- [[fractal-imaging]] — 저자: **Ning Lu** (1963–, Texas A&M) — Iterated Systems Inc. 기술 기반.
+- [[image-video-compression-standards]] — 저자: **Vasudev Bhaskaran** (Hewlett-Packard Laboratories), **Konstantinos Konstantinides** (Hewlett-Packard Laboratories)
+- [[wavelet-transforms-1998]] — 저자: **Raghuveer M. Rao** (USC), **Ajit S. Bopardikar** (IIT Bombay)
+- [[introduction-wavelets-wavelet-transforms]] — 저자: **C. Sidney Burrus, Ramesh A. Gopinath, Haitao Guo** (Rice University); 프로그램·부록: **Jan E. Odegard, Ivan W. Selesnick**
+- [[fundamentals-of-wavelets]] — 저자: **Jaideva C. Goswami** (Texas A&M), **Andrew K. Chan** (Texas A&M)
+- [[numerical-recipes-in-c-example-book-2ed]] — 저자: **William T. Vetterling** (Polaroid), **Saul A. Teukolsky** (Cornell), **William H. Press** (Harvard-Smithsonian CfA), **Brian P. Flannery** (EXXON) — Press·Teukolsky·Vetterling·Flannery 4인
+- [[hayt-engineering-electromagnetics-5ed-solutions]] — William H. Hayt, *Engineering Electromagnetics* 5판의 **요점정리 + 장별 연습문제 풀이**를 담는 한국어 풀이집. 470p. 서문(역자 머리말): "이 기초가 되는 전기자기학은 수준높은 수학적 지식 뿐아니라 물리학적 사고 능력이 필요해서 대부분의 학생이 도중에 포기하게 된다. ... 이미 필자는 이 책의 4판 연습문
+- [[halliday-resnick-physics-2ed-solutions]] — David Halliday · Robert Resnick, *Fundamentals of Physics* 2nd ed. (Extended)의 연습문제를 한국어로 풀이한 한국역 풀이집. 379p. 역자 서문: "지금까지 물리학에 관해서 다루어 온 책 중에서 D. Halliday 와 R. Resnick 의 책이 학부학생들에게 가장 널리 알려져 있는 책 중의 하
+- [[pozar-microwave-engineering-solutions]] — David M. Pozar (University of Massachusetts Amherst), Addison-Wesley, **1990** — 원서 [[microwave-engineering]](Pozar, Addison-Wesley 1990)의 **제2~12장 home problems 전수(총 281개)** 해답집. 서문(p.4): "This manua
+- [[nilsson-electric-circuits-4ed-study-guide]] — James W. Nilsson (Professor Emeritus, Iowa State University), *Electric Circuits* 4th ed.의 **동반 연습문제(Supplementary Problems) 풀이**를 담은 스타디 가이드. 441p. Addison-Wesley. 서문: "This study guide was written t
+- [[nilsson-electric-circuits-4ed-solutions-vol1]] — James W. Nilsson (Professor Emeritus, Iowa State University), *Electric Circuits* 4th ed.의 **교사용 Solutions Manual, Vol. 1 (장 1–10)**. Addison-Wesley (Addison-Wesley Series in Electrical Engineering).
+- [[leon-garcia-probability-random-processes-2ed-instructor]] — Alberto Leon-Garcia, McGraw-Hill — [[probability-random-process]](2nd ed., McGraw-Hill 613p)의 Ch.2–5(기본 확률론·랜덤변수·다변수·합) 장별 문제 풀이, 246p `[raw/books/leon-garcia-probability-random-processes-2ed-instruct
+- [[papoulis-probability-random-variables-2ed-solutions]] — Athanasios Papoulis (Polytechnic Institute of New York), McGraw-Hill — [[probability-random-variables]](2nd ed., International) 16장 전체 문제 해답집, 182p `[raw/books/papoulis-probability-random-variables-2e
+- [[oppenheim-signals-systems-solutions]] — Alan V. Oppenheim, Alan S. Willsky, with Ian T. Young, Prentice-Hall / Englewood Cliffs NJ — [[signals-and-systems-oppenheim]]의 **1st ed. (Copyright 1982, Prentice Hall) Solution Book**, 177p `[raw/bo
 ## Concepts
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
 - [[blockchain]] — 공정·불변·투명·가용 4원칙, NFT·디지털 상품 경제, 암호화폐 지속성 논지

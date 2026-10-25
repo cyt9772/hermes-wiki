@@ -36,3 +36,4 @@ confidence: high
 - 저자: [[chi-tsong-chen]]
 - 개념: [[linear-system-control]] (상태공간·제어·시스템 클러스터) · [[estimation-and-filtering]] (옵티멀 추정 접점)
 - 인접: [[linear-algebra-and-its-applications]] (선형대수 이론) · [[signals-and-systems-oppenheim]] (제11장 피드백과의 연계)
+- 후판: [[linear-system-theory-design-3ed]] (3rd ed, OUP 1999 — 같은 저자의 완전 rewrite)
