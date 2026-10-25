@@ -1,7 +1,7 @@
 ---
 title: James W. Nilsson
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-10-25
 type: entity
 tags: [author, electrical-engineering, book]
 sources: [raw/books/nilson-riedel-electric-circuits.md]
@@ -14,6 +14,7 @@ confidence: high
 
 ## 저서 (위키에서)
 - [[nilson-riedel-electric-circuits]] — Electric Circuits 4th ed. (PSpice 실습 포함, 20장)
+- [[introduction-to-pspice]] — Introduction to PSpice (4th ed supplement, McGraw-Hill; Electric Circuits 보조 교재, 회로 시뮬레이션)
 
 ## Related
 - 개념: [[dc-ac-circuit-analysis]], [[laplace-transform-circuits]]
