@@ -6,8 +6,8 @@
 
 | 도메인 | 페이지 수 |
 |--------|---------|
-| Investing · 투자 | 119 |
-| Engineering · 공학 | 193 |
+| Investing · 투자 | 118 |
+| Engineering · 공학 | 194 |
 | Programming · 프로그래밍 | 49 |
 | Language · 외국어(영어) | 42 |
 | Network · 네트워크 | 17 |
@@ -20,7 +20,7 @@
 **도메인 태그 (registry 201개):**
 `accounting, accrual, anchoring, antitrust, asset-allocation, assets, audit, author, backtest, backtesting, balance-sheet, banking, behavior, behavioral-economics, behavioral-finance, bias, blockchain, bond, book, bridge-income, business, business-narrative, capital-flows, career, case-studies, case-study, cash, cash-flow, cash-flow-statement, cloud, communication, compound-interest, compounding, consolidation, consumption, copier, corporate-disclosure, corporate-social-responsibility, cost, cost-accounting, credit, culture, cycle, day-trading, debt, decision-making, demographics, disclosure, discounting, dividend, dividend-growth, dividend-investing, dividend-yield, earnings, economics, economics-scholar, edsel, effort, emerging-markets, endowment, entrepreneur, equity, etf, ev-ebitda, exchange-rate, factor, fed, feedback, finance, financial-analysis, financial-crises, financial-ratios, financial-statements, framework, framing, fundamentals, futures, ge, goal-based, going-concern, growth, heuristics, household-debt, housing, ifrs, income, income-investing, income-statement, index-fund, index-investing, inflation, information-asymmetry, innovation, interest-rates, intertemporal, investing, investment, investment-basics, investment-rules, iot, judgment, korea, korea-kospi, korean-economy, korean-finance, leadership, liabilities, lifetime, lilienthal, liquidity, longevity-risk, macro, management, management-accounting, market-leader, marketing, matching-principle, mba, mdd, mechanics, mental-accounting, metaverse, metrics, mit, momentum, monetary-policy, money-psychology, nasdaq, negotiation, networks, non-profit, options, overconfidence, ownership, passive-income, payout-ratio, pbr, pe, peg, people, performance, personal-finance, physics, portfolio, price, principle, principle-based, productivity, profit, profitability, prospect-theory, psychology, quant, ratios, real-estate, regulatory, relative-strength, retirement, retirement-income, retirement-planning, revenue, revenue-recognition, reverse-mortgage, risk, robotics, saving, schumpeter, sec-ir, sector-rotation, self-control, sharpe, short-term, silicon-valley, social-capital, social-enterprise, solvency, sp500, spending, standards, status-quo, stock, stock-picking, strategy, support-resistance, team, technical, technology, time-preference, timing, top-picking, trend, trend-following, tva, us-stocks, valuation, value-investing, watchlist, waves, wealth, web3, xerox`
 
-### 페이지 (119)
+### 페이지 (118)
 
 - [[IFRS-accounting]] — IFRS 원리주의 회계: 규정 나열 대신 원칙·연결재무제표(홍대리의 논지)
 - [[accounting-genius-hong]] — 회계천재가 된 홍대리 (손봉석, 홍대리 시리즈): 소설형 회계서 — 3대 재무제표·IFRS 원리주의·이익≠현금
@@ -67,7 +67,7 @@
 - [[futures-options-pricing]] — 신비로운 선물옵션가격이론 (비슬산): 선물옵션 '가격 이론' 기법서 — 마디가격·옵션역행·중요가격
 - [[futures-theory-price]] — 선물 이론가: F = S + 이자비용 − 배당, 선물 공정가격 공식
 - [[fx-and-interest-rates]] — 환율의 기본은 금리; 개도국 3각 딜레마, 1997 IMF, 외환보유고
-- [[halliday-resnick-physics-2ed-solutions]] — David Halliday · Robert Resnick, *Fundamentals of Physics* 2nd ed. (Extended)의 연
+
 - [[household-debt]] — 가계부채: 1200조 돌파, 이자 커버능력이 먼저 무너지는 구조
 - [[important-price]] — 중요가격: 절대 불변의 핵심 가격 레벨
 - [[income-statement]] — 손익계산서: 매출·비용·이익의 흐름
@@ -148,7 +148,7 @@
 **도메인 태그 (registry 106개):**
 `ac-dc, amplifier-design, analog, antenna, antenna-design, audio-video, author, bluetooth, bluetooth-wpan, book, cdma, cdma-dsss, channel-modeling, circuit-analysis, circuit-simulation, circuits, coding-theory, communications, compiler, computer-graphics, concept, data-communication, data-communications, dct-transform, dft-fft, differential-equations, digital-electronics, dsp, electrical-engineering, electromagnetic, electromagnetics, electromagnetism, electronic-circuits, electronics, engineering, engineering-mathematics, estimation-filtering, exam, field-theory, fourier-analysis, h-261, home-networking, image-compression, image-filtering, image-processing, image-segmentation, image-theory, information-theory, instructor-manual, ipc, korea-kospi, laplace, linear-algebra, linear-systems, matlab-simulation, media-frameworks, microcontroller-arduino, microwave, mimo, mobile-communications, modulation, mp3-audio-coding, mpeg-standard, networks, numerical-methods, ofdm, optics, options, os, price, probability, programming, protocols, random-processes, relativity, repair, rf, scientific-computing, scientific-visualization, signal, signal-processing, signals, signals-systems, software-defined-radio, solutions, solutions-manual, space-time-coding, spread-spectrum, state-space-control, steganography, stochastic-processes, strategy, telecom-systems, telecommunications, transmission-line, transmission-lines, unix, usb-bus, vector-calculus, video-compression, volume-rendering, watermarks, wavelet, wireless, wireless-communications, wpan`
 
-### 페이지 (193)
+### 페이지 (194)
 
 - [[a-course-in-dsp]] — A Course in Digital Signal Processing (Porat 1997) (John Wiley & Sons, 1997, 630
 - [[a-papoulis]] — Aristofanis Papoulis: Cornell University 전기공학부 교수 — 공학 확률론·확률과정 교재의 고전 저술가(서지: A
@@ -216,6 +216,7 @@
 - [[gilbert-strang]] — Gilbert Strang: Massachusetts Institute of Technology (MIT) 소속 (원문 표지). 선형대수·공학 
 - [[halsall-data-communications-4ed]] — Fred Halsall (Newbridge Professor of Communications Engineering, University of W
 - [[hayt-engineering-electromagnetics-5ed-solutions]] — William H. Hayt, *Engineering Electromagnetics* 5판의 **요점정리 + 장별 연습문제 풀이**를 담는 한국
+- [[halliday-resnick-physics-2ed-solutions]] — Fundamentals of Physics (Halliday·Resnick, 2nd ed. Extended) 연습문제 풀이집 (李文哲 역, 성진출판 1993, 379p) — 한국 공대 물리 1·2 표준 교재의 문제풀이 보조서
 - [[hiroshi-harada]] — 일본 무선·이동통신 학자, MIMO·OFDM·채널 부호 전문 (2002 원저)
 - [[hwang-jae-jung]] — 황재정: 〈디지탈 영상공학〉(1999) 저자. 디지털 영상 부호화(양자화·DCT·움직임보상, JPEG·H.261·MPEG·H.263) 교재 집필
 - [[hwang-sun-kyu]] — 황선규 (Hwang Sun-gyu): 한양대학교 영상 처리 전공 박사(2006). 재학 시 연구 분야: 객체의 모양 기술, 객체 분할, 패턴 인
