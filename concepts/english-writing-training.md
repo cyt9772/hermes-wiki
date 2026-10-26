@@ -4,7 +4,7 @@ created: 2026-10-17
 updated: 2026-10-17
 type: concept
 tags: [english, writing, speaking, training]
-sources: [raw/books/sungan-yeongjakmung-beginner.md, raw/books/sungan-yeongjakmung-mid.md, raw/books/song-oh-hee-essay.md, raw/books/point-check-up.md]
+sources: [raw/books/sungan-yeongjakmung-beginner.md, raw/books/sungan-yeongjakmung-mid.md, raw/books/song-oh-hee-essay.md, raw/books/point-check-up.md, raw/books/malhagi-yeongjakmun-training.md]
 confidence: high
 ---
 
@@ -23,6 +23,7 @@ confidence: high
 ## 영문 산출 훈련 (추가 소스)
 - **에세이 쓰기 6단계** ([[song-oh-hee-essay]]): '서론-본론-결론 뼈대 → 세부 구성 → 실제 작성' — 6단계로 체계화 (p30).
 - **구문 오류 진단** ([[point-check-up]]): '한국인이 자주 저지르는 실수 패턴' — 산출 시 발생하는 오류 교정 루프 (p2).
+- **한영 전환 사고법** ([[malhagi-yeongjakmun-training]]): 35가지 법칙 (장근섭) — 문형 암기가 아닌 '영어로 생각하기' (저맥락·연역·구체화) — Part 0 법칙01~04 (p17).
 
 ## 관련 페이지
 - [[english-grammar-patterns]] — 문형의 문법 기반

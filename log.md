@@ -5,6 +5,15 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-27] ingest | 말하기 영작문 트레이닝 (장근섭, 다락원 2013, 602p)
+- **인제스트 대상:** /Down/말하기 영작문 트레이닝_220405_112929.pdf (스캔본, text-layer 없음).
+- **방식:** tesseract 5.5.3 (kor+eng, 300dpi) 병렬 OCR (P=8) — 602/602 페이지 성공, 오류 0. USB/다운로드→`raw/books/malhagi-yeongjakmun-training.pdf` 로컬 백업 (git-ignore 대상) + sha256 `d6db4db9…03a870`. `raw/books/malhagi-yeongjakmun-training.md` 래퍼 (frontmatter + 9섹션·35법칙 목차 테이블 + OCR 전체 602 페이지).
+- **산출물:** 엔티티 1 — `entities/malhagi-yeongjakmun-training.md` (Part 0 = 섹션 0010 '영어로 생각하기' 법칙 01~04 정리: 단도직입·논리·현재중심·끝까지 따짐; 저맥락 언어·SVO/SOV·술어 중첩 금지 예). 기존 페이지 5개 백링크 (english-writing-training, sungan-yeongjakmung-*, english-grammar-patterns, situational-conversation, lee-bo-yeong-conversation).
+- **index.md:** Language 42→43, Total 442→443. **git:** raw 커밋 + final 커밋/푸시 (이 로그 작성 후).
+> Format: `## [YYYY-MM-DD] action | subject`
+> Actions: ingest, update, query, lint, create, archive, delete
+> When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
+
 ## [2026-10-25] ingest | 24 USB PDF — UML·설계 / 확률·추정·시스템 / SW 테스팅·품질 / 회로·수학·CDMA·MPEG (4 클러스터, text-layer 원서 24종)
 - **인제스트 대상 (24종):**
   - **UML·객체지향 설계 (5권):** Applying UML and Patterns (Larman 2nd, Prentice Hall 2001, ISBN 0-13-092569-1) · Teach Yourself UML in 24 Hours (Schmuller, Sams 2nd) · UML 사용자 지침서 (Booch·Rumbaugh·Jacobson 3인, Addison-Wesley 원저, 인터비전 1999 심재철 외 공역) · UML과 Rational Rose (Wendy·Michael Boggs, SYBEX 2002, 김덕화 역) · 소프트웨어 설계 테크닉 (Watanabe Kouzo 외 9인, Nikkei 원저 2002, 성안당 2004, 김성훈 역)

@@ -2,14 +2,14 @@
 
 > Content catalog. Every page listed under its **domain** (with a one-line summary).
 > 태그·분류 규칙은 `SCHEMA.md` 참고. Read this first to find relevant pages.
-> Last updated: 2026-10-26 · Total pages: 442
+> Last updated: 2026-10-27 · Total pages: 443
 
 | 도메인 | 페이지 수 |
 |--------|---------|
 | Investing · 투자 | 118 |
 | Engineering · 공학 | 194 |
 | Programming · 프로그래밍 | 49 |
-| Language · 외국어(영어) | 42 |
+| Language · 외국어(영어) | 43 |
 | Network · 네트워크 | 17 |
 | AI · AI/에이전트 | 17 |
 | Physics · 물리/의식 | 5 |
@@ -409,7 +409,7 @@
 **도메인 태그 (registry 34개):**
 `bilingual, book, business, business-english, classic, conversation, email, english, essay, etymology, exam-prep, grammar, hemingway, korean-translation, listening, literature, modals, news, phonetics, pop-music, prepositions, pronunciation, reading, research, situational, speaking, speech, strategy, toefl, toeic, training, travel, vocabulary, writing`
 
-### 페이지 (42)
+### 페이지 (43)
 
 - [[a-farewall-to-arms]] — 잘 있거라 / A Farewell to Arms (Hemingway, 시사영어사 영한대역문고 269p): '단어와 관용구, 문법을 실제 영문으로
 - [[art-of-jikdok-jikhae]] — 만만해지는 직독직해의 기술 (임필성, 넥서스 196p): '주어·동사 찾기' — 관계대명사 등 문형 유형별 정리
@@ -433,6 +433,7 @@
 - [[hackers-toeic-voca]] — 해커스 토익 VOCABULARY (David Cho, 해커스어학연구소, 504p): 주제별·연관 묶음으로 토익 어휘 장기 기억
 - [[larry-king-live]] — Larry King Live / Talk Show Listening (스티브 정, 다락원 242p): CNN 토크쇼 14인 대화 · 직청직해(c
 - [[lee-bo-yeong-conversation]] — 이보영의 영어회화사전 (두산동아 935p): 상황별 회화 표현 사전 — '가능한 한 많은 상황 상정, 적절한 어휘·표현 다양 수록'
+- [[malhagi-yeongjakmun-training]] — 말하기 영작문 트레이닝 (장근섭, 다락원 2013, 602p): '네이티브처럼 문장 만드는 35가지 법칙' — 한영 전환 사고법, Part 0(영어로 생각하기 ~04)~8
 - [[lee-ki-dong-modals]] — 이기동 영어 구동사 연구 (669p): 불변사가 아닌 **구동사(modal) 체계** 분석 (p3)
 - [[lee-ki-dong-prepositions]] — 이기동 영어 전치사 연구 (개정 2020, 558p): '화맥·문맥·세상 지식에서 정체를 추리할 수 있다'
 - [[miracle-english-words]] — 영어스피킹 기적의 영단어 100 (William A. Vance, 2013, 326p): 뉘앙스·맥락 중심 단어 100개 — 'action 대신
