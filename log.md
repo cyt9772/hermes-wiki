@@ -5,6 +5,21 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-11-01] ingest | USB 4권 배치 — 임베디드·커널·유닉스·ICT 17권 (crash 후 재개 완주)
+- 배경: 2026-10-31 crash로 wrapper 미생성 상태가 남아 있던 17권 배치(임베디드·커널·유닉스·ICT)를 재개. USB(/run/media/yutae/Data/) 원본 18권 pdftotext -layout 전수 추출, 17권은 기존 text-layer, fund-solicitation 1권은 OCR(tesseract + tcn).
+- SHA256: 18권 PDF 무결성 검증 fails=0 (raw/books/*.pdf.sha256 sidecar).
+- Raw: raw/books/*.md +17 (wrapper). fund-solicitation-agent.md(OCR, scanbook)은 이미 2026-10-31에 완료.
+- Slug↔본문 교차 검정 1건: beginning-linux-programming ↔ unix-network-programming-ste slug/본문 역전 발견 → mm17.json에서 실제 본문으로 교정.
+- Created entities 17: embedded-linux-cross-dev-hae / embedded-linux-systems-arm-an / embedded-linux-yocto-project / mastering-embedded-linux-programming (임베디드 4) · linux-kernel-development-love / linux-kernel-programming-itepert / linux-kernel-device-driver-practice / linux-kernel-source-beginner / linux-device-driver-in-code / device-tree-kernel-4-0 (커널·드라이버 6) · beginning-linux-programming / professional-linux-programming-wrox / unix-network-programming-ste / unix-system-programming-homling / linux-shell-scripting-kim (유닉스·쉘 5) · information-and-communication-technology-suhwa / information-and-communication-technology-zongsomse (ICT 2)
+- Created authors 4: park-jaeho (임베디드 크로스개발 저자) · jeong-jae-jun (디바이스트리·kernel 2권 공저) · neil-matthew / richard-stones (Beginning Linux Programming 공동저자)
+- Created concepts 5: embedded-linux-build (toolchain→bootrom→kernel→rootfs) · linux-kernel-structure (MMU/procfs/sysctl/드라이버 하위) · unix-process-ipc (fork/pipe/socket/semaphore) · linux-shell-scripting (bash+coreutils) · ict-qualification (정보통신기술사 체제)
+- SCHEMA.md: Programming 41→53 (+android·bitbake·cross-development·cross-toolchain·embedded·gnu-toolchain·it-expert·linux-kernel·openembedded·rootfs·soc·yocto), Engineering 119→131 (+ict·telecom) — 신규 26개 페이지 사용 태그 미등록 14개 전부 등록 (미등록 0 확인).
+- index.md: Programming 46→72, Engineering 230→233, Total pages 481→507 (entities 315 · concepts 191 · comparisons 1), Last updated 2026-11-01.
+- CJK: 26개 신규 페이지 전체에서 한자/일본어 한자(口·七 등) 0건. park-jaeho.md의 〔 〕(U+300E/300F) 1건 → “ ” 로 정규화.
+- Cross-links: 17개 book entity ↔ 5개 concept ↔ 4개 author. allowed-links 507개 target에 신규 17권 slug 전부 포함.
+- 서브에이전트 fan-out(4개: 임베디드/커널/유닉스/ICT) 완료, live 로그 /home/yutae/.hermes/cache/delegation/live/deleg_b8795125/{task-0..3}.log.
+- git: 도메인별 커밋 — Programming 16권 (임베디드 4 + 커널 6 + 유닉스 5 + 저자 3 + 개념 6) · Engineering 3권 (ICT 2 + concept 1).
+
 ## [2026-10-31] lint | 전반 상태 점검 — 66건 오류 발견·교정
 
 - **dangling wikilink 10건** — `[[dsp]]`×3(해소), `[[usb-mass-storage]]`×3 → `usb-mass-storage-book`, `[[computer-network-programming]]`×2 → `computer-network-programming-book`, `[[inside-tcpip]]`×2 → `tcpip-complete`, `[[wiki/index]]` → `index.md`

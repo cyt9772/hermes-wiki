@@ -2,13 +2,13 @@
 
 > Content catalog. Every page listed under its **domain** (with a one-line summary).
 > 태그·분류 규칙은 `SCHEMA.md` 참고. Read this first to find relevant pages.
-> Last updated: 2026-10-31 · Total pages: 481
+> Last updated: 2026-11-01 · Total pages: 507
 
 | 도메인 | 페이지 수 |
 |--------|---------|
 | Investing · 투자 | 120 |
-| Engineering · 공학 | 230 |
-| Programming · 프로그래밍 | 49 |
+| Engineering · 공학 | 233 |
+| Programming · 프로그래밍 | 72 |
 | Language · 외국어(영어) | 43 |
 | Network · 네트워크 | 17 |
 | AI · AI/에이전트 | 17 |
@@ -146,10 +146,11 @@
 ## Engineering · 공학
 > 유선/무선·통신, 회로·전자, 전자기·안테나·마이크로파, DSP·영상·통신, 확률·시각·제어 이론, USB·미디어, 수학
 
-**도메인 태그 (registry 106개):**
-`ac-dc, amplifier-design, analog, antenna, antenna-design, audio-video, author, bluetooth, bluetooth-wpan, book, cdma, cdma-dsss, channel-modeling, circuit-analysis, circuit-simulation, circuits, coding-theory, communications, compiler, computer-graphics, concept, data-communication, data-communications, dct-transform, dft-fft, differential-equations, digital-electronics, dsp, electrical-engineering, electromagnetic, electromagnetics, electromagnetism, electronic-circuits, electronics, engineering, engineering-mathematics, estimation-filtering, exam, field-theory, fourier-analysis, h-261, home-networking, image-compression, image-filtering, image-processing, image-segmentation, image-theory, information-theory, instructor-manual, ipc, korea-kospi, laplace, linear-algebra, linear-systems, matlab-simulation, media-frameworks, microcontroller-arduino, microwave, mimo, mobile-communications, modulation, mp3-audio-coding, mpeg-standard, networks, numerical-methods, ofdm, optics, options, os, price, probability, programming, protocols, random-processes, relativity, repair, rf, scientific-computing, scientific-visualization, signal, signal-processing, signals, signals-systems, software-defined-radio, solutions, solutions-manual, space-time-coding, spread-spectrum, state-space-control, steganography, stochastic-processes, strategy, telecom-systems, telecommunications, transmission-line, transmission-lines, unix, usb-bus, vector-calculus, video-compression, volume-rendering, watermarks, wavelet, wireless, wireless-communications, wpan`
+**도메인 태그 (registry 131개):**
+`ac-dc, amplifier-design, analog, antenna, antenna-design, audio-video, author, bluetooth, bluetooth-wpan, book, cdma, cdma-dsss, channel-modeling, circuit-analysis, circuit-diagnosis, circuit-simulation, circuits, coding-theory, communications, compiler, computer-graphics, concept, data-communication, data-communications, dct-transform, dft-fft, differential-equations, digital-electronics, dsp, electrical-engineering, electromagnetic, electromagnetic-waves, electromagnetics, electromagnetism, electronic-circuits, electronics, engineering, engineering-mathematics, engineering-optimization, estimation-filtering, exam, field-theory, fourier-analysis, h-261, h-264, h-264-avc, hdtv, high-definition-video, home-networking, ict, image-compression, image-filtering, image-processing, image-segmentation, image-theory, information-theory, instructor-manual, ipc, korea-kospi, laplace, linear-algebra, linear-prediction-dpcm, linear-systems, matlab-basics, matlab-simulation, matlab-statistical, media-frameworks, microcontroller-arduino, microstrip-waveguide, microwave, microwave-network, mimo, mobile-communications, modulation, motion-compensation, mp3-audio-coding, mpeg-standard, mpeg4, multimedia, networks, neural-networks, neural-networks-finance, numerical-methods, ofdm, optics, options, os, price, probability, programming, protocols, rake-receiver, random-processes, relativity, repair, rf, s-parameter, scientific-computing, scientific-visualization, separation-of-variables, signal, signal-processing, signals, signals-systems, software-defined-radio, solutions, solutions-manual, space-time-coding, spread-spectrum, state-space-control, statistical-data-analysis, steganography, stochastic-processes, strategy, telecom, telecom-systems, telecommunications, transmission-line, transmission-lines, unix, usb-bus, usb-mass-storage, vector-calculus, video-broadcasting, video-compression, volume-rendering, watermarks, wavelet, wireless, wireless-communications, wpan`
 
-### 페이지 (230)
+### 페이지 (233)
+
 
 - [[3g4g-mobility-systems]] — 3G/4G 이동통신 시스템 (이상근·조봉열·여운영 2009): WCDMA·Rake 수신, HSDPA·WiMAX(3.5G)~초기 4G 기술 흐름
 - [[a-course-in-dsp]] — 보아즈 포랫(Boaz Porat)의 DSP 핵심 교과서. "Signals and systems" 과목이 끝나고 시작되는 지점(컨벌루션, 변환, 주파수응답, 전달함수, 안정성)을 제2장까지 복습한 뒤, 샘플링·양자화(제3장) → DFT(제4장, DCT/DST 타입별 정의 포함) → FFT(제5장, Cooley-Tukey) → 실질 스펙트럼 분석(제6장) → z-변환·차분방정식(제7장) → 디지탈 필터(제8-11장, FIR/IIR 사양·설계·구현) → 멀티레이트(제12장) → 랜덤 신호(제13장) → 응용(제14장)으로 이어지는 14장 체제. 매 장에 "Summary & Complements"와 MATLAB 프로그램·problems를 붙인 실무형 구성 [raw/books/a-course-in-dsp.md].)
@@ -236,6 +237,7 @@
 - [[hiroshi-harada]] — 일본 무선·이동통신 학자, MIMO·OFDM·채널 부호 전문 (2002 원저)
 - [[hwang-jae-jung]] — 황재정: 〈디지탈 영상공학〉(1999) 저자. 디지털 영상 부호화(양자화·DCT·움직임보상, JPEG·H.261·MPEG·H.263) 교재 집필
 - [[hwang-sun-kyu]] — 황선규 (Hwang Sun-gyu): 한양대학교 영상 처리 전공 박사(2006). 재학 시 연구 분야: 객체의 모양 기술, 객체 분할, 패턴 인
+- [[ict-qualification]] — 정보통신기술사 자격 시험 (응시 전략과 과목 체계)
 - [[image-processing-fundamentals]] — 디지털 영상 처리는 analog 영상(빛, 전기 신호)을 이산 화소(pixels)의 2차원 배열로 표본화·양자화하여 디지털 데이터로 변환한 뒤,
 - [[image-processing-java]] — Java 언어로 디지털 영상 처리를 구현부터 이론까지 다루는 실무 교과서. 이미지의 물리적 획득(카메라·CCD·인간 시각, 제2장)과 디지털 표현(sampling·quantisation·RGB, 제3장)을 출발점으로, Java 2D API(BufferedImage·Raster·BufferedImageOp)를 이용한 영상 처리 프로그래밍(제4장)과 PGM/PPM·PNG 파일 입출력(제5장)을 실습 기반으로 잡는다 [raw/books/image-processing-java.md]. 후반부는 grey level·histogram equalisation(제6장), convolution·Canny edge·rank filter(제7장), DFT·FFT·Wiener/역확산(filtering·deconvolution)(제8장), affine 변환·warping·interpolation(제9장), thresholding·region growing·split & merge(제10장), eroding/dilation/opening/closing·greyscale morphology(제11장), 무손실 압축(delta/Run Length, 제12장)으로 이어지며, 모든 기법이 Java 코드로 구현되어 있다 [raw/books/image-processing-java.md].
 - [[image-processing-matlab]] — MATLAB을 이용한 디지털영상처리 2판 (Gonzalez·Woods·Eddins 2012, 746p): 색공간·필터·복원·분할·JPEG 계열
@@ -243,6 +245,8 @@
 - [[image-processing-programming]] — 영상 처리 이론을 프로그래밍 언어(C/C++, Windows MFC/Win32, Java)로 직접 구현하는 실전 분야. 픽셀 단위 연산·공간/주
 - [[image-processing-programming-visualc]] — Visual C++ 2005(MFC)로 영상 처리 알고리즘을 직접 구현하는 실무서. 이론서도 코드집도 아니라, 각 장마다 알고리즘의 이론적 배경을 먼저 풀어 놓고 바로 ImageTool이라는 통합 프로그램에 기능을 추가하는 구성이다 [raw/books/image-processing-programming-visualc.md]. 1부에서 BMP 포맷 분석과 DIB 처리용 CDib 클래스를 만들고 영상 입출력·화면 출력·복사/붙여넣기·확대 보기까지 되는 프로그램 틀을 세운 뒤, 2부에서 화질 향상(반전·명암비·감마·히스토그램 균등화)→산술/논리 연산→공간적 필터링→기하학적 변환(보간법)→주파수 공간 처리(DFT·FFT·저역/고역 필터)→특징값 추출(허프 변환·Harris 코너)→컬러 처리→분할(이진화·레이블링·외곽선 추적)→모폴로지→모양 기술자(푸리에 기술자·불변 모멘트)→동영상(AVI·움직임)까지 영상 처리 핵심 영역을 순서대로 다룬다. 부록에서 OpenCV 라이브러리 사용법과 웹 카메라 기반 침입자 감시 시스템 프로젝트를 실습으로 완성한다 [raw/books/image-processing-programming-visualc.md].
 - [[image-video-compression-standards]] — 저자: **Vasudev Bhaskaran** (Hewlett-Packard Laboratories), **Konstantinos Konstan
+- [[information-and-communication-technology-suhwa]] — 정보통신기술 (정보통신기술사 자격 대비) (오규태 · 도서출판 세화 · 2002 · 1323p)
+- [[information-and-communication-technology-zongsomse]] — Yes ICT 정보통신기술 종합서 (정승혁 · 도서출판 유천 · 2010 · 585p)
 - [[information-coding-theory]] — 코딩이론(채널코딩·소스코딩)과 정보이론(엔트로피·채널용량)은 상호보완적이다 — 코딩이론이 "무엇을 어떻게 코딩할지"를, 정보이론이 "한계가 어디
 - [[information-engineering-korea]] — 정보공학 (1996) (진영사, 1996(발문 종료 "1996 년 겨울"), 461p) — 정보의 표시·전송·저장을 정량적으로 다루는 "협의의"
 - [[information-hiding-steganography-watermarking]] — 정보 은닉(information hiding) 분야 — 스테그노그래피(steganography)와 디지털 워터마킹(digital watermarking) — 의 최신 기술을 집대성한 학술 모음집이다. Part I(Ch.1–4)은 스테그노그래피 원리·표적기법·스테가노랩시스(steganalysis)를, Part II(Ch.5–9)는 워터마킹 원리·기법·로버스트리스·핑거프린팅·인터넷 저작권을 다룬다 [raw/books/information-hiding-steganography-watermarking.md]. DCT/DFT/웨이브렛/멜린-푸리에 변환 도메인 워터마킹, 스핏 스펙트럼(직계 확산·주파수호핑), 펄프로그·오라클 공격, 코럴루션-시큐어(AES)핑거프린팅까지 폭넓게 다루며, 오디오(음향마스트리핑·에코히딩·페이즈코딩) 분야 스테그노그래피도 포함한다.
@@ -381,21 +385,27 @@
 - [[wireless-channel-modeling]] — 무선 채널 모델링: AWGN·레이리·리시안·로그노멀·MIMO + BER (latest-mobile-comm-systems)
 - [[yang-won-yeong]] — 무선·이동통신 분야 한국 학자, MIMO-OFDM 저서 공저
 - [[yoo-si-ryong]] — 〈MPEG 시스템〉(1997)의 공동 저자. MPEG 시스템(ISO/IEC 13818-1) 분야 국내 해설서 집필. (소속 기관은 원문에서 미확인 — 머리말 서명자는 장규환)
-
 ## Programming · 프로그래밍
 > OS/컴파일러/디버거, Windows·VB·유닉스·리눅스, UML·소프트웨어공학, 네트워크·XML, 파이썬·금융공학
 
-**도메인 태그 (registry 31개):**
-`author, backtesting, book, build-system, comparison, compiler, concept, data-analysis, data-communication, debugger, derivatives, finance-engineering, korea-kospi, linux, networking, object-oriented, os, programming, programming-mindset, python, quant, quant-investing, software-quality, software-testing-process, stock, strategy, uml-oo-modeling, us-stocks, version-control, windows-api, xml`
+**도메인 태그 (registry 53개):**
+`android, arm, author, backtesting, bitbake, book, build-system, comparison, compiler, concept, cross-development, cross-toolchain, data-analysis, data-communication, debugger, derivatives, device-driver, device-tree, embedded, embedded-linux, exam, finance-engineering, gnu-toolchain, ipc, it-expert, kernel, korea-kospi, linux, linux-kernel, networking, object-oriented, openembedded, os, programming, programming-mindset, python, quant, quant-investing, rootfs, shell-scripting, signals, soc, software-quality, software-testing-process, stock, strategy, uml-oo-modeling, unix, us-stocks, version-control, windows-api, xml, yocto`
 
-### 페이지 (49)
+### 페이지 (72)
+
 
 - [[applying-uml-patterns]] — Applying UML and Patterns (2nd ed): Craig Larman(크레이그 라먼)의 Applying UML and Patt
+- [[beginning-linux-programming]] — Beginning Linux Programming (비기닝 리눅스 프로그래밍) (니일 매썸·리차드 스톤 · 보문사 · 1197p)
 - [[channel-access-protocols]] — 채널 액세스 프로토콜: 고정/임의/요구 할당, ALOHA·CSMA·CSMA/CD·Token Ring
 - [[cmm-maturity-model]] — CMM — 소프트웨어 개발 프로세스를 개선하기 위한 역량 성숙도 모델: 카네기 멜론 대학교 소프트웨어 공학 연구소(SEI) 저, 송태국 · 이병
 - [[cmmi-process-maturity]] — CMMI/프로세스 성숙도 (Capability Maturity Model): "소프트웨어 개발 프로세스가 정의되고, 관리되고, 측정되고, 지속적
 - [[craig-larman]] — Craig Larman (크레이그 라먼): Craig Larman(크레이그 라먼)은 Applying UML and Patterns의 저자로, U
+- [[device-tree-kernel-4-0]] — 디바이스 트리 상세 분석 in Linux Kernel 4.0 (정재준 · 커널연구회 · 2015 · 314p)
 - [[elizabeth-castro]] — XML·웹 기술 저술작가, 『XML For the WWW』 저자 (Peachpit 2001)
+- [[embedded-linux-build]] — 임베디드 리눅스 빌드 체인 (toolchain → bootrom → kernel → rootfs)
+- [[embedded-linux-cross-dev-hae]] — 임베디드 리눅스 — 교차 개발 환경에서 윈도우 시스템까지 (IT EXPERT) (박재호 · 한빛미디어 · 2002 · 824p)
+- [[embedded-linux-systems-arm-an]] — ARM으로 배우는 임베디드 리눅스 시스템 (IT EXPERT) (안효복 · 한빛미디어 · 2013 · 1078p)
+- [[embedded-linux-yocto-project]] — 욕토(Yocto) 프로젝트로 시작하는 임베디드 리눅스 시스템 (루돌프 · 에이콘 · 2018 · 567p)
 - [[finance-recipes]] — 파이썬을 활용한 금융공학 레시피 (김용환, 한빛미디어 2018): PV/FV → 선물 이론가 → 블랙-숄즈·그릭스 → α/β를 파이썬으로 구현하
 - [[gcc-compilation-pipeline]] — C 컴파일 파이프라인: 전처리→컴파일→어셈블리→링킹, gcc 단계 옵션(-E/-S/-c)·최적화·인라인 어셈블리
 - [[good-programming-principles-25]] — 좋은 프로그램을 만드는 핵심 원리 25가지: 김종훈 · 김종진 · 정원희 · 정은영 4인 지음, 한빛미디어 2003년 1월 초판(제179호). 
@@ -404,6 +414,7 @@
 - [[isdn]] — ISDN(종합 정보 통신망): B(64kbps)/D(16kbps) 채널 분리, RSI·S/T 리퍼런스, B-ISDN으로 확장
 - [[ivar-jacobson]] — Ivar Jacobson (이바르 야코브손): Ivar Jacobson(이바르 야코브손)은 Grady Booch(그레이디 부치)와 James R
 - [[james-rumbaugh]] — James Rumbaugh (제임스 룸바흐): James Rumbaugh(제임스 룸바흐)는 Grady Booch(그레이디 부치)와 Ivar Ja
+- [[jeong-jae-jun]] — 정재준 (리눅스 커널 저자)
 - [[joseph-schmuller]] — 조셉 슈뮈러 (Joseph Schmuller): Teach Yourself UML in 24 Hours(2판, Sams 2001) 저자 — UML 표기 시간 단위 자기주도 입문서
 - [[kim-dogun]] — 소프트웨어 테스팅/개발 분야의 번역자. 원문 서지에는 역자 김도균으로 표기(커버와 역자 서명 모두 "김도균", 이메일 도메인 dokyun).
 - [[kim-sang-ho]] — 김상호 (Kim Sang-Ho): C 언어 기반 프로그래밍 실전서 저자. 원문에 "저자 金 相 澔"로 표기. "초보와 프로는 종이 한 장 차이보
@@ -411,12 +422,25 @@
 - [[koreainvestment-openapi]] — 한국투자증권 Open API (KIS Developers): REST+WebSocket 개인 API. 미국주식 자동매매 Linux 사용 가이드
 - [[lan-van-isdn]] — 자료통신(데이타커뮤니케이션)과 컴퓨터통신을 하나의 프레임으로 정리한 1990년대 한국 교재. 전화·OA(사무자동화)·공장자동화·경영정보시스템에 이르는 응용층 아래에서 데이타 전송 → 교환망 → 채널 액세스 → 인터네트워킹 → OSI 계층 → LAN → VAN → ISDN으로 통신 체계를 위에서 아래로(응용→계층) 체계화한다. LAN·VAN·ISDN 3대 망이 책의 이름이기도 하다.
 - [[lee-bonghyun]] — CMM/소프트웨어 프로세스 분야의 번역자. The Capability Maturity Model(CMU/SEI) 한국어판의 공동 번역.
+- [[linux-device-driver-in-code]] — 코드로 읽는 리눅스 디바이스 드라이버 (임베디드 개발자를 위한) (스리크루난 벤카테스와란 · 에이콘 · 2010 · 807p)
 - [[linux-essential-utilities]] — 리눅스 프로그래밍 필수 유틸리티 (백창우, 한빛미디어 2010, ISBN 978-89-7914-759-9): gcc·make·gdb·svn·au
+- [[linux-kernel-development-love]] — 리눅스 커널 심층 분석 (Linux Kernel Development, 3rd Ed.) (로버트 러브 · 에이콘 · 2012 · 618p)
+- [[linux-kernel-device-driver-practice]] — 리눅스 커널과 디바이스 드라이버 실습 (2판) (정재준 · 커널연구회 · 2012 · 603p)
+- [[linux-kernel-programming-itepert]] — 리눅스 커널 프로그래밍 (IT EXPERT) (한동훈 · 한빛미디어 · 2007 · 1098p)
+- [[linux-kernel-source-beginner]] — 리눅스 커널 소스 해설 [기초입문] (정재준 · 커널연구회 · 2020 · 353p)
+- [[linux-kernel-structure]] — 리눅스 커널 구조 (프로세스 · 동기화 · 메모리 · VFS · 장치 모델)
+- [[linux-shell-scripting]] — 리눅스 쉘 스크립팅 (grep/sed/awk/bash)
+- [[linux-shell-scripting-kim]] — 김태용의 쉘 스크립트 프로그래밍 (김태용 · 제이펍 · 2009 · 703p)
 - [[local-area-network]] — 근거리 통신망: 채널 액세스(고정/임의/요구 할당), 이더넷 계열(CSMA/CD) vs 토큰 링
+- [[mastering-embedded-linux-programming]] — 임베디드 리눅스 프로그래밍 완전정복 (Mastering Embedded Linux Programming, 2nd Ed.) (크리스 시먼즈 · 에이콘 · 2018 · 584p)
+- [[neil-matthew]] — Neil Matthew (니일 매썸)
 - [[nhn-software-quality]] — NHN은 이렇게 한다! 소프트웨어 품질관리: 유석문 · 이세현 · 이상범 · 김은하 · 나종채 · 윤준호 · 정상혁 · 김광근 · 서상우 9인 
 - [[object-oriented-design-patterns]] — 객체지향 설계 패턴 (Design Patterns): "디자인 패턴(Design Patterns)"은 객체지향 설계에서 반복되는 문제→해결책 쌍
 - [[osi-7-layer-model]] — OSI 7계층 모델: 물리→응용 계층화, 추상화·호환성의 기반 — LAN/VAN/ISDN 프로토콜의 뼈대
+- [[park-jaeho]] — 박재호 (임베디드 리눅스 저자)
+- [[professional-linux-programming-wrox]] — Professional Linux Programming (프로페셔널 리눅스 프로그래밍) (니일 매썸·리차드 스톤 외 3인 · 보문사 · 2002 · 1392p)
 - [[quant-investing]] — 퀀트투자: 승률-수익률 반비례 전제, 통계로 작은 승률을 자주
+- [[richard-stones]] — Richard Stones (리차드 스톤)
 - [[ron-patton]] — 소프트웨어 테스트 분야의 저자. Software Testing, 2nd Edition(Pearson Education, Sams)의 원저자로, 소프트웨어 테스팅 전반을 큰 그림/기본/기법/관리/미래로 체계화한 교과서의 저자.
 - [[software-configuration-management]] — 소프트웨어 구성 관리: make(증분 빌드)·autotools(이식성)·VCS(svn/CVS, 경합 모델)
 - [[software-design-techniques]] — 소프트웨어 설계 테크닉 — 객체지향 아무도 가르쳐 주지 않았던 프로그래밍: Watanabe Kouzo(와타나베 코우조) 외 9명의 공동 저서, 
@@ -431,6 +455,9 @@
 - [[uml-oo-design-cluster]] — 이 클러스터는 UML(Unified Modeling Language)과 객체지향(OO) 설계를 다룬 2026-10-25 USB 5권(Applying UML and Patterns, Teach Yourself UML in 24 Hours, UML 사용자 지침서, software design techniques, Mastering UML with Rational Rose 2002)을 묶는 교차 비교 페이지다.)
 - [[uml-rational-rose]] — UML과 Rational Rose 비주얼 모델링 (Mastering UML with Rational Rose 2002): Wendy Boggs와
 - [[uml-user-guide]] — Grady Booch(그레이디 부치), James Rumbaugh(제임스 룸바흐), Ivar Jacobson(이바르 자코브슨) 3인이 공동 저술한 The Unified Modeling Language User Guide(Addison-Wesley, 1999)의 한국어판(심재철, 신인철, 임춘봉 공역, 인터비전/Intervision, 1999-05). 이 책은 UML 표준의 3저자가 직접 쓴 "사용자 지침서"라는 점에서, UML 1.x 시기에 표준화 그 자체를 설명하는 권위 있는 참고서다.
+- [[unix-network-programming-ste]] — 유닉스 네트워크 프로그래밍 2판 제2권 (IPC) (W. 리처드 스티븐스 · 교보 · 2000 · 589p)
+- [[unix-process-ipc]] — 유닉스 프로세스 제어와 IPC 입문
+- [[unix-system-programming-homling]] — 유닉스 시스템 프로그래밍 (Haviland·Salama) (Keith Haviland · Ben Salama · 홍릉과학출판사 · 1991 · 429p)
 - [[vb6-introduction]] — NEW 비주얼베이직 6 입문 (하야시 하루히코, 영진닷컴 1999, 원서 SoftBank 1998): VB6 14개 토픽 — 이벤트 기반 개체지
 - [[visual-basic]] — Microsoft의 이벤트 기반 개체지향 스크립트 언어. 윈도 GUI 개발을 비주얼(시각) 방식으로 — 폼 위 컨트롤을 배치하고, 발생한 이벤트에 코드를 연결하는 — 가능하게 하며, 1991년 등장해 VB6(1998)까지 데스크톱 애플리케이션 표준 중 하나였다. VB.NET 이후 C#으로 계보를 잇는다.
 - [[watanabe-kouzo]] — Watanabe Kouzo (와타나베 코우조): Watanabe Kouzo(와타나베 코우조, 로마자 표기만 사용)는 Zero Kara Manab
@@ -439,7 +466,6 @@
 - [[xml-fundamentals]] — XML 기초: 태그·DTD·XML Schema·네임스페이스 — 구조화 마크업의 체계 (xml-for-www·xml-10days)
 - [[xslt-styling]] — XSLT 스타일링: XML→HTML/PDF 변환, 서식시트 템플릿 + 템플릿 규칙 (xml-for-www·xml-10days)
 - [[yoshihiro-yamada]] — 야마다 요시오 (山田善弘), 『10일 만에 배우는 XML』 저자 (쇼에이스 2001)
-
 ## Language · 외국어(영어)
 > 어휘·문법·독해·쓰기·회화·발음, TOEIC/TOEFL, 영문 e-mail, 문학 영한대역
 
