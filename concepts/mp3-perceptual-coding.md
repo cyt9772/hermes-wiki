@@ -4,7 +4,7 @@ created: 2026-10-24
 updated: 2026-10-24
 type: concept
 tags: [engineering, mp3-audio-coding, signal-processing, mpeg-standard]
-sources: [raw/books/digital-audio-mp3-encoder.md, raw/books/audio-processing-soundforge-vegas.md]
+sources: [raw/books/digital-audio-mp3-encoder.md, raw/books/audio-processing-soundforge-vegas.md, raw/books/multimedia-signal-processing.md]
 confidence: high
 ---
 # MP3 · 주지청각(Perceptual) 부호화
@@ -36,6 +36,7 @@ confidence: high
 ## 관련
 - [[digital-audio-mp3-encoder]] — 송종관 (2000) — 핵심 소스
 - [[audio-processing-soundforge-vegas]] — 박은경·구본철 (2003) — 실무 렌더링
+- [[multimedia-signal-processing]] — 음성 부호화(MP3·PCM)·영상 압축 통합 교과
 - [[a-course-in-dsp]] — DSP 이론 기초
 - [[steganography-watermarking]] — MP3 워터마킹 (acoustic masking 기반)
 - [[mpeg2-source-code-commentary]] — MPEG2 부호화 코드 (동일 클러스터)

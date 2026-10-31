@@ -2,12 +2,12 @@
 
 > Content catalog. Every page listed under its **domain** (with a one-line summary).
 > 태그·분류 규칙은 `SCHEMA.md` 참고. Read this first to find relevant pages.
-> Last updated: 2026-10-27 · Total pages: 443
+> Last updated: 2026-10-31 · Total pages: 481
 
 | 도메인 | 페이지 수 |
 |--------|---------|
-| Investing · 투자 | 118 |
-| Engineering · 공학 | 194 |
+| Investing · 투자 | 120 |
+| Engineering · 공학 | 230 |
 | Programming · 프로그래밍 | 49 |
 | Language · 외국어(영어) | 43 |
 | Network · 네트워크 | 17 |
@@ -20,7 +20,7 @@
 **도메인 태그 (registry 201개):**
 `accounting, accrual, anchoring, antitrust, asset-allocation, assets, audit, author, backtest, backtesting, balance-sheet, banking, behavior, behavioral-economics, behavioral-finance, bias, blockchain, bond, book, bridge-income, business, business-narrative, capital-flows, career, case-studies, case-study, cash, cash-flow, cash-flow-statement, cloud, communication, compound-interest, compounding, consolidation, consumption, copier, corporate-disclosure, corporate-social-responsibility, cost, cost-accounting, credit, culture, cycle, day-trading, debt, decision-making, demographics, disclosure, discounting, dividend, dividend-growth, dividend-investing, dividend-yield, earnings, economics, economics-scholar, edsel, effort, emerging-markets, endowment, entrepreneur, equity, etf, ev-ebitda, exchange-rate, factor, fed, feedback, finance, financial-analysis, financial-crises, financial-ratios, financial-statements, framework, framing, fundamentals, futures, ge, goal-based, going-concern, growth, heuristics, household-debt, housing, ifrs, income, income-investing, income-statement, index-fund, index-investing, inflation, information-asymmetry, innovation, interest-rates, intertemporal, investing, investment, investment-basics, investment-rules, iot, judgment, korea, korea-kospi, korean-economy, korean-finance, leadership, liabilities, lifetime, lilienthal, liquidity, longevity-risk, macro, management, management-accounting, market-leader, marketing, matching-principle, mba, mdd, mechanics, mental-accounting, metaverse, metrics, mit, momentum, monetary-policy, money-psychology, nasdaq, negotiation, networks, non-profit, options, overconfidence, ownership, passive-income, payout-ratio, pbr, pe, peg, people, performance, personal-finance, physics, portfolio, price, principle, principle-based, productivity, profit, profitability, prospect-theory, psychology, quant, ratios, real-estate, regulatory, relative-strength, retirement, retirement-income, retirement-planning, revenue, revenue-recognition, reverse-mortgage, risk, robotics, saving, schumpeter, sec-ir, sector-rotation, self-control, sharpe, short-term, silicon-valley, social-capital, social-enterprise, solvency, sp500, spending, standards, status-quo, stock, stock-picking, strategy, support-resistance, team, technical, technology, time-preference, timing, top-picking, trend, trend-following, tva, us-stocks, valuation, value-investing, watchlist, waves, wealth, web3, xerox`
 
-### 페이지 (118)
+### 페이지 (120)
 
 - [[IFRS-accounting]] — IFRS 원리주의 회계: 규정 나열 대신 원칙·연결재무제표(홍대리의 논지)
 - [[accounting-genius-hong]] — 회계천재가 된 홍대리 (손봉석, 홍대리 시리즈): 소설형 회계서 — 3대 재무제표·IFRS 원리주의·이익≠현금
@@ -63,11 +63,11 @@
 - [[financial-ratio-analysis]] — 재무비율: 안정성·수익성·성장성 3축의 경영건강도 지표
 - [[find-the-top-stock]] — 시대의 1등주를 찾아라 (이한영, 페이지2룩스 2021-09): 톱다운·개화기→성장기 사이클, 대장주 집중
 - [[framing-effect]] — 아시아 질병 문제, 화폐착각·네덜란드 유로 10%
+- [[fund-solicitation-agent]] — 펀드투자권유대행인 (FSA) 자격 교재: 펀드 상품 유형·판매·권유 규율(금투협 기준)
 - [[futures-options-price-theory]] — 선물옵션 가격 이론: 세력이 숨길 수 없는 '가격'을 읽는 마스터 프레임
 - [[futures-options-pricing]] — 신비로운 선물옵션가격이론 (비슬산): 선물옵션 '가격 이론' 기법서 — 마디가격·옵션역행·중요가격
 - [[futures-theory-price]] — 선물 이론가: F = S + 이자비용 − 배당, 선물 공정가격 공식
 - [[fx-and-interest-rates]] — 환율의 기본은 금리; 개도국 3각 딜레마, 1997 IMF, 외환보유고
-
 - [[household-debt]] — 가계부채: 1200조 돌파, 이자 커버능력이 먼저 무너지는 구조
 - [[important-price]] — 중요가격: 절대 불변의 핵심 가격 레벨
 - [[income-statement]] — 손익계산서: 매출·비용·이익의 흐름
@@ -92,6 +92,7 @@
 - [[loss-aversion]] — 손실이 이익의 2~2.5배로 느낌; 손절 지연·리스크 비대칭
 - [[mental-accounting]] — 콘서트 티켓 88% vs 46%, 불로소득 효과
 - [[metaverse]] — 7개 기술의 통합 무대; K-엔터 × NFT 가상 공연 실사례, Phygital 시사점
+- [[mg-test-exam]] — 매경TEST (국가공인 경제·경영 자격): 경제·경영·재무·금융 시험 범위 + 기출·모의문제
 - [[mit-mba]] — MIT MBA (이원재): 실리콘밸리 스타트업·리더십·네트워크·협상 실전 MBA 교양서
 - [[momentum-investing]] — 개화기→성장기 3~10년 사이클, '0→무한대' 신산업(2차전지·바이오)
 - [[money-illusion]] — 돈의 환상: 명목가치 vs 실질가치 혼동
@@ -148,8 +149,9 @@
 **도메인 태그 (registry 106개):**
 `ac-dc, amplifier-design, analog, antenna, antenna-design, audio-video, author, bluetooth, bluetooth-wpan, book, cdma, cdma-dsss, channel-modeling, circuit-analysis, circuit-simulation, circuits, coding-theory, communications, compiler, computer-graphics, concept, data-communication, data-communications, dct-transform, dft-fft, differential-equations, digital-electronics, dsp, electrical-engineering, electromagnetic, electromagnetics, electromagnetism, electronic-circuits, electronics, engineering, engineering-mathematics, estimation-filtering, exam, field-theory, fourier-analysis, h-261, home-networking, image-compression, image-filtering, image-processing, image-segmentation, image-theory, information-theory, instructor-manual, ipc, korea-kospi, laplace, linear-algebra, linear-systems, matlab-simulation, media-frameworks, microcontroller-arduino, microwave, mimo, mobile-communications, modulation, mp3-audio-coding, mpeg-standard, networks, numerical-methods, ofdm, optics, options, os, price, probability, programming, protocols, random-processes, relativity, repair, rf, scientific-computing, scientific-visualization, signal, signal-processing, signals, signals-systems, software-defined-radio, solutions, solutions-manual, space-time-coding, spread-spectrum, state-space-control, steganography, stochastic-processes, strategy, telecom-systems, telecommunications, transmission-line, transmission-lines, unix, usb-bus, vector-calculus, video-compression, volume-rendering, watermarks, wavelet, wireless, wireless-communications, wpan`
 
-### 페이지 (194)
+### 페이지 (230)
 
+- [[3g4g-mobility-systems]] — 3G/4G 이동통신 시스템 (이상근·조봉열·여운영 2009): WCDMA·Rake 수신, HSDPA·WiMAX(3.5G)~초기 4G 기술 흐름
 - [[a-course-in-dsp]] — A Course in Digital Signal Processing (Porat 1997) (John Wiley & Sons, 1997, 630
 - [[a-papoulis]] — Aristofanis Papoulis: Cornell University 전기공학부 교수 — 공학 확률론·확률과정 교재의 고전 저술가(서지: A
 - [[advanced-engineering-mathematics]] — Advanced Engineering Mathematics, 8th ed. (Kreyszig, Wiley 1999, 1285p): 상미분·편미분
@@ -162,6 +164,7 @@
 - [[antenna-design]] — 안테나 설계: 이상적 쌍극자·방사패턴·directivity/gain·reciprocity·polarization, 어레이 패턴 곱법·endfir
 - [[antenna-engineering-korean]] — 안테나공학 (최홍주, 차송출판사 2004) (도서출판 차송 (차송출판사), 2004. 7. 6 제2판, 221p, ISBN 89-86913-20
 - [[antenna-theory]] — Antenna Theory and Design (Stutzman·Thiele 1981, 608p): 이상적 쌍극자→방사패턴·gain·recipr
+- [[applied-mpeg-fig]] — 그림으로 보는 응용 MPEG (후지와라 히로시 supervision, 1995): MPEG 오디오(음성)·비디오 응용, MPEG-4/7 신세대 표준 + 산업 적용
 - [[array-antenna-beamforming]] — 어레이 안테나·빔포밍: 셀룰러 3G (5.8GHz, 10.7MHz), 공간 다이버시티+빔포밍 (latest-mobile-comm-systems)
 - [[audio-processing-soundforge-vegas]] — 오디오프로세싱 — Sound Forge와 Vegas로 설명하는 (박은경·구본철 2003) (예당출판사 (컴퓨터 음악 시리즈 II), 2003-0
 - [[bak-eun-gyung]] — 박은경 (Bak Eun-gyung): 천안대학교 컴퓨터음악과 교수.
@@ -180,6 +183,7 @@
 - [[circuits-and-systems]] — 회로 및 시스템 (차균현 671p): 회로이론 대학 교재 — 미분방정식→S-평면→라플라스→상태방정식→극-영점→주파수응답→z-변환 20장
 - [[circuits-diagnosis-practice]] — 전자회로 고장 진단·수리: 소자/회로 고장 검출, 1단 TR 증폭, 선형·스위칭 전원, 증폭 class·부귀환, 발진기·펄스 정형, 사이리스터 
 - [[coding-information-theory]] — Coding and Information Theory (Richard W. Hamming, 2nd ed.): 코딩이론과 정보이론을 단일 저술로 
+- [[comm-theory-matlab]] — MATLAB과 함께하는 통신이론 (신윤기 2011): 아날로그(AM/FM)+디지털(PSK/QAM) 변조·정합필터·BER, 확산 11장 — 각 장별 MATLAB
 - [[computer-based-exercises-signal-matlab]] — C. Sidney Burrus · James H. McClellan · Alan V. Oppenheim · Thomas W. Parks · Ro
 - [[computer-graphics-ii-scientific-visualization]] — 저자 미상(개신대 Computer Graphics II 교재) · **과학 시각화(Scientific Visualization)** 수업의 강의
 - [[contemporary-linear-systems-matlab]] — Robert D. Strum · Donald E. Kirk — PWS Publishing, 1996, 699p. **MATLAB 4.0 기반 선
@@ -189,8 +193,11 @@
 - [[differential-equations-engineering]] — 공학 수학 미분방정식: 상미분(1계·2계·연립) → 편미분(파동·열) → 라플라스 변환 → 베셀·레전드르 특수함수 (Kreyszig 중심)
 - [[differential-equations-linear-system]] — 미분방정식과 선형대수 (Differential Equations + Linear Algebra): 미분방정식(ODE)과 선형대수를 하나의 수학적
 - [[digital-audio-mp3-encoder]] — 디지털 오디오의 이해 — MP3 부호화기 (송종관 2000) (나남출판 (경성대학교 멀티미디어 연구총서), 2000, 169p) — 이 책은 디
+- [[digital-communication-matlab]] — 디지털통신과 MATLAB/SIMULINK (양원영 외 2005): 변조·채널코딩·FEC·등화·OFDM 시뮬레이션
 - [[digital-electronics]] — Digital Electronics 3ed (Tokheim, McGraw-Hill Basic Skills 1990, 352p): 2진 코드·게이
 - [[digital-image-processing-2ed]] — Digital Image Processing (Gonzalez & Wintz 1987) (Addison-Wesley, Second Edition
+- [[digital-image-processing-2kor]] — 디지털 영상처리 (Gonzalez·Woods·Rice 한국어판 1996, 866p): 공간·변분·부호화·복원·분할
+- [[digital-image-processing-c-ki]] — 디지털 영상처리 (C 언어, Ohmsha 원저·성안당 1998): NTSC 색신호·FIR/IIR·FFT/DCT·MPEG(C 구현)
 - [[digital-image-processing-implementation]] — Visual C++를 이용한 디지털 영상처리의 구현 (장동혁 1999) (PC 어드밴스 (PC ADVANCE Publisher, 발행인 김성은)
 - [[digital-logic-basics]] — 디지털 논리: 게이트·조합/순차·플립플롭·계수기·시프트·A/D·ROM/RAM (practical-electronics ch.12)
 - [[digital-modulation]] — 디지털 변조: BPSK·QPSK·OQPSK·MSK 위상/진폭 변조 + MATLAB 시뮬레이션 (latest-mobile-comm-systems)
@@ -200,12 +207,19 @@
 - [[discrete-random-signals]] — Discrete Random Signals and Statistical Signal Processing: 원문 txt 서지 표제("Tharles
 - [[discrete-time-signal-processing]] — Alan V. Oppenheim · Ronald W. Schafer — Prentice Hall, 1989, 893p. **이산시간 신호처리 교
 - [[donald-ostberg]] — Donald R. Ostberg: Northern Illinois University 수학/응용수학 교수. Elementary Different
+- [[dsp-basics]] — 디지털 신호처리의 기초 (Park Tae Hong): DFT·IIR/FIR 기초
+- [[dsp-first]] — DSP First: A Multimedia Approach (McClellan·Schafer·Yoder, 한국어판 1999): MATLAB/실습 CD-ROM 동반 학부 교과
+- [[dsp-image-matlab-charbit]] — 신호처리·이미지처리 MATLAB (Blanchet·Charbit 원저, 2008, 794p): DSP + 영상 2D-DCT/에지·모폴로지 통합 실습
+- [[dsp-matlab-young-cho]] — 디지털 신호처리와 MATLAB (양원영·조용수 2006)
+- [[dsp-video]] — 영상을 이용한 디지털 신호처리 (엄민영·김성제): 2D-DFT/DCT·영상 압축·운동보정
 - [[electromagnetism]] — 만화로 배우는 전자기학 (엔도 마사모리, 성안당 262p): Coulomb→Gauss→전류·자기장→Ampere→상대론·Maxwell, 코믹 형식
 - [[electromagnetism-fundamentals]] — 전자기학 공통 기초: Coulomb·Gauss·Ampere·Faraday·Maxwell 방정식, 정전기/정자기/시변장, 전파·Poynting·평
 - [[electronics-basics]] — 전자공학의 기초 (Bernard Grob Basic Electronics 5ed 편역, 최성재, 학당 616p): 전자현상→DC/AC 회로→반도
 - [[elementary-differential-equations]] — Elementary Differential Equations with Linear Algebra (Ross L. Finney & Donald R
 - [[em-engineering]] — Engineering Electromagnetics (Hayt 5th ed. 492p): 벡터해석 → Coulomb·Gauss·D → Poiss
 - [[em-exam]] — 전자기학 수험서 (용홍택 1993, 285p): 기술고시·기술사·변리사 기출 + 모범답안 — Coulomb→Gauss→쌍극자→영상법→Biot-S
+- [[engineering-mathematics-matlab]] — MATLAB으로 배우는 공업수학 (소상균)
+- [[engineering-optimization-reklaitis]] — Engineering Optimization (Reklaitis·Ravindran·Ragsdale 1983): 선형·비선형·다목적·이산·동적 최적화 (KKT·penalty)
 - [[erwin-kreyszig]] — Erwin Kreyszig (Ohio State University), 공학 수학 교과서 저자
 - [[estimation-and-filtering]] — Estimation and Filtering (추정·필터링): 모수가 숨어 있고, 그 모수를 관측에서 "최적"으로 추측하는 수학을 4개 프레임(
 - [[estimation-theory]] — Lessons in Estimation Theory for Signal Processing, Communications, and Control 
@@ -214,14 +228,17 @@
 - [[fundamentals-of-wavelets]] — 저자: **Jaideva C. Goswami** (Texas A&M), **Andrew K. Chan** (Texas A&M)
 - [[gary-thiele]] — Gary A. Thiele (Dayton Univ.), Antenna Theory 공저자
 - [[gilbert-strang]] — Gilbert Strang: Massachusetts Institute of Technology (MIT) 소속 (원문 표지). 선형대수·공학 
+- [[h264-avc-video-compression]] — H.264/AVC 비디오 압축 표준 (2007): CABAC/CAVLC·deblocking·VBV, 모바일 TV 5개 방식(DMB·DVB·MediaFLO·ISDB-T·MBMS)·HD
+- [[halliday-resnick-physics-2ed-solutions]] — Fundamentals of Physics (Halliday·Resnick, 2nd ed. Extended) 연습문제 풀이집 (李文哲 역, 성진출판 1993, 379p) — 한국 공대 물리 1·2 표준 교재의 문제풀이 보조서
 - [[halsall-data-communications-4ed]] — Fred Halsall (Newbridge Professor of Communications Engineering, University of W
 - [[hayt-engineering-electromagnetics-5ed-solutions]] — William H. Hayt, *Engineering Electromagnetics* 5판의 **요점정리 + 장별 연습문제 풀이**를 담는 한국
-- [[halliday-resnick-physics-2ed-solutions]] — Fundamentals of Physics (Halliday·Resnick, 2nd ed. Extended) 연습문제 풀이집 (李文哲 역, 성진출판 1993, 379p) — 한국 공대 물리 1·2 표준 교재의 문제풀이 보조서
+- [[hdtv-theory-technology]] — HDTV 이론과 기술 (대한전자공학회 신기술총서, 2000): HD 1080p, DVB/ATSC/ISDB-T, PDP/LCD/DLP 디스플레이
 - [[hiroshi-harada]] — 일본 무선·이동통신 학자, MIMO·OFDM·채널 부호 전문 (2002 원저)
 - [[hwang-jae-jung]] — 황재정: 〈디지탈 영상공학〉(1999) 저자. 디지털 영상 부호화(양자화·DCT·움직임보상, JPEG·H.261·MPEG·H.263) 교재 집필
 - [[hwang-sun-kyu]] — 황선규 (Hwang Sun-gyu): 한양대학교 영상 처리 전공 박사(2006). 재학 시 연구 분야: 객체의 모양 기술, 객체 분할, 패턴 인
 - [[image-processing-fundamentals]] — 디지털 영상 처리는 analog 영상(빛, 전기 신호)을 이산 화소(pixels)의 2차원 배열로 표본화·양자화하여 디지털 데이터로 변환한 뒤,
 - [[image-processing-java]] — Digital Image Processing: A Practical Introduction Using Java (Efford 2000) (Add
+- [[image-processing-matlab]] — MATLAB을 이용한 디지털영상처리 2판 (Gonzalez·Woods·Eddins 2012, 746p): 색공간·필터·복원·분할·JPEG 계열
 - [[image-processing-practice-nhk]] — C 언어에 의한 화상처리 실무 (NHK, 국제테크노정보연구소 1999) (국제테크노정보연구소(편역), 발행인 최연희, 1999-11, 313p,
 - [[image-processing-programming]] — 영상 처리 이론을 프로그래밍 언어(C/C++, Windows MFC/Win32, Java)로 직접 구현하는 실전 분야. 픽셀 단위 연산·공간/주
 - [[image-processing-programming-visualc]] — 영상처리 프로그래밍 by Visual C++ (황선규 2007) (한빛미디어 (주) IT EXPERT 시리즈, 2007 (초판 2007-05-2
@@ -234,6 +251,7 @@
 - [[intro-electronics]] — 전자공학입문 (국가기술자격검정시험연구회, 학당 573p): 통신공사·공무원 수험서 — 진공관·반도체소자·전원·증폭·op-amp·발진·변복조·펄스
 - [[introduction-to-pspice]] — Introduction to PSpice (James W. Nilsson & Susan A. Riedel): Electric Circuits 4
 - [[introduction-wavelets-wavelet-transforms]] — 저자: **C. Sidney Burrus, Ramesh A. Gopinath, Haitao Guo** (Rice University); 프로그램
+- [[it-engineer-licensure]] — 정보통신기술사 자격증 수험서 (강희훈·김명석): 정보통신기술사 시험 범위 정리
 - [[james-w-nilsson]] — James W. Nilsson (Iowa State Univ. Emeritus), Electric Circuits 표준 교재 저자
 - [[jan-axelson]] — USB 표준/장치·HID·전력관리 전문가, 『USB 완전정복』(Axelson, 에이콘출판 2011개정) 저자
 - [[jang-dong-yeop]] — 장동혁 (Jang Dong-yeop): 권내 저자 소개·소속 기재 없음. 1999년 PC 어드밴스에서 디지털 영상처리 구현서 집필; 저자서문에 
@@ -251,16 +269,27 @@
 - [[kreyszig-advanced-engineering-math-8ed-instructor]] — Kreyszig 공학수학 8판 Instructor Manual (Wiley 1999, 317p): Ch.1~23 문제 해답 + 절별 Purpose·Comment
 - [[laplace-transform-circuits]] — 라플라스 변환 기반 회로 해석: S-평면·특성근·상태방정식·극-영점·안정성 (circuits-and-systems 중심)
 - [[latest-mobile-comm-systems]] — 최신 이동통신 시스템 (차종상 외 편역, Harada·Prasad 원저 2002): MATLAB 기반 변조·채널모델·CDMA·ALOHA/CSMA
+- [[latest-mpeg-fig]] — 그림으로 보는 최신 MPEG (후지와라 히로시 supervision, 1995): MPEG 표준화 역사, MPEG-1/2 구조(시스템·오디오·비디오)
 - [[lee-ho-seok]] — 이호석: 〈알기 쉬운 MPEG-2 소스코드 해설〉(2000)의 공동 저자. MPEG-2 소스코드(TM5) 분석 해설. 신호 처리·영상 처리·멀티
 - [[lee-sang-geun]] — 이상근 (Lee Sang-geun): 이동통신/무선 네트워크 엔지니어 (원문 머리말 2009년 2월 서명 "저자 이상근", rainbowstar
 - [[leon-garcia-probability-random-processes-2ed-instructor]] — Alberto Leon-Garcia, McGraw-Hill — [[probability-random-process]](2nd ed., McGra
 - [[linear-algebra-and-its-applications]] — Linear Algebra and Its Applications (Strang 1988) (Saunders College Publishing, 
 - [[linear-algebra-applications]] — 행렬·벡터 공간·고유값·행렬 분해를 구조적으로 다뤘을 때 회로(네트워크), 동역학(차분/미분방정식), 신호(FFT), 최적화(LP·게임이론)로 
+- [[linear-algebra-for-programmers]] — 프로그래머를 위한 선형대수 (Hiraoka·Horii, Ohmsha 2004): 코딩 관점의 행렬·고유값·분해
+- [[linear-algebra-matlab]] — MATLAB으로 배우는 선형대수학 (이광연·설희국): LU/QR/SVD 수치 실험으로 이해
 - [[linear-system-control]] — Linear System, Control, and State-Space (선형 시스템·제어·상태공간): 1개의 선형 다변수 동역학 시스템의 "내
 - [[linear-system-theory-design]] — Linear System Theory and Design: "상·대학원급 선형 시스템·다변수 설계 과정"용(서문). 선진 수학 = 행렬 조작 +
 - [[linear-system-theory-design-3ed]] — Chi-Tsong Chen, SUNY Stony Brook — Oxford University Press, 1999, 343p. **1970년 
 - [[lte-radio-interface]] — LTE(Radio Interface)의 무선 접속 계층 — 물리 계층(OFDM downlink / SC-FDMA uplink)·MAC·RRC(R
 - [[lte-wireless-technology-training]] — 무선통신기술의 이해 (현대차 LTE 특강 2014) (현대자동차 내부 교육 자료 (외부 출판사 표기 없음), 2014, 387p) — "Hyun
+- [[matlab-application]] — MATLAB 응용 (황우현·장순철·안성모)
+- [[matlab-financial-analysis]] — Neural Networks in Finance (McNelis 2005, MATLAB 한국어판): 신경망(MLP·RBF) 기반 포트폴리오·옵션/리스크
+- [[matlab-guide-korean]] — MATLAB 길잡이 (Multiinfo Student Edition 한국어판, 1990s): MathWorks 매뉴얼 번역
+- [[matlab-intro-and-use-kim]] — MATLAB 입문과 활용 (김용수 2002)
+- [[matlab-jeodeuro]] — 제대로 배우는 MATLAB (방성완)
+- [[matlab-jeongsseok]] — MATLAB (Gilat 5th) — Introduction, Application and Programming
+- [[matlab-simulink-jeodeuro]] — 제대로 배우는 MATLAB & Simulink (방성완)
+- [[matlab-statistical-analysis]] — MATLAB을 활용한 통계분석 (김길용 2013): 확률분포·가설검정·선형회귀·Monte-Carlo
 - [[microcontroller-arduino]] — MCU·아두이노: ATtiny85·PIC·32-bit·DSP·GPIO·인터페이스 (practical-electronics ch.13)
 - [[microwave-engineering]] — Microwave Engineering (Pozar 4th ed. 742p): EM theory → 전송선로·소미차트 → waveguide·mi
 - [[mimo-multiple-input-multiple-output]] — MIMO: 공간 다중화·다이버시티·빔포밍, I-METRA·SCM·SCM-E·802.11n 채널 (mimo-ofdm-wireless-matlab)
@@ -272,8 +301,10 @@
 - [[mp3-perceptual-coding]] — 사람의 청각 모델에 기반한 손실 오디오 부호화 — "사람이 듣지 못하는 정보를 압축한다"는 원리로, 저대역폭으로 오디오 신호를 전송·저장한다.
 - [[mpeg-2-watkinson]] — MPEG-2: A Standard and Its Applications (Watkinson 1999) (Focal Press (Butterwor
 - [[mpeg-system-korea]] — MPEG 시스템 (유시룡·장규환·이병욱·김종일·정해묵 1997) ((출판사 원문 미확인), 1997, 253p) — MPEG 표준 3개 파트(시
+- [[mpeg-theory-miki]] — MPEG-4의 세계 (三木 弼一 1998): MPEG 부호화 구조·MPEG-4 객체기반 모델
 - [[mpeg-video]] — MPEG 비디오 (대우전자 영상연구소, 1995): 1990년대 초 한국에서 출판된 MPEG-2 영상 부호화 표준 기술서. "MPEG에서 정의한
 - [[mpeg2-source-code-commentary]] — 알기 쉬운 MPEG-2 소스코드 해설 (이호석·김준 2000) (홍릉과학출판사, 2000 (머리말 2000. 11.), 562p) — 국내에서 
+- [[multimedia-signal-processing]] — 멀티미디어 신호처리 이론 및 실습 2판 (조재수 외): 음성부호화(MP3·PCM)·영상 압축·센서
 - [[new-electronics]] — 신전자공학 (이수원·구기준·임영근·이영노 공저, 학당 526p): 기술직 수험서 — 전자현상→소자→펄스→BJT/FET 증폭→연산증폭→발진→변복조
 - [[nick-efford]] — Nick Efford (닉 에포드): School of Computer Studies, University of Leeds. Java 기반 디지
 - [[nilson-riedel-electric-circuits]] — Electric Circuits 4th ed. (James W. Nilsson & Susan A. Riedel, Addison-Wesley 94
@@ -294,6 +325,8 @@
 - [[practical-digital-communications-korea]] — 저자: **문호** — "방송국 엔지니어로서 10년간 산업체에서 근무한 후 대학에 [와서] 20년간 디지털통신에 대한 강의를 해온 경험과 미국 
 - [[practical-digital-video-c]] — Practical Digital Video with Programming: Examples in C (Mattison 1994) (John Wi
 - [[practical-electronics-eng]] — 모듈을 위한 실용 전자공학 (Scherz·Monk 4ed 2016, 박진수 역 2018, 1068p): 회로이론→반도체→센서→필터→555/발진→
+- [[practical-image-processing-matlab]] — MATLAB 실용 디지털 영상처리 (정성환·이문호 2005, 441p): 색공간·히스토그램·필터·DCT·Hough
+- [[proakis-communications-systems]] — Communication Systems Engineering (Proakis·Salehi 1994): 아날로그/디지털 변조 이론, SNR·BER
 - [[probability-random-process]] — Probability and Random Processes for Electrical Engineering (2nd ed): 장 1은 "통신·컴
 - [[probability-random-variables]] — Probability, Random Variables, and Stochastic Processes (2nd ed): 부 I(장 1~9)는 공리
 - [[rafael-gonzalez]] — Rafael C. Gonzalez (라파엘 곤잘레스): University of Tennessee, Knoxville, Electrical En
@@ -308,6 +341,10 @@
 - [[sensors-electronics]] — 센서 전자공학: 온도·근접·운동·힘/압력 + 정밀도/정확도/분해능 (practical-electronics ch.6)
 - [[signals-and-systems-korea]] — 신호 및 시스템 ((출판사 원문 미확인 — 발문에 "희중당 관계자" 감사 인사 있음), 1992. 5. 발문, 264p) — 전기·전자계 3·4
 - [[signals-and-systems-oppenheim]] — Signals and Systems (2nd ed): 연속시간(CT)·이산시간(DT)을 나란히(parallel) 발전시키는 것이 조직 원리. 서
+- [[signals-and-systems-oppenheim-kor]] — 신호 및 시스템 2nd ed (Oppenheim·Willsky·Nawab 한국어판)
+- [[signals-processing-first]] — 신호처리 FIRST (McClellan·Schafer·Yoder 원저, 한국어판 2005): 시계열·LTI·DTFT·DSP 기초
+- [[signals-systems-matlab]] — MATLAB 실습과 함께 배우는 신호와 시스템 (김명진): LTI·푸리에/DFT·라플라스·Z·필터
+- [[signals-systems-practice]] — 신호 및 시스템 2판 (강철호·유지상·박호종)
 - [[simon-monk]] — Practical Electronics for Inventors 공저 (아두이노·FPGA 전문)
 - [[software-defined-radio]] — 소프트웨어 무선(SDR): RF·기저대역·프로토콜 모듈화, PDC/PHS/CDMA, 차량 10+ 서비스 통합 (latest-mobile-comm
 - [[song-jong-gwan]] — 송종관 (Song Jongkwan): 경성대학교 멀티미디어 연구총서 시리즈의 저자.

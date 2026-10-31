@@ -1,10 +1,10 @@
 ---
 title: 디지털 신호 처리 (Digital Signal Processing)
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-31
 type: concept
 tags: [engineering, signal-processing, dsp, dft-fft, fourier-analysis]
-sources: [raw/books/a-course-in-dsp.md, raw/books/signals-and-systems-korea.md]
+sources: [raw/books/a-course-in-dsp.md, raw/books/signals-and-systems-korea.md, raw/books/dsp-first.md, raw/books/signals-processing-first.md, raw/books/dsp-basics.md, raw/books/dsp-matlab-young-cho.md, raw/books/signals-and-systems-oppenheim-kor.md, raw/books/signals-systems-matlab.md, raw/books/signals-systems-practice.md, raw/books/dsp-image-matlab-charbit.md, raw/books/multimedia-signal-processing.md, raw/books/engineering-mathematics-matlab.md, raw/books/matlab-guide-korean.md]
 confidence: high
 ---
 # 디지털 신호 처리 (Digital Signal Processing)
@@ -22,6 +22,13 @@ confidence: high
 - 선진 요구: 회로, Fourier 급수, **Laplace 변환** 기본개념 `[raw/books/signals-and-systems-korea.md]`
 - 부록에 "컴퓨터 프로그램" 수록 — 시뮬레이션 기반 학습 `[raw/books/signals-and-systems-korea.md]`
 
+## DSP 실습 축 확장 — 2005~2015 배치 (DSP First·MATLAB 실습·신호-시스템 이론)
+- **DSP First (McClellan·Schafer·Yoder)** — MATLAB/실습 CD-ROM 동반 학부 교과; 후속 Signals Processing FIRST(2005 Pearson 한국어판)는 시계열·LTI 컨볼루션·DTFT·DFT/FFT·IIR/FIR(equiripple·bilinear)·Multirate polyphase까지 실습 `[raw/books/dsp-first.md]` `[raw/books/signals-processing-first.md]`
+- **DSP+MATLAB (양원영·조용수 2006)** — Signal Processing Toolbox(`filter`·`freqz`·`designfilt`) 실습; DSP 응용(Kalman·Wavelet·Multirate)까지, 이론서 Oppenheim·Willsky([[signals-and-systems-oppenheim-kor]])과 실습 축으로 분리 `[raw/books/dsp-matlab-young-cho.md]`
+- **신호처리·이미지처리 MATLAB (Blanchet·Charbit 2008, 794p)** — DSP(DFT·IIR·FIR) + 영상(2D DCT·에지·모폴로지) 통합 실습 — DSP와 [[image-processing-fundamentals]]의 접점 `[raw/books/dsp-image-matlab-charbit.md]`
+- **신호-시스템 이론서 축**: Oppenheim 2nd Ed 한국어판(2015, LTI·푸리에·z-변환·상태공간 — DSP의 선행 기초) `[raw/books/signals-and-systems-oppenheim-kor.md]` · 신호-시스템 2판(강철호 외) · DSP 기초(박태홍) `[raw/books/dsp-basics.md]` · MATLAB 공업수학(소상균) `[raw/books/engineering-mathematics-matlab.md]`
+- **멀티미디어 신호처리 (조재수 외)** — DSP 이론 축이 [[mp3-perceptual-coding]]·영상 처리로 확장되는 지점 `[raw/books/multimedia-signal-processing.md]`
+
 ## 두 소스 비교
 
 | 차원 | 신호 및 시스템 (1992) | Porat (1997) |
@@ -32,7 +39,9 @@ confidence: high
 | 추가 | 상태공간·스타변환 | 멀티레이트·랜덤 신호·응용 |
 
 ## 관련
-- [[a-course-in-dsp]] · [[signals-and-systems-korea]]
+- 책: [[a-course-in-dsp]] · [[signals-and-systems-korea]]
+- DSP 실습 축: [[dsp-first]] · [[signals-processing-first]] · [[dsp-matlab-young-cho]] · [[dsp-image-matlab-charbit]] · [[dsp-basics]] · [[multimedia-signal-processing]] · [[signals-systems-matlab]] · [[signals-systems-practice]]
+- DSP 선행 이론: [[signals-and-systems-oppenheim-kor]] · [[signals-and-systems-oppenheim]] · [[engineering-mathematics-matlab]]
 - [[dct-algorithms-applications]] (DCT/변환 부호화 → [[transform-coding]])
 - [[linear-algebra-applications]] (FFT·SVD의 선형대수 기초)
 - 인접: [[analog-filter-design]], [[ofdm-orthogonal-frequency-division]], [[spread-spectrum-cdma]]

@@ -4,7 +4,7 @@ created: 2026-10-05
 updated: 2026-10-05
 type: concept
 tags: [quant-investing, quant, strategy, us-stocks, python, backtesting]
-sources: [raw/books/wise-quant-investing.md]
+sources: [raw/books/wise-quant-investing.md, raw/books/matlab-financial-analysis.md, raw/books/matlab-statistical-analysis.md, raw/books/fund-solicitation-agent.md]
 ---
 
 # 퀀트투자 (Quant Investing)
@@ -33,10 +33,16 @@ sources: [raw/books/wise-quant-investing.md]
 
 > "합성된 전략이 [개별 전략]보다 좋은 수익률을 내는 [경우]가 있다. 이는 각 전략이 서로 다른 시기에 효력을 발하기 때문이다." — p.034 (일부 깨짐)
 
+## 실전 도구 축 (MATLAB 금융·통계, 2005~2018 배치)
+- **Neural Networks in Finance (McNelis 2005 MATLAB 한국어판)** — MLP·RBF·KNN 기반 포트폴리오 최적화·옵션/리스크 관리 — 퀀트투자 "시그널 생성" 단계의 ML 도구 `[raw/books/matlab-financial-analysis.md]`
+- **MATLAB 통계분석 (한정호·최승호 2013)** — 확률분포·가설검정·선형회귀·Monte-Carlo — 백테스트 검증의 통계 기법 `[raw/books/matlab-statistical-analysis.md]`
+- **FSA(펀드투자권유대행인) 자격** — 펀드 상품 개념·규제 — 실무 금융 기초 `[raw/books/fund-solicitation-agent.md]`
+- **매경TEST** — 경제·경영·재무·금융 자격시험 — 퀀트투자 이론의 자격시험 검증 축 `[raw/books/mg-test-exam.md]`
+
 ## See also
 - [[backtesting]] · [[value-investing]] · [[trend-following]] — 퀀트투자의 세 갈래
 - [[us-equity-market]] — 왜 미국
 - [[compound-interest]] — CAGR·복리 환산
 - [[index-investing]] · [[etf-investing]] — 벤치마크/지수와의 대비
 - [[valuation-multiples]] — 가치 모델에 쓰는 지표
-- 관련 실서: [[wise-quant-investing]] (이 개념을 다룬 책) · 도구 배경: [[seventech]]
+- 관련 실서: [[wise-quant-investing]] (이 개념을 다룬 책) · 도구 배경: [[seventech]] · [[matlab-financial-analysis]] (Neural Networks in Finance) · [[matlab-statistical-analysis]] (MATLAB 통계)

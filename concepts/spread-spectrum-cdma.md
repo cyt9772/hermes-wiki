@@ -1,10 +1,10 @@
 ---
 title: 확산 스펙트럼 / CDMA (Spread Spectrum / Code Division Multiple Access)
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-31
 type: concept
 tags: [wireless-communications, cdma, signal-processing, telecom-systems]
-sources: [raw/books/latest-mobile-comm-systems.md]
+sources: [raw/books/latest-mobile-comm-systems.md, raw/books/3g4g-mobility-systems.md, raw/books/comm-theory-matlab.md, raw/books/digital-communication-matlab.md, raw/books/proakis-communications-systems.md]
 confidence: high
 ---
 # 확산 스펙트럼 / CDMA
@@ -41,9 +41,17 @@ confidence: high
 - 5.5 AWGN 환경 / 5.5.2 레일리(Rayleigh) 환경에서 BER 시뮬레이션.
 - 확산 이득 = 확산 코드 칩률/정보률비 (processing gain)
 
+## 3G/4G 이동통신에서의 확산 (2009 배치 추가)
+- **3G/4G 시스템 (이상근·조봉열·여운영 2009)** — 동기식 CDMA 배경 독자를 위한 비동기 WCDMA 비교; UMB 무선망 구조, 채널 코딩·채널 모델링·**Rake 수신** 개념, HSDPA/HSUPA/WiMAX(3.5세대)와 초기 4G 기술 흐름 `[raw/books/3g4g-mobility-systems.md]`
+- **MATLAB 통신이론 (신윤기 2011)** — 각 장마다 MATLAB 프로그램 수록; 아날로그(AM/FM) + 디지털 변조(PSK/QAM) + 정합 필터·오판확률, SNR 중심 통신 성능 분석 + **확산 스펙트럼 11장** `[raw/books/comm-theory-matlab.md]`
+- **디지털통신 MATLAB/SIMULINK (양원영 외 2005)** — 변조(QPSK/QAM)·채널 코딩·FEC·등화·OFDM의 MATLAB/SIMULINK 시뮬레이션; 이론/실습 축 `[raw/books/digital-communication-matlab.md]`
+- **Proakis·Salehi *Communication Systems* (1994)** — 아날로그/디지털 변조 이론 축으로 SNR·BER 성능 분석 중심; 변조·확산 부호화·OFDM 개념 `[raw/books/proakis-communications-systems.md]`
+
 ## Related
 - [[channel-access-protocols]] — 다중접속 접근 방식 비교 (ALOHA/CSMA는 임의, CDMA는 부호 기반 임의·동시)
 - [[digital-modulation]] — 변조 방식과 결합
 - [[wireless-channel-modeling]] — 레일리/로레이 페이딩 환경에서의 성능
 - [[software-defined-radio]] — CDMA 수신/부호화도 SDR로 구현
 - 책: [[latest-mobile-comm-systems]] (5장 전강), [[mimo-ofdm-wireless-matlab]]
+- 3G/4G: [[3g4g-mobility-systems]] (WCDMA·Rake·UMB) · [[comm-theory-matlab]] (MATLAB 확산 11장) · [[digital-communication-matlab]] (MATLAB/SIMULINK)
+- 이론: [[proakis-communications-systems]] (변조·확산·BER)

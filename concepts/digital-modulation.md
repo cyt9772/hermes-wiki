@@ -4,7 +4,7 @@ created: 2026-10-18
 updated: 2026-10-18
 type: concept
 tags: [wireless-communications, signal-processing, telecom-systems]
-sources: [raw/books/latest-mobile-comm-systems.md]
+sources: [raw/books/latest-mobile-comm-systems.md, raw/books/proakis-communications-systems.md, raw/books/comm-theory-matlab.md, raw/books/digital-communication-matlab.md]
 confidence: high
 ---
 # 디지털 변조 (Digital Modulation)
@@ -40,3 +40,5 @@ confidence: high
 - [[spread-spectrum-cdma]] — 변조 위에 확산 칩 곱하기
 - [[wireless-channel-modeling]] — 페이딩 환경에서의 BER
 - 책: [[latest-mobile-comm-systems]] (3장), [[mimo-ofdm-wireless-matlab]] (OFDM 변조와 대조)
+- 이론 서지: [[proakis-communications-systems]] (PSK/QAM/OFDM 이론 체계)
+- MATLAB 실습 축: [[comm-theory-matlab]] (AM/FM·PSK/QAM·정합필터 MATLAB) · [[digital-communication-matlab]] (QPSK/QAM·BER 시뮬레이션)

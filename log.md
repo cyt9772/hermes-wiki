@@ -5,6 +5,25 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-31] update | 2005~2015 배치 38종 — 엔티티 37개 인덱스 등록 + 10개 개념 hub 확장 + Oppenheim EN↔Ko 상호링크
+- **대상:** 2005~2015 USB 배치에서 raw 래퍼 38종 + entity 37종(미커밋) 생성했으나 index.md 미등록 상태였던 누락 정합화 (기존 1차 21종 + 2차 18종 중 index 누락분).
+- **index.md:** 443 → **481** (Engineering 194→230 [+36], Investing 118→120 [+2]). 누락 entity 38종 전체 알파벳 정렬 삽입 — DSP·MATLAB 11종(dsp-first·dsp-basics·dsp-matlab-young-cho·dsp-image-matlab-charbit·dsp-video·matlab-guide-korean·matlab-intro-and-use-kim·matlab-jeodeuro·matlab-jeongsseok·matlab-simulink-jeodeuro·matlab-application·matlab-statistical-analysis), 영상 4종(digital-image-processing-2kor·digital-image-processing-c-ki·image-processing-matlab·practical-image-processing-matlab), MPEG/H.264/HDTV 5종(applied-mpeg-fig·latest-mpeg-fig·mpeg-theory-miki·h264-avc-video-compression·hdtv-theory-technology), 통신 4종(3g4g-mobility-systems·comm-theory-matlab·digital-communication-matlab·proakis-communications-systems), 신호이론 4종(signals-and-systems-oppenheim-kor·signals-processing-first·signals-systems-matlab·signals-systems-practice), 수학 3종(linear-algebra-matlab·linear-algebra-for-programmers·engineering-mathematics-matlab), 최적화 1종(engineering-optimization-reklaitis), 금융·자격 5종(fund-solicitation-agent·matlab-financial-analysis·mg-test-exam·it-engineer-licensure→Engineering, multimedia-signal-processing→Engineering).
+- **개념 hub 확장 (10종):** 각 hub에 배치 38종이 참여하는 소스·서지 추가, sources frontmatter sync.
+  - `digital-signal-processing` — DSP First·DSP Basics·Signals Processing First·DSP MATLAB(Cho)·DSP-Image MATLAB(Charbit)·DSP Video·Signals-Systems MATLAB·Signals Systems(Park) — DSP MATLAB 실습 축 9종 추가.
+  - `spread-spectrum-cdma` — 3G/4G(IDEAL 2009)·comm-theory-matlab·digital-communication-matlab·Proakis — 3G/4G·확산실습 축 4종 추가.
+  - `video-compression-mpeg` — H.264/AVC·HDTV·applied/latest-mpeg-fig·mpeg-theory-miki·dsp-video — MPEG 표준화 실무·HDTV 세션 6종 추가(藤原洋/大久保/三木 — 원서 저자명은 SCHEMA.md에 따라 원문 유지).
+  - `image-processing-fundamentals` — Gonzalez·Woods·Rice 한국어판·디지털영상처리 C(Ohmsha)·MATLAB 영상처리 2종·DSP-Image MATLAB — 한국어·MATLAB·C 실무 축 5종 추가.
+  - `ofdm-orthogonal-frequency-division` — digital-communication-matlab·Proakis·3G/4G·H.264·HDTV — OFDM 실습·방송접목 5종 추가.
+  - `digital-modulation` — Proakis·comm-theory-matlab·digital-communication-matlab — 변조 이론·MATLAB 실습 축 3종 추가.
+  - `linear-algebra-applications` — linear-algebra-matlab·signals-systems-matlab·matlab-statistical-analysis — MATLAB 실습 축 3종 추가.
+  - `black-scholes` — matlab-financial-analysis(Neural Nets)·matlab-statistical-analysis·mg-test-exam·fund-solicitation-agent — 금융 MATLAB·자격 축 4종 추가(공식·도구 연계).
+  - `quant-investing` — matlab-financial-analysis·matlab-statistical-analysis·fund-solicitation-agent·mg-test-exam — 퀀트 실전 도구 4종 추가.
+  - `mp3-perceptual-coding` — multimedia-signal-processing — 음성부호화 교과 1종 추가.
+- **Oppenheim EN↔Ko 상호링크:** `signals-and-systems-oppenheim.md`(EN 1st ed)의 Related 섹션에 `[[signals-and-systems-oppenheim-kor]]` 추가, `alan-v-oppenheim.md` 저자 페이지에 한국어판(Firstbook 2015) 항목 추가 — 기존 KOR→EN 단방향에서 양방향으로.
+- **한자/링크 검증:** 추가 섹션 CJK-Han 0 (예외: 大久保·三木·藤原 — 원서 저자명 원문 유지 · SCHEMA.md 원저명 유지 정책). `[[...]]` 신규 dangle 0 (기존 dangle과 신규 dangle 구분). `updated:`/`created:` frontmatter 10종 sync.
+- **index.md count:** Total 443→481, Language 43 그대로, Investing 118→120, Engineering 194→230. 1차 배치 21종 + 2차 배치 18종 중 index 누락분 38종 전부 등록.
+- **git:** entity 37종 + 개념 hub 10종 + Oppenheim 2종 + index.md 커밋, 1차·2차 배치 raw 래퍼는 이미 커밋(`2a661c4`, `9588b9a`).
+
 ## [2026-10-27] ingest | 말하기 영작문 트레이닝 (장근섭, 다락원 2013, 602p)
 - **인제스트 대상:** /Down/말하기 영작문 트레이닝_220405_112929.pdf (스캔본, text-layer 없음).
 - **방식:** tesseract 5.5.3 (kor+eng, 300dpi) 병렬 OCR (P=8) — 602/602 페이지 성공, 오류 0. USB/다운로드→`raw/books/malhagi-yeongjakmun-training.pdf` 로컬 백업 (git-ignore 대상) + sha256 `d6db4db9…03a870`. `raw/books/malhagi-yeongjakmun-training.md` 래퍼 (frontmatter + 9섹션·35법칙 목차 테이블 + OCR 전체 602 페이지).

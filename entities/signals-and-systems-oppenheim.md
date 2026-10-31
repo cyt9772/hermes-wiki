@@ -38,4 +38,5 @@ confidence: high
 - 저자: [[alan-v-oppenheim]] · [[alan-willsky]] (MIT 듀오)
 - 개념: [[digital-signal-processing]] · [[linear-system-control]]
 - 인접: [[signals-and-systems-korea]] (한국어 신호-시스템 교재) · [[a-course-in-dsp]] (DSP 후속) · [[analog-filter-design]] (Butterworth 장 접점)
+- **한국어판 (2nd Ed 1997, Firstbook 2015)**: [[signals-and-systems-oppenheim-kor]] — Oppenheim·Willsky·Nawab 3인 공저 2nd Ed의 한국어 번역. 이 페이지(1st Ed 구조 요약)와 **구분** — 권자·년도가 다름
 - **해답집**: [[oppenheim-signals-systems-solutions]] — Solution Book (Prentice Hall, 1st ed. 1982, 177p), 장말 문제 풀이(CT/DT 컨벌루션·FT·Laplace·z·피드백)

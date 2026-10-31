@@ -35,4 +35,5 @@ confidence: high
 ## 관련
 - [[linear-algebra-and-its-applications]]
 - [[a-course-in-dsp]] (FFT·DFT의 선형대수적 해석), [[signals-and-systems-korea]] (상태공간·동적특성)
+- MATLAB 실습 축: [[linear-algebra-matlab]] (LU·QR·SVD 수치 실험) · [[signals-systems-matlab]] (DFT·라플라스·Z MATLAB) · [[matlab-statistical-analysis]] (통계 수치)
 - 인접: [[advanced-engineering-mathematics]], [[numerical-methods-science-computing]]

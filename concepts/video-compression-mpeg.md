@@ -1,10 +1,10 @@
 ---
 title: 영상 압축 표준 (Video Compression — MPEG/H.261 계열)
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-31
 type: concept
 tags: [engineering, video-compression, mpeg-standard, h-261]
-sources: [raw/books/mpeg-2-watkinson.md, raw/books/video-coding-standard-codecs.md, raw/books/mpeg-system-korea.md, raw/books/mpeg2-source-code-commentary.md, raw/books/video-compression-standards-korea.md, raw/books/digital-video-engineering-korea.md, raw/books/video-communication-signal-processing.md]
+sources: [raw/books/mpeg-2-watkinson.md, raw/books/video-coding-standard-codecs.md, raw/books/mpeg-system-korea.md, raw/books/mpeg2-source-code-commentary.md, raw/books/video-compression-standards-korea.md, raw/books/digital-video-engineering-korea.md, raw/books/video-communication-signal-processing.md, raw/books/h264-avc-video-compression.md, raw/books/hdtv-theory-technology.md, raw/books/applied-mpeg-fig.md, raw/books/latest-mpeg-fig.md, raw/books/mpeg-theory-miki.md, raw/books/dsp-video.md]
 confidence: high
 ---
 # 영상 압축 표준 (Video Compression — MPEG/H.261 계열)
@@ -71,6 +71,36 @@ confidence: high
 | bit-rate | 56-2048k | ~1.5M | 4-20M (HD까지) | <64k~2M | 가변 |
 | 계위 | — | — | spatial/SNR/temporal | — | spatial/temporal |
 
+## H.264/AVC — 차세대 (2007 배치)
+
+### H.264/AVC 비디오 압축 (大久保 榮 외, 2007 개정, 419p)
+- 기존 H.261→MPEG-1/2→H.263→MPEG-4 흐름에서 **H.264/AVC 세대를 독립 교재**로 위치 `[raw/books/h264-avc-video-compression.md]`
+- **CABAC/CAVLC**(변형 entropy coding)·**deblocking filter**·**VBV rate control**·GOP 구조 — MPEG-2/H.263 대비 효율 개선 `[raw/books/h264-avc-video-compression.md]`
+- 모바일 TV 5개 방식(DMB·DVB·MediaFLO·ISDB-T·MBMS)의 bitrate·해상도·latency 비교 — 2005-07 정책 기술 백서 `[raw/books/h264-avc-video-compression.md]`
+- HD 1080p HD-DVD vs Blu-ray codec 비교 + 차세대 셋톱박스(IPTV) 활용 `[raw/books/h264-avc-video-compression.md]`
+- 인접: [[steganography-watermarking]] (H.264 워터마킹) · [[mp3-perceptual-coding]] (오디오 코덱 병행)
+
+## HDTV — HD 방송 시스템 (2000 배치)
+- **HDTV 이론과 기술 (대한전자공학회, 2000)** — 고해상도·고주사율(100Hz)·1250선·wide-gamut·16:9, NTSC 대비 비교가 제1축 `[raw/books/hdtv-theory-technology.md]`
+- HD 방송: **DVB/ATSC/ISDB-T**, 모바일 TV 표준(DMB·DVB-H·MBMS) — 2000년대 초기 HD·모바일 방송 전환기 총서 `[raw/books/hdtv-theory-technology.md]`
+- 디스플레이: PDP·LCD·DLP·CRT, color space(YUV vs YCbCr), bit depth — HD 디스플레이 산업 배경 `[raw/books/hdtv-theory-technology.md]`
+- 영상 압축 표준과 HD 전송의 연결점 — HD급 bitrate을 줄이는 코덱과 디스플레이가 만난 지점
+
+## MPEG 표준화 실무 (일본 원저 3권, 1995-99 배치 추가)
+### 그림으로 보는 응용 MPEG / 최신 MPEG (藤原洋 supervision, 1995)
+- **응용 MPEG** — MPEG 오디오(·음성) 응용 CD·방송·통신, MPEG 비디오/모션 부호화 응용 DVD·브로드캐스팅, MPEG-4/7 신세대 표준 + 산업 적용 `[raw/books/applied-mpeg-fig.md]`
+- **최신 MPEG** — MPEG 표준화 과정(ISO/IEC 11172·13811) 역사적 흐름, MPEG-1/2 구조(시스템·오디오·비디오 계층), MPEG-4 기초 + 산업 응용(리코·NTT·Sony) `[raw/books/latest-mpeg-fig.md]`
+
+### MPEG-4의 세계 (三木弼一, 1999)
+- MPEG 부호화 표준 구조 — 영상·음성 공동 부호화 프레임워크 `[raw/books/mpeg-theory-miki.md]`
+- **MPEG-4 객체 기반(오브젝트) 부호화 모델** — ISO 표준화 논의와 병행 `[raw/books/mpeg-theory-miki.md]`
+- 산업계(마쓰시타 등) 관점의 응용 장 — 표준화 현장 기술 `[raw/books/mpeg-theory-miki.md]`
+
+## 영상 신호처리 (DSP × Video 접점)
+- **영상을 이용한 디지털 신호처리 (엄민영·김성제 2014)** — 2D 공간 신호·주파수 평면·DCT/2D-DFT, 영상 압축·부호화(MJPEG 계열), 운동 보정까지 영상 특화 DSP `[raw/books/dsp-video.md]`
+- 인접: [[image-processing-fundamentals]] (2D 영상 처리) · [[transform-coding]] (DCT 기반) · [[mp3-perceptual-coding]] (오디오 코덱)
+
 ## 관련
 - [[mpeg-2-watkinson]] · [[video-coding-standard-codecs]] · [[mpeg-system-korea]] · [[mpeg2-source-code-commentary]] · [[video-compression-standards-korea]] · [[digital-video-engineering-korea]] · [[video-communication-signal-processing]]
+- H.264/HD: [[h264-avc-video-compression]] · [[hdtv-theory-technology]] · [[applied-mpeg-fig]] · [[latest-mpeg-fig]] · [[mpeg-theory-miki]] · [[dsp-video]]
 - 인접: [[image-processing-fundamentals]] (C2 cluster) · [[dct-algorithms-applications]] · [[a-course-in-dsp]]

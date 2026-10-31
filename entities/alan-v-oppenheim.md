@@ -16,6 +16,7 @@ MIT 전기컴퓨터공학부(Electrical Engineering and Computer Science) 소속
 - [[oppenheim-signals-systems-solutions]] — *Signals and Systems* 1st ed. **Solution Book** (WITH A. Willsky · I. Young, Prentice Hall 1982, 177p). 장말 문제 풀이.
 - [[discrete-time-signal-processing]] — *Discrete-Time Signal Processing*, WITH R. W. Schafer (Prentice Hall, 1989, 893p). 1975 *Digital Signal Processing*의 완전 rewrite: "In the mid-1960s digital signal processing emerged as a new branch of signal processing" `[raw/books/discrete-time-signal-processing.md]`
 - [[computer-based-exercises-signal-matlab]] — *Computer-Based Exercises for Signal Processing Using MATLAB*, WITH C. Burrus, J. McClellan, T. Parks, R. Schafer, H. Schuessler (Prentice Hall, 1994, 410p) — 6교수 프로젝트 실습서 `[raw/books/computer-based-exercises-signal-matlab.md]`
+- [[signals-and-systems-oppenheim-kor]] — *신호 및 시스템* 2nd Ed 한국어판 (WITH A. Willsky · S. H. Nawab, Firstbook 2015) — 10-30 USB 배치에서 인제스트한 2nd Ed 번역본
 
 ## 관련
 - [[alan-willsky]] (MIT 듀오, 공동저자)

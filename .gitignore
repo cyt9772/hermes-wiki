@@ -26,3 +26,5 @@ raw/books/*.prev
 # pdftotext extractions (metadata-only books: full text embedded in raw/books/<slug>.md)
 raw/*.txt
 raw/*.txt.d/
+# TTS audio cache (local-only binary artifacts, not wiki content — text-only policy)
+audio/

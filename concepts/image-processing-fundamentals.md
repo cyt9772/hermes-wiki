@@ -1,10 +1,10 @@
 ---
 title: 디지털 영상 처리 기초 (Digital Image Processing)
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-31
 type: concept
 tags: [engineering, image-theory, image-processing]
-sources: [raw/books/digital-image-processing-2ed.md, raw/books/image-processing-java.md, raw/books/image-processing-practice-nhk.md]
+sources: [raw/books/digital-image-processing-2ed.md, raw/books/image-processing-java.md, raw/books/image-processing-practice-nhk.md, raw/books/digital-image-processing-2kor.md, raw/books/digital-image-processing-c-ki.md, raw/books/image-processing-matlab.md, raw/books/practical-image-processing-matlab.md, raw/books/dsp-image-matlab-charbit.md]
 confidence: medium
 ---
 # 디지털 영상 처리 기초 (Digital Image Processing)
@@ -43,8 +43,26 @@ confidence: medium
 | 언어/구현 | (MATLAB 등, 언어 독립) | **Java 2D API** | **표준 C** |
 | 교육 목표 | 이론·수학 4년 차 수준 | 프로그래밍 실무 + 실험 | 엔지니어 실무 + C 소스 |
 
+## 2000s~2015 배치 추가 — 한국어판·MATLAB·C 실무
+### Gonzalez·Woods·Rice 한국어판 (1996, 866p)
+- **Digital Image Processing** (Gonzalez·Woods·Rice, U. Tennessee·U. Michigan)의 한국어 번역 — 공간 영역/변분/부호화/복원/합성/분할까지 한 권 `[raw/books/digital-image-processing-2kor.md]`
+- 기존 [[digital-image-processing-2ed]](Gonzalez·**Wintz**, 2nd Ed 1987)와 **구분**: 원저 제목은 같지만 저자(Woods·Rice)·판차 다름 `[raw/books/digital-image-processing-2kor.md]`
+
+### 디지털 영상처리 (C 언어) — Ohmsha 원저, 성안당 1998
+- NTSC / Pseudo-NTSC 색신호 분산·동기·색상 처리 (C 구현) `[raw/books/digital-image-processing-c-ki.md]`
+- FIR/IIR 필터, FF Filter, Edge/Noise/Geometric 보정 — VTR·전자줌 실용 알고리즘 `[raw/books/digital-image-processing-c-ki.md]`
+- FFT/DCT 기반 부호화, MPEG 연계 — C 코드 실습 중심 `[raw/books/digital-image-processing-c-ki.md]`
+
+### MATLAB 영상처리 2권 (2005/2012)
+- **MATLAB을 이용한 디지털영상처리** (Gonzalez·Woods·Eddins 2nd Ed, McGraw-Hill Korea 2012, 746p) — 1D/2D 신호·공간 색공간(RGB/YCbCr/HSV)·공역/주파수 필터(`imfilter`)·복원·분할·형태학·JPEG 계열 압축 `[raw/books/image-processing-matlab.md]`
+- **MATLAB 실용 영상처리** (정성환·이문호, 홍릉 2005, 441p) — 컬러 공간·히스토그램·명암 변환, 공간 필터/마스크/모폴로지/보간, DCT·Hough·MPEG 연계 `[raw/books/practical-image-processing-matlab.md]`
+
+### DSP × Image 통합
+- **신호처리·이미지처리 MATLAB** (Blanchet·Charbit 2008, 794p) — DSP(DFT·IIR·FIR) + 영상(2D DCT·에지·모폴로지) 동시 실습 — [[digital-signal-processing]] 축과 본 개념의 접점 `[raw/books/dsp-image-matlab-charbit.md]`
+
 ## 관련
 - 책: [[digital-image-processing-2ed]] · [[image-processing-java]] · [[image-processing-practice-nhk]]
+- 추가: [[digital-image-processing-2kor]] (Gonzalez·Woods·Rice 한국어) · [[digital-image-processing-c-ki]] (C 언어 Ohmsha) · [[image-processing-matlab]] (MATLAB 2nd) · [[practical-image-processing-matlab]] (MATLAB 실무) · [[dsp-image-matlab-charbit]] (DSP+Image 통합)
 - 저자: [[rafael-gonzalez]] · [[paul-wintz]] · [[nick-efford]]
 - 인접 개념(기존): [[ofdm-orthogonal-frequency-division]] — DFT/FFT 공용 배경
-- 인접 분야(기존): [[rf-engineering]] · [[microwave-engineering]] — NHK 방송기술 연구소 배경
+- 인접 분야(기존): [[rf-engineering]] · [[microwave-engineering]]
