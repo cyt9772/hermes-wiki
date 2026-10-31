@@ -1,3 +1,13 @@
+---
+title: 수급 해석 (Bull vs Bear Supply-Demand) — 매매
+created: 2026-10-14
+updated: 2026-10-31
+type: concept
+tags: [investing, timing, strategy, day-trading]
+sources: [raw/books/trading-technique.md]
+confidence: high
+---
+
 # 수급 해석 (곰과 황소의 힘겨루기, Bull vs Bear Supply-Demand) — 매매
 
 **주가를 움직이는 것은 금액이 아니라 '올려서 매수·내려서 매도'하는 공격적 수급의 방향** — 곰(Bear)과 황소(Bull)의 힘겨루기로 시장을 읽고, 프로그램 매매와 공격적 매수/매도를 구분하는 핵심 수급 프레임.

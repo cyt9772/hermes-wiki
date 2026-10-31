@@ -1,3 +1,13 @@
+---
+title: 베이시스·콘탱고·백워데이션 (Basis, Contango, Backwardation) — 선물
+created: 2026-10-15
+updated: 2026-10-31
+type: concept
+tags: [investing, futures, finance]
+sources: [raw/books/finance-recipes.md]
+confidence: high
+---
+
 # 베이시스·콘탱고·백워데이션 (Basis, Contango, Backwardation) — 선물
 
 **"선물가격과 현물가격의 차이"** — 선물 시장의 가격 구조를 읽는 가장 기본 단위. 베이시스의 부호로 선물 시장의 상태(콘탱고/백워데이션)를 판단하고, 정상 범위 이탈 순간을 포착해 차익거래하는 것이 선물 매매의 출발점.

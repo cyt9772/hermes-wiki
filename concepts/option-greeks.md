@@ -1,3 +1,13 @@
+---
+title: 옵션 그릭스 (Option Greeks: Δ·Γ·θ·ν·ρ) — 옵션
+created: 2026-10-15
+updated: 2026-10-31
+type: concept
+tags: [investing, options, finance, risk]
+sources: [raw/books/finance-recipes.md]
+confidence: high
+---
+
 # 옵션 그릭스 (Option Greeks: Δ·Γ·θ·ν·ρ) — 옵션
 
 **"어려워 보이는 옵션 용어"** — 옵션 가격 C(S,K,r,σ,T)가 각 변수에 대해 얼마나 민감하게 움직이는지를 수치로 나타낸다. 블랙-숄즈 방정식에서 "공식 자체를 외우지 않아도" Δ·Γ·θ·ν·ρ 5가지를 알면 옵션 매매의 리스크를 관리할 수 있는 실전 도구. 옵션 포지션의 헤지(hedging)가 이 그릭스를 중심으로 설계된다.

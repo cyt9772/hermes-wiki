@@ -19,10 +19,10 @@ Prentice-Hall 1st ed. Oppenheim·Willsky·Young 원서에 **동반 Solution Book
 
 ## 활용
 - [[signals-and-systems-oppenheim]] 1st ed. 문제 풀이 대조·검토 — LTI·컨볼루션·푸리에·Laplace·z-변환 표준 풀이. **텍스트 층 무음(해독 불가)이라** 인용할 정답 수식은 로컬 원본 PDF 대조 필수
-- [[digital-signal-processing]]·[[dsp]] 개념과 정합성 비교
+- [[digital-signal-processing]] 개념과 정합성 비교
 - 저자: [[alan-v-oppenheim]] · [[alan-willsky]] — 원서 해법집이라 entity cross-link 완료
 
 ## Related
 - 원서: [[signals-and-systems-oppenheim]]
 - 저자: [[alan-v-oppenheim]] · [[alan-willsky]]
-- 개념: [[digital-signal-processing]] · [[dsp]] · [[fourier-analysis]]
+- 개념: [[digital-signal-processing]] · [[signals-and-systems-oppenheim]]

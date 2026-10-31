@@ -1,3 +1,13 @@
+---
+title: 알파·베타 (α vs β) — 펀드·투자 성과
+created: 2026-10-15
+updated: 2026-10-31
+type: concept
+tags: [investing, finance, valuation, strategy]
+sources: [raw/books/finance-recipes.md]
+confidence: high
+---
+
 # 알파·베타 (α vs β) — 펀드·투자 성과
 
 **"비교 대상보다 높은 수익을 추구하는 것 = 알파(α), 비교 대상의 수익률과 유사한 패턴의 수익을 추구하는 것 = 베타(β)"** — 펀드의 성과를 **시장(벤치마크)의 움직임(β)** 과 **그 움직임 이상의 순수 초과수익(α)** 으로 분해하는 표준 프레임. 액티브 펀드의 목표는 α, 패시브 펀드(인덱스)의 목표는 β.

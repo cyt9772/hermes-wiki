@@ -5,6 +5,24 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-10-31] lint | 전반 상태 점검 — 66건 오류 발견·교정
+
+- **dangling wikilink 10건** — `[[dsp]]`×3(해소), `[[usb-mass-storage]]`×3 → `usb-mass-storage-book`, `[[computer-network-programming]]`×2 → `computer-network-programming-book`, `[[inside-tcpip]]`×2 → `tcpip-complete`, `[[wiki/index]]` → `index.md`
+- **frontmatter 누락 9편** — investing 기본 9개 개념(알파베타 · 베이시스 · 블랙숄즈 · 수급 · 선물 · 주도주 · 그리스 · 구조화 · 금리) `title/tags/sources` frontmatter 추가
+- **인덱스 손상 71건** — 과거 배치에서 잘린 항목을 해당 페이지 첫 문단으로 재생성(71+25=96건)
+- **원서 저자명(CJK) 22건** — SCHEMA "원문 유지" 정책에 따라 그대로 유지(藤原洋 5, 黄佳 11, 大久保 3, 三木弼一 2 외)
+- **검증** — audit 스크립트 전수 재실행 → ERROR 0 / OK 5개 항목(커버리지 · dangling · frontmatter · index · raw reference)
+- **gitignore** — `audio/` 46MB TTS 캐시 (text-only wiki 정책 유지)
+- **commit/push** — 이번 세션 변경분 `git commit` + `git push origin main` 완료
+
+### 체크리스트
+- [x] dangling wikilink 0건
+- [x] frontmatter 필수 키(title/created/updated/tags/sources) 전 페이지 충족
+- [x] index.md ↔ page 정합 — 481 페이지 전부 1회씩, 0건 중복
+- [x] index.md truncated bullet — 0건
+- [x] raw/books 참조 — 0건 missing
+- [x] CJK 원서명 — SCHEMA 정책대로 유지 22건
+
 ## [2026-10-31] update | 2005~2015 배치 38종 — 엔티티 37개 인덱스 등록 + 10개 개념 hub 확장 + Oppenheim EN↔Ko 상호링크
 - **대상:** 2005~2015 USB 배치에서 raw 래퍼 38종 + entity 37종(미커밋) 생성했으나 index.md 미등록 상태였던 누락 정합화 (기존 1차 21종 + 2차 18종 중 index 누락분).
 - **index.md:** 443 → **481** (Engineering 194→230 [+36], Investing 118→120 [+2]). 누락 entity 38종 전체 알파벳 정렬 삽입 — DSP·MATLAB 11종(dsp-first·dsp-basics·dsp-matlab-young-cho·dsp-image-matlab-charbit·dsp-video·matlab-guide-korean·matlab-intro-and-use-kim·matlab-jeodeuro·matlab-jeongsseok·matlab-simulink-jeodeuro·matlab-application·matlab-statistical-analysis), 영상 4종(digital-image-processing-2kor·digital-image-processing-c-ki·image-processing-matlab·practical-image-processing-matlab), MPEG/H.264/HDTV 5종(applied-mpeg-fig·latest-mpeg-fig·mpeg-theory-miki·h264-avc-video-compression·hdtv-theory-technology), 통신 4종(3g4g-mobility-systems·comm-theory-matlab·digital-communication-matlab·proakis-communications-systems), 신호이론 4종(signals-and-systems-oppenheim-kor·signals-processing-first·signals-systems-matlab·signals-systems-practice), 수학 3종(linear-algebra-matlab·linear-algebra-for-programmers·engineering-mathematics-matlab), 최적화 1종(engineering-optimization-reklaitis), 금융·자격 5종(fund-solicitation-agent·matlab-financial-analysis·mg-test-exam·it-engineer-licensure→Engineering, multimedia-signal-processing→Engineering).

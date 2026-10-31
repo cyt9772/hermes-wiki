@@ -47,6 +47,6 @@ USB는 "디바이스 클래스"로 동작을 표준화. 같은 클래스의 디�
 
 ## Related
 - [[usb-hid]] — HID 클래스 특화
-- [[usb-mass-storage]] — Mass Storage 클래스 + SCSI 매핑
+- [[usb-mass-storage-book]] — Mass Storage 클래스 + SCSI 매핑
 - [[usb-power-management]] — Sleep/Suspend
 - [[osi-7-layer-model]] — USB는 물리(1)+데이타링크(2)+응용(7) 단순 구조

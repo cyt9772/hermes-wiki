@@ -1,3 +1,13 @@
+---
+title: 주도주 추종 전략 (Leading-Stock Following) — 매매
+created: 2026-10-14
+updated: 2026-10-31
+type: concept
+tags: [investing, stock-picking, top-picking, strategy]
+sources: [raw/books/trading-technique.md]
+confidence: high
+---
+
 # 주도주 추종 전략 (Leading-Stock Following) — 매매
 
 **'그 업종·테마에서 가장 매수세가 강하고 가장 빠르고 강하게 오르는 주식'을 따라 사는 것** — 시장 반등 시 주도주가 가장 큰 탄력을 내므로, 섹터 전체보다는 그 섹터의 1등(주도주)을 매수 대상·리스팅(관심종목)으로 둔다.

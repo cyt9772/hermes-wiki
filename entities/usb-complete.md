@@ -54,5 +54,5 @@ USB(Universal Serial Bus) **3.0(SuperSpeed)까지**를 개발자 관점에서 �
 ## Related
 - 저자: [[jan-axelson]] — USB·Serial Port·임베디드 네트워킹 전문
 - 개념: [[usb-bus-architecture]], [[usb-hid]], [[usb-power-management]]
-- 관련 책: [[usb-mass-storage]] — 같은 저자, USB Mass Storage Class 특화
+- 관련 책: [[usb-mass-storage-book]] — 같은 저자, USB Mass Storage Class 특화
 - 관련: [[osi-7-layer-model]] (USB는 물리/데이타링크/응용 3계층 단순 구조)

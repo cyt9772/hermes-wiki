@@ -1,3 +1,13 @@
+---
+title: 구조화 상품 (Structured Products) — 파생상품
+created: 2026-10-15
+updated: 2026-10-31
+type: concept
+tags: [investing, finance, etf]
+sources: [raw/books/finance-recipes.md]
+confidence: high
+---
+
 # 구조화 상품 (Structured Products) — 파생상품
 
 **"기본 상품(주식·채권·선물·옵션)을 조합하여 새로운 수익[구조]를 만들어낸 상품"** — 파생상품을 **거래소에 상장·증권화**해 일반 주식처럼 거래되도록 설계한 금융 상품. ETF·ETN·ELW·ELS 등 한국 시장 2000년대~2018년 중반까지의 핵심 상품 유형. 2018년 기준으로 한국 기관투자자에서 개인투자자로 접근성이 확대되는 중.

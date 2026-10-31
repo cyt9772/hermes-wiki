@@ -11,7 +11,7 @@ confidence: high
 
 ## 본 wiki 소스
 - [[usb-complete]] — 저 (USB Complete, 4th Ed., 2010)
-- [[usb-mass-storage]] — 저 (USB Mass Storage, 2003)
+- [[usb-mass-storage-book]] — 저 (USB Mass Storage, 2003)
 
 ## 참고
 - **Lakeview Research** (Colorado, USA) — www.lvr.com

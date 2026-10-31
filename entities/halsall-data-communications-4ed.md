@@ -19,10 +19,10 @@ confidence: high
 - Chapter 1–14까지 (원문 목차: Chapter 1 … Chapter 14).
 
 ## 핵심
-- **OSI 7계층 + TCP/IP를 함께** 다루는 "Open Systems" 관점 — 1996년 4판은 **OSI(ISO 7498)와 인터넷 스택의 병행 체계**를 한 권에 정리한 표준 참고서. [[tcpip-network-programming]]·[[inside-tcpip]]·[[lan-van-isdn]]·[[ubiquitous-home-networking]] 등 위키의 네트워크 계열과 **계층 모델·프로토콜 주제가 접점**.
+- **OSI 7계층 + TCP/IP를 함께** 다루는 "Open Systems" 관점 — 1996년 4판은 **OSI(ISO 7498)와 인터넷 스택의 병행 체계**를 한 권에 정리한 표준 참고서. [[tcpip-network-programming]]·[[tcpip-complete]]·[[lan-van-isdn]]·[[ubiquitous-home-networking]] 등 위키의 네트워크 계열과 **계층 모델·프로토콜 주제가 접점**.
 - "Part one: Data communications"가 **매체(Transmission media)·물리 계층(Physical layer interface standards)·데이터링크(Protocol basics, 4.1 Error control)**로 시작 — OSI 하위 계층(1–3) 중심의 실무.
 - 919p 분량 + "Electronic Systems Engineering Series" 부록 → **전자공학 계열(통신/네트워크) 교원·학생** 대상.
 
 ## 저자·관련
 - 저자: Fred Halsall (Newbridge Professor of Communications Engineering, University of Wales, Swansea)
-- 인접: [[stremler-introduction-communication-systems-3ed]] · [[taub-schilling-principles-communication-systems-2ed-trans]] (통신 원리) · [[tcpip-network-programming]] · [[inside-tcpip]] · [[lan-van-isdn]] · [[computer-network-programming]] · [[ubiquitous-home-networking]]
+- 인접: [[stremler-introduction-communication-systems-3ed]] · [[taub-schilling-principles-communication-systems-2ed-trans]] (통신 원리) · [[tcpip-network-programming]] · [[tcpip-complete]] · [[lan-van-isdn]] · [[computer-network-programming-book]] · [[ubiquitous-home-networking]]

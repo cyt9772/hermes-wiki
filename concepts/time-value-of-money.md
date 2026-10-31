@@ -1,3 +1,13 @@
+---
+title: 돈의 시간가치 (Time Value of Money, PV/FV) — 금융공학
+created: 2026-10-15
+updated: 2026-10-31
+type: concept
+tags: [investing, finance, valuation]
+sources: [raw/books/finance-recipes.md]
+confidence: high
+---
+
 # 돈의 시간가치 (Time Value of Money, PV/FV) — 금융공학
 
 **"1년 전의 1억 원, 현재의 1억 원, 1년 후의 1억 원은 모두 가치가 다르다"** — 모든 금융상품 밸류에이션의 기본 전제. 이자(할인)를 매개로 시간을 가격으로 바꾸는 금융공학의 제로 단위

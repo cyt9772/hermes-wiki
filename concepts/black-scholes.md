@@ -1,3 +1,13 @@
+---
+title: 블랙-숄즈 모형 (Black-Scholes Model) — 옵션 가격
+created: 2026-10-15
+updated: 2026-10-31
+type: concept
+tags: [investing, options, finance, valuation]
+sources: [raw/books/finance-recipes.md]
+confidence: high
+---
+
 # 블랙-숄즈 모형 (Black-Scholes-Model) — 옵션 가격
 
 **"옵션 세계에서 바이블 같은 공식"** — 콜옵션/풋옵션의 공정가격을 기초자산 가격·행사가격·만기·이자율·변동성 5변수로 결정. 옵션 가격 C = S·N(d₁) − K·e^(−rT)·N(d₂)의 구조로 "기초자산 기댓값 − 행사가격의 현재가치"를 환율로 나타내며, 옵션 그릭스(Δ·Γ·θ·ν·ρ)의 계산 근거.

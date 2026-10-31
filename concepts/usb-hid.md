@@ -32,4 +32,4 @@ USB 디바이스 클래스 중 **키보드·마우스·게임패드·조이스�
 ## Related
 - [[usb-bus-architecture]] — 디바이스 클래스 중 하나
 - [[usb-power-management]] — HID의 Sleep/Suspend
-- [[computer-network-programming]] (저서) — HID는 OS의 입력 계층으로 동작
+- [[computer-network-programming-book]] (저서) — HID는 OS의 입력 계층으로 동작

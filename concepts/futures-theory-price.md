@@ -1,3 +1,13 @@
+---
+title: 선물 이론가 (Futures Theory Price) — 파생상품
+created: 2026-10-15
+updated: 2026-10-31
+type: concept
+tags: [investing, futures, finance, valuation]
+sources: [raw/books/finance-recipes.md]
+confidence: high
+---
+
 # 선물 이론가 (Futures Theory Price) — 파생상품
 
 **"선물가격 = 기초자산 가격 + 금융(이자)비용 − 배당수입"** — 선물의 이론적 공정가격. 현물가격에 후불 매매의 이자절감 효과와 배당권리 미보유 효과를 반영한 파생상품 밸류에이션의 기본 공식. 베이시스·콘탱고·백워데이션의 판단 기준.

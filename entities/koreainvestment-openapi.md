@@ -76,9 +76,9 @@ Hermes/LLM 에이전트 연동 시 이쪽 경로가 Python 직접 호출보다 �
 ## 관련 페이지
 - [[retire-with-us-stocks]] — 미국주식 투자 전략 (이 API로 운영 대상)
 - [[finance-recipes]] — 파이썬 금융공학 기초 (전략 계산 기초)
-- [[stock-portfolio-monitor]] — (생성 예정) 포트폴리오 모니터링 설계
+- `stock-portfolio-monitor` — (생성 예정) 포트폴리오 모니터링 설계
 - [[pakhomxi-investing]] — ETF 중심으로 미국/미국 자산배분
-- [[wiki/index]]
+- [index](index.md) — 위키 인덱스
 
 ## 참고 링크
 - 개발자 포털: https://apiportal.koreainvestment.com/
