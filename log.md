@@ -5,6 +5,17 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-11-03] ingest | Harry Potter 1-7권 영문 원작 (J.K. Rowling, Scholastic US) — Literature 도메인 신설
+- 배경: /Down/ 해리포터 1-7권 영문 PDF. 사용자 지시로 원작 소설 도메인 `Literature · 문학` 신설(외국어 학습용 대역서와 구분).
+- PDF local-only: `raw/books/hp-*.pdf` 7권 + `.sha256` sidecars 로컬 보관 — GitHub 반영 0건 (기존 `raw/books/*.pdf` gitignore 규칙, `git check-ignore` 7권 전부 확인, `git status`에 .pdf 미유입).
+- OCR 불필요: 7권 전부 텍스트 계층 존재 → `pdftotext -layout` 추출(총 약 1,160,000 단어), 전문 무결성·권말 크레딧까지 포함 확인.
+- Raw +7: `raw/books/hp-<slug>.md` 래퍼(frontmatter + `## Full Text` 전문), 장 수 17/18/20/30/30/30/30.
+- Created: entities +8(hp-sorcerer-stone · hp-chamber-of-secrets · hp-prisoner-of-azkaban · hp-goblet-of-fire · hp-order-of-phoenix · hp-half-blood-prince · hp-deathly-hallows + jk-rowling) · concepts +1(harry-potter-series 클러스터 허브).
+- SCHEMA.md: Literature(문학) 도메인 라인 + 태그 8개 등록(author, book, chapter, concept, fiction, fantasy, series, ya).
+- index.md: Literature 섹션(9 페이지) + 도메인 표 행 추가, Total 507→516(entities 323 · concepts 192 · comparisons 1), Last updated 2026-11-03.
+- CJK: 신규 9페이지 한자 0(장(章) 주석만), 중국어·일본어 한자 0 / dangling wikilink 0.
+- git: Literature 도메인 단일 커밋 — 텍스트(래퍼·entity·concept·SCHEMA·index·log + sha256)만, PDF 제외.
+
 ## [2026-11-01] ingest | USB 4권 배치 — 임베디드·커널·유닉스·ICT 17권 (crash 후 재개 완주)
 - 배경: 2026-10-31 crash로 wrapper 미생성 상태가 남아 있던 17권 배치(임베디드·커널·유닉스·ICT)를 재개. USB(/run/media/yutae/Data/) 원본 18권 pdftotext -layout 전수 추출, 17권은 기존 text-layer, fund-solicitation 1권은 OCR(tesseract + tcn).
 - SHA256: 18권 PDF 무결성 검증 fails=0 (raw/books/*.pdf.sha256 sidecar).

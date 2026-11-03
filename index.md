@@ -2,7 +2,7 @@
 
 > Content catalog. Every page listed under its **domain** (with a one-line summary).
 > 태그·분류 규칙은 `SCHEMA.md` 참고. Read this first to find relevant pages.
-> Last updated: 2026-11-01 · Total pages: 507
+> Last updated: 2026-11-03 · Total pages: 516
 
 | 도메인 | 페이지 수 |
 |--------|---------|
@@ -13,6 +13,7 @@
 | Network · 네트워크 | 17 |
 | AI · AI/에이전트 | 17 |
 | Physics · 물리/의식 | 5 |
+| Literature · 문학 | 9 |
 
 ## Investing · 투자
 > 종목/섹터/거시 분석, 회계·재무, 행동경제학, 밸류에이션, 투자 논지, watchlist
@@ -583,3 +584,22 @@
 - [[quantum-mechanics]] — 양자물리학: 중첩, 파동-입자 이중성, 비국소성(얽힘), 불확정성, BEC, 진공(주류 물리)
 - [[random-number-generators-and-intention]] — RIG·이모토 물결정·명상·원격뇌파 — 의도가 현실을 바꾼다(고 주장하는) 실험들 (각 실험의 근거 등급 low)
 - [[what-the-bleep-do-we-know]] — What the Bleep Do We Know!? (2008) + Down the Rabbit Hole (2008) 한국어 자막본 2편: 양자역
+
+## Literature · 문학
+> 영문 원작 소설 · 환상서(YA fantasy) 클러스터. 외국어 학습용 대역서(`the-great-gatsby`·`a-farewall-to-arms`)와 구분 — 원작 소설 전문 소스.
+> 향후 추가(로알토·지오도 등) 시 이 도메인에 확장.
+
+**도메인 태그 (registry 8개):**
+`author, book, chapter, concept, fiction, fantasy, series, ya`
+
+### 페이지 (9)
+
+- [[harry-potter-series]] — Harry Potter 시리즈 7권 연작 클러스터 (환상서 7권 원문, 도메인 허브)
+- [[jk-rowling]] — J. K. Rowling —Harry Potter 7권 원작 작가 (Scholastic US ed. 소스)
+- [[hp-sorcerer-stone]] — 1권: 17장 · 82,249 단어 · 원문 1997 (US 1st ed. Oct 1998)
+- [[hp-chamber-of-secrets]] — 2권: 18장 · 90,788 단어 · 원문 1999 (US 1st ed. Jun 1999)
+- [[hp-prisoner-of-azkaban]] — 3권: 20장 · 115,407 단어 · 원문 1999 (US 1st ed. Oct 1999)
+- [[hp-goblet-of-fire]] — 4권: 30장 · 204,763 단어 · 원문 2000 (US 1st ed. Jul 2000)
+- [[hp-order-of-phoenix]] — 5권: 30장 · 274,622 단어 · 원문 2003 (US 2nd ed. Aug 2003)
+- [[hp-half-blood-prince]] — 6권: 30장 · 180,585 단어 · 원문 2005 (US 1st ed. Jul 2005)
+- [[hp-deathly-hallows]] — 7권: 30장 · 209,088 단어 · 원문 2007 (Reinforced library ed. Jul 2007)
