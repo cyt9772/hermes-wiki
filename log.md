@@ -5,6 +5,16 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-11-07] ingest | USB 14권 배치 — 임베디드·라즈베리파이·아두이노·Docker/K8s·리눅스 (OCR 완료본)
+- 배경: USB(/run/media/yutae/Data, macOS 볼륨) 신규 PDF 14권. 사용자 확인: 전부 신규, OCR 완료본(텍스트 레이어 존재) → OCR 불필요, pdftotext -layout 전수 추출(총 7,451p).
+- Raw +14: raw/books/<slug>.md 래퍼 + <slug>.pdf(로컬 전용, git-ignore) + .sha256 — bbb-yocto-project(171p) · gnu-linux-rapid-embedded(883p) · embedded-linux-primer(632p) · embedded-systems-firmware(375p) · raspberry-pi3-iot(384p) · raspberry-pi4-iot-linux(941p) · raspberry-pi-iot-im(615p) · raspberry-pi-projects(340p) · arduino-complete(288p) · docker-kubernetes-practical(478p) · start-docker-kubernetes(629p) · linux-10min-guide(218p) · linux-mania-tutorial(705p) · linux-kernel-programming-mania(502p).
+- Created: entities +14(위 14권) · concepts +5(embedded-firmware-basics · embedded-linux-stack · raspberry-pi-iot · docker-kubernetes-essentials · linux-administration-practice).
+- 저자: bbb-gnu 2권 Irfan Sadiq(Packt, Giometti 원저) → 에이콘 2016/2018, embedded-linux-primer Christopher Hallinan(Newnes·정보문화사 2008), embedded-systems-firmware Ed Sutter(Newnes·에이콘 2002), raspberry-pi3-iot 정원석/광문각 2017, raspberry-pi4-iot-linux 서영진/제이펍 2020, raspberry-pi-iot-im 김성우/제이펍 7쇄 2019, raspberry-pi-projects Donald Norris(한빛 2015), arduino-complete 김경연/JK전자·복두출판사 2015, linux-10min-guide 오주일/인포북 2011, linux-mania-tutorial Paul Sheer(대웅 2003), linux-kernel-programming-mania 조유근·홍지만·최종무/교학사 2001. docker 2권 저자·출판사 본문 확인 불가 → 미기재.
+- SCHEMA.md: Programming domain 태그 53→110 등록(arduino, beaglebone, bootloader, container, container-swarm, debug, debugging, firmware, gpio, i2c, kubernetes, raspberry-pi, docker, devops, microservices, etc.).
+- index.md: Programming 섹션 72→91, tag registry 갱신, Total pages 516→535, Last updated 2026-11-07.
+- CJK: 신규 페이지 중국어 한자 0 · dangling wikilink 0 (docker/kubernetes/microservices 3건 → docker-kubernetes-essentials·cloud-computing으로 통합 확인).
+- git: 커밋 대기 (부모 에이전트).
+
 ## [2026-11-03] ingest | Harry Potter 1-7권 영문 원작 (J.K. Rowling, Scholastic US) — Literature 도메인 신설
 - 배경: /Down/ 해리포터 1-7권 영문 PDF. 사용자 지시로 원작 소설 도메인 `Literature · 문학` 신설(외국어 학습용 대역서와 구분).
 - PDF local-only: `raw/books/hp-*.pdf` 7권 + `.sha256` sidecars 로컬 보관 — GitHub 반영 0건 (기존 `raw/books/*.pdf` gitignore 규칙, `git check-ignore` 7권 전부 확인, `git status`에 .pdf 미유입).

@@ -2,13 +2,13 @@
 
 > Content catalog. Every page listed under its **domain** (with a one-line summary).
 > 태그·분류 규칙은 `SCHEMA.md` 참고. Read this first to find relevant pages.
-> Last updated: 2026-11-03 · Total pages: 516
+> Last updated: 2026-11-07 · Total pages: 535
 
 | 도메인 | 페이지 수 |
 |--------|---------|
 | Investing · 투자 | 120 |
 | Engineering · 공학 | 233 |
-| Programming · 프로그래밍 | 72 |
+| Programming · 프로그래밍 | 91 |
 | Language · 외국어(영어) | 43 |
 | Network · 네트워크 | 17 |
 | AI · AI/에이전트 | 17 |
@@ -389,26 +389,35 @@
 ## Programming · 프로그래밍
 > OS/컴파일러/디버거, Windows·VB·유닉스·리눅스, UML·소프트웨어공학, 네트워크·XML, 파이썬·금융공학
 
-**도메인 태그 (registry 53개):**
-`android, arm, author, backtesting, bitbake, book, build-system, comparison, compiler, concept, cross-development, cross-toolchain, data-analysis, data-communication, debugger, derivatives, device-driver, device-tree, embedded, embedded-linux, exam, finance-engineering, gnu-toolchain, ipc, it-expert, kernel, korea-kospi, linux, linux-kernel, networking, object-oriented, openembedded, os, programming, programming-mindset, python, quant, quant-investing, rootfs, shell-scripting, signals, soc, software-quality, software-testing-process, stock, strategy, uml-oo-modeling, unix, us-stocks, version-control, windows-api, xml, yocto`
+**도메인 태그 (registry 110개):**
+`android, arduino, arm, author, backtesting, bash, beaglebone, bitbake, book, bootloader, build-system, bus-architecture, comparison, compiler, concept, container, container-swarm, cross-development, cross-toolchain, data-analysis, data-communication, database, debugger, debug, debugging, deep-learning, derivatives, device-driver, device-tree, devops, docker, drivers, embedded, embedded-linux, exam, finance-engineering, firmware, flash, gnu-toolchain, gpio, gps, gui, hardware, i2c, image, immutable-infrastructure, intro, ipc, it-expert, kernel, kernel-programming, korea-kospi, kubernetes, led, linux, linux-kernel, linux-programming, memory, microservices, mips, modules, mp3, networking, network, nfc, object-oriented, openembedded, orchestration, os, pod, project, programming, programming-mindset, python, quant, quant-investing, quickstart, raspberry-pi, rootfs, sensor, serial, service, shell, shell-scripting, signals, smart-home, soc, software-quality, software-testing-process, sparc, spi, stock, strategy, syscalls, system-admin, system-management, task, tutorial, uml-oo-modeling, unix, us-stocks, usb, vagrant, version-control, web-server, windows-api, x-window, xml, zigbee, yocto`
 
-### 페이지 (72)
+### 페이지 (90)
 
 
 - [[applying-uml-patterns]] — Applying UML and Patterns (2nd ed): Craig Larman(크레이그 라먼)의 Applying UML and Patt
+- [[arduino-complete]] — 아두이노 완전정복 (김경연 · JK전자/복두출판사 · 2015 · 288p) — 전기전자 기초→디지털/아날로그 입출력→시리얼→센서→IR/지그비/블루투스→IoT·스마트홈
+- [[bbb-yocto-project]] — BeagleBone Black를 사용한 Yocto 프로젝트 (Irfan Sadiq · Packt·에이콘 · 2016 · 171p) — BitBake·레이어·레시피로 BBB 이미지 빌드 (helloworld→G/V4L2→무선 AP)
 - [[beginning-linux-programming]] — Beginning Linux Programming (비기닝 리눅스 프로그래밍) (니일 매썸·리차드 스톤 · 보문사 · 1197p)
 - [[channel-access-protocols]] — 채널 액세스 프로토콜: 고정/임의/요구 할당, ALOHA·CSMA·CSMA/CD·Token Ring
 - [[cmm-maturity-model]] — CMM — 소프트웨어 개발 프로세스를 개선하기 위한 역량 성숙도 모델: 카네기 멜론 대학교 소프트웨어 공학 연구소(SEI) 저, 송태국 · 이병
 - [[cmmi-process-maturity]] — CMMI/프로세스 성숙도 (Capability Maturity Model): "소프트웨어 개발 프로세스가 정의되고, 관리되고, 측정되고, 지속적
 - [[craig-larman]] — Craig Larman (크레이그 라먼): Craig Larman(크레이그 라먼)은 Applying UML and Patterns의 저자로, U
 - [[device-tree-kernel-4-0]] — 디바이스 트리 상세 분석 in Linux Kernel 4.0 (정재준 · 커널연구회 · 2015 · 314p)
+- [[docker-kubernetes-essentials]] — Docker·Kubernetes 핵심 개념 (컨테이너·오케스트레이션·마이크로서비스): docker-kubernetes-practical + start-docker-kubernetes 2권 횡단
+- [[docker-kubernetes-practical]] — 도커·쿠버네티스 실무 (478p) — 이미지/컨테이너/스웜→쿠버네티스 오브젝트·서비스·인그레스·CI/CD·마이크로서비스
 - [[elizabeth-castro]] — XML·웹 기술 저술작가, 『XML For the WWW』 저자 (Peachpit 2001)
+- [[embedded-firmware-basics]] — 임베디드 펌웨어 기초 (스타트업 코드→부트로더→커널→rootfs 파이프라인): embedded-systems-firmware + 임베디드 linux 5권 횡단
 - [[embedded-linux-build]] — 임베디드 리눅스 빌드 체인 (toolchain → bootrom → kernel → rootfs)
 - [[embedded-linux-cross-dev-hae]] — 임베디드 리눅스 — 교차 개발 환경에서 윈도우 시스템까지 (IT EXPERT) (박재호 · 한빛미디어 · 2002 · 824p)
+- [[embedded-linux-primer]] — 임베디드 리눅스 입문 (Embedded Linux Primer, 2nd Ed.) (Christopher Hallinan · Newnes·정보문화사 · 2008 · 632p) — 스택 개념·부트로더·디버깅·리얼타임 17장 지도서
+- [[embedded-linux-stack]] — 임베디드 리눅스 스택 (부트로더→커널→rootfs→주변장치) 4단계 파이프라인
 - [[embedded-linux-systems-arm-an]] — ARM으로 배우는 임베디드 리눅스 시스템 (IT EXPERT) (안효복 · 한빛미디어 · 2013 · 1078p)
 - [[embedded-linux-yocto-project]] — 욕토(Yocto) 프로젝트로 시작하는 임베디드 리눅스 시스템 (루돌프 · 에이콘 · 2018 · 567p)
+- [[embedded-systems-firmware]] — 임베디드 시스템 펌웨어 분석 (Ed Sutter · Newnes·에이콘 · 2002 · 375p) — 스타트업 코드·어셈블리·플래시 인터페이스/파일시스템·모니터 디버깅·네트워크
 - [[finance-recipes]] — 파이썬을 활용한 금융공학 레시피 (김용환, 한빛미디어 2018): PV/FV → 선물 이론가 → 블랙-숄즈·그릭스 → α/β를 파이썬으로 구현하
 - [[gcc-compilation-pipeline]] — C 컴파일 파이프라인: 전처리→컴파일→어셈블리→링킹, gcc 단계 옵션(-E/-S/-c)·최적화·인라인 어셈블리
+- [[gnu-linux-rapid-embedded]] — GNU/Linux 쾌속 임베디드 프로그래밍 (Rodolpho Giometti · Packt·에이콘 · 2018 · 883p) — BBB/SAMA5D3/Wand 보드에서 커널·드라이버·주변장치 19장 실무
 - [[good-programming-principles-25]] — 좋은 프로그램을 만드는 핵심 원리 25가지: 김종훈 · 김종진 · 정원희 · 정은영 4인 지음, 한빛미디어 2003년 1월 초판(제179호). 
 - [[grady-booch]] — Grady Booch (그레이디 부치): Grady Booch(그레이디 부치)는 James Rumbaugh(제임스 룸바흐)와 Ivar Jacob
 - [[how-to-become-a-programmer]] — 아무도 알려주지 않는 프로프로그래머가 되는 길 (김상호): 김상호 저, 도서출판 아이콘(발행인 문서영), 1995년 3월 12일 초판. ISBN
@@ -423,15 +432,19 @@
 - [[koreainvestment-openapi]] — 한국투자증권 Open API (KIS Developers): REST+WebSocket 개인 API. 미국주식 자동매매 Linux 사용 가이드
 - [[lan-van-isdn]] — 자료통신(데이타커뮤니케이션)과 컴퓨터통신을 하나의 프레임으로 정리한 1990년대 한국 교재. 전화·OA(사무자동화)·공장자동화·경영정보시스템에 이르는 응용층 아래에서 데이타 전송 → 교환망 → 채널 액세스 → 인터네트워킹 → OSI 계층 → LAN → VAN → ISDN으로 통신 체계를 위에서 아래로(응용→계층) 체계화한다. LAN·VAN·ISDN 3대 망이 책의 이름이기도 하다.
 - [[lee-bonghyun]] — CMM/소프트웨어 프로세스 분야의 번역자. The Capability Maturity Model(CMU/SEI) 한국어판의 공동 번역.
+- [[linux-10min-guide]] — 리눅스 10분 가이드 (오주일 · 인포북 · 2011 · 218p) — 기본 명령·bash·개발환경·네트워킹·X Window·시스템관리 9장 입문서
 - [[linux-device-driver-in-code]] — 코드로 읽는 리눅스 디바이스 드라이버 (임베디드 개발자를 위한) (스리크루난 벤카테스와란 · 에이콘 · 2010 · 807p)
 - [[linux-essential-utilities]] — 리눅스 프로그래밍 필수 유틸리티 (백창우, 한빛미디어 2010, ISBN 978-89-7914-759-9): gcc·make·gdb·svn·au
 - [[linux-kernel-development-love]] — 리눅스 커널 심층 분석 (Linux Kernel Development, 3rd Ed.) (로버트 러브 · 에이콘 · 2012 · 618p)
 - [[linux-kernel-device-driver-practice]] — 리눅스 커널과 디바이스 드라이버 실습 (2판) (정재준 · 커널연구회 · 2012 · 603p)
 - [[linux-kernel-programming-itepert]] — 리눅스 커널 프로그래밍 (IT EXPERT) (한동훈 · 한빛미디어 · 2007 · 1098p)
+- [[linux-kernel-programming-mania]] — 매니아를 위한 리눅스 커널 프로그래밍 (조유근·홍지만·최종무 · 교학사 · 2001 · 502p) — 커널 2.4 구조·시스템콜·태스크·메모리·모듈·드라이버·Snap FS 프로젝트
 - [[linux-kernel-source-beginner]] — 리눅스 커널 소스 해설 [기초입문] (정재준 · 커널연구회 · 2020 · 353p)
 - [[linux-kernel-structure]] — 리눅스 커널 구조 (프로세스 · 동기화 · 메모리 · VFS · 장치 모델)
+- [[linux-mania-tutorial]] — 리눅스 매니아 튜토리얼 (Paul Sheer 원저 · 대웅미디어 · 2003 · 705p) — 수치체계→파일시스템→커널→네트워크→보안→관리, 튜토리얼 형식 종합 교재
 - [[linux-shell-scripting]] — 리눅스 쉘 스크립팅 (grep/sed/awk/bash)
 - [[linux-shell-scripting-kim]] — 김태용의 쉘 스크립트 프로그래밍 (김태용 · 제이펍 · 2009 · 703p)
+- [[linux-administration-practice]] — 리눅스 관리 실무 클러스터 — linux-mania-tutorial/linux-kernel-programming-mania 등 관리·커널 교재의 공통 실무 축 정리
 - [[local-area-network]] — 근거리 통신망: 채널 액세스(고정/임의/요구 할당), 이더넷 계열(CSMA/CD) vs 토큰 링
 - [[mastering-embedded-linux-programming]] — 임베디드 리눅스 프로그래밍 완전정복 (Mastering Embedded Linux Programming, 2nd Ed.) (크리스 시먼즈 · 에이콘 · 2018 · 584p)
 - [[neil-matthew]] — Neil Matthew (니일 매썸)
@@ -441,6 +454,11 @@
 - [[park-jaeho]] — 박재호 (임베디드 리눅스 저자)
 - [[professional-linux-programming-wrox]] — Professional Linux Programming (프로페셔널 리눅스 프로그래밍) (니일 매썸·리차드 스톤 외 3인 · 보문사 · 2002 · 1392p)
 - [[quant-investing]] — 퀀트투자: 승률-수익률 반비례 전제, 통계로 작은 승률을 자주
+- [[raspberry-pi-iot]] — 라즈베리파이·아두이노 기반 IoT 실습 클러스터 — rasp-pi3/rasp-pi4/rasp-pi-iot-im/rasp-pi-projects/arduino-complete 5권 횡단
+- [[raspberry-pi-iot-im]] — 사물인터넷을 품은 라즈베리파이 (김성우 · 제이펍 · 7쇄 2019 · 615p) — 보드 설치→리눅스→Python→웹서버→DB→GUI 종합 실습
+- [[raspberry-pi-projects]] — 프로젝트로 배우는 라즈베리 파이 (Donald Norris 원저 · 한빛미디어 · 2015 · 340p) — LED→MP3→GPS→홈시큐리티→NFC/RFID 10여 개 프로젝트
+- [[raspberry-pi3-iot]] — 사물인터넷(IoT)을 위한 라즈베리파이 3 활용 (정원석 · 광문각 · 2017 · 384p) — 보드 설치→SSH/Python→모터 제어→Flask 웹서버
+- [[raspberry-pi4-iot-linux]] — 사물인터넷(IoT)을 위한 리눅스 프로그래밍 (서영진 · 제이펍 · 2020 · 941p) — 보드·주변장치→리눅스→Python·C→웹→딥러닝/컴비
 - [[richard-stones]] — Richard Stones (리차드 스톤)
 - [[ron-patton]] — 소프트웨어 테스트 분야의 저자. Software Testing, 2nd Edition(Pearson Education, Sams)의 원저자로, 소프트웨어 테스팅 전반을 큰 그림/기본/기법/관리/미래로 체계화한 교과서의 저자.
 - [[software-configuration-management]] — 소프트웨어 구성 관리: make(증분 빌드)·autotools(이식성)·VCS(svn/CVS, 경합 모델)
@@ -452,6 +470,7 @@
 - [[software-testing-ms]] — MS 최고의 현직 테스터들이 밝히는 소프트웨어 테스팅: 앨런 페이지 · 켄 존스톤 · 비제이 롤리슨 지음, 권원일 · 이공선 · 김민영 · 김윤
 - [[software-testing-practice]] — 개발자도 알아야 할 소프트웨어 테스팅 실무 (STA, 3rd ed): 권원일·이현주·최승희·이승호·박은영·조현길(STA) 6인 공동 집제한 테스
 - [[song-taeguk]] — 송태국 (Song Tae-Guk): CMM/소프트웨어 프로세스 분야의 번역·전문가. The Capability Maturity Model: Gu
+- [[start-docker-kubernetes]] — 시작하는 도커와 쿠버네티스 (한국어판 · 629p) — 도커 기본→스웜→클러스터링→쿠버네티스 네임스페이스·x509 인증·종합 실습
 - [[teach-yourself-uml]] — Teach Yourself UML in 24 Hours (2nd ed): Joseph Schmuller(조셉 슈뮈러)의 Teach Yoursel
 - [[uml-oo-design-cluster]] — 이 클러스터는 UML(Unified Modeling Language)과 객체지향(OO) 설계를 다룬 2026-10-25 USB 5권(Applying UML and Patterns, Teach Yourself UML in 24 Hours, UML 사용자 지침서, software design techniques, Mastering UML with Rational Rose 2002)을 묶는 교차 비교 페이지다.)
 - [[uml-rational-rose]] — UML과 Rational Rose 비주얼 모델링 (Mastering UML with Rational Rose 2002): Wendy Boggs와
