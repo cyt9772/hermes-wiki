@@ -528,3 +528,11 @@
 - index.md: `## Queries · 질의정리` 섹션 신설(1페이지), Total pages 535→536, Last updated 2026-11-08
 - 검증된 정상 상태: `~/work/docker`에 InnoDB 데이터 정상, WP 설치 페이지(302→Installation) 도달
 - 사용자 지시: 앞으로 질의 내용도 꾸준히 wiki로 정리 (queries/ 폴더 활용)
+
+## [2026-11-08] query | Docker 네이티브 엔진 전환 재발 체인 정리 + 부록2 (docker-wordpress-mysql-debug)
+- 질의: Docker Desktop → 네이티브 docker-ce 전환 후 재발한 `docker-credential-desktop` 없음 / `invalid reference format`·`-e: command not found` / WordPress 500(`Error establishing a database connection`) 3종 진단 요청 — 솔루션 정리 후 wiki 저장 지시.
+- 수정: `queries/docker-wordpress-mysql-debug.md`에 **부록2** 추가 — 체인1(`~/.docker/config.json`의 `credsStore:desktop` 잔여가 pull을 차단 → Python으로 키 제거+배업), 체인2(`\` 줄연속 뒤 공백/CR으로 명령이 파편화 — 재시도 후 정상이라 미검증), 체인3(**이미 초기화된 데이터 디렉터리는 `MYSQL_ROOT_PASSWORD`를 무시** — 밀어 넣은 새 비밀번호≠고착 비밀번호가 1045의 본질. 진단 기법: env 길이 `wc -c` / `php -r` mysqli 직접 실행 / `wp-config.php` 고착값 대조 3자료 분리).
+- 재발 방지 3원칙: (1) 초기화 비밀번호 변경 = 데이터 디렉터리 **빈 것** + 재실행 (2) `WORDPRESS_DB_PASSWORD` 한개 (3) DB측·WP측 env를 같은 값으로 통일.
+- 실측 성공 루트: `~/work/docker` → `docker.bak-20261108-195350`(103MB) rename, 빈 디렉터리 재초기화, 양쪽 env 길이 3 통일, `mysqli_select_db("wordpress")` OK, `http://localhost:8080/` → 302 → `WordPress › Installation`.
+- 남은 조치(사용자): 3자 짧은 root 비밀번호로 WP 설치 전 더 강력한 값으로 재초기화 권장 + 백업 폴더 `sudo rm -rf docker.bak-20261108-195350` 정리 권장.
+- index.md: Queries 섹션 1페이지 설명 갱신(부록2 체인 포함). Total pages 변동 없음(기존 페이지에 추가).

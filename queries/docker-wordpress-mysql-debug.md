@@ -118,3 +118,96 @@ DB 파일 생성을 확인하는 연습. 4차례 실행이 모두 교재의 산�
 - 검증: `hostfile.txt` 호스트 작성 → 컨테이너 `ls` 즉시 확인 (양방향 정상). `~/wordpress_db`는 방금 만든 빈 디렉터리 확인.
 - 교재와 동일 산출물: `volume_dummy`(무마운트 → `test` 파일 확인) 후 `~/work/docker`(실제 InnoDB 데이터) 마운트 → 교재 회색 박스와 동일한 파일 목록. `~/wordpress_db`에 파일을 채우면 동일.
 - 교훈: 실습 결과 불일치는 (1) 마운트 실체 (2) 호스트 소스 디렉터리의 **기존 내용** (3) 이미지 내부 기본값 — 이 3축으로 분리 진단할 것. 마운트가 살아 있어도 소스가 비면 컨테이너도 비어 보임 (교재 예제는 "전단계 산출물 재사용"을 전제로 함).
+
+## 부록2: Docker Desktop → 네이티브 엔진 전환 후 "Error establishing a database connection" 재발 체인 (2026-11-08)
+
+Docker Desktop 3개의 구조적 함정(VM 파일 공유, 심볼릭링크 해석, `/host_mnt` 권한)을 제거하기 위해
+Docker Desktop을 제거하고 네이티브 `docker-ce` 엔진으로 전환한 뒤 같은 스택을 재부팅하던 중
+새로운 실패 체인이 발생했다. 체인 전체 + 교훈 정리:
+
+### 체인 1: `docker-credential-desktop` 실행 파일 없음 (이미지 pull 차단)
+
+- 현상: `docker run --rm hello-world` → `error getting credentials - err: exec: "docker-credential-desktop": executable file not found in $PATH`
+- 원인: Docker Desktop이 `~/.docker/config.json`에 `"credsStore": "desktop"`을 남김. CLI는
+  이 스토어의 실행 파일을 호출해 인증을 받으려 하고, Desktop 제거 후엔 실행 파일이 사라져
+  **모든 registry 접근**(pull/login)이 실패. 컨테이너 실행과는 무관한 CLI 단계의 차단.
+- 해결: `~/.docker/config.json`에서 `credsStore`, `plugins`, `features` 키 제거.
+  보호 파일이라 직접 patch 불가 → Python 스크립트로 수정, `config.json.bak-*` 백업.
+- 검증: `hello-world` 정상 pull·실행.
+
+### 체인 2: `invalid reference format` + `-e: command not found`
+
+- 현상: 백슬래시 줄 연속(`\`)이 담긴 `docker run` 명령이 `invalid reference format` →
+  `-e: command not found`, `-v: command not found`으로 조각나 shell이 분리 해석.
+- 추측된 원인: 줄 끝에 `\` 뒤 공백/CR(붙여넣기 유래)이 섞여 shell이 줄을 거기서 끊음.
+- 검증 안 함: 재시도(한 줄로 입력) 후 정상 실행되어 확인하지 못함.
+- 교훈: 붙여넣기 시 `\` 줄 연속은 공백 없이 확인, 또는 한 줄 명령으로 실행.
+
+### 체인 3: WordPress 500 — DB 접속 거부 (핵심, 재발의 진짜 원인)
+
+Docker Desktop 시절 08:28에 **이미 초기화된** 데이터 디렉터리 `/home/yutae/work/docker`를
+재마운트했는데, MySQL은 **`/var/lib/mysql`에 이미 데이터가 있으면 `MYSQL_ROOT_PASSWORD`를 무시**한다.
+초기화 시점에 root 비밀번호가 고착되어, 그 뒤 컨테이너에 `MYSQL_ROOT_PASSWORD`로 **새 값을 줘도
+그 값이 무시**되고, `WORDPRESS_DB_PASSWORD`가 그 고착 값과 맞지 않으면
+`Access denied for user 'root'@'172.18.0.x' (using password: YES)` → HTTP 500.
+
+진단 기법 (값을 화면에 드러뜨리지 않는 실측 순서):
+
+1. `docker exec <wp> sh -c 'printf "%s" "$WORDPRESS_DB_PASSWORD" | wc -c'` — env 값 **길이**만 확인
+   (실측: WP와 DB 양쪽 모두 길이 **3**. 즉 초기화 당시의 3자 값이 그대로 사용됨)
+2. WP 컨테이너에서 `wp-config.php`의 실제 `DB_USER`/`DB_HOST`/`DB_PASSWORD`와 env 대조 —
+   `wp-config.php`는 이미지 입장에서 **PHP 실행 시점에** env를 읽으므로, run 시점 env와
+   컨테이너 재시작 사이에 값이 바뀌면 고착값이 남는다.
+3. 호스트·컨테이너 어느 쪽에서든 `php -r 'new mysqli("mysql","root","<값>","wordpress")'`로
+   연결 성공/실패를 분리 확인 — 비밀번호 자체 문제는 여기서 판정.
+
+결론: 실패의 본질은 **밀어 넣은 새 비밀번호 ≠ 초기화 시점에 고착된 비밀번호**이며,
+**"데이터 디렉터리가 비어 있지 않으면 초기화 비밀번호는 절대 바뀐다"**는 MySQL 동작이 함정이다.
+
+### 재발 방지 3원칙
+
+1. **초기화 비밀번호를 바꾸려면 데이터 디렉터리를 빈 것으로 만들어야 한다.**
+   (MySQL은 `/var/lib/mysql`이 비어 있어야 `MYSQL_ROOT_PASSWORD`로 다시 초기화.)
+   기존 파일이 있으면 `--initialize`가 아예 거부(=실패 4)되거나, 기존 비밀번호가 승자.
+2. **`WORDPRESS_DB_PASSWORD`는 밑줄 한 개**. 밑줄 두 개(`WORDPRESS_DB__PASSWORD`)를 주면
+   무시되고 `wp-config.php`가 `example username`/`example password`로 고착 → 1045 (실패 5 재발).
+3. **양쪽 env를 같은 값으로 통일**. `MYSQL_ROOT_PASSWORD`(DB 측)와
+   `WORDPRESS_DB_PASSWORD`(WP 측)가 달라야 1045. 같은 값 + 빈 디렉터리 = 안정.
+
+### 최종 성공 루트 (실측, 2026-11-08 19:53)
+
+데이터 디렉터리 `~/work/docker`(103MB, 이미 고착된 비밀번호)를 자동 검증이 `rm -rf`를
+차단한 덕분에 **`docker.bak-20261108-195350`으로 rename**하고, 빈 `/home/yutae/work/docker`
+를 새로 만든 뒤, `MYSQL_ROOT_PASSWORD`와 `WORDPRESS_DB_PASSWORD`를 **같은 3자 값**으로
+통일한 두 컨테이너를 재생성.
+
+- `docker exec wordpressdb_hostvolume sh -c 'printf "%s" "$MYSQL_ROOT_PASSWORD" | wc -c'` → **3**
+- `docker exec wordpress_hostvolume sh -c 'printf "%s" "$WORDPRESS_DB_PASSWORD" | wc -c'` → **3**
+- WP 컨테이너에서 `mysqli_select_db(<host>=wordpressdb_hostvolume, "wordpress")` → 연결 **OK**,
+  `wordpress` 테이블 수 = 0 (초기화 상태, 정상)
+- `docker port wordpress_hostvolume` → `80/tcp -> 0.0.0.0:8080` (고정 포트 8080으로 변경)
+- `http://localhost:8080/` → `HTTP 302 → /wp-admin/install.php`, install.php HTTP 200
+  (제목 `WordPress › Installation`) — **DB 연결 정상, 설치 페이지 도달**
+
+### 남은 조치 (사용자)
+
+- **DB root 비밀번호가 3자 짧은 값으로 고정되어 있다.** WordPress 설치 전이라면 이 상태가
+  가장 안전할 때다. WordPress 설치 전에 **더 강력한 비밀번호로 통일 재초기화**를 권장
+  (방법은 체인3 재발 방지 3원칙 1, 2, 3).
+- `docker.bak-20261108-195350`(103MB)는 고착된 3자 비밀번호 DB로 **복원 가치가 낮음**.
+  `sudo rm -rf /home/yutae/work/docker.bak-20261108-195350`으로 정리 권장.
+
+### 교훈 (부록2 종합)
+
+- Docker Desktop → 네이티브 전환은 File Sharing/심볼릭링크/VM 구조 3개 함정을 동시에 제거하지만,
+  **`~/.docker/config.json`의 `credsStore`/`plugins`/`features` 잔여는 CLI 인증 단계에서
+  pull을 여전히 막음** — 전환 직후 반드시 정리.
+- `--link name:host`는 **호스트네임 해석**만 도와줄 뿐 실제 TCP는 bridge IP(172.18.0.x)
+  경유. 실패 체인에서 "비밀번호가 서로 다르다"고 착각하기 쉬운데, 3자료를 나눠 확인해야
+  원인 분리가 됨: (1) `env` 값 길이, (2) `php -r` mysqli 직접 실행, (3) `wp-config.php`
+  고착값과 run 시점 env 대조.
+- 데이터 디렉터리가 이미 고착된 비밀번호라면 `docker run -e`로 새 값을 줘도 **무시됨**.
+  "비어 있어야 초기화"는 MySQL의 동작이므로, 비밀번호를 바꾸려면 반드시 **빈 디렉터리** + 재실행.
+- `WORDPRESS_DB_PASSWORD`는 **밑줄 한 개** 정사. 둘은 `wp-config.php` 기본값으로
+  고착 → `example username`/`example password` 오타 재발.
+

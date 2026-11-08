@@ -629,4 +629,4 @@
 
 ### 페이지 (1)
 
-- [[docker-wordpress-mysql-debug]] — Docker Desktop(Linux VM) + WordPress/MySQL 스택: 5단계 실패 체인(mount 권한·빈 env·심볼릭링크 File Sharing·잔존 파일·env 오타) 순차 진단과 정상 구동 검증까지
+- [[docker-wordpress-mysql-debug]] — Docker Desktop(Linux VM) + WordPress/MySQL 스택: 5단계 실패 체인(mount 권한·빈 env·심볼릭링크 File Sharing·잔존 파일·env 오타) 순차 진단과 정상 구동 검증 + Docker Desktop→네이티브 엔진 전환 후 재발 체인 (credsStore 잔여 / 줄연속 파편화 / 고착된 초기화 비밀번호 1045)과 재발 방지 3원칙
