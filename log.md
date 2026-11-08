@@ -521,3 +521,10 @@
 - index.md: type별 (Entities/Concepts/Comparisons) 나열을 **도메인 7개 기준** 재배열. 각 섹션에 도메인 설명 + 태그 레지스트리 + 페이지 목록. 분포: Investing 119 · Engineering 193 · Programming 49 · Language 42 · Network 17 · AI 17 · Physics 5 = **442** (index 엔트리 442건, 누락 0).
 - backup: `index.md.bak-20261026` (로컬 전용, `.gitignore` `*.bak-*` 추가).
 - git: 커밋·푸시 아래에서 진행.
+
+## [2026-11-08] query | Docker/WordPress/MySQL 5단계 디버그 정리 (queries 첫 페이지)
+- 질의: 『시작하는 도커와 쿠버네티스』(raw/books/start-docker-kubernetes.md) p.42 WordPress 스택 예제 실행 중 산출물 불일치(호스트 볼륨 비어 있음 등) 4회 진단 요청
+- 생성: `queries/docker-wordpress-mysql-debug.md` (type: query, 5단계 실패 체인: mount permission denied / 빈 MYSQL_ROOT_PASSWORD / 심볼릭링크 `~/work`→`/work` 미공유+overlay 위장 / 데이터 디렉터리 잔존 파일 / `WORDPRESS_DB__PASSWORD` 밑줄 두 개 오타→DB Error) + 재사용 체크리스트 6항
+- index.md: `## Queries · 질의정리` 섹션 신설(1페이지), Total pages 535→536, Last updated 2026-11-08
+- 검증된 정상 상태: `~/work/docker`에 InnoDB 데이터 정상, WP 설치 페이지(302→Installation) 도달
+- 사용자 지시: 앞으로 질의 내용도 꾸준히 wiki로 정리 (queries/ 폴더 활용)

@@ -2,7 +2,7 @@
 
 > Content catalog. Every page listed under its **domain** (with a one-line summary).
 > 태그·분류 규칙은 `SCHEMA.md` 참고. Read this first to find relevant pages.
-> Last updated: 2026-11-07 · Total pages: 535
+> Last updated: 2026-11-08 · Total pages: 536
 
 | 도메인 | 페이지 수 |
 |--------|---------|
@@ -14,6 +14,7 @@
 | AI · AI/에이전트 | 17 |
 | Physics · 물리/의식 | 5 |
 | Literature · 문학 | 9 |
+| Queries · 질의정리 | 1 |
 
 ## Investing · 투자
 > 종목/섹터/거시 분석, 회계·재무, 행동경제학, 밸류에이션, 투자 논지, watchlist
@@ -622,3 +623,10 @@
 - [[hp-order-of-phoenix]] — 5권: 30장 · 274,622 단어 · 원문 2003 (US 2nd ed. Aug 2003)
 - [[hp-half-blood-prince]] — 6권: 30장 · 180,585 단어 · 원문 2005 (US 1st ed. Jul 2005)
 - [[hp-deathly-hallows]] — 7권: 30장 · 209,088 단어 · 원문 2007 (Reinforced library ed. Jul 2007)
+
+## Queries · 질의정리
+> 사용자 질의의 진단·정리 기록. 재현 가능한 실수 체인과 검증된 해결책 보관.
+
+### 페이지 (1)
+
+- [[docker-wordpress-mysql-debug]] — Docker Desktop(Linux VM) + WordPress/MySQL 스택: 5단계 실패 체인(mount 권한·빈 env·심볼릭링크 File Sharing·잔존 파일·env 오타) 순차 진단과 정상 구동 검증까지
