@@ -109,4 +109,12 @@ DB 파일 생성을 확인하는 연습. 4차례 실행이 모두 교재의 산�
 
 ## Related
 
-- 교재: [[start-docker-kubernetes]] — p.42 WordPress 스택 예제의 원문. [[docker-kubernetes-essentials]], [[docker-kubernetes-practical]] — Docker·K8s 개념·실무 클러스터
+- 교재: [[start-docker-kubernetes]] — p.42 WordPress 스택 예제 + p.45 볼륨 오버라이드 예제의 원문. [[docker-kubernetes-essentials]], [[docker-kubernetes-practical]] — Docker·K8s 개념·실무 클러스터
+
+## 부록: p.45 볼륨 오버라이드 예제 "결과가 다른" 질문 (2026-11-08)
+
+- 현상: `docker run -v ~/wordpress_db:/home/testdir_2 alicek106/volume_test` → 컨테이너에서 `ls /home/testdir_2` 빈 출력. 교재 회색 박스는 `auto.cnf ib_buffer_pool wordpress` 등이 보임.
+- 원인(논리적): `-v` 오버라이드의 정의상 이미지의 `testdir_2`(안 `test` 파일)는 **호스트 디렉터리 내용으로 대체**됨. 호스트 디렉터리가 비어 있으면 컨테이너에도 비어 보이는 것이 **정상 결과**이며, 교재 저자의 `/home/wordpress_db`는 앞 실습으로 MySQL 데이터로 이미 채워진 상태였음.
+- 검증: `hostfile.txt` 호스트 작성 → 컨테이너 `ls` 즉시 확인 (양방향 정상). `~/wordpress_db`는 방금 만든 빈 디렉터리 확인.
+- 교재와 동일 산출물: `volume_dummy`(무마운트 → `test` 파일 확인) 후 `~/work/docker`(실제 InnoDB 데이터) 마운트 → 교재 회색 박스와 동일한 파일 목록. `~/wordpress_db`에 파일을 채우면 동일.
+- 교훈: 실습 결과 불일치는 (1) 마운트 실체 (2) 호스트 소스 디렉터리의 **기존 내용** (3) 이미지 내부 기본값 — 이 3축으로 분리 진단할 것. 마운트가 살아 있어도 소스가 비면 컨테이너도 비어 보임 (교재 예제는 "전단계 산출물 재사용"을 전제로 함).
