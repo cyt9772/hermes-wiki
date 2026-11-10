@@ -627,6 +627,7 @@
 ## Queries · 질의정리
 > 사용자 질의의 진단·정리 기록. 재현 가능한 실수 체인과 검증된 해결책 보관.
 
-### 페이지 (1)
+### 페이지 (2)
 
 - [[docker-wordpress-mysql-debug]] — Docker Desktop(Linux VM) + WordPress/MySQL 스택: 5단계 실패 체인(mount 권한·빈 env·심볼릭링크 File Sharing·잔존 파일·env 오타) 순차 진단과 정상 구동 검증 + Docker Desktop→네이티브 엔진 전환 후 재발 체인 (credsStore 잔여 / 줄연속 파편화 / 고착된 초기화 비밀번호 1045)과 재발 방지 3원칙
+- [[mattermost-ws-push-delay-diagnosis]] — Mattermost 채팅 "답변이 늦게 보임" 진단: 3구간(게이트웨이→API / 앱 WS 허브 / 브라우저 수신)을 증거로 분리 — 전송 즉시·WS 드롭 0건·posts DB 저장으로 서버 무결 증명, 다른 채널 대조로 수신측(브라우저 WebSocket 이벤트 드롭) 판정, 메모리 절약/확장 프로그램 점검과 재사용 체크리스트

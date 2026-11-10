@@ -536,3 +536,10 @@
 - 실측 성공 루트: `~/work/docker` → `docker.bak-20261108-195350`(103MB) rename, 빈 디렉터리 재초기화, 양쪽 env 길이 3 통일, `mysqli_select_db("wordpress")` OK, `http://localhost:8080/` → 302 → `WordPress › Installation`.
 - 남은 조치(사용자): 3자 짧은 root 비밀번호로 WP 설치 전 더 강력한 값으로 재초기화 권장 + 백업 폴더 `sudo rm -rf docker.bak-20261108-195350` 정리 권장.
 - index.md: Queries 섹션 1페이지 설명 갱신(부록2 체인 포함). Total pages 변동 없음(기존 페이지에 추가).
+
+## [2026-11-10] query | Mattermost 채팅 "답변 지연" WebSocket 수신 단절 진단
+- 질의: 자체호스트 Mattermost(브라우저)에서 보트 답변이 즉시 안 보이고 채널 전환/강제 새로고침 시에만 표시.
+- 진단: 3구간 분리 — (1)게이트웨이 로그에서 수신→즉시 전송(3s) 확인 (2)앱 WS 드롭/에러 0건 + posts 테이블 DB 저장 확인으로 서버 무결 증명 (3)다른 채널(hermes-test) 대조에서 즉시 표시 → 수신측 판정.
+- 원인: 브라우저(Chrome)가 유휴 탭의 WebSocket 수신(이벤트 pump)을 중단 — 채널 전환·리로드는 WS 재연결로 밀린 메시지 복귀. 프록시/터널 없음으로 중간장비 배제.
+- 해결: chrome://settings/performance 메모리 절약 끄기(또는 사이트 제외) → 재발 시 시크릿 창(확장 프로그램 비활성)으로 특정. 검증: 채널 10~15분 방치 후 즉시 표시.
+- 결과: 강제 새로고침 시 즉시 표시 확인으로 수신측 원인은 재현으로 확인. 페이지: queries/mattermost-ws-push-delay-diagnosis.md (새로 생성). index.md Queries 섹션 2페이지로 갱신.
