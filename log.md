@@ -543,3 +543,15 @@
 - 원인: 브라우저(Chrome)가 유휴 탭의 WebSocket 수신(이벤트 pump)을 중단 — 채널 전환·리로드는 WS 재연결로 밀린 메시지 복귀. 프록시/터널 없음으로 중간장비 배제.
 - 해결: chrome://settings/performance 메모리 절약 끄기(또는 사이트 제외) → 재발 시 시크릿 창(확장 프로그램 비활성)으로 특정. 검증: 채널 10~15분 방치 후 즉시 표시.
 - 결과: 강제 새로고침 시 즉시 표시 확인으로 수신측 원인은 재현으로 확인. 페이지: queries/mattermost-ws-push-delay-diagnosis.md (새로 생성). index.md Queries 섹션 2페이지로 갱신.
+
+## [2026-11-15] ingest | USB 프로그램/알고리즘/딥러닝 38권 일괄
+- 범주: USB 드라이브(/run/media/yutae/Data)에서 신규 PDF 38권 발견(sha256으로 기존 254권과 중복 0 확인).
+- 분류: 22권은 내장 텍스트 레이어 존재 → pdftotext -layout 추출(수초). 16권은 스캔본 → tesseract 5.5.3 (kor+eng, 300dpi) OCR.
+  - 중간에 오탐 정정: 처음 앞 페이지만 샘플링해 35권 OCR 필요로 보고했으나, 균등 샘플로 전체 확인 결과 28권은 텍스트 레이어 존재. 불필요한 OCR 중단.
+- OCR 대상: java2-heo, algorithms-basic, java-network-programming, deep-learning-timeseries, c-programming-ikeuje, java2, teach-yourself-c, c-hardware, computer-algorithms (9권) + 기존 3권(deep-learning-nvidia-guide, python-programming, algorithm-problem-solving-theory).
+- 결과: 38권 전체 OK. 오류 0.
+- raw/books/<slug>.md 38개 생성(본문 내장, sidecar sha256).
+- entities/<slug>.md 38개 생성: 6개 서브에이전트(Python/C++/Java/알고리즘/딥러닝/임베디드) 분업. deep-learning-timeseries, stl-method 2권은 누락 발견 후 수동 작성.
+- c-algorithms-intro에서 한자 '山梨' 가 글리프 드리프트로 걸림 → 로마자 표기(Asao Kasai)로 교정.
+- index.md: Programming +32, AI/에이전트 +6, 총 536→574페이지.
+- git: PDF는 로컬에만(raw/books/*.pdf gitignore), 텍스트만 커밋.
