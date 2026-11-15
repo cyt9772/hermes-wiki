@@ -555,3 +555,12 @@
 - c-algorithms-intro에서 한자 '山梨' 가 글리프 드리프트로 걸림 → 로마자 표기(Asao Kasai)로 교정.
 - index.md: Programming +32, AI/에이전트 +6, 총 536→574페이지.
 - git: PDF는 로컬에만(raw/books/*.pdf gitignore), 텍스트만 커밋.
+
+## [2026-11-15] ingest | USB 금융·퀀트·AI 2차 배치 44권
+- 범주: USB(/run/media/yutae/Data)에서 금융·퀀트·AI·패턴인식 테마 신규 PDF 44권 발견(sha256으로 기존 290과 중복 0).
+- 실패 파일 확정: 전체 페이지 전수검증으로 텍스트 레이어 0% 파일 5권 식별 — 슬기로운 퀀트투자(410p), 딥러닝 강화학습 주식투자(323p), 빅데이터분석기사 실기 한권완성(460p), RNN과 시계열처리 심화(282p), 제미나이 노트북LM(310p).
+- 처리: 39권 pdftotext -layout 추출(수초) + 5권 tesseract 5.5.3 (kor+eng, 300dpi) OCR(19~54분, 5/5 OK, 한글 본문 샘플링으로 확인).
+- raw/books/<slug>.md 44개 생성(본문 내장, sidecar sha256), entities/<slug>.md 44개 생성(5서브에이전트 분업 — 재무·경제 8, 파이썬금융 8, 퀀트 8, 딥러닝 9, AI·주식 11).
+- 저자 확인 불가 3건 표기: financial-management-2, financial-accounting, python-financial-analysis.
+- 검증: 44개 entity 전부 구조·링크·CJK 스캔 통과, index.md Investing +27 → AI +17, 총 574→618페이지.
+- git: PDF는 로컬에만, 텍스트만 커밋.

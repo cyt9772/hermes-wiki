@@ -2,16 +2,16 @@
 
 > Content catalog. Every page listed under its **domain** (with a one-line summary).
 > 태그·분류 규칙은 `SCHEMA.md` 참고. Read this first to find relevant pages.
-> Last updated: 2026-11-15 · Total pages: 574
+> Last updated: 2026-11-15 · Total pages: 618
 
 | 도메인 | 페이지 수 |
 |--------|---------|
-| Investing · 투자 | 120 |
+| Investing · 투자 | 147 |
 | Engineering · 공학 | 233 |
 | Programming · 프로그래밍 | 123 |
 | Language · 외국어(영어) | 43 |
 | Network · 네트워크 | 17 |
-| AI · AI/에이전트 | 23 |
+| AI · AI/에이전트 | 40 |
 | Physics · 물리/의식 | 5 |
 | Literature · 문학 | 9 |
 | Queries · 질의정리 | 1 |
@@ -22,22 +22,25 @@
 **도메인 태그 (registry 201개):**
 `accounting, accrual, anchoring, antitrust, asset-allocation, assets, audit, author, backtest, backtesting, balance-sheet, banking, behavior, behavioral-economics, behavioral-finance, bias, blockchain, bond, book, bridge-income, business, business-narrative, capital-flows, career, case-studies, case-study, cash, cash-flow, cash-flow-statement, cloud, communication, compound-interest, compounding, consolidation, consumption, copier, corporate-disclosure, corporate-social-responsibility, cost, cost-accounting, credit, culture, cycle, day-trading, debt, decision-making, demographics, disclosure, discounting, dividend, dividend-growth, dividend-investing, dividend-yield, earnings, economics, economics-scholar, edsel, effort, emerging-markets, endowment, entrepreneur, equity, etf, ev-ebitda, exchange-rate, factor, fed, feedback, finance, financial-analysis, financial-crises, financial-ratios, financial-statements, framework, framing, fundamentals, futures, ge, goal-based, going-concern, growth, heuristics, household-debt, housing, ifrs, income, income-investing, income-statement, index-fund, index-investing, inflation, information-asymmetry, innovation, interest-rates, intertemporal, investing, investment, investment-basics, investment-rules, iot, judgment, korea, korea-kospi, korean-economy, korean-finance, leadership, liabilities, lifetime, lilienthal, liquidity, longevity-risk, macro, management, management-accounting, market-leader, marketing, matching-principle, mba, mdd, mechanics, mental-accounting, metaverse, metrics, mit, momentum, monetary-policy, money-psychology, nasdaq, negotiation, networks, non-profit, options, overconfidence, ownership, passive-income, payout-ratio, pbr, pe, peg, people, performance, personal-finance, physics, portfolio, price, principle, principle-based, productivity, profit, profitability, prospect-theory, psychology, quant, ratios, real-estate, regulatory, relative-strength, retirement, retirement-income, retirement-planning, revenue, revenue-recognition, reverse-mortgage, risk, robotics, saving, schumpeter, sec-ir, sector-rotation, self-control, sharpe, short-term, silicon-valley, social-capital, social-enterprise, solvency, sp500, spending, standards, status-quo, stock, stock-picking, strategy, support-resistance, team, technical, technology, time-preference, timing, top-picking, trend, trend-following, tva, us-stocks, valuation, value-investing, watchlist, waves, wealth, web3, xerox`
 
-### 페이지 (120)
-
+### 페이지 (147)
 - [[IFRS-accounting]] — IFRS 원리주의 회계: 규정 나열 대신 원칙·연결재무제표(홍대리의 논지)
 - [[accounting-genius-hong]] — 회계천재가 된 홍대리 (손봉석, 홍대리 시리즈): 소설형 회계서 — 3대 재무제표·IFRS 원리주의·이익≠현금
 - [[accrual-accounting]] — 발생주의: 실현되지 않았어도 거래 시점에 기록
 - [[adventure-of-management]] — 경영의 모험 (MIT MBA 사례): 경영 5대 주제 × MIT 경영 사례, 불확실성 하의 의사결정·조직문화
+- [[algorithm-trading-levelup]] — 실전 알고리즘 트레이딩 레벨업
 - [[alpha-vs-beta]] — 알파 vs. 베타: 벤치마크 초과수익(α)과 시장추종(β)으로 성과 분해
 - [[american-style-investing]] — 진짜 미국식 주식투자: 공시(S-1·10-K·14A)·재무제판 읽기 + 밸류에이션 갱신 실무서
 - [[anchoring-effect]] — 주택가 앵커, 판사 34→8개월 구형 차이
 - [[asset-allocation]] — 자산배분: 방향이 다른 자산(주식/채권/금/현금) 동시 보유로 상쇄하는 투 트랙 전략
 - [[asset-vs-liability]] — 자산과 부채의 재정의: 현금흐름 기준(내 주머니 채우는 것=자산)
+- [[auto-trading-system-chatgpt]] — 챗GPT로 만드는 주식 & 암호화폐 자동매매 시스템
 - [[backtesting]] — 백테스팅: 과거 데이터로 퀀트 전략 검증과 과적합 경계
 - [[balance-sheet]] — 재무상태표: 자산=부채+자본, 유동성·안정성 판단
 - [[basis-contango]] — 베이시스·콘탱고·백워데이션: 선물-현물 가격차와 정상 범위 이탈(차익거래 신호)
 - [[batna-negotiation]] — 협상의 BATNA: 최상의 대안( Best Alternative)이 협상력 기준
 - [[behavioral-economics]] — 행동 경제학 (도모노 노리오 역, 지형 2007): 손실회피·앵커·멘탈 어카운팅·프레이밍 편향 9장
+- [[bigdata-analyst-complete-guide]] — 빅데이터분석기사 실기 한권완성
+- [[bigdata-analyst-practical-2024]] — 빅데이터분석기사 실기 기본서 Python 분석 (2024)
 - [[black-scholes]] — 블랙-숄즈 모형: 옵션 공정가격 5변수 공식, "옵션의 바이블"
 - [[blockchain]] — 공정·불변·투명·가용 4원칙, NFT·디지털 상품 경제, 암호화폐 지속성 논지
 - [[bull-bear-supply-demand]] — 곰과 황소(수급) 해석: '올려서 사고 내려서 팔' 공격적 매매가 주가를 움직인다
@@ -50,11 +53,13 @@
 - [[credit-cycle]] — 금리→대출→신용확대(버블)→수축(위기); 서브프라임·재정긴축vs저금리
 - [[credit-management]] — 신용관리: 카드·대출·신용점수 운영의 4원칙
 - [[dan-ariely-feeling-of-money]] — 부의 감각 (댄 애리얼리 영문 역, 옮김 이종수): 행동경제학 '머니 바이어스' 40개 실험, 지성·감정·도덕 3축
+- [[data-analyst-chatgpt]] — 데이터 분석가 with ChatGPT
 - [[decision-making-under-uncertainty]] — 불확실성 하의 의사결정: 미르의 환상, 시나리오·확률
 - [[dividend-growth]] — 배당성장주 > 고배당주(지속가능성), 2020 신배당왕 스크리닝 5조건
 - [[dividend-investing]] — 투자수익+배당수익 일석이지; 실패 모드=배당컷
 - [[dividend-king]] — 배당왕 (삼성증권 리서치, 2019~20): 배당성장주 스크리닝 5조건, 배당수익률·배당성향 기준
 - [[dividend-yield]] — 4.5% 고배당경계, 10년물 금리 대비 상대기준, 변형 배당수익률
+- [[economics-sin-kongsu]] — 신경수의 경제학
 - [[endowment-effect]] — 보유 자산 과대평가; 크네시 추첨권 실험
 - [[energy-as-performance-asset]] — 에너지를 성과 자산으로: 피로 회복 주기 설계
 - [[entrepreneurial-leadership]] — 기업가적 리더십: 권한부여·실패 허용·속도
@@ -62,6 +67,12 @@
 - [[essentialism]] — 에센셜리즘 (Greg McKeown/그레거 맥쿼인, RH코리아 2014): 본질에만 집중 — 90% 법칙·거절의 힘·집중 역설
 - [[etf-investing]] — "21세기 최고의 금융상품": 5자산군(현금/채권/금/달러/배당)을 개인이 손쉽게 편입
 - [[feedback]] — 피드백: 성장과 성과 향상을 위한 상호작용, 타이밍·맥락이 모든 것
+- [[finance-python-cookbook]] — 금융 파이썬 쿡북 (Python for Finance Cookbook)
+- [[finance-risk-ml-python]] — 파이썬 머신러닝을 이용한 금융 리스크 관리
+- [[financial-accounting]] — Financial Account
+- [[financial-management-1]] — 재무관리1
+- [[financial-management-2]] — 재무관리2
+- [[financial-management-3]] — 재무관리3
 - [[financial-ratio-analysis]] — 재무비율: 안정성·수익성·성장성 3축의 경영건강도 지표
 - [[find-the-top-stock]] — 시대의 1등주를 찾아라 (이한영, 페이지2룩스 2021-09): 톱다운·개화기→성장기 사이클, 대장주 집중
 - [[framing-effect]] — 아시아 질병 문제, 화폐착각·네덜란드 유로 10%
@@ -76,8 +87,8 @@
 - [[index-investing]] — ETF 구조·장점 vs 저자의 유연성·과거지향 단점 → 개별종목 선택(QQQ/SOXX)
 - [[inflation-hedge]] — 인플레이션 헤지: 통장 잔고의 실질가치 하락 방어
 - [[innovation-through-iteration]] — 반복 혁신: MVP·실패 반복으로 진화
-- [[interest-rates]] — 금리=자본의 가격; 실질금리, 채권시장>주식시장, 자산배분 축
 - [[interest-rates-inflation]] — 금리-물가 양방향 피드백; 1929·2000·2008 자산가격 급락 공통 패턴
+- [[interest-rates]] — 금리=자본의 가격; 실질금리, 채권시장>주식시장, 자산배분 축
 - [[investment-asset-class]] — 박곰희 5단계 공식의 자산군 체계: 현금→안전→배당→투자→연금
 - [[investment-golden-rules]] — 72의 법칙·100−나이·적립식: 생애재무의 3황금법
 - [[investment-leverage]] — 투자 레버리지: 건설적 부채로 수익률 확대
@@ -88,17 +99,19 @@
 - [[labor-illusion]] — 노동 환상(IKEA 효과): 자기 노력이 과대평가되는 인지 편향
 - [[leading-stock]] — 주도주 추종: 섹터·테마의 가장 강한 1등주를 매수/리스팅 대상으로
 - [[life-cycle-financial-goals]] — 생애주기별 재무목표: 결혼·출산·노후 단계별 설계
-- [[lifetime-financial-planning]] — 생애재무 3단계: 준비기·축적기·인출기 전환 설계
 - [[lifetime-financial-planning-book]] — 생애재무설계 지금 당장 시작하라: 20·30·40대 생애주기별 3단계 설계 + 노후 연결소득/역모기지
+- [[lifetime-financial-planning]] — 생애재무 3단계: 준비기·축적기·인출기 전환 설계
 - [[longevity-risk]] — 장수리스크: 실물자산 75%·노동중단 52세의 노후 자산구조
 - [[loss-aversion]] — 손실이 이익의 2~2.5배로 느낌; 손절 지연·리스크 비대칭
 - [[mental-accounting]] — 콘서트 티켓 88% vs 46%, 불로소득 효과
 - [[metaverse]] — 7개 기술의 통합 무대; K-엔터 × NFT 가상 공연 실사례, Phygital 시사점
 - [[mg-test-exam]] — 매경TEST (국가공인 경제·경영 자격): 경제·경영·재무·금융 시험 범위 + 기출·모의문제
 - [[mit-mba]] — MIT MBA (이원재): 실리콘밸리 스타트업·리더십·네트워크·협상 실전 MBA 교양서
+- [[ml-algorithms-for-finance-pros]] — 금융 전문가를 위한 머신러닝 알고리즘
 - [[momentum-investing]] — 개화기→성장기 3~10년 사이클, '0→무한대' 신산업(2차전지·바이오)
 - [[money-illusion]] — 돈의 환상: 명목가치 vs 실질가치 혼동
 - [[money-study-over-toefl]] — 토익 공부보다 돈 공부 (이권복, 한스미디어): 개인 재테크 실무서 — 자산/부채 재정의, 시드머니, 인플레 헤지, 건설적 레버리지
+- [[naver-securities]] — 네이버증권으로 배우는 주식투자 실전 가이드북
 - [[option-greeks]] — 옵션 그릭스(Δ·Γ·θ·ν·ρ): 옵션 리스크 프로파일의 실전 관리 도구
 - [[organizational-culture]] — 조직문화: 문화 > 구조 > 개인
 - [[overconfidence-in-money]] — 돈에 대한 과신: 확률 판단·투자 과실
@@ -108,6 +121,11 @@
 - [[people-above-profit]] — 사람보다 이익(put people first): 이윤보다 사람을 우선하는 경영 관점
 - [[pipeline-income]] — 파이프라인 수입: 복리·배당으로 매월 자동 유입
 - [[present-bias]] — 현재편향: 지금의 편익에 불균형 할인, 장기 저축 포기
+- [[python-algorithm-trading]] — 파이썬으로 배우는 알고리즘 트레이딩
+- [[python-finance-engineering-recipes]] — 파이썬을 활용한 금융공학 레시피
+- [[python-financial-analysis]] — 파이썬으로 배우는 금융분석
+- [[python-for-finance]] — 파이썬을 활용한 금융분석 (Python for Finance, 2nd Edition)
+- [[quant-investing-python]] — 손에 잡히는 퀀트투자 with Python
 - [[radical-candor]] — Radical Candor: 따뜻하게 개인 걱정 + 직접적으로 업무 도전의 교차점
 - [[rate-counterattack]] — 금리의 역습 (원앤원북스): 금리→물가·채권·환율·신용·경기 6 PART 거시 금융서, "경제의 99%는 금리다"
 - [[real-estate-market]] — 주택시장·부동산: 가계자산 70% 편중의 구조적 위험
@@ -126,9 +144,17 @@
 - [[selection-criteria]] — 선택 기준: 90% 법칙 — 기준에 못 미치면 과감히 No
 - [[seo-daein-korea-economics]] — 선대인의 대한민국 경제학 (12강): 금리·환율·부동산·노후·인구로 한국 현실경제 기초
 - [[silicon-valley-teams]] — 실리콘밸리의 팀장들 (Kim Scott/김 스콧, 2017 원서·2019 역서): Radical Candor 기반의 리더십·피드백·팀 관리
+- [[smart-quant-investing]] — 슬기로운 퀀트투자
 - [[social-enterprise]] — 사회적기업: 사회적 목적 + 비즈니스 모델 결합
 - [[start-accounting-now]] — 지금 당장 회계 공부 시작하라: 회계=비즈니스를 읽는 언어, 재무제표·재무비율·현금 읽기
 - [[start-investing-now]] — 지금 당장 재테크 공부하라 (부자가 되는 첫 단추): '부자 방정식'·부자 상수 K로 설계하는 재테크
+- [[stock-automated-trading-system]] — 주식 자동 거래 시스템 구축
+- [[stock-trading-system-hands-off]] — 손가락 하나 까딱하지 않는 주식거래 시스템 구축
+- [[stock-university-real-strategy-1]] — 주식대학 실전투자전략 (1)
+- [[stock-university-real-strategy-2]] — 주식대학 실전투자전략 (2)
+- [[stock-university-real-strategy-3]] — 주식대학 실전투자전략 (3)
+- [[stock-university-real-strategy-4]] — 주식대학 실전투자전략 (4)
+- [[stock-university-real-strategy-5]] — 주식대학 실전투자전략 (5)
 - [[structured-products]] — 구조화 상품(ETF·ETN·ELW·ELS): 기본상품 조합의 증권화 수익 구조
 - [[team-management]] — 팀 관리: 비전·프로세스·사람의 균형, 팀장 역할 정의
 - [[time-preference]] — Strotz 비판, 마이너스 할인율, 특정날짜 실험
@@ -144,7 +170,6 @@
 - [[weak-ties]] — 약한 유대(weak ties): 신규 정보·기회의 주 원천, 강한 유대와 대조
 - [[wealth-four-elements]] — 부자의 4요소: 자산·수입·지출·의지를 묶는 프레임
 - [[wise-quant-investing]] — 슬기로운퀀트투자 (2022): 승률-수익률 반비례, 통계로 작은 승률을 자주; 미국주식에 강한 퀀트
-
 ## Engineering · 공학
 > 유선/무선·통신, 회로·전자, 전자기·안테나·마이크로파, DSP·영상·통신, 확률·시각·제어 이론, USB·미디어, 수학
 
@@ -602,31 +627,47 @@
 **도메인 태그 (registry 16개):**
 `agent-harness, ai, ai-agent, author, book, claude-code, investing, llm, mcp, multi-agent, orchestration, project-based, protocol, rag, security, watchlist`
 
-### 페이지 (23)
+### 페이지 (40)
 - [[agent-harness]] — 에이전트 하네스: 모델 바깥의 구조(에이전트·스킬·오케스트레이터·진화) — "병목은 능력이 아니라 구조" (B4)
 - [[ai-agent-dev-ollama]] — 올라마·오픈소스 LLM을 활용한 AI 에이전트 개발 입문 (서영배·김병규·임재봉, 위키북스 2026): 로컬 LLM(올라마+Qwen3 8B)·랭
 - [[ai-agent-engineering]] — 원서: Building Applications with AI Agents — Michael Albada 한국어판: 강민혁 옮김, 한빛미디어 2026-01-23 초판 / 3쇄 2026-07-03, ISBN 979-11-7579-013-1, 400p
 - [[ai-agent]] — AI 에이전트: LLM+도구+메모리(+오케스트레이션)의 자율 목적달성 시스템 — 4서 공통 정의(도구 활용·스스로 계획)
+- [[ai-implementation-c-plus]] — C++으로 인공지능 구현
+- [[ai-introduction]] — 인공지능 개론 (Artificial Intelligence, 2nd Ed. 번역)
 - [[ai-ml-dl-intro]] — 인공지능·머신러닝·딥러닝 입문 — AI/ML/DL 개념 기초서 (OCR)
 - [[artificial-intelligence]] — AI를 "데이터→가치 전환 도구"로 정의; 산업별 결합 사례, 데이터 노동, AIoT
+- [[deep-learning-homemade]] — 혼자 만들면서 공부하는 딥러닝
 - [[deep-learning-nvidia-guide]] — 딥러닝 초보자를 위한 엔비디아 가이드북 — GPU·CUDA 딥러닝 (OCR)
 - [[deep-learning-tensorflow-keras]] — 텐서플로와 케라스로 구현하는 딥러닝 — TF/Keras 실습
 - [[deep-learning-timeseries]] — 딥러닝으로 걷는 시계열 예측 — RNN·LSTM·KOSPI 예제 (OCR)
+- [[dl-rl-stock-investing]] — 파이썬과 케라스를 이용한 딥러닝/강화학습 주식투자
+- [[fuzzy-evolutionary-computing]] — 퍼지·진화컴퓨팅 프로그래밍 (Matlab)
+- [[fuzzy-neural-control]] — 퍼지 신경망 제어 (Matlab/Simulink를 중심으로)
+- [[gemini-notebooklm]] — 제미나이 노트북LM
 - [[genai-creative-guide]] — 생성형 AI 창작과 활용 가이드 — GenAI 활용 실무
+- [[google-deep-learning-framework]] — 구글 딥러닝 프레임워크 (TensorFlow)
 - [[harness-engineering]] — 하네스 엔지니어링 with 클로드 코드 (황민호, 한빛미디어 2026): 에이전트(역할 계약서)·스킬(Progressive Disclosure)
 - [[huang-jia]] — 黄佳(황자), 중국원저(Posts and Telecom 2024) LLM 에이전트 실전형 저자
 - [[hwang-minho]] — 황민호, 카카오 AX (revfactory), AI 에이전트 하네스 설계·운영 전문가
 - [[imjaebong]] — 임재봉, 로컬 LLM 에이전트 개발 입문서 공저
+- [[keras-dl-understanding-impl]] — Keras 기반 딥러닝의 이해와 구현
 - [[kimbyeonggyu]] — 김병규, 로컬 LLM 에이전트 개발 입문서 공저
 - [[llm-ai-agent-7projects]] — 7가지 프로젝트로 배우는 LLM AI 에이전트 개발 (黄佳 원저, 제이펍 2025): Assistants API·LangChain·LlamaIn
 - [[mcp]] — MCP(Model Context Protocol): LLM·도구 간 표준 인터페이스, 도구 생태계 커넥터 (B1·B2)
 - [[michael-albada]] — Michael Albada, *Building Applications with AI Agents* 저자 (MS·우버·서비스Now ML 엔지니어)
+- [[ml-dl-self-study]] — 혼자 공부하는 머신러닝 / 딥러닝
 - [[orchestration]] — 오케스트레이션: 에이전트 작업 조율 — ReAct·Plan-Execute·스웜·6가지 아키텍처 패턴 (4서)
+- [[pattern-recognition-intro]] — 패턴인식 개론 (개정판)
+- [[pattern-recognition-system-design]] — 패턴 인식 시스템 설계 (MATLAB/Simulink, LMI)
+- [[python-finance-ai]] — 파이썬 기반 금융 인공지능 (Artificial Intelligence in Finance)
+- [[python-keras-reinforcement-learning]] — 파이썬과 케라스로 배우는 강화학습
+- [[python-time-series-forecasting]] — 파이썬 시계열 예측 분석
 - [[rag]] — 검색증강생성(RAG): 외부 문서 검색→프롬프트 증강으로 환각 감소·최신지식 접목 — 에이전트 기억 계층의 기본 (3서)
+- [[rnn-time-series-advanced]] — RNN과 시계열처리 심화
 - [[seoyoung-bae]] — 서영배, 로컬 LLM 에이전트 개발 입문서 1저자 (godstale 깃허브)
 - [[seventech]] — 『세븐테크』(2022) 책 엔티티: 7가지 기술(AI·5G·블록체인·AR/VR·로봇·IoT·클라우드) 교양서, 원서 OCR 내장
 - [[tensorflow-explained]] — 엣지있게 설명한 텐서플로우 — TensorFlow 원리
-
+- [[transformer-llm-advanced]] — Transformer와 LLM 심화
 ## Physics · 물리/의식
 > 양자물리학, 측정 문제, 의식·관측 (다큐 파생 해석은 contested)
 
