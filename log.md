@@ -564,3 +564,10 @@
 - 저자 확인 불가 3건 표기: financial-management-2, financial-accounting, python-financial-analysis.
 - 검증: 44개 entity 전부 구조·링크·CJK 스캔 통과, index.md Investing +27 → AI +17, 총 574→618페이지.
 - git: PDF는 로컬에만, 텍스트만 커밋.
+
+## [2026-11-16] ingest | 금융 자격증·방송대 3차 배치 40권
+- 범주: 금융투자교육원 표준교재(투자자산운용사 1~5, 금융투자분석사 1~4, 재무위험관리사 1~3, 파생상품투자권유자문인력, 증권투자권유·신탁투자권유), 이패스코리아 epass 문제집 5, 세종 자격 3, KMOU 방송대 10(마케팅·경영·재무·경제·소비자·서양문화), 경제·회계 문제집 4, 메갈 모의시험 2, principles-of-wealth 등 40권. (raw OCR 텍스트는 이미 11-15 자정 배치에서 완료)
+- entities/<slug>.md 40개 생성: 6서브에이전트 분업(자격증·문제집 7, 회계·부의원칙 5 완료 확인) + 승인대기 루프로 미작성이던 18개(자산운용사 5, 투자분석사 7, 위험관리사 6)는 부모 세션에서 직접 작성.
+- 검증: 40개 entity 구조·wikilink 해상도 통과. 한자 글리프 드리프트 1건(analysis+和) 교정.
+- index.md: Investing +39(147→186), Literature +1(9→10, kmou-modern-western-culture), 총 618→657페이지.
+- git: 텍스트만 커밋(PDF는 gitignore).

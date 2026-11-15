@@ -2,18 +2,18 @@
 
 > Content catalog. Every page listed under its **domain** (with a one-line summary).
 > 태그·분류 규칙은 `SCHEMA.md` 참고. Read this first to find relevant pages.
-> Last updated: 2026-11-15 · Total pages: 618
+> Last updated: 2026-11-16 · Total pages: 657
 
 | 도메인 | 페이지 수 |
 |--------|---------|
-| Investing · 투자 | 147 |
+| Investing · 투자 | 186 |
 | Engineering · 공학 | 233 |
 | Programming · 프로그래밍 | 123 |
 | Language · 외국어(영어) | 43 |
 | Network · 네트워크 | 17 |
 | AI · AI/에이전트 | 40 |
 | Physics · 물리/의식 | 5 |
-| Literature · 문학 | 9 |
+| Literature · 문학 | 10 |
 | Queries · 질의정리 | 1 |
 
 ## Investing · 투자
@@ -22,7 +22,7 @@
 **도메인 태그 (registry 201개):**
 `accounting, accrual, anchoring, antitrust, asset-allocation, assets, audit, author, backtest, backtesting, balance-sheet, banking, behavior, behavioral-economics, behavioral-finance, bias, blockchain, bond, book, bridge-income, business, business-narrative, capital-flows, career, case-studies, case-study, cash, cash-flow, cash-flow-statement, cloud, communication, compound-interest, compounding, consolidation, consumption, copier, corporate-disclosure, corporate-social-responsibility, cost, cost-accounting, credit, culture, cycle, day-trading, debt, decision-making, demographics, disclosure, discounting, dividend, dividend-growth, dividend-investing, dividend-yield, earnings, economics, economics-scholar, edsel, effort, emerging-markets, endowment, entrepreneur, equity, etf, ev-ebitda, exchange-rate, factor, fed, feedback, finance, financial-analysis, financial-crises, financial-ratios, financial-statements, framework, framing, fundamentals, futures, ge, goal-based, going-concern, growth, heuristics, household-debt, housing, ifrs, income, income-investing, income-statement, index-fund, index-investing, inflation, information-asymmetry, innovation, interest-rates, intertemporal, investing, investment, investment-basics, investment-rules, iot, judgment, korea, korea-kospi, korean-economy, korean-finance, leadership, liabilities, lifetime, lilienthal, liquidity, longevity-risk, macro, management, management-accounting, market-leader, marketing, matching-principle, mba, mdd, mechanics, mental-accounting, metaverse, metrics, mit, momentum, monetary-policy, money-psychology, nasdaq, negotiation, networks, non-profit, options, overconfidence, ownership, passive-income, payout-ratio, pbr, pe, peg, people, performance, personal-finance, physics, portfolio, price, principle, principle-based, productivity, profit, profitability, prospect-theory, psychology, quant, ratios, real-estate, regulatory, relative-strength, retirement, retirement-income, retirement-planning, revenue, revenue-recognition, reverse-mortgage, risk, robotics, saving, schumpeter, sec-ir, sector-rotation, self-control, sharpe, short-term, silicon-valley, social-capital, social-enterprise, solvency, sp500, spending, standards, status-quo, stock, stock-picking, strategy, support-resistance, team, technical, technology, time-preference, timing, top-picking, trend, trend-following, tva, us-stocks, valuation, value-investing, watchlist, waves, wealth, web3, xerox`
 
-### 페이지 (147)
+### 페이지 (186)
 - [[IFRS-accounting]] — IFRS 원리주의 회계: 규정 나열 대신 원칙·연결재무제표(홍대리의 논지)
 - [[accounting-genius-hong]] — 회계천재가 된 홍대리 (손봉석, 홍대리 시리즈): 소설형 회계서 — 3대 재무제표·IFRS 원리주의·이익≠현금
 - [[accrual-accounting]] — 발생주의: 실현되지 않았어도 거래 시점에 기록
@@ -689,7 +689,7 @@
 **도메인 태그 (registry 8개):**
 `author, book, chapter, concept, fiction, fantasy, series, ya`
 
-### 페이지 (9)
+### 페이지 (10)
 
 - [[harry-potter-series]] — Harry Potter 시리즈 7권 연작 클러스터 (환상서 7권 원문, 도메인 허브)
 - [[jk-rowling]] — J. K. Rowling —Harry Potter 7권 원작 작가 (Scholastic US ed. 소스)
@@ -700,6 +700,7 @@
 - [[hp-order-of-phoenix]] — 5권: 30장 · 274,622 단어 · 원문 2003 (US 2nd ed. Aug 2003)
 - [[hp-half-blood-prince]] — 6권: 30장 · 180,585 단어 · 원문 2005 (US 1st ed. Jul 2005)
 - [[hp-deathly-hallows]] — 7권: 30장 · 209,088 단어 · 원문 2007 (Reinforced library ed. Jul 2007)
+- [[kmou-modern-western-culture]] — 현대의 서양문화
 
 ## Queries · 질의정리
 > 사용자 질의의 진단·정리 기록. 재현 가능한 실수 체인과 검증된 해결책 보관.
@@ -708,3 +709,42 @@
 
 - [[docker-wordpress-mysql-debug]] — Docker Desktop(Linux VM) + WordPress/MySQL 스택: 5단계 실패 체인(mount 권한·빈 env·심볼릭링크 File Sharing·잔존 파일·env 오타) 순차 진단과 정상 구동 검증 + Docker Desktop→네이티브 엔진 전환 후 재발 체인 (credsStore 잔여 / 줄연속 파편화 / 고착된 초기화 비밀번호 1045)과 재발 방지 3원칙
 - [[mattermost-ws-push-delay-diagnosis]] — Mattermost 채팅 "답변이 늦게 보임" 진단: 3구간(게이트웨이→API / 앱 WS 허브 / 브라우저 수신)을 증거로 분리 — 전송 즉시·WS 드롭 0건·posts DB 저장으로 서버 무결 증명, 다른 채널 대조로 수신측(브라우저 WebSocket 이벤트 드롭) 판정, 메모리 절약/확장 프로그램 점검과 재사용 체크리스트
+- [[asset-manager-book1]] — 투자자산운용사 1
+- [[asset-manager-book2]] — 투자자산운용사 2
+- [[asset-manager-book3]] — 투자자산운용사 3
+- [[asset-manager-book4]] — 투자자산운용사 4 — 거시경제분석 / 분산투자기법
+- [[asset-manager-book5]] — 투자자산운용사 5 — 직무윤리 / 자본시장과 금융투자업에 관한 법률
+- [[epass-asset-manager]] — epass 투자자산운용사 문제집
+- [[investment-analyst-1]] — 금융투자분석사 1 — 조사분석·기초
+- [[investment-analyst-2]] — 금융투자분석사 2 — 기량분석(계량분석)
+- [[investment-analyst-3]] — 금융투자분석사 3 — 재무분석·기업가치평가
+- [[investment-analyst-4]] — 금융투자분석사 4 — 금융법과 직무윤리
+- [[epass-investment-analyst-1]] — epass 금융투자분석사 1 — 핵심문제집
+- [[epass-investment-analyst-2]] — epass 금융투자분석사 2 — 문제집
+- [[ipass-investment-analyst-final]] — epass 금융투자분석사 최종 핵심정리
+- [[risk-manager-book1]] — 재무위험관리사 1 — 통계·확률 기초
+- [[risk-manager-book2]] — 재무위험관리사 2 — 시장·신용·운영 리스크
+- [[risk-manager-book3]] — 재무위험관리사 3 — 리스크관리 실무
+- [[epass-risk-manager-2018]] — epass 재무위험관리사 (2018) 합격 문제집
+- [[epass-risk-manager-core]] — epass 재무위험관리사 핵심(2018)
+- [[derivative-advisory-staff]] — 파생상품투자권유자문인력 (금융투자교육원 교재)
+- [[kmou-understanding-investing]] — 금융투자의 이해
+- [[kmou-marketing-advanced]] — 마케팅특강
+- [[kmou-marketing-communications]] — 마케팅커뮤니케이션 관리
+- [[kmou-marketing-survey]] — 마케팅조사
+- [[kmou-consumer-behavior]] — 소비자행동론
+- [[kmou-business-analysis]] — 활용 중심의 경영분석
+- [[kmou-business-strategy]] — 경영전략론
+- [[kmou-financial-management]] — 재무관리
+- [[kmou-financial-systems]] — 금융제도의 이해
+- [[securities-sales-practice]] — 증권투자권유대행인 핵심정리 문제집
+- [[seokjeong-qualification-basics]] — 증권·금융자격 기초입문
+- [[2018-seokjeong-qualification]] — 2018 증권·금융자격증
+- [[2019-seokjeong-qualification]] — 2019 증권·금융자격증
+- [[fund-sales-practice]] — 펀드투자권유대행인 핵심정리 문제집
+- [[k-ifs-financial-accounting]] — K-IFRS 재무회계
+- [[economics-exercise]] — 경제학 연습
+- [[econ-biz-core-summary]] — 경제·경영 핵심정리
+- [[maegil-test-past-solutions]] — 매경TEST 기출문제 & 해설 2
+- [[maegil-test-practice-expected]] — 매경TEST 출제예상문제
+- [[principles-of-wealth]] — 부의 원칙 (부부의 원칙 · 추세추종 투자 전략)
